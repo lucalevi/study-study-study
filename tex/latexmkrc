@@ -1,0 +1,6 @@
+# latexmk: compila con LuaLaTeX e biber
+$pdf_mode = 4;          # 4 = lualatex
+$lualatex = 'lualatex -interaction=nonstopmode -synctex=1 -file-line-error %O %S';
+$bibtex_use = 2;        # esegue biber quando serve
+@default_files = ('libro.tex');
+$clean_ext = 'bbl run.xml synctex.gz';
