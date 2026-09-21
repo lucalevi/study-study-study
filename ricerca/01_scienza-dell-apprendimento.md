@@ -2,14 +2,15 @@
 titolo: "La scienza dell'apprendimento — stato dell'arte"
 progetto: study-study-study
 documento: ricerca/01 — base scientifica e storica per il libro
-versione: 1.0
-data: 2026-09-19
+versione: 1.1
+data: 2026-09-21
+aggiornamenti: "1.1 — correzioni di rimandi interni; §15.1 aggiornato con PISA 2025 e INVALSI 2026 (vedi ricerca 02); §18 sostituito dalla struttura dell'indice ragionato (ricerca 06); rimando al registro unico delle verifiche (ricerca 00)"
 lingua: italiano
 ---
 
 # La scienza dell'apprendimento
 
-## Ciò che l'umanità sa su come si impara, si ricorda e si insegna — dai Greci alla ricerca del 2026
+**Ciò che l'umanità sa su come si impara, si ricorda e si insegna — dai Greci alla ricerca del 2026**
 
 > *«Si quis tamen unam maximamque a me artem memoriae quaerat, exercitatio est et labor.»*
 > «Se qualcuno mi chiedesse quale sia l'unica e la più grande arte della memoria, risponderei: l'esercizio e la fatica.»
@@ -70,6 +71,8 @@ Nella ricerca educativa l'efficacia si misura spesso con la **dimensione dell'ef
 ### 0.3 Che cosa è stato verificato
 
 Per questa versione sono state controllate direttamente, sulle pagine degli editori o nei testi originali, le meta-analisi e gli studi più citati del documento (Dunlosky 2013; Donoghue & Hattie 2021; Yang et al. 2021; Latimier et al. 2021; Brunmair & Richter 2019; Rohrer et al. 2020; Carpenter, Pan & Butler 2022; Murray et al. 2025; King-Shepard et al. 2025; Deslauriers et al. 2019; Urry et al. 2021; Dekker et al. 2012; Bastani et al. 2025; Kestin et al. 2025; Kosmyna et al. 2025; Murre & Dros 2015; dati OCSE-PIAAC 2023 sull'Italia; EEF Toolkit). Il resto proviene dalla letteratura classica e consolidata della psicologia cognitiva. Prima della pubblicazione del libro, **ogni cifra citata andrà ricontrollata sulla fonte primaria** (vedi §19).
+
+**Registro delle verifiche.** Tutti i punti ancora da controllare di questo documento e dei documenti successivi sono raccolti in un unico elenco: `ricerca/00_registro-verifiche.md`. Quando un punto viene verificato, si aggiorna il registro (e, se necessario, il testo).
 
 ### 0.4 Cosa questo documento non è
 
@@ -165,7 +168,7 @@ La curva è stata **replicata nel 2015** (Murre & Dros, *PLOS ONE*) con 70 ore d
 Dopo Ebbinghaus:
 
 - **Legge di Jost** (1897): fra due ricordi di pari forza, quello più vecchio beneficia di più di una nuova ripetizione e decade più lentamente — base teorica della ripetizione distanziata.
-- **Thorndike e Woodworth** (1901) mostrano che l'allenamento in un compito migliora poco i compiti diversi: la «disciplina formale» (studiare latino o geometria per «allenare la mente») non si trasferisce automaticamente. Il problema del **trasferimento** (§10.5) nasce qui.
+- **Thorndike e Woodworth** (1901) mostrano che l'allenamento in un compito migliora poco i compiti diversi: la «disciplina formale» (studiare latino o geometria per «allenare la mente») non si trasferisce automaticamente. Il problema del **trasferimento** (§8.3) nasce qui.
 - **Abbott** (1909) e soprattutto **Gates** (1917) dimostrano che dedicare gran parte del tempo di studio alla **recitazione** (ripetere a libro chiuso) invece che alla rilettura produce ricordi migliori, sia con sillabe sia con brevi biografie.
 - **Spitzer** (1939) esegue il primo grande esperimento «in classe»: oltre 3.600 alunni di sesta classe dello Iowa leggono brevi testi e vengono testati a intervalli diversi. **Un test immediato riduceva drasticamente l'oblio** nelle settimane successive. Spitzer concludeva che i test andrebbero usati come strumenti di apprendimento, non solo di valutazione. La scuola lo ha ignorato per settant'anni.
 - **Bartlett**, *Remembering* (1932): i soggetti britannici che ripetevano la leggenda nativo-americana *The War of the Ghosts* la trasformavano secondo i propri **schemi** culturali. Ricordare è **ricostruire**, non riprodurre.
@@ -280,7 +283,7 @@ Da qui il concetto di **difficoltà desiderabili** (*desirable difficulties*, Bj
 | Generare la risposta prima di vederla | Ricevere la risposta pronta | §5.5 |
 | Variare condizioni e contesti | Studiare sempre allo stesso modo | §3.4 |
 
-**Condizione limite fondamentale** **[A]**: una difficoltà è *desiderabile* **solo se lo studente riesce a superarla** (magari con aiuto e feedback). Se manca la conoscenza di base, la difficoltà diventa semplicemente frustrazione e sovraccarico. Per questo le difficoltà desiderabili vanno **dosate in base al livello** dello studente (vedi anche l'effetto di inversione dell'expertise, §9.2).
+**Condizione limite fondamentale** **[A]**: una difficoltà è *desiderabile* **solo se lo studente riesce a superarla** (magari con aiuto e feedback). Se manca la conoscenza di base, la difficoltà diventa semplicemente frustrazione e sovraccarico. Per questo le difficoltà desiderabili vanno **dosate in base al livello** dello studente (vedi anche l'effetto di inversione dell'expertise, §9.1).
 
 ### 4.4 La distinzione prestazione/apprendimento
 
@@ -789,14 +792,14 @@ Criteri utili da proporre ai lettori:
 ### 15.1 Il quadro
 
 - **Competenze degli adulti** — OCSE-PIAAC 2023 (Survey of Adult Skills, secondo ciclo): Italia **245** in literacy (media OCSE 260; solo sei Paesi peggio), **244** in numeracy (263; quartultima), **231** in problem solving adattivo (251). Forti divari territoriali (Mezzogiorno). I giovani 16–24 anni sono più vicini alla media OCSE.
-- **Studenti** — le prove INVALSI e OCSE-PISA (edizioni 2018, 2022) documentano con regolarità divari territoriali, socioeconomici e di tipo di scuola, e quote rilevanti di studenti sotto i livelli minimi, specie in matematica. *[Da integrare nel libro con i dati INVALSI più recenti — Rapporto nazionale 2025/2026 — e i risultati PISA 2025, attesi per la fine del 2026.]*
+- **Studenti** — *(aggiornato: i dati completi sono nella ricerca 02, §2–4)*. **PISA 2025** (pubblicato l'8 settembre 2026): lettura 474 (media OCSE 461), matematica 468 (463), scienze 483 (482) — l'Italia è sopra la media soprattutto perché la media OCSE è scesa ai minimi storici; poche eccellenze; il 47% dei quindicenni usa l'IA ogni settimana per studiare. **INVALSI 2026** (16 luglio 2026): al termine della scuola superiore solo il 54% raggiunge i traguardi in italiano e il 52% in matematica; forti divari territoriali; la coorte della pandemia è in difficoltà alla primaria. Dispersione esplicita all'8,2% (2025), implicita al 6,3% (2026).
 - **Metodo di studio**: nella scuola italiana il «metodo di studio» è citato di continuo (nei giudizi, nei consigli di classe, nei PDP), ma raramente **insegnato in modo esplicito e basato sulle prove**. Spesso viene affidato a un'unità di accoglienza in prima superiore, a corsi extracurricolari o a manuali commerciali.
 
 ### 15.2 La tradizione italiana di ricerca sul tema
 
 - **Cesare Cornoldi e Rossana De Beni** (Università di Padova), con il **Gruppo MT**: una tradizione di ricerca italiana ricca e poco conosciuta dal grande pubblico sulla **metacognizione** e sulle strategie di studio. *Imparare a studiare. Strategie, stili cognitivi, metacognizione e atteggiamenti nello studio* (Erickson, varie edizioni) e le batterie di valutazione per il metodo di studio (es. **AMOS**, questionari sulle strategie e sugli atteggiamenti verso lo studio) sono strumenti diffusi nelle scuole. Rossana De Beni e Angelica Moè hanno lavorato su motivazione e apprendimento. Il libro dovrebbe **dialogare con questa tradizione**: riconoscerla, integrarla con la ricerca internazionale più recente (recupero, distribuzione, alternanza) e, dove serve, aggiornarne il lessico (ad es. il termine «stili cognitivi» va distinto nettamente dagli «stili di apprendimento» del §14.1).
 - **Maria Montessori** e **don Lorenzo Milani** (§2.6) sono riferimenti culturali potenti per il pubblico italiano.
-- Divulgazione recente: in italiano sono disponibili, tra gli altri, S. Dehaene, *Imparare. Il talento del cervello, la sfida delle macchine* (Raffaello Cortina) e D. T. Willingham, *Perché agli studenti non piace la scuola?* *[Verificare editori e anni delle edizioni italiane prima della pubblicazione.]* **Make It Stick non risulta tradotto in italiano** (è venduto in Italia solo in inglese). Esistono inoltre testi auto-pubblicati e numerosi blog; manca un **testo fondativo** riconosciuto, rivolto insieme a studenti, insegnanti e docenti universitari — che è esattamente lo spazio del progetto.
+- Divulgazione recente: in italiano sono disponibili, tra gli altri, S. Dehaene, *Imparare. Il talento del cervello, la sfida delle macchine* (Raffaello Cortina) e D. T. Willingham, *Perché agli studenti non piace la scuola?* *[Verificare editori e anni delle edizioni italiane prima della pubblicazione: vedi registro, ricerca 00.]* **Make It Stick non risulta tradotto in italiano** (è venduto in Italia solo in inglese). Esistono inoltre testi auto-pubblicati e numerosi blog; manca un **testo fondativo** riconosciuto, rivolto insieme a studenti, insegnanti e docenti universitari — che è esattamente lo spazio del progetto.
 
 ### 15.3 Caratteristiche del sistema italiano alla luce della ricerca (ipotesi di lavoro per il libro)
 
@@ -893,46 +896,23 @@ La tesi che questo documento consegna al libro:
 
 ## 18. Proposta di struttura per il libro
 
-*(Bozza da discutere; ogni capitolo rimanda alle sezioni di questo documento.)*
+*(Aggiornato all'indice ragionato 1.1, 21/09/2026: pubblico della prima fase = università, 26 capitoli. La prima bozza di struttura — 6 parti, 21 capitoli — è stata rivista ed estesa nell'**indice ragionato**, `ricerca/06_indice-ragionato.md`, che è ora il riferimento. Qui se ne riporta solo lo schema; la stessa struttura è impostata nel template LuaLaTeX della cartella `tex/`.)*
 
-**Parte I — Il perché**
-1. *Non vitae sed scholae*: la frase rovesciata e il problema dell'oblio (§1)
-2. Perché studiare: sapere, pensare, essere liberi (§8, §10)
+**Parte I — Perché si studia**: 1. Non per la scuola, ma per la vita · 2. Come si studia all'università, oggi · 3. Il desiderio di sapere
 
-**Parte II — Come funziona la memoria**
-3. Una breve storia della memoria, da Simonide a Ebbinghaus (§2)
-4. Il cervello che impara: attenzione, memoria di lavoro, memoria a lungo termine (§3)
-5. La teoria delle due forze e le difficoltà desiderabili (§4)
-6. Perché ci inganniamo: le illusioni dello studente (§7)
+**Parte II — Come funziona la memoria**: 4. Da Simonide a Ebbinghaus · 5. Il cervello che impara · 6. Le due forze della memoria · 7. Perché ci inganniamo
 
-**Parte III — Il metodo**
-7. Ricordare per ricordare: la pratica del recupero (§5.1)
-8. Il tempo alleato: distribuire e riprendere (§5.2)
-9. Mescolare: l'alternanza (§5.3)
-10. Capire: domandarsi perché, spiegarsi, generare, sbagliare (§5.4–5.5, §8)
-11. Immagini, parole e palazzi della memoria (§5.6–5.7)
-12. Insegnare per imparare (§5.8)
-13. Il protocollo completo, per età: medie, superiori, università (§17.2)
+**Parte III — Il metodo**: 8. Ricordare per ricordare · 9. Il tempo alleato · 10. Mescolare le carte · 11. Capire · 12. Immagini, parole e palazzi della memoria · 13. Insegnare per imparare · 14. Il metodo in una settimana
 
-**Parte IV — Le condizioni**
-14. Sonno, corpo, stress (§11)
-15. Attenzione, telefono, schermi, appunti (§12)
-16. L'intelligenza artificiale: stampella o tutor? (§13)
-17. Motivazione e scopo (§10)
+**Parte IV — Le condizioni dell'apprendimento**: 15. Il corpo che impara · 16. L'attenzione · 17. L'intelligenza artificiale: stampella o tutor? · 18. Motivazione e scopo
 
-**Parte V — Per chi insegna**
-18. Insegnare con la scienza dell'apprendimento (§9)
-19. Valutare per far imparare: quiz, verifiche cumulative, interrogazioni ripensate (§9.5, §15.3)
-20. Il metodo di studio si insegna dentro le materie (§7.5)
+**Parte V — Studiare all'università**: 19. Dalla scuola all'università · 20. Il semestre, le lezioni, gli esami · 21. Ogni disciplina ha il suo studio · 22. Studenti con DSA e altri bisogni speciali
 
-**Parte VI — Contro i miti**
-21. Stili di apprendimento, piramidi, lettura veloce e altri miti (§14)
+**Parte VI — Per chi insegna all'università**: 23. Insegnare con la scienza dell'apprendimento · 24. Valutare per far imparare · 25. Contro i miti · 26. Formare chi insegnerà
 
-**Appendici**: glossario; schede pratiche; calendario di ripasso; domande di autoverifica per ogni capitolo (il libro dovrebbe *praticare* ciò che predica, come fa *Make It Stick*); bibliografia.
+**Congedo** — Sulle spalle dei giganti
 
-**Idea editoriale**: ogni capitolo si chiude con **domande di recupero** e riprende domande dei capitoli precedenti (distribuzione + alternanza dentro il libro stesso).
-
----
+**Appendici** — A. Una proposta di indagine: come studiano gli studenti italiani · B. Schede pratiche · C. Glossario
 
 ## 19. Bibliografia ragionata (fonti primarie)
 
@@ -1150,4 +1130,4 @@ La tesi che questo documento consegna al libro:
 
 ---
 
-*Fine del documento di ricerca 01. Prossimi passi suggeriti: (1) ricerca 02 dedicata a dati italiani (INVALSI, PISA 2025, formazione degli insegnanti, università); (2) ricerca 03 sulle fonti classiche con citazioni originali latine/greche verificate; (3) ricerca 04 sulle indicazioni per fascia d'età e per studenti con DSA/BES.*
+*Fine del documento di ricerca 01. Documenti successivi: ricerca 02 (dati italiani), 03 (fonti classiche), 04 (età e DSA/BES), 05 (progetto di indagine), 06 (indice ragionato); registro unico delle verifiche: ricerca 00.*

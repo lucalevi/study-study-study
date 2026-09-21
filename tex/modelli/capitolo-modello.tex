@@ -1,0 +1,145 @@
+% ------------------------------------------------------------------
+%  Capitolo modello: mostra tutti gli elementi della classe.
+%  NON fa parte del libro: si compila con modelli/modello.tex.
+% ------------------------------------------------------------------
+\chapter{Non per la scuola, ma per la vita}
+\label{cap:modello}
+
+\epigrafe[Impariamo non per la vita, ma per la scuola.]{Non vitae sed
+  scholae discimus.}{Seneca, Epistulae ad Lucilium 106, 12}
+
+\iniziale{S}{i dice spesso} \enquote{non scholae sed vitae discimus}:
+non impariamo per la scuola, ma per la vita. Pochi sanno che la frase
+originale di Seneca dice l'esatto contrario ed è un rimprovero: il
+filosofo lamentava che i suoi contemporanei studiassero per le
+dispute delle scuole, non per vivere meglio.\footnote{Seneca,
+\emph{Epistulae morales ad Lucilium}, 106, 12. La versione rovesciata,
+diventata un motto scolastico, è di molti secoli successiva.} Il
+rimprovero è ancora attuale.
+
+Questo capitolo di esempio serve a mostrare gli elementi tipografici
+della classe: paragrafi, note, citazioni, riquadri, figure,
+riferimenti bibliografici e la sintesi di fine capitolo.
+
+\section{La curva dell'oblio}
+
+Alla fine dell'Ottocento Hermann Ebbinghaus misurò su sé stesso la
+velocità con cui dimenticava liste di sillabe prive di senso
+\parencite{ebbinghaus1885}. Il risultato è la celebre \emph{curva
+dell'oblio}: la maggior parte di ciò che impariamo si perde nelle prime
+ore e nei primi giorni, poi la perdita rallenta
+(figura~\ref{fig:modello-oblio}).
+
+\begin{figure}[tbp]
+  \centering
+  \begin{tikzpicture}[x=0.95cm, y=2.6cm, font=\footnotesize]
+    \draw[filetto!70, line width=0.3pt] (0,0) -- (6.4,0);
+    \draw[filetto!70, line width=0.3pt] (0,0) -- (0,1.08);
+    \foreach \x/\l in {0/0, 1/1, 2/2, 3/3, 4/4, 5/5, 6/6}
+      \draw[filetto!70] (\x,0) -- (\x,-0.03) node[below] {\l};
+    \foreach \y/\l in {0/0, 0.5/50, 1/100}
+      \draw[filetto!70] (0,\y) -- (-0.08,\y) node[left] {\l};
+    \node[below] at (3.2,-0.16) {\itshape giorni dall'apprendimento};
+    \node[rotate=90, above] at (-0.55,0.5) {\itshape \% ricordato};
+    % curva senza ripasso
+    \draw[inchiostro, line width=0.6pt, domain=0:6.2, samples=80]
+      plot (\x, {0.25 + 0.75*exp(-1.6*\x)});
+    % curva con ripassi (giorni 1, 3)
+    \draw[rubrica, line width=0.6pt, domain=0:1, samples=30]
+      plot (\x, {0.25 + 0.75*exp(-1.6*\x)});
+    \draw[rubrica, line width=0.6pt, dashed] (1,0.40) -- (1,1);
+    \draw[rubrica, line width=0.6pt, domain=1:3, samples=40]
+      plot (\x, {0.5 + 0.5*exp(-0.8*(\x-1))});
+    \draw[rubrica, line width=0.6pt, dashed] (3,0.60) -- (3,1);
+    \draw[rubrica, line width=0.6pt, domain=3:6.2, samples=40]
+      plot (\x, {0.7 + 0.3*exp(-0.35*(\x-3))});
+    \node[rubrica, anchor=west] at (4.1,0.93) {\itshape con ripasso};
+    \node[anchor=west] at (3.9,0.18) {\itshape senza ripasso};
+  \end{tikzpicture}
+  \caption{La curva dell'oblio (andamento qualitativo) e l'effetto
+    di due ripassi distanziati nel tempo.}
+  \label{fig:modello-oblio}
+\end{figure}
+
+La buona notizia è che ogni ripasso ben distanziato rende la curva
+più piatta: dimentichiamo di meno, e più lentamente. È il cosiddetto
+\emph{effetto di spaziatura}, uno dei risultati più solidi della
+psicologia sperimentale \parencite{cepeda2006}.
+
+\begin{daricordare}
+Ciò che non viene richiamato alla memoria si perde in fretta. Ciò che
+viene richiamato più volte, a intervalli crescenti, resta.
+\end{daricordare}
+
+\subsection{Rileggere non basta}
+
+Molti studenti ripassano rileggendo e sottolineando. Sono le strategie
+più diffuse e, secondo un'ampia rassegna della letteratura, fra le meno
+efficaci \parencite{dunlosky2013}. Rileggere dà una sensazione di
+familiarità che viene scambiata per conoscenza.
+
+\begin{quote}
+Qui trova posto una citazione lunga, composta in corpo minore e
+rientrata su entrambi i lati, così da staccarsi dal testo senza
+bisogno di virgolette.
+\end{quote}
+
+\asterismo
+
+\section{Interrogarsi per ricordare}
+
+Un esperimento divenuto classico ha confrontato due gruppi di studenti:
+il primo rileggeva un testo più volte, il secondo lo leggeva una volta
+e poi provava a richiamarlo a memoria. A distanza di una settimana il
+secondo gruppo ricordava molto di più \parencite{roediger2006}. È
+l'\emph{effetto di verifica} (in inglese \emph{testing effect}),
+discusso a lungo in \textcite{brown2014}.
+
+\begin{inpratica}
+\begin{enumerate}
+  \item Chiudi il libro dopo ogni paragrafo.
+  \item Scrivi, senza guardare, ciò che ricordi.
+  \item Riapri il libro e confronta: ciò che mancava è ciò da studiare.
+\end{enumerate}
+\end{inpratica}
+
+\subsubsection{Una tabella} Anche le tabelle seguono lo stile
+classico, con filetti sottili e senza linee verticali.
+
+\begin{table}[tbp]
+  \centering\small
+  \begin{tabular}{@{}lc@{}}
+    \toprule
+    \textit{Strategia} & \textit{Utilità} \\
+    \midrule
+    Verifica (richiamo attivo) & alta \\
+    Ripasso distanziato       & alta \\
+    Rilettura                 & bassa \\
+    Sottolineatura            & bassa \\
+    \bottomrule
+  \end{tabular}
+  \caption{Alcune strategie di studio e la loro utilità secondo
+    \textcite{dunlosky2013}.}
+  \label{tab:modello-strategie}
+\end{table}
+
+\begin{domande}
+  \item Che cosa mostra la curva dell'oblio?
+  \item Perché la rilettura dà un'illusione di conoscenza?
+  \item Come si può applicare l'effetto di verifica a una materia
+        che studi adesso?
+\end{domande}
+
+\begin{sintesi}
+  \item Si dimentica in fretta ciò che non viene richiamato.
+  \item Il ripasso distanziato appiattisce la curva dell'oblio.
+  \item Interrogarsi vale più che rileggere.
+\end{sintesi}
+
+\asterismo
+
+Un'epigrafe o una citazione in greco si scrive direttamente in
+Unicode: \emph{πάθει μάθος}. Un testo provvisorio si marca così:
+\segnaposto{testo da scrivere}.
+
+\finecapitolo

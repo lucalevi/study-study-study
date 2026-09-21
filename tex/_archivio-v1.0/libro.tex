@@ -1,0 +1,68 @@
+%% ===================================================================
+%%  libro.tex — file principale
+%%  Compilare con:  latexmk        (usa lualatex + biber, vedi latexmkrc)
+%%  oppure:         lualatex libro && biber libro && lualatex libro ×2
+%% ===================================================================
+\documentclass{studiolibro}
+% Opzioni utili:  \documentclass[monocromo]{studiolibro}   stampa a un colore
+%                 \documentclass[bozza]{studiolibro}       mostra la gabbia
+
+% ------------------------------------------------------------ bibliografia
+\usepackage[
+  backend=biber,
+  style=authoryear-comp,
+  dashed=true,
+  maxcitenames=2, maxbibnames=5,
+  uniquename=false, uniquelist=false,
+  giveninits=true,
+  doi=false, isbn=false, url=false, eprint=false,
+]{biblatex}
+\addbibresource{bibliografia.bib}
+\renewcommand*{\mkbibnamefamily}[1]{\textsc{#1}}
+\setlength{\bibhang}{1.2em}
+\setlength{\bibitemsep}{0.25\baselineskip}
+\DefineBibliographyStrings{italian}{andothers={et\addabbrvspace al\adddot}}
+
+% ------------------------------------------------------------ dati del libro
+\titolo{Studiare per la vita}
+\sottotitolo{Come si impara davvero, e perché}
+\autore{Luca Iacolettig}
+\editore{Edizioni study-study-study}
+\luogo{Cormons}
+\anno{2026}
+\edizione{Prima edizione}
+\isbn{000-00-00000-00-0}
+
+% ------------------------------------------------------------ comandi propri
+% (aggiungi qui eventuali macro personali)
+
+\begin{document}
+
+% ================================================================ apertura
+\frontmatter
+\occhietto
+\frontespizio
+\colophon[Tutti i diritti riservati.]
+\dedica{A chi non ha mai smesso di fare domande.}
+\epigrafelibro{Non scholae sed vitae discimus.}{motto scolastico, da Seneca}
+
+\tableofcontents
+
+\input{frontmatter/prefazione}
+
+% ================================================================ testo
+\mainmatter
+\part{Perché si studia}
+\input{capitoli/capitolo01}
+\input{capitoli/capitolo02}
+
+\part{Come si studia}
+\input{capitoli/capitolo03}
+
+% ================================================================ chiusura
+\backmatter
+\chapter{Bibliografia}
+\printbibliography[heading=none]
+
+\finis
+\end{document}

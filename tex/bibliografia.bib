@@ -1,52 +1,1009 @@
-% ------------------------------------------------------------------
+% ==================================================================
 %  bibliografia.bib — voci in formato biblatex (compilare con biber)
+%  Versione 1.1 (2026-09-21): voci ricavate dai documenti di ricerca
+%  01–05 (cartella ricerca/). Chiave: cognomeprimoautore + anno.
+%  Le fonti classiche (Platone, Seneca, Quintiliano…) si citano in nota
+%  con il riferimento al passo (vedi ricerca 03), non con \parencite.
+%  Prima della stampa: controllare ogni voce (registro, ricerca 00).
+% ==================================================================
+
 % ------------------------------------------------------------------
-
-@book{ebbinghaus1885,
-  author    = {Ebbinghaus, Hermann},
-  title     = {Über das Gedächtnis. Untersuchungen zur experimentellen Psychologie},
-  publisher = {Duncker \& Humblot},
-  location  = {Leipzig},
-  year      = {1885},
-}
-
-@article{roediger2006,
-  author  = {Roediger, Henry L. and Karpicke, Jeffrey D.},
-  title   = {Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention},
-  journaltitle = {Psychological Science},
-  volume  = {17},
-  number  = {3},
-  pages   = {249--255},
-  year    = {2006},
-  doi     = {10.1111/j.1467-9280.2006.01693.x},
-}
-
-@article{cepeda2006,
-  author  = {Cepeda, Nicholas J. and Pashler, Harold and Vul, Edward and Wixted, John T. and Rohrer, Doug},
-  title   = {Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis},
-  journaltitle = {Psychological Bulletin},
-  volume  = {132},
-  number  = {3},
-  pages   = {354--380},
-  year    = {2006},
-  doi     = {10.1037/0033-2909.132.3.354},
-}
-
+%  Rassegne e sintesi
+% ------------------------------------------------------------------
 @article{dunlosky2013,
-  author  = {Dunlosky, John and Rawson, Katherine A. and Marsh, Elizabeth J. and Nathan, Mitchell J. and Willingham, Daniel T.},
-  title   = {Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology},
+  author       = {Dunlosky, John and Rawson, Katherine A. and Marsh, Elizabeth J. and Nathan, Mitchell J. and Willingham, Daniel T.},
+  title        = {Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology},
   journaltitle = {Psychological Science in the Public Interest},
-  volume  = {14},
-  number  = {1},
-  pages   = {4--58},
-  year    = {2013},
-  doi     = {10.1177/1529100612453266},
+  volume       = {14}, number = {1}, pages = {4--58}, year = {2013},
+  doi          = {10.1177/1529100612453266},
 }
-
+@article{donoghue2021,
+  author       = {Donoghue, Gregory M. and Hattie, John A. C.},
+  title        = {A Meta-Analysis of Ten Learning Techniques},
+  journaltitle = {Frontiers in Education},
+  volume       = {6}, eid = {581216}, year = {2021},
+  doi          = {10.3389/feduc.2021.581216},
+}
+@article{carpenter2022,
+  author       = {Carpenter, Shana K. and Pan, Steven C. and Butler, Andrew C.},
+  title        = {The Science of Effective Learning with Spacing and Retrieval Practice},
+  journaltitle = {Nature Reviews Psychology},
+  volume       = {1}, number = {9}, pages = {496--511}, year = {2022},
+  doi          = {10.1038/s44159-022-00089-1},
+}
 @book{brown2014,
   author    = {Brown, Peter C. and Roediger, Henry L. and McDaniel, Mark A.},
   title     = {Make It Stick: The Science of Successful Learning},
-  publisher = {The Belknap Press of Harvard University Press},
-  location  = {Cambridge (MA)},
-  year      = {2014},
+  publisher = {Harvard University Press},
+  location  = {Cambridge, MA}, year = {2014},
+}
+@incollection{bjork2011,
+  author    = {Bjork, Elizabeth L. and Bjork, Robert A.},
+  title     = {Making Things Hard on Yourself, but in a Good Way: Creating Desirable Difficulties to Enhance Learning},
+  booktitle = {Psychology and the Real World: Essays Illustrating Fundamental Contributions to Society},
+  editor    = {Gernsbacher, Morton Ann and Pew, Richard W. and Hough, Leaetta M. and Pomerantz, James R.},
+  publisher = {Worth}, location = {New York},
+  pages     = {56--64}, year = {2011},
+}
+@article{bjork2013,
+  author       = {Bjork, Robert A. and Dunlosky, John and Kornell, Nate},
+  title        = {Self-Regulated Learning: Beliefs, Techniques, and Illusions},
+  journaltitle = {Annual Review of Psychology},
+  volume       = {64}, pages = {417--444}, year = {2013},
+  doi          = {10.1146/annurev-psych-113011-143823},
+}
+@article{soderstrom2015,
+  author       = {Soderstrom, Nicholas C. and Bjork, Robert A.},
+  title        = {Learning Versus Performance: An Integrative Review},
+  journaltitle = {Perspectives on Psychological Science},
+  volume       = {10}, number = {2}, pages = {176--199}, year = {2015},
+  doi          = {10.1177/1745691615569000},
+}
+@book{willingham2009,
+  author    = {Willingham, Daniel T.},
+  title     = {Why Don't Students Like School? A Cognitive Scientist Answers Questions About How the Mind Works and What It Means for the Classroom},
+  publisher = {Jossey-Bass}, location = {San Francisco}, year = {2009},
+}
+@online{eef2025,
+  author  = {{Education Endowment Foundation}},
+  title   = {Metacognition and Self-Regulation},
+  subtitle = {Teaching and Learning Toolkit},
+  year    = {2025},
+  url     = {https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation},
+  urldate = {2026-09-19},
+}
+
+% ------------------------------------------------------------------
+%  Storia della memoria e dell'educazione
+% ------------------------------------------------------------------
+@book{ebbinghaus1885,
+  author    = {Ebbinghaus, Hermann},
+  title     = {Über das Gedächtnis. Untersuchungen zur experimentellen Psychologie},
+  publisher = {Duncker \& Humblot}, location = {Leipzig}, year = {1885},
+}
+@article{murre2015,
+  author       = {Murre, Jaap M. J. and Dros, Joeri},
+  title        = {Replication and Analysis of Ebbinghaus' Forgetting Curve},
+  journaltitle = {PLOS ONE},
+  volume       = {10}, number = {7}, eid = {e0120644}, year = {2015},
+  doi          = {10.1371/journal.pone.0120644},
+}
+@book{james1890,
+  author    = {James, William},
+  title     = {The Principles of Psychology},
+  publisher = {Henry Holt}, location = {New York}, year = {1890},
+}
+@article{gates1917,
+  author       = {Gates, Arthur I.},
+  title        = {Recitation as a Factor in Memorizing},
+  journaltitle = {Archives of Psychology},
+  volume       = {6}, number = {40}, year = {1917},
+}
+@article{spitzer1939,
+  author       = {Spitzer, Herbert F.},
+  title        = {Studies in Retention},
+  journaltitle = {Journal of Educational Psychology},
+  volume       = {30}, number = {9}, pages = {641--656}, year = {1939},
+}
+@book{bartlett1932,
+  author    = {Bartlett, Frederic C.},
+  title     = {Remembering: A Study in Experimental and Social Psychology},
+  publisher = {Cambridge University Press}, location = {Cambridge}, year = {1932},
+}
+@book{carruthers1990,
+  author    = {Carruthers, Mary},
+  title     = {The Book of Memory: A Study of Memory in Medieval Culture},
+  publisher = {Cambridge University Press}, location = {Cambridge}, year = {1990},
+}
+@book{yates1966,
+  author    = {Yates, Frances A.},
+  title     = {The Art of Memory},
+  publisher = {Routledge \& Kegan Paul}, location = {London}, year = {1966},
+}
+@book{rossi1960,
+  author    = {Rossi, Paolo},
+  title     = {Clavis universalis. Arti mnemoniche e logica combinatoria da Lullo a Leibniz},
+  publisher = {Ricciardi}, location = {Milano--Napoli}, year = {1960},
+}
+@book{bolzoni1995,
+  author    = {Bolzoni, Lina},
+  title     = {La stanza della memoria. Modelli letterari e iconografici nell'età della stampa},
+  publisher = {Einaudi}, location = {Torino}, year = {1995},
+}
+@book{spence1984,
+  author    = {Spence, Jonathan D.},
+  title     = {The Memory Palace of Matteo Ricci},
+  publisher = {Viking}, location = {New York}, year = {1984},
+}
+@book{ausubel1968,
+  author    = {Ausubel, David P.},
+  title     = {Educational Psychology: A Cognitive View},
+  publisher = {Holt, Rinehart and Winston}, location = {New York}, year = {1968},
+}
+
+% ------------------------------------------------------------------
+%  Memoria: modelli e neuroscienze
+% ------------------------------------------------------------------
+@article{cowan2001,
+  author       = {Cowan, Nelson},
+  title        = {The Magical Number 4 in Short-Term Memory: A Reconsideration of Mental Storage Capacity},
+  journaltitle = {Behavioral and Brain Sciences},
+  volume       = {24}, number = {1}, pages = {87--114}, year = {2001},
+}
+@incollection{baddeley1974,
+  author    = {Baddeley, Alan D. and Hitch, Graham},
+  title     = {Working Memory},
+  booktitle = {The Psychology of Learning and Motivation},
+  editor    = {Bower, Gordon H.},
+  volume    = {8}, pages = {47--89},
+  publisher = {Academic Press}, location = {New York}, year = {1974},
+}
+@article{craik1972,
+  author       = {Craik, Fergus I. M. and Lockhart, Robert S.},
+  title        = {Levels of Processing: A Framework for Memory Research},
+  journaltitle = {Journal of Verbal Learning and Verbal Behavior},
+  volume       = {11}, number = {6}, pages = {671--684}, year = {1972},
+}
+@article{tulving1973,
+  author       = {Tulving, Endel and Thomson, Donald M.},
+  title        = {Encoding Specificity and Retrieval Processes in Episodic Memory},
+  journaltitle = {Psychological Review},
+  volume       = {80}, number = {5}, pages = {352--373}, year = {1973},
+}
+@article{kandel2001,
+  author       = {Kandel, Eric R.},
+  title        = {The Molecular Biology of Memory Storage: A Dialogue Between Genes and Synapses},
+  journaltitle = {Science},
+  volume       = {294}, number = {5544}, pages = {1030--1038}, year = {2001},
+}
+@article{nader2000,
+  author       = {Nader, Karim and Schafe, Glenn E. and LeDoux, Joseph E.},
+  title        = {Fear Memories Require Protein Synthesis in the Amygdala for Reconsolidation after Retrieval},
+  journaltitle = {Nature},
+  volume       = {406}, number = {6797}, pages = {722--726}, year = {2000},
+}
+@incollection{bjork1992,
+  author    = {Bjork, Robert A. and Bjork, Elizabeth L.},
+  title     = {A New Theory of Disuse and an Old Theory of Stimulus Fluctuation},
+  booktitle = {From Learning Processes to Cognitive Processes: Essays in Honor of William K. Estes},
+  editor    = {Healy, Alice F. and Kosslyn, Stephen M. and Shiffrin, Richard M.},
+  volume    = {2}, pages = {35--67},
+  publisher = {Erlbaum}, location = {Hillsdale, NJ}, year = {1992},
+}
+@incollection{bjork1994,
+  author    = {Bjork, Robert A.},
+  title     = {Memory and Metamemory Considerations in the Training of Human Beings},
+  booktitle = {Metacognition: Knowing about Knowing},
+  editor    = {Metcalfe, Janet and Shimamura, Arthur P.},
+  pages     = {185--205},
+  publisher = {MIT Press}, location = {Cambridge, MA}, year = {1994},
+}
+
+% ------------------------------------------------------------------
+%  Pratica del recupero
+% ------------------------------------------------------------------
+@article{roediger2006,
+  author       = {Roediger, Henry L. and Karpicke, Jeffrey D.},
+  title        = {Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention},
+  journaltitle = {Psychological Science},
+  volume       = {17}, number = {3}, pages = {249--255}, year = {2006},
+  doi          = {10.1111/j.1467-9280.2006.01693.x},
+}
+@article{karpicke2008,
+  author       = {Karpicke, Jeffrey D. and Roediger, Henry L.},
+  title        = {The Critical Importance of Retrieval for Learning},
+  journaltitle = {Science},
+  volume       = {319}, number = {5865}, pages = {966--968}, year = {2008},
+  doi          = {10.1126/science.1152408},
+}
+@article{karpicke2011,
+  author       = {Karpicke, Jeffrey D. and Blunt, Janell R.},
+  title        = {Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping},
+  journaltitle = {Science},
+  volume       = {331}, number = {6018}, pages = {772--775}, year = {2011},
+}
+@article{karpicke2009,
+  author       = {Karpicke, Jeffrey D. and Butler, Andrew C. and Roediger, Henry L.},
+  title        = {Metacognitive Strategies in Student Learning: Do Students Practise Retrieval When They Study on Their Own?},
+  journaltitle = {Memory},
+  volume       = {17}, number = {4}, pages = {471--479}, year = {2009},
+}
+@article{butler2010,
+  author       = {Butler, Andrew C.},
+  title        = {Repeated Testing Produces Superior Transfer of Learning Relative to Repeated Studying},
+  journaltitle = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
+  volume       = {36}, number = {5}, pages = {1118--1133}, year = {2010},
+}
+@article{roediger2011,
+  author       = {Roediger, Henry L. and Agarwal, Pooja K. and McDaniel, Mark A. and McDermott, Kathleen B.},
+  title        = {Test-Enhanced Learning in the Classroom: Long-Term Improvements from Quizzing},
+  journaltitle = {Journal of Experimental Psychology: Applied},
+  volume       = {17}, number = {4}, pages = {382--395}, year = {2011},
+}
+@article{rowland2014,
+  author       = {Rowland, Christopher A.},
+  title        = {The Effect of Testing Versus Restudy on Retention: A Meta-Analytic Review of the Testing Effect},
+  journaltitle = {Psychological Bulletin},
+  volume       = {140}, number = {6}, pages = {1432--1463}, year = {2014},
+}
+@article{adesope2017,
+  author       = {Adesope, Olusola O. and Trevisan, Dominic A. and Sundararajan, Narayankripa},
+  title        = {Rethinking the Use of Tests: A Meta-Analysis of Practice Testing},
+  journaltitle = {Review of Educational Research},
+  volume       = {87}, number = {3}, pages = {659--701}, year = {2017},
+  doi          = {10.3102/0034654316689306},
+}
+@article{pan2018,
+  author       = {Pan, Steven C. and Rickard, Timothy C.},
+  title        = {Transfer of Test-Enhanced Learning: Meta-Analytic Review and Synthesis},
+  journaltitle = {Psychological Bulletin},
+  volume       = {144}, number = {7}, pages = {710--756}, year = {2018},
+}
+@article{yang2021,
+  author       = {Yang, Chunliang and Luo, Liang and Vadillo, Miguel A. and Yu, Rongjun and Shanks, David R.},
+  title        = {Testing (Quizzing) Boosts Classroom Learning: A Systematic and Meta-Analytic Review},
+  journaltitle = {Psychological Bulletin},
+  volume       = {147}, number = {4}, pages = {399--435}, year = {2021},
+}
+@article{agarwal2014,
+  author       = {Agarwal, Pooja K. and D'Antonio, Laura and Roediger, Henry L. and McDermott, Kathleen B. and McDaniel, Mark A.},
+  title        = {Classroom-Based Programs of Retrieval Practice Reduce Middle School and High School Students' Test Anxiety},
+  journaltitle = {Journal of Applied Research in Memory and Cognition},
+  volume       = {3}, number = {3}, pages = {131--139}, year = {2014},
+}
+@article{agarwal2019,
+  author       = {Agarwal, Pooja K.},
+  title        = {Retrieval Practice \& Bloom's Taxonomy: Do Students Need Fact Knowledge Before Higher Order Learning?},
+  journaltitle = {Journal of Educational Psychology},
+  volume       = {111}, number = {2}, pages = {189--209}, year = {2019},
+}
+@article{smith2016,
+  author       = {Smith, Amy M. and Floerke, Victoria A. and Thomas, Ayanna K.},
+  title        = {Retrieval Practice Protects Memory against Acute Stress},
+  journaltitle = {Science},
+  volume       = {354}, number = {6315}, pages = {1046--1048}, year = {2016},
+}
+@article{metcalfe2017,
+  author       = {Metcalfe, Janet},
+  title        = {Learning from Errors},
+  journaltitle = {Annual Review of Psychology},
+  volume       = {68}, pages = {465--489}, year = {2017},
+}
+@article{pan2023,
+  author       = {Pan, Steven C. and Carpenter, Shana K.},
+  title        = {Prequestioning and Pretesting Effects: A Review of Empirical Research, Theoretical Perspectives, and Implications for Educational Practice},
+  journaltitle = {Educational Psychology Review},
+  volume       = {35}, eid = {97}, year = {2023},
+}
+@article{kingshepard2025,
+  author       = {King-Shepard, Quentin W. and Walker, Jessica and Nokes-Malach, Timothy J. and Carpenter, Shana K. and Fraundorf, Scott H.},
+  title        = {The Effect of Prequestions on Learning: A Multilevel Meta-Analysis},
+  journaltitle = {Educational Psychology Review},
+  volume       = {37}, eid = {115}, year = {2025},
+}
+
+% ------------------------------------------------------------------
+%  Distribuzione, ripasso, alternanza
+% ------------------------------------------------------------------
+@article{cepeda2006,
+  author       = {Cepeda, Nicholas J. and Pashler, Harold and Vul, Edward and Wixted, John T. and Rohrer, Doug},
+  title        = {Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis},
+  journaltitle = {Psychological Bulletin},
+  volume       = {132}, number = {3}, pages = {354--380}, year = {2006},
+  doi          = {10.1037/0033-2909.132.3.354},
+}
+@article{cepeda2008,
+  author       = {Cepeda, Nicholas J. and Vul, Edward and Rohrer, Doug and Wixted, John T. and Pashler, Harold},
+  title        = {Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention},
+  journaltitle = {Psychological Science},
+  volume       = {19}, number = {11}, pages = {1095--1102}, year = {2008},
+}
+@article{kornell2009,
+  author       = {Kornell, Nate},
+  title        = {Optimising Learning Using Flashcards: Spacing Is More Effective than Cramming},
+  journaltitle = {Applied Cognitive Psychology},
+  volume       = {23}, number = {9}, pages = {1297--1317}, year = {2009},
+}
+@article{latimier2021,
+  author       = {Latimier, Alice and Peyre, Hugo and Ramus, Franck},
+  title        = {A Meta-Analytic Review of the Benefit of Spacing out Retrieval Practice Episodes on Retention},
+  journaltitle = {Educational Psychology Review},
+  volume       = {33}, number = {3}, pages = {959--987}, year = {2021},
+}
+@article{rawson2013,
+  author       = {Rawson, Katherine A. and Dunlosky, John and Sciartelli, Sharon M.},
+  title        = {The Power of Successive Relearning: Improving Performance on Course Exams and Long-Term Retention},
+  journaltitle = {Educational Psychology Review},
+  volume       = {25}, number = {4}, pages = {523--548}, year = {2013},
+}
+@article{rawson2022,
+  author       = {Rawson, Katherine A. and Dunlosky, John},
+  title        = {Successive Relearning: An Underexplored but Potent Technique for Obtaining and Maintaining Knowledge},
+  journaltitle = {Current Directions in Psychological Science},
+  volume       = {31}, number = {4}, pages = {362--368}, year = {2022},
+}
+@article{murray2025,
+  author       = {Murray, Ewan and Horner, Aidan J. and Göbel, Silke M.},
+  title        = {A Meta-Analytic Review of the Effectiveness of Spacing and Retrieval Practice for Mathematics Learning},
+  journaltitle = {Educational Psychology Review},
+  year         = {2025},
+  doi          = {10.1007/s10648-025-10035-1},
+}
+@article{rohrer2007,
+  author       = {Rohrer, Doug and Taylor, Kelli},
+  title        = {The Shuffling of Mathematics Problems Improves Learning},
+  journaltitle = {Instructional Science},
+  volume       = {35}, number = {6}, pages = {481--498}, year = {2007},
+}
+@article{kornell2008,
+  author       = {Kornell, Nate and Bjork, Robert A.},
+  title        = {Learning Concepts and Categories: Is Spacing the «Enemy of Induction»?},
+  journaltitle = {Psychological Science},
+  volume       = {19}, number = {6}, pages = {585--592}, year = {2008},
+}
+@article{rohrer2020,
+  author       = {Rohrer, Doug and Dedrick, Robert F. and Hartwig, Marissa K. and Cheung, Chi-Ngai},
+  title        = {A Randomized Controlled Trial of Interleaved Mathematics Practice},
+  journaltitle = {Journal of Educational Psychology},
+  volume       = {112}, number = {1}, pages = {40--52}, year = {2020},
+}
+@article{brunmair2019,
+  author       = {Brunmair, Matthias and Richter, Tobias},
+  title        = {Similarity Matters: A Meta-Analysis of Interleaved Learning and Its Moderators},
+  journaltitle = {Psychological Bulletin},
+  volume       = {145}, number = {11}, pages = {1029--1052}, year = {2019},
+}
+@article{bahrick1984,
+  author       = {Bahrick, Harry P.},
+  title        = {Semantic Memory Content in Permastore: Fifty Years of Memory for Spanish Learned in School},
+  journaltitle = {Journal of Experimental Psychology: General},
+  volume       = {113}, number = {1}, pages = {1--29}, year = {1984},
+}
+@article{bahrick1993,
+  author       = {Bahrick, Harry P. and Bahrick, Lorraine E. and Bahrick, Audrey S. and Bahrick, Phyllis E.},
+  title        = {Maintenance of Foreign Language Vocabulary and the Spacing Effect},
+  journaltitle = {Psychological Science},
+  volume       = {4}, number = {5}, pages = {316--321}, year = {1993},
+}
+
+% ------------------------------------------------------------------
+%  Elaborazione, comprensione, conoscenza, trasferimento
+% ------------------------------------------------------------------
+@article{slamecka1978,
+  author       = {Slamecka, Norman J. and Graf, Peter},
+  title        = {The Generation Effect: Delineation of a Phenomenon},
+  journaltitle = {Journal of Experimental Psychology: Human Learning and Memory},
+  volume       = {4}, number = {6}, pages = {592--604}, year = {1978},
+}
+@article{bertsch2007,
+  author       = {Bertsch, Sharon and Pesta, Bryan J. and Wiscott, Richard and McDaniel, Mark A.},
+  title        = {The Generation Effect: A Meta-Analytic Review},
+  journaltitle = {Memory \& Cognition},
+  volume       = {35}, number = {2}, pages = {201--210}, year = {2007},
+}
+@article{chi1989,
+  author       = {Chi, Michelene T. H. and Bassok, Miriam and Lewis, Matthew W. and Reimann, Peter and Glaser, Robert},
+  title        = {Self-Explanations: How Students Study and Use Examples in Learning to Solve Problems},
+  journaltitle = {Cognitive Science},
+  volume       = {13}, number = {2}, pages = {145--182}, year = {1989},
+}
+@article{bisra2018,
+  author       = {Bisra, Kiran and Liu, Qing and Nesbit, John C. and Salimi, Farimah and Winne, Philip H.},
+  title        = {Inducing Self-Explanation: A Meta-Analysis},
+  journaltitle = {Educational Psychology Review},
+  volume       = {30}, number = {3}, pages = {703--725}, year = {2018},
+}
+@article{chi1981,
+  author       = {Chi, Michelene T. H. and Feltovich, Paul J. and Glaser, Robert},
+  title        = {Categorization and Representation of Physics Problems by Experts and Novices},
+  journaltitle = {Cognitive Science},
+  volume       = {5}, number = {2}, pages = {121--152}, year = {1981},
+}
+@article{chase1973,
+  author       = {Chase, William G. and Simon, Herbert A.},
+  title        = {Perception in Chess},
+  journaltitle = {Cognitive Psychology},
+  volume       = {4}, number = {1}, pages = {55--81}, year = {1973},
+}
+@article{bransford1972,
+  author       = {Bransford, John D. and Johnson, Marcia K.},
+  title        = {Contextual Prerequisites for Understanding: Some Investigations of Comprehension and Recall},
+  journaltitle = {Journal of Verbal Learning and Verbal Behavior},
+  volume       = {11}, number = {6}, pages = {717--726}, year = {1972},
+}
+@article{recht1988,
+  author       = {Recht, Donna R. and Leslie, Lauren},
+  title        = {Effect of Prior Knowledge on Good and Poor Readers' Memory of Text},
+  journaltitle = {Journal of Educational Psychology},
+  volume       = {80}, number = {1}, pages = {16--20}, year = {1988},
+}
+@article{willingham2007,
+  author       = {Willingham, Daniel T.},
+  title        = {Critical Thinking: Why Is It So Hard to Teach?},
+  journaltitle = {American Educator},
+  volume       = {31}, number = {2}, pages = {8--19}, year = {2007},
+}
+@article{gick1983,
+  author       = {Gick, Mary L. and Holyoak, Keith J.},
+  title        = {Schema Induction and Analogical Transfer},
+  journaltitle = {Cognitive Psychology},
+  volume       = {15}, number = {1}, pages = {1--38}, year = {1983},
+}
+@article{barnett2002,
+  author       = {Barnett, Susan M. and Ceci, Stephen J.},
+  title        = {When and Where Do We Apply What We Learn? A Taxonomy for Far Transfer},
+  journaltitle = {Psychological Bulletin},
+  volume       = {128}, number = {4}, pages = {612--637}, year = {2002},
+}
+@article{nesbit2006,
+  author       = {Nesbit, John C. and Adesope, Olusola O.},
+  title        = {Learning With Concept and Knowledge Maps: A Meta-Analysis},
+  journaltitle = {Review of Educational Research},
+  volume       = {76}, number = {3}, pages = {413--448}, year = {2006},
+}
+@book{paivio1986,
+  author    = {Paivio, Allan},
+  title     = {Mental Representations: A Dual Coding Approach},
+  publisher = {Oxford University Press}, location = {New York}, year = {1986},
+}
+@book{mayer2020,
+  author    = {Mayer, Richard E.},
+  title     = {Multimedia Learning},
+  edition   = {3},
+  publisher = {Cambridge University Press}, location = {Cambridge}, year = {2020},
+}
+@article{wammes2016,
+  author       = {Wammes, Jeffrey D. and Meade, Melissa E. and Fernandes, Myra A.},
+  title        = {The Drawing Effect: Evidence for Reliable and Robust Memory Benefits in Free Recall},
+  journaltitle = {Quarterly Journal of Experimental Psychology},
+  volume       = {69}, number = {9}, pages = {1752--1776}, year = {2016},
+}
+@article{dresler2017,
+  author       = {Dresler, Martin and Shirer, William R. and Konrad, Boris N. and others},
+  title        = {Mnemonic Training Reshapes Brain Networks to Support Superior Memory},
+  journaltitle = {Neuron},
+  volume       = {93}, number = {5}, pages = {1227--1235}, year = {2017},
+}
+@article{nestojko2014,
+  author       = {Nestojko, John F. and Bui, Dung C. and Kornell, Nate and Bjork, Elizabeth L.},
+  title        = {Expecting to Teach Enhances Learning and Organization of Knowledge in Free Recall of Text Passages},
+  journaltitle = {Memory \& Cognition},
+  volume       = {42}, number = {7}, pages = {1038--1048}, year = {2014},
+}
+@article{fiorella2013,
+  author       = {Fiorella, Logan and Mayer, Richard E.},
+  title        = {The Relative Benefits of Learning by Teaching and Teaching Expectancy},
+  journaltitle = {Contemporary Educational Psychology},
+  volume       = {38}, number = {4}, pages = {281--288}, year = {2013},
+}
+@article{koh2018,
+  author       = {Koh, Aloysius Wei Lun and Lee, Sze Chi and Lim, Stephen Wee Hun},
+  title        = {The Learning Benefits of Teaching: A Retrieval Practice Hypothesis},
+  journaltitle = {Applied Cognitive Psychology},
+  volume       = {32}, number = {3}, pages = {401--410}, year = {2018},
+}
+
+% ------------------------------------------------------------------
+%  Metacognizione e autoregolazione
+% ------------------------------------------------------------------
+@article{koriat2005,
+  author       = {Koriat, Asher and Bjork, Robert A.},
+  title        = {Illusions of Competence in Monitoring One's Knowledge During Study},
+  journaltitle = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
+  volume       = {31}, number = {2}, pages = {187--194}, year = {2005},
+}
+@article{nelson1991,
+  author       = {Nelson, Thomas O. and Dunlosky, John},
+  title        = {When People's Judgments of Learning (JOLs) Are Extremely Accurate at Predicting Subsequent Recall: The «Delayed-JOL Effect»},
+  journaltitle = {Psychological Science},
+  volume       = {2}, number = {4}, pages = {267--270}, year = {1991},
+}
+@article{rozenblit2002,
+  author       = {Rozenblit, Leonid and Keil, Frank},
+  title        = {The Misunderstood Limits of Folk Science: An Illusion of Explanatory Depth},
+  journaltitle = {Cognitive Science},
+  volume       = {26}, number = {5}, pages = {521--562}, year = {2002},
+}
+@article{deslauriers2019,
+  author       = {Deslauriers, Louis and McCarty, Logan S. and Miller, Kelly and Callaghan, Kristina and Kestin, Greg},
+  title        = {Measuring Actual Learning Versus Feeling of Learning in Response to Being Actively Engaged in the Classroom},
+  journaltitle = {Proceedings of the National Academy of Sciences},
+  volume       = {116}, number = {39}, pages = {19251--19257}, year = {2019},
+  doi          = {10.1073/pnas.1821936116},
+}
+@article{kornell2007,
+  author       = {Kornell, Nate and Bjork, Robert A.},
+  title        = {The Promise and Perils of Self-Regulated Study},
+  journaltitle = {Psychonomic Bulletin \& Review},
+  volume       = {14}, number = {2}, pages = {219--224}, year = {2007},
+}
+@article{hartwig2012,
+  author       = {Hartwig, Marissa K. and Dunlosky, John},
+  title        = {Study Strategies of College Students: Are Self-Testing and Scheduling Related to Achievement?},
+  journaltitle = {Psychonomic Bulletin \& Review},
+  volume       = {19}, number = {1}, pages = {126--134}, year = {2012},
+}
+@article{mccabe2011,
+  author       = {McCabe, Jennifer},
+  title        = {Metacognitive Awareness of Learning Strategies in Undergraduates},
+  journaltitle = {Memory \& Cognition},
+  volume       = {39}, number = {3}, pages = {462--476}, year = {2011},
+}
+@article{dignath2008,
+  author       = {Dignath, Charlotte and Büttner, Gerhard},
+  title        = {Components of Fostering Self-Regulated Learning Among Students: A Meta-Analysis on Intervention Studies at Primary and Secondary School Level},
+  journaltitle = {Metacognition and Learning},
+  volume       = {3}, number = {3}, pages = {231--264}, year = {2008},
+}
+@article{mcdaniel2020,
+  author       = {McDaniel, Mark A. and Einstein, Gilles O.},
+  title        = {Training Learning Strategies to Promote Self-Regulation and Transfer: The Knowledge, Belief, Commitment, and Planning Framework},
+  journaltitle = {Perspectives on Psychological Science},
+  volume       = {15}, number = {6}, pages = {1363--1381}, year = {2020},
+}
+@article{biwer2020,
+  author       = {Biwer, Felicitas and oude Egbrink, Mirjam G. A. and Aalten, Pauline and de Bruin, Anique B. H.},
+  title        = {Fostering Effective Learning Strategies in Higher Education -- A Mixed-Methods Study},
+  journaltitle = {Journal of Applied Research in Memory and Cognition},
+  volume       = {9}, number = {2}, pages = {186--203}, year = {2020},
+}
+@article{biwer2023,
+  author       = {Biwer, Felicitas and de Bruin, Anique and Persky, Adam},
+  title        = {Study Smart -- Impact of a Learning Strategy Training on Students' Study Behavior and Academic Performance},
+  journaltitle = {Advances in Health Sciences Education},
+  volume       = {28}, pages = {147--167}, year = {2023},
+}
+
+% ------------------------------------------------------------------
+%  Insegnamento
+% ------------------------------------------------------------------
+@article{sweller1988,
+  author       = {Sweller, John},
+  title        = {Cognitive Load During Problem Solving: Effects on Learning},
+  journaltitle = {Cognitive Science},
+  volume       = {12}, number = {2}, pages = {257--285}, year = {1988},
+}
+@article{kalyuga2003,
+  author       = {Kalyuga, Slava and Ayres, Paul and Chandler, Paul and Sweller, John},
+  title        = {The Expertise Reversal Effect},
+  journaltitle = {Educational Psychologist},
+  volume       = {38}, number = {1}, pages = {23--31}, year = {2003},
+}
+@article{kirschner2006,
+  author       = {Kirschner, Paul A. and Sweller, John and Clark, Richard E.},
+  title        = {Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching},
+  journaltitle = {Educational Psychologist},
+  volume       = {41}, number = {2}, pages = {75--86}, year = {2006},
+}
+@article{rosenshine2012,
+  author       = {Rosenshine, Barak},
+  title        = {Principles of Instruction: Research-Based Strategies That All Teachers Should Know},
+  journaltitle = {American Educator},
+  volume       = {36}, number = {1}, pages = {12--19, 39}, year = {2012},
+}
+@article{sinha2021,
+  author       = {Sinha, Tanmay and Kapur, Manu},
+  title        = {When Problem Solving Followed by Instruction Works: Evidence for Productive Failure},
+  journaltitle = {Review of Educational Research},
+  volume       = {91}, number = {5}, pages = {761--798}, year = {2021},
+}
+@article{freeman2014,
+  author       = {Freeman, Scott and Eddy, Sarah L. and McDonough, Miles and Smith, Michelle K. and Okoroafor, Nnadozie and Jordt, Hannah and Wenderoth, Mary Pat},
+  title        = {Active Learning Increases Student Performance in Science, Engineering, and Mathematics},
+  journaltitle = {Proceedings of the National Academy of Sciences},
+  volume       = {111}, number = {23}, pages = {8410--8415}, year = {2014},
+}
+@article{theobald2020,
+  author       = {Theobald, Elli J. and others},
+  title        = {Active Learning Narrows Achievement Gaps for Underrepresented Students in Undergraduate Science, Technology, Engineering, and Math},
+  journaltitle = {Proceedings of the National Academy of Sciences},
+  volume       = {117}, number = {12}, pages = {6476--6483}, year = {2020},
+}
+@article{hattie2007,
+  author       = {Hattie, John and Timperley, Helen},
+  title        = {The Power of Feedback},
+  journaltitle = {Review of Educational Research},
+  volume       = {77}, number = {1}, pages = {81--112}, year = {2007},
+}
+@article{kluger1996,
+  author       = {Kluger, Avraham N. and DeNisi, Angelo},
+  title        = {The Effects of Feedback Interventions on Performance: A Historical Review, a Meta-Analysis, and a Preliminary Feedback Intervention Theory},
+  journaltitle = {Psychological Bulletin},
+  volume       = {119}, number = {2}, pages = {254--284}, year = {1996},
+}
+@article{wisniewski2020,
+  author       = {Wisniewski, Benedikt and Zierer, Klaus and Hattie, John},
+  title        = {The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research},
+  journaltitle = {Frontiers in Psychology},
+  volume       = {10}, eid = {3087}, year = {2020},
+}
+@article{black1998,
+  author       = {Black, Paul and Wiliam, Dylan},
+  title        = {Assessment and Classroom Learning},
+  journaltitle = {Assessment in Education: Principles, Policy \& Practice},
+  volume       = {5}, number = {1}, pages = {7--74}, year = {1998},
+}
+@article{bloom1984,
+  author       = {Bloom, Benjamin S.},
+  title        = {The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring},
+  journaltitle = {Educational Researcher},
+  volume       = {13}, number = {6}, pages = {4--16}, year = {1984},
+}
+@article{vanlehn2011,
+  author       = {VanLehn, Kurt},
+  title        = {The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems, and Other Tutoring Systems},
+  journaltitle = {Educational Psychologist},
+  volume       = {46}, number = {4}, pages = {197--221}, year = {2011},
+}
+@report{nickow2020,
+  author      = {Nickow, Andre and Oreopoulos, Philip and Quan, Vincent},
+  title       = {The Impressive Effects of Tutoring on PreK-12 Learning: A Systematic Review and Meta-Analysis of the Experimental Evidence},
+  type        = {NBER Working Paper}, number = {27476},
+  institution = {National Bureau of Economic Research}, year = {2020},
+}
+
+% ------------------------------------------------------------------
+%  Motivazione
+% ------------------------------------------------------------------
+@article{ryan2000,
+  author       = {Ryan, Richard M. and Deci, Edward L.},
+  title        = {Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being},
+  journaltitle = {American Psychologist},
+  volume       = {55}, number = {1}, pages = {68--78}, year = {2000},
+}
+@article{wigfield2000,
+  author       = {Wigfield, Allan and Eccles, Jacquelynne S.},
+  title        = {Expectancy--Value Theory of Achievement Motivation},
+  journaltitle = {Contemporary Educational Psychology},
+  volume       = {25}, number = {1}, pages = {68--81}, year = {2000},
+}
+@article{hulleman2009,
+  author       = {Hulleman, Chris S. and Harackiewicz, Judith M.},
+  title        = {Promoting Interest and Performance in High School Science Classes},
+  journaltitle = {Science},
+  volume       = {326}, number = {5958}, pages = {1410--1412}, year = {2009},
+}
+@article{yeager2014,
+  author       = {Yeager, David S. and Henderson, Marlone D. and Paunesku, David and Walton, Gregory M. and D'Mello, Sidney and Spitzer, Brian J. and Duckworth, Angela Lee},
+  title        = {Boring but Important: A Self-Transcendent Purpose for Learning Fosters Academic Self-Regulation},
+  journaltitle = {Journal of Personality and Social Psychology},
+  volume       = {107}, number = {4}, pages = {559--580}, year = {2014},
+}
+@article{gruber2014,
+  author       = {Gruber, Matthias J. and Gelman, Bernard D. and Ranganath, Charan},
+  title        = {States of Curiosity Modulate Hippocampus-Dependent Learning via the Dopaminergic Circuit},
+  journaltitle = {Neuron},
+  volume       = {84}, number = {2}, pages = {486--496}, year = {2014},
+}
+@article{sisk2018,
+  author       = {Sisk, Victoria F. and Burgoyne, Alexander P. and Sun, Jingze and Butler, Jennifer L. and Macnamara, Brooke N.},
+  title        = {To What Extent and Under Which Circumstances Are Growth Mind-Sets Important to Academic Achievement? Two Meta-Analyses},
+  journaltitle = {Psychological Science},
+  volume       = {29}, number = {4}, pages = {549--571}, year = {2018},
+}
+@article{yeager2019,
+  author       = {Yeager, David S. and others},
+  title        = {A National Experiment Reveals Where a Growth Mindset Improves Achievement},
+  journaltitle = {Nature},
+  volume       = {573}, number = {7774}, pages = {364--369}, year = {2019},
+}
+@article{macnamara2023,
+  author       = {Macnamara, Brooke N. and Burgoyne, Alexander P.},
+  title        = {Do Growth Mindset Interventions Impact Students' Academic Achievement? A Systematic Review and Meta-Analysis with Recommendations for Best Practices},
+  journaltitle = {Psychological Bulletin},
+  volume       = {149}, number = {3--4}, pages = {133--173}, year = {2023},
+}
+@article{crede2017,
+  author       = {Credé, Marcus and Tynan, Michael C. and Harms, Peter D.},
+  title        = {Much Ado About Grit: A Meta-Analytic Synthesis of the Grit Literature},
+  journaltitle = {Journal of Personality and Social Psychology},
+  volume       = {113}, number = {3}, pages = {492--511}, year = {2017},
+}
+@article{macnamara2014,
+  author       = {Macnamara, Brooke N. and Hambrick, David Z. and Oswald, Frederick L.},
+  title        = {Deliberate Practice and Performance in Music, Games, Sports, Education, and Professions: A Meta-Analysis},
+  journaltitle = {Psychological Science},
+  volume       = {25}, number = {8}, pages = {1608--1618}, year = {2014},
+}
+
+% ------------------------------------------------------------------
+%  Corpo, attenzione, tecnologia, intelligenza artificiale
+% ------------------------------------------------------------------
+@article{jenkins1924,
+  author       = {Jenkins, John G. and Dallenbach, Karl M.},
+  title        = {Obliviscence During Sleep and Waking},
+  journaltitle = {American Journal of Psychology},
+  volume       = {35}, number = {4}, pages = {605--612}, year = {1924},
+}
+@article{rasch2013,
+  author       = {Rasch, Björn and Born, Jan},
+  title        = {About Sleep's Role in Memory},
+  journaltitle = {Physiological Reviews},
+  volume       = {93}, number = {2}, pages = {681--766}, year = {2013},
+}
+@article{yoo2007,
+  author       = {Yoo, Seung-Schik and Hu, Peter T. and Gujar, Ninad and Jolesz, Ferenc A. and Walker, Matthew P.},
+  title        = {A Deficit in the Ability to Form New Human Memories Without Sleep},
+  journaltitle = {Nature Neuroscience},
+  volume       = {10}, number = {3}, pages = {385--392}, year = {2007},
+}
+@article{hillman2008,
+  author       = {Hillman, Charles H. and Erickson, Kirk I. and Kramer, Arthur F.},
+  title        = {Be Smart, Exercise Your Heart: Exercise Effects on Brain and Cognition},
+  journaltitle = {Nature Reviews Neuroscience},
+  volume       = {9}, number = {1}, pages = {58--65}, year = {2008},
+}
+@article{dewar2012,
+  author       = {Dewar, Michaela and Alber, Jessica and Butler, Christopher and Cowan, Nelson and Della Sala, Sergio},
+  title        = {Brief Wakeful Resting Boosts New Memories Over the Long Term},
+  journaltitle = {Psychological Science},
+  volume       = {23}, number = {9}, pages = {955--960}, year = {2012},
+}
+@article{sana2013,
+  author       = {Sana, Faria and Weston, Tina and Cepeda, Nicholas J.},
+  title        = {Laptop Multitasking Hinders Classroom Learning for Both Users and Nearby Peers},
+  journaltitle = {Computers \& Education},
+  volume       = {62}, pages = {24--31}, year = {2013},
+}
+@article{mueller2014,
+  author       = {Mueller, Pam A. and Oppenheimer, Daniel M.},
+  title        = {The Pen Is Mightier Than the Keyboard: Advantages of Longhand Over Laptop Note Taking},
+  journaltitle = {Psychological Science},
+  volume       = {25}, number = {6}, pages = {1159--1168}, year = {2014},
+}
+@article{urry2021,
+  author       = {Urry, Heather L. and others},
+  title        = {Don't Ditch the Laptop Just Yet: A Direct Replication of Mueller and Oppenheimer's (2014) Study 1 Plus Mini Meta-Analyses Across Similar Studies},
+  journaltitle = {Psychological Science},
+  volume       = {32}, number = {3}, pages = {326--339}, year = {2021},
+  doi          = {10.1177/0956797620965541},
+}
+@article{delgado2018,
+  author       = {Delgado, Pablo and Vargas, Cristina and Ackerman, Rakefet and Salmerón, Ladislao},
+  title        = {Don't Throw Away Your Printed Books: A Meta-Analysis on the Effects of Reading Media on Reading Comprehension},
+  journaltitle = {Educational Research Review},
+  volume       = {25}, pages = {23--38}, year = {2018},
+}
+@article{beland2016,
+  author       = {Beland, Louis-Philippe and Murphy, Richard},
+  title        = {Ill Communication: Technology, Distraction \& Student Performance},
+  journaltitle = {Labour Economics},
+  volume       = {41}, pages = {61--76}, year = {2016},
+}
+@article{goodyear2025,
+  author       = {Goodyear, Victoria A. and others},
+  title        = {School Phone Policies and Their Association with Mental Wellbeing, Phone Use, and Social Media Use (SMART Schools): A Cross-Sectional Observational Study},
+  journaltitle = {The Lancet Regional Health -- Europe},
+  eid          = {101211}, year = {2025},
+  doi          = {10.1016/j.lanepe.2025.101211},
+}
+@article{risko2016,
+  author       = {Risko, Evan F. and Gilbert, Sam J.},
+  title        = {Cognitive Offloading},
+  journaltitle = {Trends in Cognitive Sciences},
+  volume       = {20}, number = {9}, pages = {676--688}, year = {2016},
+}
+@article{bastani2025,
+  author       = {Bastani, Hamsa and Bastani, Osbert and Sungu, Alp and Ge, Haosen and Kabakcı, Özge and Mariman, Rei},
+  title        = {Generative AI Without Guardrails Can Harm Learning: Evidence from High School Mathematics},
+  journaltitle = {Proceedings of the National Academy of Sciences},
+  volume       = {122}, number = {26}, eid = {e2422633122}, year = {2025},
+  doi          = {10.1073/pnas.2422633122},
+}
+@article{kestin2025,
+  author       = {Kestin, Gregory and Miller, Kelly and Klales, Anna and Milbourne, Timothy and Ponti, Gregorio},
+  title        = {AI Tutoring Outperforms In-Class Active Learning: An RCT Introducing a Novel Research-Based Design in an Authentic Educational Setting},
+  journaltitle = {Scientific Reports},
+  volume       = {15}, year = {2025},
+  doi          = {10.1038/s41598-025-97652-6},
+}
+@online{kosmyna2025,
+  author     = {Kosmyna, Nataliya and others},
+  title      = {Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task},
+  year       = {2025},
+  eprinttype = {arxiv}, eprint = {2506.08872},
+  note       = {Preprint non sottoposto a revisione paritaria},
+}
+
+% ------------------------------------------------------------------
+%  Miti
+% ------------------------------------------------------------------
+@article{pashler2008,
+  author       = {Pashler, Harold and McDaniel, Mark and Rohrer, Doug and Bjork, Robert},
+  title        = {Learning Styles: Concepts and Evidence},
+  journaltitle = {Psychological Science in the Public Interest},
+  volume       = {9}, number = {3}, pages = {105--119}, year = {2008},
+}
+@article{dekker2012,
+  author       = {Dekker, Sanne and Lee, Nikki C. and Howard-Jones, Paul and Jolles, Jelle},
+  title        = {Neuromyths in Education: Prevalence and Predictors of Misconceptions among Teachers},
+  journaltitle = {Frontiers in Psychology},
+  volume       = {3}, eid = {429}, year = {2012},
+}
+@article{bei2023,
+  author       = {Bei, Eleni and Argiropoulos, Dimitris and Van Herwegen, Jo and others},
+  title        = {Neuromyths: Misconceptions about Neurodevelopment by Italian Teachers},
+  journaltitle = {Trends in Neuroscience and Education},
+  year         = {2023},
+}
+@article{simons2016,
+  author       = {Simons, Daniel J. and Boot, Walter R. and Charness, Neil and Gathercole, Susan E. and Chabris, Christopher F. and Hambrick, David Z. and Stine-Morrow, Elizabeth A. L.},
+  title        = {Do «Brain-Training» Programs Work?},
+  journaltitle = {Psychological Science in the Public Interest},
+  volume       = {17}, number = {3}, pages = {103--186}, year = {2016},
+}
+@article{rayner2016,
+  author       = {Rayner, Keith and Schotter, Elizabeth R. and Masson, Michael E. J. and Potter, Mary C. and Treiman, Rebecca},
+  title        = {So Much to Read, So Little Time: How Do We Read, and Can Speed Reading Help?},
+  journaltitle = {Psychological Science in the Public Interest},
+  volume       = {17}, number = {1}, pages = {4--34}, year = {2016},
+}
+@article{letrud2018,
+  author       = {Letrud, Kåre and Hernes, Sigbjørn},
+  title        = {Excavating the Origins of the Learning Pyramid Myths},
+  journaltitle = {Cogent Education},
+  volume       = {5}, number = {1}, eid = {1518638}, year = {2018},
+}
+
+% ------------------------------------------------------------------
+%  Età, DSA, ADHD, bisogni educativi speciali
+% ------------------------------------------------------------------
+@article{karpicke2016,
+  author       = {Karpicke, Jeffrey D. and Blunt, Janell R. and Smith, Megan A.},
+  title        = {Retrieval-Based Learning: Positive Effects of Retrieval Practice in Elementary School Children},
+  journaltitle = {Frontiers in Psychology},
+  volume       = {7}, eid = {350}, year = {2016},
+}
+@article{vlach2012,
+  author       = {Vlach, Haley A. and Sandhofer, Catherine M.},
+  title        = {Distributing Learning Over Time: The Spacing Effect in Children's Acquisition and Generalization of Science Concepts},
+  journaltitle = {Child Development},
+  volume       = {83}, number = {4}, pages = {1137--1144}, year = {2012},
+}
+@article{cooper2006,
+  author       = {Cooper, Harris and Robinson, Jorgianne Civey and Patall, Erika A.},
+  title        = {Does Homework Improve Academic Achievement? A Synthesis of Research, 1987--2003},
+  journaltitle = {Review of Educational Research},
+  volume       = {76}, number = {1}, pages = {1--62}, year = {2006},
+}
+@article{meyer2013,
+  author       = {Meyer, Ashley N. D. and Logan, Jessica M.},
+  title        = {Taking the Testing Effect Beyond the College Freshman: Benefits for Lifelong Learning},
+  journaltitle = {Psychology and Aging},
+  volume       = {28}, number = {1}, pages = {142--147}, year = {2013},
+}
+@report{iss2022,
+  author      = {{Istituto Superiore di Sanità}},
+  title       = {Linea guida sulla gestione dei disturbi specifici dell'apprendimento},
+  institution = {Istituto Superiore di Sanità}, location = {Roma}, year = {2022},
+}
+@article{tressoldi2001,
+  author       = {Tressoldi, Patrizio E. and Stella, Giacomo and Faggella, Marzia},
+  title        = {The Development of Reading Speed in Italians with Dyslexia: A Longitudinal Study},
+  journaltitle = {Journal of Learning Disabilities},
+  volume       = {34}, number = {5}, pages = {414--417}, year = {2001},
+}
+@article{swanson1999,
+  author       = {Swanson, H. Lee},
+  title        = {Instructional Components That Predict Treatment Outcomes for Students with Learning Disabilities: Support for a Combined Strategy and Direct Instruction Model},
+  journaltitle = {Learning Disabilities Research \& Practice},
+  volume       = {14}, number = {3}, pages = {129--140}, year = {1999},
+}
+@article{gersten2009,
+  author       = {Gersten, Russell and Chard, David J. and Jayanthi, Madhavi and Baker, Scott K. and Morphy, Paul and Flojo, Jonathan},
+  title        = {Mathematics Instruction for Students with Learning Disabilities: A Meta-Analysis of Instructional Components},
+  journaltitle = {Review of Educational Research},
+  volume       = {79}, number = {3}, pages = {1202--1242}, year = {2009},
+}
+@article{wood2018,
+  author       = {Wood, Sarah G. and Moxley, Jerad H. and Tighe, Elizabeth L. and Wagner, Richard K.},
+  title        = {Does Use of Text-to-Speech and Related Read-Aloud Tools Improve Reading Comprehension for Students with Reading Disabilities? A Meta-Analysis},
+  journaltitle = {Journal of Learning Disabilities},
+  volume       = {51}, number = {1}, pages = {73--84}, year = {2018},
+}
+@article{gregg2012,
+  author       = {Gregg, Noel and Nelson, Jason M.},
+  title        = {Meta-Analysis on the Effectiveness of Extra Time as a Test Accommodation for Transitioning Adolescents with Learning Disabilities: More Questions Than Answers},
+  journaltitle = {Journal of Learning Disabilities},
+  volume       = {45}, number = {2}, pages = {128--138}, year = {2012},
+}
+@article{melbylervag2013,
+  author       = {Melby-Lervåg, Monica and Hulme, Charles},
+  title        = {Is Working Memory Training Effective? A Meta-Analytic Review},
+  journaltitle = {Developmental Psychology},
+  volume       = {49}, number = {2}, pages = {270--291}, year = {2013},
+}
+@article{melbylervag2016,
+  author       = {Melby-Lervåg, Monica and Redick, Thomas S. and Hulme, Charles},
+  title        = {Working Memory Training Does Not Improve Performance on Measures of Intelligence or Other Measures of «Far Transfer»: Evidence From a Meta-Analytic Review},
+  journaltitle = {Perspectives on Psychological Science},
+  volume       = {11}, number = {4}, pages = {512--534}, year = {2016},
+}
+@article{kuster2018,
+  author       = {Kuster, Sanne M. and van Weerdenburg, Marjolijn and Gompel, Marjolein and Bosman, Anna M. T.},
+  title        = {Dyslexie Font Does Not Benefit Reading in Children with or without Dyslexia},
+  journaltitle = {Annals of Dyslexia},
+  volume       = {68}, number = {1}, pages = {25--42}, year = {2018},
+}
+@article{knouse2016,
+  author       = {Knouse, Laura E. and Rawson, Katherine A. and Vaughn, Kalif E. and Dunlosky, John},
+  title        = {Does Testing Improve Learning for College Students With Attention-Deficit/Hyperactivity Disorder?},
+  journaltitle = {Clinical Psychological Science},
+  volume       = {4}, number = {1}, pages = {136--143}, year = {2016},
+}
+@article{dupaul2012,
+  author       = {DuPaul, George J. and Eckert, Tanya L. and Vilardo, Brigid},
+  title        = {The Effects of School-Based Interventions for Attention Deficit Hyperactivity Disorder: A Meta-Analysis 1996--2010},
+  journaltitle = {School Psychology Review},
+  volume       = {41}, number = {4}, pages = {387--412}, year = {2012},
+}
+@article{steenbergenhu2016,
+  author       = {Steenbergen-Hu, Saiying and Makel, Matthew C. and Olszewski-Kubilius, Paula},
+  title        = {What One Hundred Years of Research Says About the Effects of Ability Grouping and Acceleration on K--12 Students' Academic Achievement},
+  journaltitle = {Review of Educational Research},
+  volume       = {86}, number = {4}, pages = {849--899}, year = {2016},
+}
+@article{barroso2021,
+  author       = {Barroso, Connie and Ganley, Colleen M. and McGraw, Amanda L. and Geer, Elyssa A. and Hart, Sara A. and Daucourt, Mia C.},
+  title        = {A Meta-Analysis of the Relation Between Math Anxiety and Math Achievement},
+  journaltitle = {Psychological Bulletin},
+  volume       = {147}, number = {2}, pages = {134--168}, year = {2021},
+}
+@article{boysen2024,
+  author       = {Boysen, Guy A.},
+  title        = {A Critical Analysis of the Research Evidence Behind CAST's Universal Design for Learning Guidelines},
+  journaltitle = {Policy Futures in Education},
+  year         = {2024},
+  doi          = {10.1177/14782103241255428},
+}
+
+% ------------------------------------------------------------------
+%  Dati italiani e internazionali
+% ------------------------------------------------------------------
+@report{oecd2026pisa,
+  author      = {{OECD}},
+  title       = {PISA 2025 Results (Volume I): Future-Ready Students},
+  institution = {OECD Publishing}, location = {Paris}, year = {2026},
+}
+@report{oecd2024piaac,
+  author      = {{OECD}},
+  title       = {Survey of Adult Skills 2023: Italy},
+  type        = {Country note},
+  institution = {OECD Publishing}, location = {Paris}, year = {2024},
+}
+@report{oecd2025talis,
+  author      = {{OECD}},
+  title       = {Results from TALIS 2024: Italy},
+  type        = {Country note},
+  institution = {OECD Publishing}, location = {Paris}, year = {2025},
+}
+@report{invalsi2026,
+  author      = {{INVALSI}},
+  title       = {Rapporto nazionale prove INVALSI 2026},
+  institution = {INVALSI}, location = {Roma}, year = {2026},
+}
+@report{almalaurea2026,
+  author      = {{Consorzio Interuniversitario AlmaLaurea}},
+  title       = {XXVIII Indagine sul Profilo e sulla Condizione occupazionale dei laureati. Rapporto 2026},
+  institution = {AlmaLaurea}, location = {Bologna}, year = {2026},
 }

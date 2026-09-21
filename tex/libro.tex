@@ -1,13 +1,20 @@
 %% ===================================================================
-%%  libro.tex — file principale
-%%  Compilare con:  latexmk        (usa lualatex + biber, vedi latexmkrc)
+%%  libro.tex — file principale di «Studiare per la vita»
+%%  Compilare con:  latexmk        (lualatex + biber, vedi latexmkrc)
 %%  oppure:         lualatex libro && biber libro && lualatex libro ×2
+%%
+%%  Struttura: 6 parti, 26 capitoli, congedo, 3 appendici (v1.1:
+%%  pubblico della prima fase = università).
+%%  La scheda di ogni capitolo è in ricerca/06_indice-ragionato.md.
+%%  I testi provvisori sono marcati con \segnaposto{…}: in grigio nelle
+%%  bozze; con l'opzione «stampa» della classe diventano errori.
 %% ===================================================================
 \documentclass{studiolibro}
-% Opzioni utili:  \documentclass[monocromo]{studiolibro}   stampa a un colore
-%                 \documentclass[bozza]{studiolibro}       mostra la gabbia
+%  Opzioni:  [monocromo]  stampa a un colore
+%            [bozza]      mostra la gabbia del testo
+%            [stampa]     versione finale: errore se restano segnaposto
 
-% ------------------------------------------------------------ bibliografia
+%% ------------------------------------------------------- bibliografia
 \usepackage[
   backend=biber,
   style=authoryear-comp,
@@ -22,44 +29,96 @@
 \setlength{\bibhang}{1.2em}
 \setlength{\bibitemsep}{0.25\baselineskip}
 \DefineBibliographyStrings{italian}{andothers={et\addabbrvspace al\adddot}}
+\AtBeginBibliography{\setlength{\emergencystretch}{3em}}
+%  Durante la stesura si stampano tutte le voci del file .bib, anche
+%  quelle non ancora citate: togliere \nocite{*} per la versione finale.
+\nocite{*}
 
-% ------------------------------------------------------------ dati del libro
+%% ------------------------------------------------------- dati del libro
 \titolo{Studiare per la vita}
 \sottotitolo{Come si impara davvero, e perché}
 \autore{Luca Iacolettig}
-\editore{Edizioni study-study-study}
+\editore{lucalevi.com}                % pubblicazione in proprio: PDF gratuito + paperback Amazon
 \luogo{Cormons}
-\anno{2026}
+\anno{2027}                            % anno previsto di pubblicazione
 \edizione{Prima edizione}
-\isbn{000-00-00000-00-0}
+\isbn{}                                % edizione a stampa: ISBN Amazon o proprio (ricerca 11)
 
-% ------------------------------------------------------------ comandi propri
+%% ------------------------------------------------------- comandi propri
 % (aggiungi qui eventuali macro personali)
 
 \begin{document}
 
-% ================================================================ apertura
+%% ================================================================ apertura
 \frontmatter
 \occhietto
 \frontespizio
-\colophon[Tutti i diritti riservati.]
+%  Licenza del PDF gratuito: da decidere (proposta CC BY-NC-ND 4.0;
+%  indice ragionato §10.2). Con una licenza CC non si scrive «Tutti i
+%  diritti riservati».
+\colophon[\segnaposto{licenza da decidere, proposta: Creative Commons BY-NC-ND 4.0}\par
+  Edizione digitale gratuita: \url{https://www.lucalevi.com}\par
+  Libro senza scopo di lucro.]
 \dedica{A chi non ha mai smesso di fare domande.}
-\epigrafelibro{Non scholae sed vitae discimus.}{motto scolastico, da Seneca}
+%  Il motto è il rovesciamento moderno di Seneca, Ep. 106, 12 (non vitae
+%  sed scholae discimus, detto come critica): vedi ricerca 03, §3.4 e §6.
+\epigrafelibro{Non scholae sed vitae discimus.}{motto scolastico, rovesciamento di Seneca, Ep. 106, 12}
 
 \tableofcontents
 
 \input{frontmatter/prefazione}
+\input{frontmatter/come-usare}
 
-% ================================================================ testo
+%% ================================================================ testo
 \mainmatter
+
 \part{Perché si studia}
-\input{capitoli/capitolo01}
-\input{capitoli/capitolo02}
+\input{capitoli/cap01-vita}
+\input{capitoli/cap02-oggi}
+\input{capitoli/cap03-sapere}
 
-\part{Come si studia}
-\input{capitoli/capitolo03}
+\part{Come funziona la memoria}
+\input{capitoli/cap04-storia}
+\input{capitoli/cap05-cervello}
+\input{capitoli/cap06-dueforze}
+\input{capitoli/cap07-inganni}
 
-% ================================================================ chiusura
+\part{Il metodo}
+\input{capitoli/cap08-recupero}
+\input{capitoli/cap09-tempo}
+\input{capitoli/cap10-alternanza}
+\input{capitoli/cap11-capire}
+\input{capitoli/cap12-immagini}
+\input{capitoli/cap13-insegnare}
+\input{capitoli/cap14-metodo}
+
+\part{Le condizioni dell'apprendimento}
+\input{capitoli/cap15-corpo}
+\input{capitoli/cap16-attenzione}
+\input{capitoli/cap17-ia}
+\input{capitoli/cap18-motivazione}
+
+\part{Studiare all'università}
+\input{capitoli/cap19-transizione}
+\input{capitoli/cap20-semestre}
+\input{capitoli/cap21-discipline}
+\input{capitoli/cap22-dsa}
+
+\part{Per chi insegna all'università}
+\input{capitoli/cap23-docenti}
+\input{capitoli/cap24-valutare}
+\input{capitoli/cap25-miti}
+\input{capitoli/cap26-formatori}
+
+\input{capitoli/congedo}
+
+%% ================================================================ appendici
+\appendix
+\input{appendici/appA-indagine}
+\input{appendici/appB-schede}
+\input{appendici/appC-glossario}
+
+%% ================================================================ chiusura
 \backmatter
 \chapter{Bibliografia}
 \printbibliography[heading=none]

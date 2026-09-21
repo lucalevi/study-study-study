@@ -1,0 +1,28 @@
+%% ===================================================================
+%%  modello.tex — documento di prova con tutti gli elementi della classe
+%%  Compilare dalla cartella tex/:  latexmk modelli/modello.tex
+%%  (oppure copiarlo in tex/ e compilarlo lì). Non fa parte del libro.
+%% ===================================================================
+\documentclass{studiolibro}
+\usepackage[backend=biber, style=authoryear-comp, dashed=true,
+  maxcitenames=2, giveninits=true, doi=false, isbn=false, url=false]{biblatex}
+\addbibresource{bibliografia.bib}
+\renewcommand*{\mkbibnamefamily}[1]{\textsc{#1}}
+\titolo{Studiare per la vita}
+\sottotitolo{Come si impara davvero, e perché}
+\autore{Luca Iacolettig}
+\editore{Edizioni study-study-study}
+\luogo{Cormons}
+\anno{2027}
+\begin{document}
+\frontmatter
+\occhietto
+\frontespizio
+\mainmatter
+\part{Parte di prova}
+\input{modelli/capitolo-modello}
+\backmatter
+\chapter{Bibliografia}
+\printbibliography[heading=none]
+\finis
+\end{document}

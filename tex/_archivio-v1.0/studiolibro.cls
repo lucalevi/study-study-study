@@ -8,10 +8,9 @@
 %%  Opzioni della classe:
 %%    monocromo  -> stampa a un solo colore (niente rosso «rubrica»)
 %%    bozza      -> mostra la gabbia del testo (per controllare il layout)
-%%    stampa     -> versione definitiva: errore se restano \segnaposto
 %% ===================================================================
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{studiolibro}[2026/09/21 v1.1 Classe per il libro study-study-study]
+\ProvidesClass{studiolibro}[2026/09/19 v1.0 Classe per il libro study-study-study]
 
 \RequirePackage{iftex}
 \RequireLuaTeX
@@ -19,10 +18,8 @@
 % ---------------------------------------------------------------- opzioni
 \newif\ifsl@monocromo \sl@monocromofalse
 \newif\ifsl@bozza     \sl@bozzafalse
-\newif\ifsl@stampa    \sl@stampafalse
 \DeclareOption{monocromo}{\sl@monocromotrue}
 \DeclareOption{bozza}{\sl@bozzatrue}
-\DeclareOption{stampa}{\sl@stampatrue}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax
 
@@ -197,8 +194,6 @@
   \or tredicesimo\or quattordicesimo\or quindicesimo\or sedicesimo%
   \or diciassettesimo\or diciottesimo\or diciannovesimo\or ventesimo%
   \or ventunesimo\or ventiduesimo\or ventitreesimo\or ventiquattresimo%
-  \or venticinquesimo\or ventiseiesimo\or ventisettesimo\or ventottesimo%
-  \or ventinovesimo\or trentesimo%
   \else\number#1\fi}
 \newcommand{\sl@ordinalef}[1]{%
   \ifcase#1\or prima\or seconda\or terza\or quarta\or quinta\or sesta%
@@ -265,46 +260,15 @@
   {}{}{\hfill\contentspage}
 
 % --- Epigrafe all'inizio del capitolo --------------------------------
-% \epigrafe[traduzione]{testo}{fonte} — larghezza = gabbia / φ
-% Il testo originale (latino, greco…) va in corsivo; la traduzione,
-% facoltativa, è composta in tondo tra virgolette basse, più piccola.
-\newcommand{\epigrafe}[3][]{%
+% \epigrafe{testo}{fonte} — larghezza = gabbia / φ
+\newcommand{\epigrafe}[2]{%
   \vspace*{-\baselineskip}%
   {\hfill\begin{minipage}{0.618\textwidth}
-     \small\itshape\raggedleft #2\par
-     \ifblank{#1}{}{%
-       \vspace{0.2\baselineskip}%
-       {\normalfont\footnotesize «#1»}\par}%
+     \small\itshape\raggedleft #1\par
      \vspace{0.3\baselineskip}
-     {\normalfont\footnotesize\scshape — #3}\par
+     {\normalfont\footnotesize\scshape — #2}\par
    \end{minipage}\par}%
   \vspace{2\baselineskip}}
-
-% --- Appendici --------------------------------------------------------
-% Dopo \appendix i capitoli si intitolano «appendice A, B…».
-\g@addto@macro\appendix{%
-  \titleformat{\chapter}[display]
-    {\centering\normalfont}
-    {{\color{rubrica}\scshape\spaziato[180]{appendice \Alph{chapter}}}}
-    {\baselineskip}
-    {\LARGE\itshape}
-    [\vspace{0.6\baselineskip}\filettocapitolo]}
-
-% --- Capitolo non numerato che compare nell'indice (es. Congedo) -----
-% \capitolosenzanumero{Titolo}
-\newcommand{\capitolosenzanumero}[1]{%
-  \chapter*{#1}\addcontentsline{toc}{chapter}{#1}\markboth{#1}{#1}}
-
-% --- Segnaposto per le bozze -----------------------------------------
-% \segnaposto{testo} — testo provvisorio, in grigio e tra parentesi
-% quadre; con l'opzione «stampa» della classe produce un errore, così
-% nessun segnaposto finisce per sbaglio nel libro stampato.
-\newcommand{\segnaposto}[1]{%
-  \ifsl@stampa
-    \ClassError{studiolibro}{Segnaposto rimasto nel testo: #1}{}%
-  \else
-    {\color{gray}\itshape[#1]}%
-  \fi}
 
 % ==================================================================
 % 10. CAPILETTERA
