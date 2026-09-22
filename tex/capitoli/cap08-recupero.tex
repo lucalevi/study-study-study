@@ -1,50 +1,546 @@
 % ------------------------------------------------------------------
 %  Capitolo 8 — Ricordare per ricordare
 %  Parte III
-%  Ricerca di riferimento: ricerca 01 §5.1; 03 §2.5, §4.4; 05 §7
-%  Voci bibliografiche principali: roediger2006, karpicke2008, karpicke2011, rowland2014, adesope2017, yang2021, butler2010, agarwal2019
-%  Epigrafe: ✔ verificata sul testo (vedi ricerca 03 e registro, ricerca 00)
+%  Ricerca di riferimento: ricerca 01 §2.5, §4, §5.1; 03 §2.5, §4.4, §5.3; 05 §7
+%  Voci bibliografiche principali: roediger2006, karpicke2008, karpicke2011,
+%    rowland2014, adesope2017, yang2021, donoghue2021, butler2010,
+%    roediger2011, agarwal2014, agarwal2019, smith2016, spitzer1939,
+%    gates1917, james1890, karpicke2009, murray2025
+%  Epigrafe: ✔ verificata sul testo (prima parte; la chiusa, non citata,
+%    è il punto K-10 del registro)
 %  Scheda del capitolo: ricerca/06_indice-ragionato.md, capitolo 8
+%
+%  STATO: prima stesura del capitolo di prova (22/09/2026), circa
+%  4.000 parole. Dati verificati: S-01 (e dati completi dell'esp. 2:
+%  83/78/71% a 5 minuti, 40/56/61% a una settimana, 14,2 / 10,3 / 3,4
+%  letture, fiducia 4,8 / 4,2 / 4,0); S-02; S-03 (Rowland: 159 effetti,
+%  g = 0,50); S-04 (Agarwal 2014: 1.408 studenti, 72%); S-06 (Spitzer:
+%  3.605 alunni, 91 scuole); James 1890, p. 686 (K-29, parte James);
+%  Smith et al. 2016 (abstract). Resta da verificare: Bacone (K-29),
+%  segnalato in nota con \segnaposto.
 % ------------------------------------------------------------------
 \chapter{Ricordare per ricordare}
 \label{cap:recupero}
 
 \epigrafe[gli esercizi conservano la memoria facendo ricordare di nuovo]{αἱ μελέται τὴν μνήμην σῴζουσι τῷ ἐπαναμιμνήσκειν}{Aristotele, De memoria et reminiscentia 451a12}
 
-\iniziale{Q}{uesto capitolo} \segnaposto{apertura: da scrivere — vedi la scheda nell'indice ragionato}.
+\iniziale{S}{aint Louis}, Missouri, primi anni Duemila. Centottanta
+studenti della Washington University accettano di partecipare a un
+esperimento di psicologia. Il compito è semplice, quasi banale: leggere
+un breve testo di scienze, di poco più di duecentocinquanta parole, e
+poi ricordarlo. Gli studenti vengono divisi in tre gruppi, e ciascun
+gruppo ha a disposizione quattro periodi di cinque minuti.
+
+Il primo gruppo usa tutti e quattro i periodi per leggere il testo:
+legge, rilegge, rilegge ancora. È la strategia che la maggior parte
+degli studenti, se potesse scegliere, sceglierebbe. Il secondo gruppo
+legge il testo per tre periodi e nel quarto, a libro chiuso, scrive
+tutto ciò che ricorda. Il terzo gruppo legge il testo una volta sola;
+poi, per tre periodi di fila, chiude il foglio e prova a scriverlo a
+memoria. Alla fine di tutto, prima di andarsene, ogni studente dice
+quanto pensa che ricorderà di quel testo tra una settimana.
+
+Una parte degli studenti viene messa alla prova subito, cinque minuti
+dopo. Il risultato è quello che ti aspetti: chi ha letto quattro volte
+ricorda l'83\% delle idee del testo, chi ha letto tre volte il 78\%, chi
+ha letto una volta sola il 71\%. Leggere di più aiuta; anche gli
+studenti lo sapevano, e infatti quelli che avevano solo riletto erano i
+più sicuri di sé. Ma gli altri studenti tornano in laboratorio una
+settimana dopo, e il quadro si capovolge. Chi aveva solo letto ricorda
+il 40\% del testo; chi l'aveva letto tre volte e ricordato una, il 56\%;
+chi l'aveva letto una volta e ricordato tre, il 61\%
+(figura~\ref{fig:roediger}). Il gruppo che aveva letto di più -- in
+media quattordici volte, contro tre e mezza del gruppo che si era
+interrogato -- è quello che ha dimenticato di più.
+
+È l'esperimento con cui Henry Roediger e Jeffrey Karpicke, nel 2006,
+hanno riportato al centro della psicologia dell'apprendimento un'idea
+antichissima \parencite{roediger2006}. L'idea è questa: ciò che rafforza
+un ricordo non è il tempo passato davanti al libro, ma lo sforzo di
+richiamarlo dalla memoria. Il test, nelle parole della ricerca, non è
+soltanto uno strumento per misurare quanto si è imparato: è uno
+strumento per imparare. Gli inglesi lo chiamano \emph{testing effect},
+\enquote{effetto del test}, o \emph{retrieval practice}; in italiano
+diremo \emph{pratica del recupero}. Questo capitolo spiega perché è il
+modo più potente di studiare che si conosca, e come metterlo in pratica
+da domani.
+
+\begin{figure}[tbp]
+  \centering
+  \begin{tikzpicture}[x=3.2cm, y=0.042cm, font=\footnotesize]
+    \draw[filetto!70, line width=0.3pt] (-0.15,30) -- (1.15,30);
+    \draw[filetto!70, line width=0.3pt] (-0.15,30) -- (-0.15,90);
+    \foreach \y in {30,40,50,60,70,80,90}
+      \draw[filetto!70] (-0.15,\y) -- (-0.18,\y) node[left] {\cifremaiuscole\y};
+    \node[rotate=90, above] at (-0.36,60) {\itshape \% di idee ricordate};
+    \node[below] at (0,29) {\itshape dopo 5 minuti};
+    \node[below] at (1,29) {\itshape dopo una settimana};
+    % SSSS: letto quattro volte
+    \draw[inchiostro, line width=0.6pt] (0,83) -- (1,40);
+    \fill[inchiostro] (0,83) circle (1.3pt) (1,40) circle (1.3pt);
+    % SSST
+    \draw[inchiostro!60, line width=0.6pt, dashed] (0,78) -- (1,56);
+    \fill[inchiostro!60] (0,78) circle (1.3pt) (1,56) circle (1.3pt);
+    % STTT: letto una volta, ricordato tre
+    \draw[rubrica, line width=0.8pt] (0,71) -- (1,61);
+    \fill[rubrica] (0,71) circle (1.5pt) (1,61) circle (1.5pt);
+    \node[anchor=west, rubrica] at (1.03,62) {\itshape 1 lettura, 3 recuperi};
+    \node[anchor=west, inchiostro!70] at (1.03,53.5) {\itshape 3 letture, 1 recupero};
+    \node[anchor=west] at (1.03,40) {\itshape 4 letture};
+  \end{tikzpicture}
+  \caption{L'esperimento di \textcite{roediger2006}, esperimento 2.
+    Subito dopo lo studio va meglio chi ha riletto di più; una settimana
+    dopo va meglio chi ha passato il tempo a ricordare.}
+  \label{fig:roediger}
+\end{figure}
 
 \section{Da Aristotele a Roediger}
 
-\segnaposto{da scrivere}
+L'idea non era nuova, e i due psicologi lo sapevano bene.
+Più di ventitré secoli prima, in un breve trattato \emph{Sulla memoria e
+la reminiscenza}, Aristotele aveva scritto la frase che apre questo
+capitolo: \enquote{gli esercizi conservano la memoria facendo ricordare
+di nuovo}.\footnote{Aristotele, \emph{De memoria et reminiscentia}
+451a12.} La parola che usa per \enquote{esercizi}, \emph{melétai}, indica
+una pratica ripetuta, un allenamento; il verbo, \emph{epanamimnḗskein},
+significa \enquote{richiamare di nuovo alla mente}. Non parla di test
+né di voti, naturalmente: parla dell'esercizio di rievocare. Poco oltre
+aggiunge un'osservazione acutissima: ricordare non è guardare dentro un
+archivio, ma \enquote{una sorta di ragionamento}, una ricerca attiva che
+procede da un ricordo all'altro.\footnote{Aristotele, \emph{De memoria}
+453a.}
+
+Sedici secoli dopo, Tommaso d'Aquino riprende Aristotele quasi alla
+lettera. Tra le quattro regole che propone per ricordare bene, l'ultima
+è questa: \emph{oportet quod ea frequenter meditemur quae volumus
+memorari}, \enquote{bisogna meditare spesso le cose che vogliamo
+ricordare}; e, cita il Filosofo, \emph{meditationes memoriam salvant},
+\enquote{le meditazioni conservano la memoria}.\footnote{Tommaso
+d'Aquino, \emph{Summa theologiae} II-II, q.~49, a.~1, ad~2. Le altre tre
+regole riguardano le immagini, l'ordine e l'attenzione: le ritroveremo
+nei capitoli~\ref{cap:storia} e~\ref{cap:immagini}.} Nel Seicento
+Francesco Bacone osserva che un testo letto venti volte si impara a
+memoria meno facilmente di un testo letto dieci volte, se nel frattempo
+si prova a recitarlo e si guarda il libro solo quando la memoria viene
+meno.\footnote{Francis Bacon, \emph{Novum Organum} (1620), II,
+26. \segnaposto{verificare il testo latino e la numerazione
+sull'edizione Spedding, registro K-29}} E nel 1890 William James, il
+padre della psicologia americana, lo dice con una chiarezza che non ha
+bisogno di commento: \enquote{Una curiosa particolarità della nostra
+memoria è che le cose si imprimono meglio con la ripetizione attiva che
+con quella passiva. Voglio dire che quando si impara a memoria, e si sa
+quasi tutto il pezzo, conviene aspettare e richiamarlo con uno sforzo
+dall'interno, piuttosto che guardare di nuovo il
+libro}.\footnote{\textcite[686]{james1890}.}
+
+Poi arrivano i numeri. Nel 1917 Arthur Gates mostra, con liste di
+sillabe e con brevi biografie, che gli studenti che dedicano buona
+parte del tempo di studio a \emph{recitare} a libro chiuso ricordano
+più di quelli che si limitano a leggere \parencite{gates1917}. Nel 1939
+Herbert Spitzer realizza quello che è forse il primo grande esperimento
+in classe della storia della psicologia: 3.605 alunni di prima media
+(la sesta classe americana), cioè tutti quelli di novantuno scuole di
+nove città dello Iowa, leggono brevi testi e vengono interrogati a
+intervalli diversi \parencite{spitzer1939}. Chi viene interrogato subito
+dopo la lettura dimentica molto meno, nelle settimane seguenti, di chi
+non lo è. La conclusione di Spitzer è netta: le prove e gli esami
+\enquote{sono strumenti di apprendimento, e non dovrebbero essere
+considerati solo strumenti per misurare il profitto degli alunni}.
+
+La frase di Spitzer ha più di ottant'anni. Per decenni la scuola, e
+ancora di più l'università, non ne hanno tenuto conto: il test è rimasto
+qualcosa che si subisce alla fine, non qualcosa che si usa durante.
+Quando Roediger e Karpicke hanno ripreso la questione, all'inizio del
+nuovo secolo, hanno trovato un campo quasi dimenticato. Da allora è
+diventato uno dei più studiati della psicologia dell'educazione.
 
 \section{Gli esperimenti}
 
-\segnaposto{da scrivere}
+Due anni dopo il primo studio, Karpicke e Roediger ne pubblicano un
+secondo, su \emph{Science}, ancora più chiaro \parencite{karpicke2008}.
+Alcuni studenti devono imparare quaranta coppie di parole
+swahili-inglese -- \emph{mashua}, \enquote{barca}, e così via --
+alternando fasi in cui studiano le coppie e fasi in cui si mettono alla
+prova. La manipolazione è sottile: una volta che una coppia è stata
+ricordata correttamente, in alcune condizioni la si continua a
+\emph{studiare} ma non la si testa più; in altre la si continua a
+\emph{testare}. Durante l'apprendimento i gruppi procedono più o meno
+allo stesso ritmo, e tutti arrivano a ricordare l'intera lista. Una settimana dopo, invece, chi aveva
+continuato a testarsi ne ricorda circa l'80\%; chi aveva continuato
+soltanto a ristudiarle, il 36\% o il 33\%. E c'è un dettaglio che
+dovrebbe farti riflettere: alla fine dell'apprendimento gli studenti di
+tutte le condizioni avevano previsto più o meno la stessa cosa, di
+ricordare circa la metà delle coppie. Nessuno si era accorto della
+differenza. Continuare a ristudiare ciò che si sa già dà la sensazione
+di consolidarlo; in realtà, una volta che lo si sa, ciò che lo
+consolida è richiamarlo.
+
+Viene spontanea un'obiezione: d'accordo per le parole straniere e per i
+testi brevi, ma lo studio universitario chiede di capire, di collegare,
+di ragionare. Karpicke ha affrontato l'obiezione nel modo più diretto,
+mettendo la pratica del recupero a confronto con una delle strategie
+più raccomandate per studiare in profondità: le mappe concettuali
+\parencite{karpicke2011}. Gli studenti che, dopo aver letto un testo di
+scienze, avevano provato a ricordarlo a libro chiuso ottenevano
+risultati migliori di quelli che ne avevano costruito una mappa
+concettuale con il testo davanti: non solo nelle domande sui fatti, ma
+anche in quelle che chiedevano inferenze, e perfino quando la prova
+finale consisteva proprio nel disegnare una mappa concettuale. Altri
+studi hanno mostrato che ciò che si impara con il recupero si trasferisce
+meglio a domande nuove, formulate in modo diverso o riferite a situazioni
+diverse da quelle studiate \parencite{butler2010}.
+
+Tutto questo, però, era successo in laboratorio. Funziona anche in una
+classe vera, con un programma vero e con studenti che hanno altro per la
+testa? Roediger, insieme a Pooja Agarwal, Mark McDaniel e Kathleen
+McDermott, ha portato la pratica del recupero in una scuola media
+americana. Gli insegnanti proponevano brevi quiz, che contavano poco o
+nulla per il voto, su una parte degli argomenti di scienze sociali; gli
+altri argomenti venivano soltanto ripassati.
+Negli esami di fine unità e di fine semestre, gli argomenti che erano
+stati oggetto di quiz venivano ricordati molto meglio
+\parencite{roediger2011}.
+
+Da allora gli studi si sono moltiplicati, e sono diventati abbastanza
+numerosi da poter essere riassunti in \emph{meta-analisi}: ricerche che
+raccolgono tutti gli studi disponibili su un tema e ne calcolano
+l'effetto medio. La tabella~\ref{tab:metaanalisi} ne riporta tre. Per
+leggerla basta sapere che l'effetto è misurato in una scala in cui 0
+significa nessuna differenza e 0,5 è già un effetto di buona grandezza:
+vuol dire, più o meno, che lo studente medio del gruppo che si
+interroga ottiene risultati migliori di circa il 69\% degli studenti
+del gruppo di confronto. Nella ricerca educativa, dove molti interventi
+costosi producono effetti di 0,1 o 0,2, è un risultato notevole.
+
+\begin{table}[tbp]
+  \centering\small
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.37\textwidth}>{\raggedright\arraybackslash}p{0.39\textwidth}r@{}}
+    \toprule
+    \textit{Meta-analisi} & \textit{Che cosa ha raccolto} & \textit{Effetto} \\
+    \midrule
+    \textcite{rowland2014} & 159 confronti tra test e ristudio, soprattutto in laboratorio & 0,50 \\
+    \addlinespace
+    \textcite{yang2021} & 222 studi in classi reali, oltre 48.000 studenti & 0,50 \\
+    \addlinespace
+    \textcite{donoghue2021} & studi sulle dieci tecniche di studio più diffuse & 0,74 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Tre meta-analisi sulla pratica del recupero. L'effetto
+    (\emph{g} di Hedges o \emph{d} di Cohen) misura la differenza tra chi
+    si interroga e chi non lo fa, in unità di deviazione standard.}
+  \label{tab:metaanalisi}
+\end{table}
+
+La più importante, per chi studia e per chi insegna, è la seconda. Chunliang
+Yang e i suoi colleghi hanno raccolto soltanto studi condotti in classi
+reali, di ogni ordine di scuola: 222 studi, più di
+quarantottomila studenti \parencite{yang2021}. L'effetto medio è di circa
+0,5, ed è più forte quando dopo il quiz si riceve la risposta corretta,
+quando i quiz si ripetono più volte sullo stesso argomento e quando
+arrivano \emph{dopo} la spiegazione, non prima. Un'altra meta-analisi
+conclude che le prove di esercitazione giovano all'apprendimento più
+del ristudio e più di tutte le altre condizioni di confronto
+considerate \parencite{adesope2017}. In poche parole: non è un effetto
+da laboratorio. Pochi risultati della psicologia dell'educazione sono
+altrettanto solidi.
+
+Un'onestà, però, è dovuta. In \emph{matematica} le cose sono meno
+nette. Una meta-analisi recente trova, per il confronto tra test e
+ristudio in matematica, un effetto piccolo e non abbastanza solido da
+escludere che sia nullo \parencite{murray2025}. La ragione, con ogni
+probabilità, è che in matematica \enquote{richiamare} e \enquote{fare
+esercizi} sono quasi la stessa cosa: risolvere un problema senza
+guardare la soluzione è già pratica del recupero. Per chi studia una
+disciplina di problemi -- matematica, fisica, ingegneria, economia --
+la traduzione pratica del principio non è \enquote{fai più quiz}, ma
+\enquote{risolvi davvero, a libro chiuso, invece di rileggere gli
+esercizi svolti}.
+
+\subsection*{E in Italia?}
+
+Quasi tutti questi studi sono stati condotti negli Stati Uniti, in
+Europa settentrionale, in Asia orientale. Nessuno, finora, ha ripetuto
+l'esperimento di Saint Louis in un'aula italiana, con testi italiani e
+studenti italiani. Non c'è motivo di pensare che la memoria di uno
+studente di Padova o di Palermo funzioni in modo diverso; ma vedere
+l'effetto su di sé, nella propria classe, convince più di qualunque
+tabella. Nell'appendice~A propongo come farlo, e invito le università e
+le scuole che vorranno a provarci.
+
+C'è però un aspetto in cui la tradizione italiana ha qualcosa da dire.
+La nostra scuola conosce da sempre una forma di pratica del recupero che
+altrove è quasi sconosciuta: l'interrogazione orale. In teoria è uno
+strumento formidabile: lo studente deve richiamare a voce, senza
+appunti, ciò che ha studiato, e riceve subito una correzione. In
+pratica, così come si fa di solito, ne spreca gran parte del potere. È
+rara, perché in un'ora si interrogano due o tre studenti; è ad alto
+rischio, perché vale un voto che pesa; riguarda uno studente alla volta,
+mentre gli altri ascoltano, o aspettano il proprio turno; ed è spesso
+programmata, il che invita a studiare tutto nei giorni precedenti e a
+non riprenderlo più. All'università accade lo stesso con l'esame orale:
+una sola, lunga, decisiva sessione di recupero, alla fine del corso,
+dopo la quale non si torna più su quegli argomenti.
+
+La ricerca suggerisce di rovesciare le proporzioni: molti recuperi
+brevi, frequenti, a basso rischio, che coinvolgono tutti, invece di
+pochi recuperi lunghi, rari e carichi d'ansia. Non serve abolire
+l'interrogazione né l'esame orale; serve che non siano l'unica
+occasione in cui si richiama ciò che si è studiato. E se l'università
+non te ne offre altre, puoi crearle da solo: è ciò che il resto di
+questo capitolo ti insegna a fare.
 
 \section{Perché funziona}
 
-\segnaposto{da scrivere}
+Perché richiamare un'informazione dovrebbe fissarla meglio che
+rileggerla? La risposta completa è ancora oggetto di ricerca, ma alcune
+ragioni sono chiare.
+
+La prima è la più semplice. All'esame dovrai fare una cosa precisa:
+\emph{recuperare} dalla memoria, senza il libro davanti. Rileggere
+allena a riconoscere; interrogarsi allena a ricordare, cioè proprio ciò
+che servirà. È come prepararsi a una gara di corsa guardando i video
+degli allenamenti degli altri, invece di correre.
+
+La seconda riguarda la memoria stessa. Nel capitolo~\ref{cap:dueforze}
+abbiamo visto che ogni ricordo ha due forze: quanto è radicato e quanto
+è accessibile in questo momento. Subito dopo aver letto un paragrafo,
+il suo contenuto è accessibilissimo; rileggerlo non costa nulla, e
+proprio per questo aggiunge poco. Richiamarlo quando ha cominciato a
+sbiadire costa fatica, ma ogni recupero riuscito lo radica più a fondo
+e crea nuove strade per ritrovarlo. Ricordare, come aveva intuito
+Aristotele, non è aprire un cassetto: è un'attività che modifica ciò che
+si ricorda.
+
+La terza è metacognitiva. Quando provi a ricordare e non ci riesci,
+scopri qualcosa che la rilettura ti avrebbe nascosto: che non lo sai.
+Rileggendo, tutto sembra noto (capitolo~\ref{cap:inganni}); a libro
+chiuso, i vuoti diventano visibili, e sai esattamente che cosa
+ristudiare. Per questo il recupero rende anche più efficace lo studio
+successivo: dopo aver sbattuto contro un vuoto, si rilegge con
+un'attenzione diversa.
+
+La quarta ragione è la più sorprendente, perché riguarda l'ansia.
+Molti temono che interrogarsi spesso aumenti la paura degli esami. Le
+prove dicono il contrario. In uno studio su 1.408 studenti di scuole
+medie e superiori americane che avevano fatto quiz regolari a basso
+rischio durante l'anno, il 72\% ha dichiarato che la pratica del
+recupero lo rendeva \emph{meno} nervoso prima delle verifiche e degli
+esami \parencite{agarwal2014}. E un esperimento pubblicato su
+\emph{Science} ha mostrato che ciò che è stato imparato con la pratica
+del recupero resiste allo stress: sottoposti a una situazione di stress
+acuto provocata in laboratorio, i partecipanti che avevano studiato
+rileggendo ricordavano peggio, mentre quelli che avevano studiato
+interrogandosi no \parencite{smith2016}. Chi si è già messo alla prova
+molte volte arriva all'esame sapendo di sapere. È l'unica sicurezza che
+non inganna.
+
+\begin{esercizio}
+Chiudi il libro. Senza guardare, scrivi le quattro ragioni per cui la
+pratica del recupero funziona, con un esempio per ciascuna. Poi
+riapri e controlla. Hai appena fatto ciò che questo capitolo descrive.
+\end{esercizio}
 
 \section{Come si fa}
 
-\segnaposto{da scrivere}
+Il principio si riduce a una frase: \emph{passa meno tempo a mettere
+informazioni dentro la testa e più tempo a tirarle fuori}. In pratica,
+si comincia da un ciclo semplice.
+
+\begin{inpratica}
+\textbf{Il ciclo in tre passi.}
+\begin{enumerate}
+  \item \emph{Leggi} (o ascolta la lezione) per capire, una volta, con
+        attenzione. Non sottolineare tutto: al massimo annota a margine
+        le domande che ti vengono.
+  \item \emph{Chiudi} il libro e gli appunti. Scrivi, o di' ad alta
+        voce, tutto ciò che ricordi: concetti, definizioni, esempi,
+        collegamenti. Non importa l'ordine; importa lo sforzo.
+  \item \emph{Controlla} sul testo e correggi. Ciò che mancava o era
+        sbagliato è esattamente ciò che devi ristudiare. Segnalo e
+        riprendilo alla sessione successiva.
+\end{enumerate}
+\end{inpratica}
+
+Questo ciclo -- che qualcuno chiama \emph{brain dump}, \enquote{svuotare
+la testa} -- è la forma più semplice di pratica del recupero, e ha il
+vantaggio di non richiedere alcuno strumento: un foglio bianco basta.
+Da qui si possono costruire molte varianti.
+
+\emph{Trasforma gli appunti in domande.} Invece di rileggere gli appunti
+della lezione, rileggili una volta sola e trasforma ogni punto
+importante in una domanda: \enquote{Qual è la differenza tra\dots?},
+\enquote{Perché\dots?}, \enquote{Che cosa succede se\dots?}. Scrivi le
+domande su un foglio a parte, o su un lato della pagina, e le risposte
+dall'altro. Nei giorni seguenti non rileggerai più gli appunti: risponderai
+alle domande.
+
+\emph{Usa le flashcard, ma bene.} Le schede con la domanda su un lato e
+la risposta sull'altro, su carta o in un'applicazione, sono uno
+strumento eccellente per tutto ciò che va ricordato con precisione:
+termini, definizioni, formule, date, vocaboli, articoli di legge,
+strutture anatomiche. Funzionano però solo se rispondi \emph{prima} di
+girare la scheda, per iscritto o a voce, e se le usi finché non sai
+rispondere più volte, in giorni diversi (ne parleremo nel
+capitolo~\ref{cap:tempo}).
+
+\emph{Spiega senza guardare.} Prendi un argomento del programma e
+spiegalo ad alta voce, come se dovessi farlo a un compagno o a un
+professore, senza appunti. Per chi ha un esame orale è l'allenamento
+più vicino alla prova vera; per tutti è un modo rapido di scoprire dove
+la spiegazione si inceppa. Lo si può fare da soli, mentre vai
+all'università, o a coppie, interrogandosi a vicenda (capitolo~\ref{cap:insegnare}).
+
+\emph{Fatti domande di applicazione, non solo di memoria.} Le domande
+sui fatti migliorano soprattutto il ricordo dei fatti; se l'esame ti
+chiederà di applicare, confrontare, ragionare su casi, allora anche le
+tue domande devono farlo \parencite{agarwal2019}. \enquote{Che cos'è
+l'elasticità della domanda?} è una buona domanda; \enquote{Perché il
+prezzo delle sigarette può salire senza che se ne vendano molte meno?}
+è una domanda migliore. Le due, insieme, sono la combinazione ideale.
+
+\emph{Risolvi a libro chiuso.} Nelle discipline di problemi, prendi un
+esercizio svolto, copri la soluzione e prova a risolverlo; poi
+confronta. Rifare gli esercizi già fatti a lezione, senza guardarli, è
+pratica del recupero allo stato puro.
+
+\emph{Usa le prove degli anni precedenti.} Molti corsi mettono a
+disposizione i testi degli esami passati o simulazioni di prove in
+itinere. Non leggerli come un elenco di domande probabili: falli, nelle
+condizioni dell'esame, e correggili.
+
+\emph{Scegli il momento.} Il primo recupero conviene farlo subito dopo
+la lezione o la lettura, quando basta un quarto d'ora per fissare
+l'essenziale; il secondo il giorno dopo, quando una parte è già
+sbiadita e ricordarla costa un po' di fatica. Da lì in avanti, le
+riprese vanno distanziate sempre di più: come e quanto, lo vedremo nel
+capitolo~\ref{cap:tempo}, perché recupero e distribuzione nel tempo
+danno il meglio quando lavorano insieme.
+
+In tutte queste varianti c'è un elemento che non si può saltare: il
+\emph{controllo}. Il recupero senza correzione rischia di consolidare
+gli errori; il recupero seguito dalla risposta giusta è molto più
+efficace, come ha mostrato anche la meta-analisi di Yang. Non serve un
+insegnante: serve il coraggio di confrontare ciò che hai scritto con il
+libro, e di segnare onestamente ciò che mancava.
+
+\begin{riquadro}{Per chi insegna}
+La pratica del recupero è forse il risultato della ricerca più facile da
+portare in aula, e quello con le prove più solide in classi reali. Tre
+forme semplici: aprire ogni lezione con tre-cinque domande, a cui tutti
+rispondono per iscritto, su argomenti della settimana precedente e del
+mese precedente; proporre quiz brevi e frequenti, anche online, che
+contano poco o nulla sul voto e restituiscono subito la risposta
+corretta; costruire prove in itinere ed esami \emph{cumulativi}, che
+riprendono gli argomenti già verificati. L'esame orale, così diffuso
+nell'università italiana, è una pratica del recupero potentissima: ma
+arriva una volta sola, alla fine, quando non c'è più tempo per
+imparare dagli errori. Se ne parla nei capitoli~\ref{cap:docenti}
+e~\ref{cap:valutare}.
+\end{riquadro}
 
 \section{Gli errori più comuni}
 
-\segnaposto{da scrivere}
+La pratica del recupero è semplice da descrivere e sorprendentemente
+facile da sbagliare. Quasi sempre l'errore consiste nel trasformarla, a
+poco a poco, in una rilettura travestita.
+
+\emph{Girare subito la scheda.} È l'errore più diffuso con le
+flashcard: si legge la domanda, si pensa \enquote{sì, questa la so}, e
+si gira la scheda per controllare. Ma riconoscere la risposta quando la
+si vede non è la stessa cosa che ricordarla quando non c'è. Il recupero
+avviene solo se, prima di girare, la risposta l'hai davvero prodotta:
+scritta, detta ad alta voce, almeno formulata per intero nella mente.
+
+\emph{Eliminare la domanda alla prima risposta giusta.} Rispondere
+correttamente una volta è un buon segno, non una prova definitiva:
+spesso vuol dire soltanto che la risposta era ancora fresca. L'esperimento
+di Karpicke e Roediger con le parole swahili mostra proprio questo: chi
+smetteva di testarsi appena sapeva una coppia la dimenticava molto più
+di chi continuava. Una domanda si mette da parte quando la sai
+rispondere più volte, in giorni diversi.
+
+\emph{Usare il test solo per controllare.} Molti studenti si interrogano,
+ma una volta sola e alla fine, per sapere se sono pronti; nell'indagine
+di Karpicke citata nel capitolo~\ref{cap:vita}, chi si metteva alla
+prova lo faceva soprattutto per questo \parencite{karpicke2009}.
+Verificarsi alla fine è utile, ma è la parte meno importante: il test
+va usato \emph{durante} lo studio, spesso, fin dal primo giorno, come
+strumento per imparare e non come esame prima dell'esame.
+
+\emph{Interrogarsi troppo presto, o troppo tardi.} Se non riesci a
+ricordare niente, il recupero non ha nulla da rafforzare: è il segno
+che devi prima studiare, o ristudiare, e poi riprovare. All'opposto,
+interrogarti un minuto dopo aver letto, quando la risposta ce l'hai
+ancora davanti agli occhi, costa poco e rende poco. La fatica giusta
+sta nel mezzo: un recupero difficile, ma almeno in parte riuscito
+(capitolo~\ref{cap:dueforze}).
+
+\emph{Imparare le risposte invece degli argomenti.} Chi prepara un
+esame a quiz o un concorso con una banca dati di domande rischia di
+imparare a memoria le coppie domanda-risposta, riconoscendo la risposta
+giusta dalla forma della domanda. È un recupero che non va oltre le
+parole. Cambia le domande, riformulale, chiediti il perché della
+risposta, applicala a un caso nuovo: il ricordo che ne esce è più
+flessibile e dura di più.
+
+\emph{Scoraggiarsi.} Il primo recupero è quasi sempre deludente: si
+ricorda meno di quanto si pensava, e la tentazione è tornare alla
+rassicurante rilettura. È il momento in cui la maggior parte degli
+studenti abbandona il metodo. Ricordati dell'esperimento di Saint
+Louis: cinque minuti dopo, chi aveva riletto sembrava in vantaggio. Una
+settimana dopo non lo era più. La sensazione di non sapere, durante lo
+studio, non è il segno che il metodo non funziona: è il segno che sta
+funzionando.
+
+\asterismo
+
+Se hai fatto l'esercizio del capitolo~\ref{cap:vita} -- scrivere a
+libro chiuso ciò che ricordavi di un esame di un anno fa -- hai già
+fatto pratica del recupero, e probabilmente ti sei accorto di due cose:
+che ricordavi meno di quanto pensassi, e che alcune cose, man mano che
+scrivevi, riaffioravano. Quelle cose, ora, le ricordi meglio di prima.
+Aristotele l'aveva detto in una riga: gli esercizi conservano la
+memoria facendo ricordare di nuovo. Tutto il resto del metodo -- il
+tempo, l'alternanza, la comprensione -- si costruisce su questa base.
 
 \begin{daricordare}
-\segnaposto{il principio del capitolo in due righe}
+Ricordare fa ricordare. Ogni volta che richiami qualcosa dalla memoria
+non misuri soltanto quanto sai: lo rafforzi. Per questo, studiando,
+passa meno tempo a rileggere e più tempo a interrogarti, sempre con il
+controllo delle risposte.
 \end{daricordare}
 
 \begin{domande}
-  \item \segnaposto{domanda di recupero su questo capitolo}
-  \item \segnaposto{domanda di applicazione a una materia che studi}
-  \item \segnaposto{domanda di ripresa su un capitolo precedente}
+  \item Descrivi l'esperimento di Roediger e Karpicke (2006): quali
+        gruppi, quali risultati dopo cinque minuti e dopo una
+        settimana? Che cosa pensavano gli studenti di sé?
+  \item Quali sono le quattro ragioni per cui la pratica del recupero
+        funziona? Perché riduce l'ansia da esame?
+  \item Trasforma in cinque domande, due di memoria e tre di
+        applicazione, l'ultimo argomento che hai studiato per un esame.
+  \item (Ripresa, capitolo~\ref{cap:inganni}) Perché gli studenti
+        preferiscono rileggere, se rileggere funziona peggio?
+  \item (Ripresa, capitolo~\ref{cap:vita}) Quale dei tre errori che
+        fanno dimenticare ciò che si studia viene corretto dalla
+        pratica del recupero? E quale no?
 \end{domande}
 
 \begin{sintesi}
-  \item \segnaposto{punto di sintesi}
+  \item Richiamare attivamente dalla memoria rafforza il ricordo più
+        che ristudiare: il test è uno strumento per imparare, non solo
+        per misurare.
+  \item L'idea è antica (Aristotele, Tommaso, James) ed è stata
+        confermata da centinaia di esperimenti, in laboratorio e in
+        classi reali, con un effetto medio di buona grandezza; in
+        matematica coincide in gran parte con il risolvere problemi.
+  \item Funziona perché allena ciò che servirà all'esame, radica i
+        ricordi, rivela ciò che non si sa e riduce l'ansia.
+  \item Il ciclo di base: leggi per capire, chiudi e richiama, controlla
+        e correggi. Varianti: domande dagli appunti, flashcard,
+        spiegazioni a voce, esercizi a libro chiuso, prove d'esame.
+  \item Gli errori da evitare: girare subito la scheda, smettere alla
+        prima risposta giusta, usare il test solo per controllare,
+        imparare le risposte invece degli argomenti.
 \end{sintesi}
 
 \finecapitolo

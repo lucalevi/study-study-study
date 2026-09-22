@@ -2,9 +2,9 @@
 titolo: "Indice ragionato di «Studiare per la vita»"
 progetto: study-study-study
 documento: ricerca/06 — indice ragionato del libro
-versione: 1.1
-data: 2026-09-21
-modifiche: "1.1 — integrate le decisioni dell'autore del 21/09/2026: pubblico universitario nella prima fase, pubblicazione in proprio, 26 capitoli"
+versione: 1.3
+data: 2026-09-22
+modifiche: "1.3 — scritti i capitoli di prova 1 e 8 (prima stesura, 22/09/2026); decise la voce dell'autore («io» discreto) e il riquadro «Per chi insegna» (solo dove serve) (§10.1, decisioni 10–11; §10.2, punto 6). 1.2 — decisa la licenza del PDF gratuito: Creative Commons BY-NC-SA 4.0 (§10.2, decisione 9; colophon aggiornato). 1.1 — integrate le decisioni dell'autore del 21/09/2026: pubblico universitario nella prima fase, pubblicazione in proprio, 26 capitoli"
 lingua: italiano
 collegato a: ricerca/00–05; tex/ (template 1.1, stessa struttura)
 ---
@@ -59,7 +59,7 @@ collegato a: ricerca/00–05; tex/ (template 1.1, stessa struttura)
 | **Tono** | Chiaro, concreto, rigoroso; fonti citate con precisione (il pubblico è accademico e verificherà), ma senza gergo; rispettoso di studenti e docenti; nessun trucco, nessun catastrofismo. |
 | **Voce** | **Seconda persona singolare («tu») rivolta al lettore** — **deciso**. Nelle Parti I–V il «tu» è lo studente; nella Parte VI il «tu» è il docente, con tono da collega a collega. |
 | **Lunghezza** | **Deciso: libro fondativo completo, 90–100.000 parole in tutto.** Capitoli: circa 90.000–92.500 parole (26 capitoli); pagine iniziali, congedo e appendici: circa 10.000. Si è al limite superiore: in scrittura i capitoli più lunghi (20, 21, 23) vanno contenuti. Nel formato 13 × 21 del template, circa 360–400 pagine. |
-| **Pubblicazione** | **Deciso: in proprio, senza editore.** PDF **gratuito** su [www.lucalevi.com](https://www.lucalevi.com) (al massimo con un indirizzo email facoltativo, per ricevere commenti) ed edizione **paperback su Amazon** a prezzo contenuto. È un libro di **impegno sociale**, non a scopo di lucro. Aspetti tecnici da definire: §10.2. |
+| **Pubblicazione** | **Deciso: in proprio, senza editore.** PDF **gratuito** su [www.lucalevi.com](https://www.lucalevi.com) (al massimo con un indirizzo email facoltativo, per ricevere commenti) ed edizione **paperback su Amazon** a prezzo contenuto. È un libro di **impegno sociale**, non a scopo di lucro. **Licenza: Creative Commons BY-NC-SA 4.0** (deciso 22/09/2026). Aspetti tecnici KDP ancora da definire: §10.2. |
 | **Formato** | 13 × 21 cm, EB Garamond, template `studiolibro` (tex/); la stessa sorgente produce il PDF per il sito e il PDF per la stampa. |
 | **Tratto distintivo** | Un libro che **applica a se stesso** il metodo che insegna (domande di recupero e riprese dei capitoli precedenti), che unisce la **tradizione classica** (epigrafi originali verificate) e la **scienza contemporanea**, con **dati italiani** sull'università e una **proposta di indagine** (Appendice A). |
 
@@ -185,7 +185,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. Pensa all'ultimo esame che hai superato: quanto ne ricordi oggi? Perché?
 - **Fonti**: ricerca 01 §1, §2.5, §3.4; 02 §5; 03 §3.4 · bibliografia: `ebbinghaus1885`, `murre2015`, `oecd2024piaac`
 - **Lunghezza**: 3.000–3.500 parole · **File**: `tex/capitoli/cap01-vita.tex`
-- **Note**: Capitolo di apertura: tono personale, concreto; esempi tratti soprattutto dall'università (l'esame preparato in tre settimane e dimenticato dopo l'appello). **Capitolo di prova** (da scrivere solo al via dell'autore).
+- **Note**: Capitolo di apertura: tono personale, concreto; esempi tratti soprattutto dall'università (l'esame preparato in tre settimane e dimenticato dopo l'appello). **Capitolo di prova: prima stesura scritta il 22/09/2026** (circa 3.200 parole; resta un segnaposto per un ricordo personale dell'autore, vedi decisione 10). Aggiunti Bahrick (1984) sul *permastore* e Karpicke et al. (2009); nessun riquadro «Per chi insegna».
 
 #### Capitolo 2 — Come si studia all'università, oggi
 
@@ -352,7 +352,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 7) Perché gli studenti preferiscono rileggere?
 - **Fonti**: ricerca 01 §5.1; 03 §2.5, §4.4; 05 §7 · bibliografia: `roediger2006`, `karpicke2008`, `karpicke2011`, `rowland2014`, `adesope2017`, `yang2021`, `butler2010`, `agarwal2019`
 - **Lunghezza**: 4.000–4.500 parole · **File**: `tex/capitoli/cap08-recupero.tex`
-- **Note**: Capitolo cardine; buon candidato per il **capitolo di prova**. Verifiche S-01…S-04, K-10. Per la matematica, precisare che il «test» coincide con il problem solving (Murray et al., 2025).
+- **Note**: Capitolo cardine. **Capitolo di prova: prima stesura scritta il 22/09/2026** (circa 4.000 parole), con figura 8.1 (dati completi di Roediger & Karpicke, 2006, esp. 2), tabella 8.1 delle meta-analisi, sottoparagrafo «E in Italia?» (interrogazione orale ed esame orale; rimando all'Appendice A per l'esperimento in classe della ricerca 05 §7) e riquadro «Per chi insegna». Bacone resta in nota con segnaposto (K-29). Verifiche S-01…S-04, K-10. Per la matematica, precisare che il «test» coincide con il problem solving (Murray et al., 2025).
 
 #### Capitolo 9 — Il tempo alleato
 
@@ -795,7 +795,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
 
 ### 6.1 Pagine iniziali (`tex/frontmatter/`)
 
-- **Occhietto, frontespizio, colophon, dedica** («A chi non ha mai smesso di fare domande» — proposta già nel template).
+- **Occhietto, frontespizio, colophon, dedica** («Alla mia maestra di italiano» — confermata dall'autore il 22/09/2026; già nel template).
 - **Epigrafe del libro**: *«Non scholae sed vitae discimus»* — con l'attribuzione corretta: motto scolastico, rovesciamento di Seneca, *Ep.* 106, 12 (il cap. 1 racconterà il rovesciamento).
 - **Prefazione** (1.000–1.500 parole): perché questo libro, da quale domanda nasce, perché comincia dall'università, perché è gratuito. Da scrivere per ultima.
 - **Colophon**: pubblicazione in proprio; licenza del PDF gratuito (proposta: Creative Commons BY-NC-ND 4.0, da decidere, §10.2); indirizzo del sito www.lucalevi.com; ISBN dell'edizione a stampa (se richiesto).
@@ -892,7 +892,7 @@ Ogni capitolo contiene almeno una domanda di **ripresa** su un capitolo preceden
 
 ### 9.0 Prima di scrivere
 
-La scrittura **comincia solo quando l'autore dà il via** (decisione 8). Prima si chiudono i punti aperti (§10.2) e le ricerche che condizionano i primi capitoli (§11).
+La scrittura **comincia solo quando l'autore dà il via** (decisione 8). **Via dato il 22/09/2026 per i capitoli di prova 1 e 8, scritti lo stesso giorno.** Prima si chiudono i punti aperti (§10.2) e le ricerche che condizionano i primi capitoli (§11).
 
 ### 9.1 Ordine consigliato
 
@@ -933,19 +933,22 @@ Con circa 95.000 parole in 9–10 mesi di scrittura, il ritmo è di circa 2.000�
 | 2 | **Voce** | «Tu» rivolto al lettore | §1; nella Parte VI il «tu» è il docente |
 | 3 | **Lunghezza** | Libro completo, 90–100.000 parole | §1, §3 |
 | 4 | **Titolo** | *Studiare per la vita* | Nessuna modifica; il sottotitolo resta una proposta |
-| 5 | **Pubblicazione** | In proprio: PDF gratuito su www.lucalevi.com + paperback Amazon a prezzo contenuto; impegno sociale, senza guadagni | §1, §6.1 (colophon), §10.2, ricerca 11 |
+| 5 | **Pubblicazione** | In proprio: PDF gratuito su www.lucalevi.com + paperback Amazon a prezzo contenuto; impegno sociale, senza guadagni; licenza CC BY-NC-SA 4.0 (decisione 9) | §1, §6.1 (colophon), §10.2, ricerca 11 |
 | 6 | **Indagine** | Non ancora decisa; va bene come proposta in appendice; partner solo dopo la pubblicazione | Appendice A = proposta; cap. 2 senza dati originali |
 | 7 | **Ricerche aggiuntive** | Tenere traccia di ciò che resta da fare | §11 |
 | 8 | **Capitoli di prova** | 1 e 8, ma **non ora**: si scrive quando lo dice l'autore | §9.0 |
+| 9 | **Licenza** | Creative Commons BY-NC-SA 4.0 (Attribuzione – Non commerciale – Condividi allo stesso modo) | §1 (Pubblicazione), §6.1 (colophon), §10.2, registro P-05 |
+| 10 | **Voce dell'autore** (22/09/2026) | «Io» discreto: l'autore compare ogni tanto in prima persona, senza aneddoti inventati; le scene restano tipiche, non autobiografiche. I ricordi personali veri li inserisce l'autore (segnaposto nel cap. 1) | §1 (Voce); capp. 1 e 8 |
+| 11 | **Riquadro «Per chi insegna»** (22/09/2026) | Sì, ma solo dove serve (nel cap. 8 sì, nel cap. 1 no); si usa l'ambiente `riquadro` della classe con il titolo «Per chi insegna» | §2.5, §10.2 punto 6 |
 
 ### 10.2 Punti ancora aperti (piccoli, da chiudere prima della stampa)
 
 1. **Sottotitolo**: *Come si impara davvero, e perché* va bene? (Alternative: *La scienza dello studio, dall'antichità a oggi*; *Come si impara, e perché si ricorda*.)
-2. **Licenza del PDF gratuito**: proposta **Creative Commons BY-NC-ND 4.0** (libera diffusione con attribuzione, niente usi commerciali né versioni modificate), oppure BY-NC-SA se si vuole permettere adattamenti (per esempio traduzioni o versioni per la scuola).
+2. **Licenza del PDF gratuito**: **deciso (22 settembre 2026) — Creative Commons BY-NC-SA 4.0** (attribuzione, niente usi commerciali, condivisione allo stesso modo: chi adatta o traduce l'opera — per esempio una versione per le superiori — deve ridistribuirla con la stessa licenza). Colophon di `tex/libro.tex` aggiornato; registro P-05 chiuso.
 3. **Email per il PDF**: obbligatoria o facoltativa? La proposta è **facoltativa** (download libero + modulo per chi vuole lasciare un commento o ricevere aggiornamenti): massima diffusione e meno obblighi GDPR (informativa, consenso esplicito, conservazione dei dati).
-4. **Edizione Amazon** (da verificare nella ricerca 11): formato 13 × 21 cm (formato personalizzato: verificare che KDP lo accetti) oppure il vicino standard 5,25 × 8 in (13,34 × 20,32 cm); **interni in bianco e nero** (il rosso «rubrica» del template costa molto in stampa a colori: si usa l'opzione `monocromo`); **margine interno** da portare ad almeno il minimo KDP per il numero di pagine (circa 0,625 in ≈ 16 mm per 301–500 pagine; il template ha 16 mm, al limite); ISBN gratuito di Amazon o ISBN proprio.
-5. **Dedica** («A chi non ha mai smesso di fare domande»): confermare o sostituire.
-6. **Riquadro «Per chi insegna»** nei capitoli per studenti (§2.5): sì o no?
+4. **Edizione Amazon — risolto (22 settembre 2026)**: formato **13 × 21 cm confermato**, rientra nel formato personalizzato di KDP (larghezza ammessa 10,16–21,59 cm, altezza 15,24–29,69 cm: nessun cambio di formato necessario, si scarta l'alternativa 5,25 × 8 in). **Margine interno**: il minimo KDP per 301–500 pagine è 15,9 mm; il template ne ha 16 mm, quindi è già conforme. **Interni in bianco e nero**: confermato l'uso dell'opzione `monocromo` della classe, coerente con l'edizione a prezzo contenuto e senza scopo di lucro. Resta aperto solo l'**ISBN**: gratuito di Amazon o proprio (registro P-04).
+5. **Dedica** — **confermata (22/09/2026)**: «Alla mia maestra di italiano».
+6. **Riquadro «Per chi insegna» — deciso (22/09/2026)**: sì, solo nei capitoli in cui ne deriva qualcosa di concreto per la didattica (decisione 11).
 
 ---
 
@@ -964,8 +967,8 @@ Elenco sintetico, allineato con la memoria del progetto (per rispondere a «cosa
 | 7 | **Registro delle verifiche** (ricerca 00): smaltire i punti aperti, prima quelli di priorità A | tutti i capitoli | in corso |
 | 8 | **Punti aperti piccoli** (§10.2) | colophon, stampa | da decidere |
 | 9 | **Revisione esterna** del cap. 22 (DSA) | cap. 22 | quando il capitolo sarà scritto |
-| 10 | **Capitoli di prova 1 e 8** | voce e tono del libro | **in attesa del via dell'autore** |
+| 10 | **Capitoli di prova 1 e 8** | voce e tono del libro | **prima stesura scritta (22/09/2026)**: revisione dell'autore e di 2–3 lettori del pubblico; poi Parte III |
 
 ---
 
-*Fine dell'indice ragionato (versione 1.1). Da aggiornare insieme al template `tex/` a ogni modifica della struttura.*
+*Fine dell'indice ragionato (versione 1.3). Da aggiornare insieme al template `tex/` a ogni modifica della struttura.*
