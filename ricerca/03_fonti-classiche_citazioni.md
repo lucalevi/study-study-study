@@ -393,13 +393,13 @@ Il più antico manuale latino di mnemotecnica (libro III, 16, 28 – 24, 40). �
 - *Seguito*: «"Hoc dixit Zenon, hoc Cleanthes." Aliquid inter te intersit et librum» — «"Questo l'ha detto Zenone, questo Cleante." Ci sia qualche differenza tra te e un libro!» ✔
 - *Uso nel libro*: forse la **citazione più importante** per il libro: distingue memorizzazione e comprensione (ricerca 01, §8). Va letta insieme alla scienza moderna: *per* sapere bisogna anche ricordare — ma ricordare non basta. «Ci sia qualche differenza tra te e un libro» è un ottimo motto contro lo studio a pappagallo *e* contro la delega all'IA.
 
-**Seneca, *Ep.* 84, 3 e 6–7 (le api e la digestione)** ✔
+**Seneca, *Ep.* 84, 3 e 7 (le api e la digestione)** ✔
 
 > Apes, ut aiunt, debemus imitari, quae vagantur et flores ad mel faciendum idoneos carpunt […] (84, 3)
 
 «Dobbiamo imitare le api, come si dice, che vagano e colgono i fiori adatti a fare il miele […]»
 
-> Concoquamus illa; alioqui in memoriam ibunt, non in ingenium. (84, 6–7)
+> Concoquamus illa; alioqui in memoriam ibunt, non in ingenium. (84, 7)
 
 «Digeriamole [le cose lette]; altrimenti andranno nella memoria, non nell'intelligenza.»
 

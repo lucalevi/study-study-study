@@ -2,9 +2,9 @@
 titolo: "Indice ragionato di «Studiare per la vita»"
 progetto: study-study-study
 documento: ricerca/06 — indice ragionato del libro
-versione: 1.5
+versione: 1.6
 data: 2026-09-23
-modifiche: "1.5 — scritta la prima stesura dei capitoli 9–14 (Parte III, 23/09/2026; circa 17.800 parole in tutto): note delle schede aggiornate con lunghezze, riquadri e fonti effettivamente usati; §9.1 punto 2 e §11 aggiornati; registro portato alla v. 1.8. 1.4 — 1.4 — decisione dell'autore (23/09/2026): niente attesa di revisori esterni per nessun capitolo, l'autore rivede e valida ogni capitolo man mano che esce (§10.1, decisione 12; §9.1 punto 1 e §11 punto 10 aggiornati di conseguenza). Confermato che i capp. 9–14 (Parte III) possono partire subito: il registro (ricerca 00, v. 1.7) non ha più punti aperti di priorità A o B per questa parte. 1.3 — scritti i capitoli di prova 1 e 8 (prima stesura, 22/09/2026); decise la voce dell'autore («io» discreto) e il riquadro «Per chi insegna» (solo dove serve) (§10.1, decisioni 10–11; §10.2, punto 6). 1.2 — decisa la licenza del PDF gratuito: Creative Commons BY-NC-SA 4.0 (§10.2, decisione 9; colophon aggiornato). 1.1 — integrate le decisioni dell'autore del 21/09/2026: pubblico universitario nella prima fase, pubblicazione in proprio, 26 capitoli"
+modifiche: "1.6 — revisione dei capp. 9–10 (23/09/2026): aggiunto riquadro «Per chi insegna» al cap. 9; annotate le dipendenze dei capp. 9–10 dai capp. 6–7 e del cap. 9 dal cap. 24 (note delle schede, §8, §11; registro 00 v. 1.9, sezione H, Y-01…Y-04). 1.5 — scritta la prima stesura dei capitoli 9–14 (Parte III, 23/09/2026; circa 17.800 parole in tutto): note delle schede aggiornate con lunghezze, riquadri e fonti effettivamente usati; §9.1 punto 2 e §11 aggiornati; registro portato alla v. 1.8. 1.4 — 1.4 — decisione dell'autore (23/09/2026): niente attesa di revisori esterni per nessun capitolo, l'autore rivede e valida ogni capitolo man mano che esce (§10.1, decisione 12; §9.1 punto 1 e §11 punto 10 aggiornati di conseguenza). Confermato che i capp. 9–14 (Parte III) possono partire subito: il registro (ricerca 00, v. 1.7) non ha più punti aperti di priorità A o B per questa parte. 1.3 — scritti i capitoli di prova 1 e 8 (prima stesura, 22/09/2026); decise la voce dell'autore («io» discreto) e il riquadro «Per chi insegna» (solo dove serve) (§10.1, decisioni 10–11; §10.2, punto 6). 1.2 — decisa la licenza del PDF gratuito: Creative Commons BY-NC-SA 4.0 (§10.2, decisione 9; colophon aggiornato). 1.1 — integrate le decisioni dell'autore del 21/09/2026: pubblico universitario nella prima fase, pubblicazione in proprio, 26 capitoli"
 lingua: italiano
 collegato a: ricerca/00–05; tex/ (template 1.1, stessa struttura)
 ---
@@ -304,6 +304,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
 - **Fonti**: ricerca 01 §4 · bibliografia: `bjork1992`, `bjork1994`, `bjork2011`, `soderstrom2015`
 - **Lunghezza**: 3.000 parole · **File**: `tex/capitoli/cap06-dueforze.tex`
 - **Note**: Capitolo teorico centrale: tutto il metodo (Parte III) si appoggia qui. Ricerca 01 §4.
+- **Da coordinare (23/09/2026, registro Y-01)**: i capp. 8 e 9 (già scritti) richiamano *forza di immagazzinamento*, *forza di recupero*, *difficoltà desiderabili* (Bjork & Bjork 2011) e il paradosso «un po' di oblio rende più efficace la ripresa» come già spiegati qui: usare lo stesso lessico. Quintiliano XI, 2, 43 è qui epigrafe, nel cap. 9 in nota e nel cap. 15: decidere dove sta il commento esteso.
 
 #### Capitolo 7 — Perché ci inganniamo
 
@@ -327,6 +328,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
 - **Fonti**: ricerca 01 §7; 03 §2.3 · bibliografia: `koriat2005`, `bjork2013`, `deslauriers2019`, `nelson1991`, `kornell2009`, `rozenblit2002`
 - **Lunghezza**: 3.000 parole · **File**: `tex/capitoli/cap07-inganni.tex`
 - **Note**: Per il libro è forse il capitolo più importante: senza di esso i lettori abbandonano il metodo alla prima fatica. Ricerca 01 §7.
+- **Da coordinare (23/09/2026, registro Y-02)**: i capp. 9 e 10 (già scritti) rimandano qui per l'inganno della fluidità («la spiegazione che conosci dal capitolo sugli inganni») e per la rilettura; la domanda di ripasso 6 del cap. 10 presuppone che qui si parli di Kornell & Bjork (2008). Kornell (2009) e Kornell & Bjork (2008) sono raccontati per esteso nei capp. 9 e 10: qui basta richiamarli, senza ripetere l'esperimento.
 
 ### Parte III — Il metodo
 
@@ -376,7 +378,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 8) Qual è l'errore più comune con le flashcard?
 - **Fonti**: ricerca 01 §5.2; 03 §3.5, §3.8 · bibliografia: `cepeda2006`, `cepeda2008`, `latimier2021`, `rawson2013`, `rawson2022`, `kornell2009`, `murray2025`
 - **Lunghezza**: 3.500–4.000 parole · **File**: `tex/capitoli/cap09-tempo.tex`
-- **Note**: Verifiche S-05, S-08, S-09, S-10. Collegare al curricolo italiano per unità chiuse (ricerca 01 §5.2; ricerca 02 §10). **Prima stesura scritta il 23/09/2026** (circa 3.850 parole): apertura con Ovidio e con una domanda di recupero su Ebbinghaus (cap. 1); tabella 9.1 degli intervalli (regola «20% → 5%» di Cepeda et al. 2008); tre calendari tipo (prova in itinere, esame di fine semestre, concorso); aggiunti Donoghue & Hattie 2021, Jenkins & Dallenbach 1924, Yoo et al. 2007. Rimando all'Appendice B per il modello di calendario.
+- **Note**: Verifiche S-05, S-08, S-09, S-10. Collegare al curricolo italiano per unità chiuse (ricerca 01 §5.2; ricerca 02 §10). **Prima stesura scritta il 23/09/2026** (circa 3.850 parole): apertura con Ovidio e con una domanda di recupero su Ebbinghaus (cap. 1); tabella 9.1 degli intervalli (regola «20% → 5%» di Cepeda et al. 2008); tre calendari tipo (prova in itinere, esame di fine semestre, concorso); aggiunti Donoghue & Hattie 2021, Jenkins & Dallenbach 1924, Yoo et al. 2007. Rimando all'Appendice B per il modello di calendario (Appendice B da scrivere in una prossima sessione, registro Y-04). **Revisione del 23/09/2026**: aggiunto riquadro «Per chi insegna» (prove cumulative; da sostanziare nel cap. 24, Y-03); intervallo per un anno uniformato a 2–4 settimane; Quintiliano XI, 2, 43 tradotto «sul momento»; S-41 chiuso. Dipende dai capp. 6 e 7 (Y-01, Y-02).
 
 #### Capitolo 10 — Mescolare le carte
 
@@ -399,7 +401,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 9) Come si sceglie l'intervallo tra due ripassi?
 - **Fonti**: ricerca 01 §5.3 · bibliografia: `kornell2008`, `rohrer2007`, `rohrer2020`, `brunmair2019`
 - **Lunghezza**: 2.500 parole · **File**: `tex/capitoli/cap10-alternanza.tex`
-- **Note**: Capitolo breve. Verifica S-11. **Prima stesura scritta il 23/09/2026** (circa 2.450 parole), con riquadro «Per chi insegna» e distinzione tra alternanza vera e semplice alternarsi delle materie nella giornata. Verifiche S-33 (autori corretti, X-06), S-35, S-36.
+- **Note**: Capitolo breve. Verifica S-11. **Prima stesura scritta il 23/09/2026** (circa 2.450 parole), con riquadro «Per chi insegna» e distinzione tra alternanza vera e semplice alternarsi delle materie nella giornata. Verifiche S-33 (autori corretti, X-06), S-35, S-36. **Revisione del 23/09/2026**: nota su Seneca corretta a 84, 7 (K-23 chiuso); aggiunto il limite di Rohrer et al. (2020: ragazzi di 12–13 anni, una sola materia); matematica in Brunmair & Richter = effetto «piccolo». Dipende dai capp. 7 (Kornell & Bjork) e 23–24 (Y-02, Y-03).
 
 #### Capitolo 11 — Capire
 
@@ -740,6 +742,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
 - **Fonti**: ricerca 01 §5.1, §9.5; 02 §9.3, §10; ricerca 08 (da fare) · bibliografia: `yang2021`, `agarwal2014`, `roediger2011`, `hattie2007`, `kluger1996`, `wisniewski2020`, `black1998`
 - **Lunghezza**: 4.000 parole · **File**: `tex/capitoli/cap24-valutare.tex`
 - **Note**: Capitolo originale per il contesto universitario italiano (esami orali, sessioni, appelli). Ricerca 01 §5.1, §9.5; ricerca 02 §9.3; ricerca 08 (da fare).
+- **Da coordinare (23/09/2026, registro Y-03)**: il cap. 9 ha un riquadro «Per chi insegna» che presenta la prova cumulativa come ripasso a successive riprese imposto dal calendario e rimanda a questo capitolo; l'affermazione, lì senza fonte, va qui sostanziata con le prove (ricerca 01 §5.1, §9.5; ricerca 08). La domanda di ripasso 3 presuppone quel riquadro. Non ripetere la descrizione «lezioni → sessione → oblio» del cap. 9; spiegare (con il cap. 23) perché gli esercizi alternati del cap. 10 sembrano più difficili. **Il capitolo non si scrive ancora** (decisione dell'autore, 23/09/2026).
 
 #### Capitolo 25 — Contro i miti
 
@@ -883,6 +886,8 @@ Ogni capitolo contiene almeno una domanda di **ripresa** su un capitolo preceden
 | **26** | **Ricerca 09 — formazione degli insegnanti** | Da fare: percorsi abilitanti da 60 CFU, Scienze della formazione primaria, presenza della scienza dell'apprendimento e dei neuromiti |
 | **Appendice A** | Ricerca 05 | Riscrivere come proposta (senza risultati); partner dopo la pubblicazione |
 | **Colophon, stampa** | **Ricerca 11 — pubblicazione in proprio** | Da fare: requisiti Amazon KDP (formato, margini, colore), ISBN, licenza, email e GDPR (§10.2) |
+| **6, 7** (← capp. 8, 9, 10) | Lessico e contenuti già richiamati dai capp. 8–10 (registro Y-01, Y-02) | Scrivendo i capp. 6–7, rileggere prima i capp. 8–10 e allineare termini, esempi ed esperimenti; niente doppie narrazioni |
+| **24** (← cap. 9; cap. 10) | Riquadro «Per chi insegna» del cap. 9, rimando del cap. 10 (registro Y-03) | Quando si scriverà il cap. 24 (dopo ricerca 08): dare le prove sulle prove cumulative; non ripetere il cap. 9 |
 | **Tutti** | Registro delle verifiche (ricerca 00) | Verificare i dati con priorità A prima di scrivere il capitolo corrispondente |
 | **Posizionamento** | Ricerca 12 — libri esistenti sul metodo di studio (facoltativa) | Utile per la prefazione e per differenziare il libro |
 
@@ -971,6 +976,9 @@ Elenco sintetico, allineato con la memoria del progetto (per rispondere a «cosa
 | 10 | **Capitoli di prova 1 e 8** | voce e tono del libro | **prima stesura scritta (22/09/2026)**. **Aggiornamento (23/09/2026, decisione 12)**: nessuna attesa di revisori esterni — l'autore rivede da solo, man mano che i capitoli escono. Via libera immediato alla Parte III (capp. 9–14) |
 | 11 | **Parte III, capp. 9–14** | il metodo | **prima stesura scritta (23/09/2026)**, circa 17.800 parole; revisione dell'autore. Da fare in seguito: Appendice B (modello di calendario di ripasso e scheda «Il metodo in una pagina», richiamati nei capp. 9 e 14) |
 | 12 | **Prossimo blocco di scrittura** | §9.1 punto 3 | Parte II (capp. 4–7), quando l'autore dà il via |
+| 13 | **Coerenza capp. 9–10 ↔ capp. 6–7** | capp. 6, 7 | da fare quando si scrivono i capp. 6–7 (registro Y-01, Y-02) |
+| 14 | **Coerenza cap. 9 ↔ cap. 24** | cap. 24 | da fare quando si scriverà il cap. 24, non ancora (registro Y-03) |
+| 15 | **Appendice B** (calendario di ripasso, «Il metodo in una pagina») | capp. 9, 14 | rinviata a una prossima sessione (registro Y-04) |
 
 ---
 
