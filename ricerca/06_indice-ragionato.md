@@ -2,9 +2,9 @@
 titolo: "Indice ragionato di «Studiare per la vita»"
 progetto: study-study-study
 documento: ricerca/06 — indice ragionato del libro
-versione: 1.3
-data: 2026-09-22
-modifiche: "1.3 — scritti i capitoli di prova 1 e 8 (prima stesura, 22/09/2026); decise la voce dell'autore («io» discreto) e il riquadro «Per chi insegna» (solo dove serve) (§10.1, decisioni 10–11; §10.2, punto 6). 1.2 — decisa la licenza del PDF gratuito: Creative Commons BY-NC-SA 4.0 (§10.2, decisione 9; colophon aggiornato). 1.1 — integrate le decisioni dell'autore del 21/09/2026: pubblico universitario nella prima fase, pubblicazione in proprio, 26 capitoli"
+versione: 1.5
+data: 2026-09-23
+modifiche: "1.5 — scritta la prima stesura dei capitoli 9–14 (Parte III, 23/09/2026; circa 17.800 parole in tutto): note delle schede aggiornate con lunghezze, riquadri e fonti effettivamente usati; §9.1 punto 2 e §11 aggiornati; registro portato alla v. 1.8. 1.4 — 1.4 — decisione dell'autore (23/09/2026): niente attesa di revisori esterni per nessun capitolo, l'autore rivede e valida ogni capitolo man mano che esce (§10.1, decisione 12; §9.1 punto 1 e §11 punto 10 aggiornati di conseguenza). Confermato che i capp. 9–14 (Parte III) possono partire subito: il registro (ricerca 00, v. 1.7) non ha più punti aperti di priorità A o B per questa parte. 1.3 — scritti i capitoli di prova 1 e 8 (prima stesura, 22/09/2026); decise la voce dell'autore («io» discreto) e il riquadro «Per chi insegna» (solo dove serve) (§10.1, decisioni 10–11; §10.2, punto 6). 1.2 — decisa la licenza del PDF gratuito: Creative Commons BY-NC-SA 4.0 (§10.2, decisione 9; colophon aggiornato). 1.1 — integrate le decisioni dell'autore del 21/09/2026: pubblico universitario nella prima fase, pubblicazione in proprio, 26 capitoli"
 lingua: italiano
 collegato a: ricerca/00–05; tex/ (template 1.1, stessa struttura)
 ---
@@ -376,7 +376,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 8) Qual è l'errore più comune con le flashcard?
 - **Fonti**: ricerca 01 §5.2; 03 §3.5, §3.8 · bibliografia: `cepeda2006`, `cepeda2008`, `latimier2021`, `rawson2013`, `rawson2022`, `kornell2009`, `murray2025`
 - **Lunghezza**: 3.500–4.000 parole · **File**: `tex/capitoli/cap09-tempo.tex`
-- **Note**: Verifiche S-05, S-08, S-09, S-10. Collegare al curricolo italiano per unità chiuse (ricerca 01 §5.2; ricerca 02 §10).
+- **Note**: Verifiche S-05, S-08, S-09, S-10. Collegare al curricolo italiano per unità chiuse (ricerca 01 §5.2; ricerca 02 §10). **Prima stesura scritta il 23/09/2026** (circa 3.850 parole): apertura con Ovidio e con una domanda di recupero su Ebbinghaus (cap. 1); tabella 9.1 degli intervalli (regola «20% → 5%» di Cepeda et al. 2008); tre calendari tipo (prova in itinere, esame di fine semestre, concorso); aggiunti Donoghue & Hattie 2021, Jenkins & Dallenbach 1924, Yoo et al. 2007. Rimando all'Appendice B per il modello di calendario.
 
 #### Capitolo 10 — Mescolare le carte
 
@@ -399,7 +399,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 9) Come si sceglie l'intervallo tra due ripassi?
 - **Fonti**: ricerca 01 §5.3 · bibliografia: `kornell2008`, `rohrer2007`, `rohrer2020`, `brunmair2019`
 - **Lunghezza**: 2.500 parole · **File**: `tex/capitoli/cap10-alternanza.tex`
-- **Note**: Capitolo breve. Verifica S-11.
+- **Note**: Capitolo breve. Verifica S-11. **Prima stesura scritta il 23/09/2026** (circa 2.450 parole), con riquadro «Per chi insegna» e distinzione tra alternanza vera e semplice alternarsi delle materie nella giornata. Verifiche S-33 (autori corretti, X-06), S-35, S-36.
 
 #### Capitolo 11 — Capire
 
@@ -424,7 +424,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 10) Quando l'alternanza è più utile?
 - **Fonti**: ricerca 01 §5.4–5.5, §8; 03 §3.4 · bibliografia: `chi1989`, `bisra2018`, `slamecka1978`, `bertsch2007`, `pan2023`, `kingshepard2025`, `metcalfe2017`, `bransford1972`, `chase1973`
 - **Lunghezza**: 4.000 parole · **File**: `tex/capitoli/cap11-capire.tex`
-- **Note**: Capitolo di sintesi tra memoria e comprensione; tocca un tema sensibile nel dibattito italiano. Ricerca 01 §5.4–5.5, §8.
+- **Note**: Capitolo di sintesi tra memoria e comprensione; tocca un tema sensibile nel dibattito italiano. Ricerca 01 §5.4–5.5, §8. **Prima stesura scritta il 23/09/2026** (circa 3.500 parole): testo «sul bucato» riscritto (non tradotto) sul modello di Bransford & Johnson; aggiunti Recht & Leslie 1988, Gick & Holyoak 1983 (trasferimento), Willingham 2007, il quaderno degli errori; Nuove Indicazioni citate con gli estremi del D.M. 221/2025 (N-09). Resta K-23 (numerazione di Seneca, *Ep.* 84).
 
 #### Capitolo 12 — Immagini, parole e palazzi della memoria
 
@@ -447,7 +447,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 11) Che cos'è l'auto-spiegazione?
 - **Fonti**: ricerca 01 §5.6–5.7; 03 §3.2–3.3 · bibliografia: `paivio1986`, `mayer2020`, `wammes2016`, `dresler2017`
 - **Lunghezza**: 3.000 parole · **File**: `tex/capitoli/cap12-immagini.tex`
-- **Note**: Ricerca 01 §5.6–5.7; ricerca 03 §3.2–3.3. Verifiche S-13, K-17.
+- **Note**: Ricerca 01 §5.6–5.7; ricerca 03 §3.2–3.3. Verifiche S-13, K-17. **Prima stesura scritta il 23/09/2026** (circa 2.700 parole): apertura con *Rhetorica ad Herennium* III, 22, 35 e Dresler et al. 2017; Tommaso (regole 1–2); mappe concettuali costruite a memoria; palazzo della memoria per le fasi della mitosi; chiusura con *Rhetorica ad Herennium* III, 24, 40 (epigrafe del cap. 25). Verifica S-40 (Wammes, fonte secondaria).
 
 #### Capitolo 13 — Insegnare per imparare
 
@@ -470,7 +470,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 12) Quando conviene il metodo dei luoghi?
 - **Fonti**: ricerca 01 §5.8; 03 §3.4 · bibliografia: `nestojko2014`, `fiorella2013`, `koh2018`
 - **Lunghezza**: 2.500 parole · **File**: `tex/capitoli/cap13-insegnare.tex`
-- **Note**: Capitolo breve. Ricerca 01 §5.8.
+- **Note**: Capitolo breve. Ricerca 01 §5.8. **Prima stesura scritta il 23/09/2026** (circa 2.200 parole): scena d'apertura tipica (Chiara e Marco); aggiunta l'illusione della profondità esplicativa (Rozenblit & Keil 2002); riquadro «Per chi insegna»; il tutoraggio tra pari resta senza fonte specifica (B-11) ed è rinviato ai capp. 20 e 23.
 
 #### Capitolo 14 — Il metodo in una settimana
 
@@ -494,7 +494,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, capp. 8–9) Perché recupero e distribuzione funzionano meglio insieme?
 - **Fonti**: ricerca 01 §17.2; 04 §6; 03 §4.4 · bibliografia: `dunlosky2013`, `donoghue2021`, `carpenter2022`
 - **Lunghezza**: 3.500 parole · **File**: `tex/capitoli/cap14-metodo.tex`
-- **Note**: Capitolo operativo che chiude la Parte III; deve essere praticissimo. Ricerca 01 §6, §17.2; ricerca 04.
+- **Note**: Capitolo operativo che chiude la Parte III; deve essere praticissimo. Ricerca 01 §6, §17.2; ricerca 04. **Prima stesura scritta il 23/09/2026** (circa 3.100 parole): premessa sui crediti (D.M. 270/2004, N-10); riquadro «Il metodo in una pagina» (da riprendere in Appendice B); tabella 14.1 (settimana di Sara, II anno di Economia) e tabella 14.2 (dieci tecniche: Dunlosky 2013 + Donoghue & Hattie 2021, S-37); paragrafi «E se sei già in ritardo?» e «Come far diventare il metodo un'abitudine» (modello KBCP, McDaniel & Einstein 2020).
 
 ### Parte IV — Le condizioni dell'apprendimento
 
@@ -896,8 +896,8 @@ La scrittura **comincia solo quando l'autore dà il via** (decisione 8). **Via d
 
 ### 9.1 Ordine consigliato
 
-1. **Due capitoli di prova**: cap. 1 (*Non per la scuola, ma per la vita*) e cap. 8 (*Ricordare per ricordare*) — per fissare voce, tono, lunghezza, uso delle fonti e dei riquadri. Revisione dell'autore e, se possibile, di 2–3 lettori del pubblico (una matricola, uno studente degli ultimi anni, un docente universitario).
-2. **Parte III** (capp. 9–14): il cuore del metodo, subito dopo il cap. 8.
+1. **Due capitoli di prova**: cap. 1 (*Non per la scuola, ma per la vita*) e cap. 8 (*Ricordare per ricordare*) — per fissare voce, tono, lunghezza, uso delle fonti e dei riquadri. **Revisione**: l'autore rivede e valida ogni capitolo man mano che esce, senza attendere lettori esterni (decisione 12, 23/09/2026) — non è previsto un passaggio bloccante di revisione da parte di terzi prima di proseguire.
+2. **Parte III** (capp. 9–14): il cuore del metodo, subito dopo il cap. 8. **Via libera dal 23/09/2026**: il registro (ricerca 00, v. 1.7) non ha più punti aperti di priorità A o B per questa parte. **Prima stesura dei capp. 9–14 scritta il 23/09/2026** (circa 17.800 parole); in attesa della revisione dell'autore.
 3. **Parte II** (capp. 4–7): le basi teoriche, scritte sapendo già che cosa devono preparare.
 4. **Parte I** (capp. 2–3): con i dati italiani aggiornati.
 5. **Parte IV** (capp. 15–18; il 17 per ultimo).
@@ -940,6 +940,7 @@ Con circa 95.000 parole in 9–10 mesi di scrittura, il ritmo è di circa 2.000�
 | 9 | **Licenza** | Creative Commons BY-NC-SA 4.0 (Attribuzione – Non commerciale – Condividi allo stesso modo) | §1 (Pubblicazione), §6.1 (colophon), §10.2, registro P-05 |
 | 10 | **Voce dell'autore** (22/09/2026) | «Io» discreto: l'autore compare ogni tanto in prima persona, senza aneddoti inventati; le scene restano tipiche, non autobiografiche. I ricordi personali veri li inserisce l'autore (segnaposto nel cap. 1) | §1 (Voce); capp. 1 e 8 |
 | 11 | **Riquadro «Per chi insegna»** (22/09/2026) | Sì, ma solo dove serve (nel cap. 8 sì, nel cap. 1 no); si usa l'ambiente `riquadro` della classe con il titolo «Per chi insegna» | §2.5, §10.2 punto 6 |
+| 12 | **Revisione dei capitoli** (23/09/2026) | Nessuna attesa di revisori esterni (lettori del pubblico) per nessun capitolo: è l'autore stesso a rivedere e validare ogni capitolo man mano che esce. Il punto 10 del §11 (revisione di 2–3 lettori dopo i capp. 1 e 8) non è più un passaggio bloccante: resta solo come possibilità futura, a discrezione dell'autore | §9.1 punto 1; §11 punto 10 |
 
 ### 10.2 Punti ancora aperti (piccoli, da chiudere prima della stampa)
 
@@ -967,8 +968,10 @@ Elenco sintetico, allineato con la memoria del progetto (per rispondere a «cosa
 | 7 | **Registro delle verifiche** (ricerca 00): smaltire i punti aperti, prima quelli di priorità A | tutti i capitoli | in corso |
 | 8 | **Punti aperti piccoli** (§10.2) | colophon, stampa | da decidere |
 | 9 | **Revisione esterna** del cap. 22 (DSA) | cap. 22 | quando il capitolo sarà scritto |
-| 10 | **Capitoli di prova 1 e 8** | voce e tono del libro | **prima stesura scritta (22/09/2026)**: revisione dell'autore e di 2–3 lettori del pubblico; poi Parte III |
+| 10 | **Capitoli di prova 1 e 8** | voce e tono del libro | **prima stesura scritta (22/09/2026)**. **Aggiornamento (23/09/2026, decisione 12)**: nessuna attesa di revisori esterni — l'autore rivede da solo, man mano che i capitoli escono. Via libera immediato alla Parte III (capp. 9–14) |
+| 11 | **Parte III, capp. 9–14** | il metodo | **prima stesura scritta (23/09/2026)**, circa 17.800 parole; revisione dell'autore. Da fare in seguito: Appendice B (modello di calendario di ripasso e scheda «Il metodo in una pagina», richiamati nei capp. 9 e 14) |
+| 12 | **Prossimo blocco di scrittura** | §9.1 punto 3 | Parte II (capp. 4–7), quando l'autore dà il via |
 
 ---
 
-*Fine dell'indice ragionato (versione 1.3). Da aggiornare insieme al template `tex/` a ogni modifica della struttura.*
+*Fine dell'indice ragionato (versione 1.5). Da aggiornare insieme al template `tex/` a ogni modifica della struttura.*
