@@ -2,9 +2,9 @@
 titolo: "Indice ragionato di «Studiare per la vita»"
 progetto: study-study-study
 documento: ricerca/06 — indice ragionato del libro
-versione: 1.6
-data: 2026-09-23
-modifiche: "1.6 — revisione dei capp. 9–10 (23/09/2026): aggiunto riquadro «Per chi insegna» al cap. 9; annotate le dipendenze dei capp. 9–10 dai capp. 6–7 e del cap. 9 dal cap. 24 (note delle schede, §8, §11; registro 00 v. 1.9, sezione H, Y-01…Y-04). 1.5 — scritta la prima stesura dei capitoli 9–14 (Parte III, 23/09/2026; circa 17.800 parole in tutto): note delle schede aggiornate con lunghezze, riquadri e fonti effettivamente usati; §9.1 punto 2 e §11 aggiornati; registro portato alla v. 1.8. 1.4 — 1.4 — decisione dell'autore (23/09/2026): niente attesa di revisori esterni per nessun capitolo, l'autore rivede e valida ogni capitolo man mano che esce (§10.1, decisione 12; §9.1 punto 1 e §11 punto 10 aggiornati di conseguenza). Confermato che i capp. 9–14 (Parte III) possono partire subito: il registro (ricerca 00, v. 1.7) non ha più punti aperti di priorità A o B per questa parte. 1.3 — scritti i capitoli di prova 1 e 8 (prima stesura, 22/09/2026); decise la voce dell'autore («io» discreto) e il riquadro «Per chi insegna» (solo dove serve) (§10.1, decisioni 10–11; §10.2, punto 6). 1.2 — decisa la licenza del PDF gratuito: Creative Commons BY-NC-SA 4.0 (§10.2, decisione 9; colophon aggiornato). 1.1 — integrate le decisioni dell'autore del 21/09/2026: pubblico universitario nella prima fase, pubblicazione in proprio, 26 capitoli"
+versione: 1.10
+data: 2026-09-25
+modifiche: "1.10 — scritta la prima stesura dei capitoli 4–7 (Parte II, 25/09/2026; circa 12.600 parole in tutto): note delle schede aggiornate; §3 (epigrafe del cap. 6), §7 (riprese), §9.1 punto 3 e §11 aggiornati; registro portato alla v. 1.13 (Y-01 e Y-02 chiusi, nuovi Y-05 e Y-06). 1.9 — verifica dei dati e delle citazioni previsti per i capp. 4–7 (25/09/2026): aggiunti e chiusi nel registro (v. 1.12) S-43…S-48 (Cowan 2001, Murre & Dros 2015, Deslauriers et al. 2019, Rozenblit & Keil 2002, Nelson & Dunlosky 1991, Koriat & Bjork 2005); per i capp. 4–7 non resta alcun punto aperto di priorità A. Note aggiunte alle schede dei capp. 4, 5, 6, 7. 1.8 — decisione dell'autore (25/09/2026): epigrafe del cap. 6 sostituita con Aristotele, in Diogene Laerzio V, 18 («radici amare, frutto dolce», registro K-12); l'epigrafe di Quintiliano XI, 2, 43 resta solo al cap. 15. Scheda del cap. 6 e §5 aggiornate. 1.7 — rilettura dei capp. 6–7 contro gli 8–10 (25/09/2026): note di coerenza scritte nei file dei capp. 6 e 7 (registro Y-01, Y-02, ora «pronti per la scrittura»); segnalato un doppione di epigrafe (Quintiliano XI, 2, 43, capp. 6 e 15) da decidere prima di scrivere il cap. 6. 1.6 — revisione dei capp. 9–10 (23/09/2026): aggiunto riquadro «Per chi insegna» al cap. 9; annotate le dipendenze dei capp. 9–10 dai capp. 6–7 e del cap. 9 dal cap. 24 (note delle schede, §8, §11; registro 00 v. 1.9, sezione H, Y-01…Y-04). 1.5 — scritta la prima stesura dei capitoli 9–14 (Parte III, 23/09/2026; circa 17.800 parole in tutto): note delle schede aggiornate con lunghezze, riquadri e fonti effettivamente usati; §9.1 punto 2 e §11 aggiornati; registro portato alla v. 1.8. 1.4 — 1.4 — decisione dell'autore (23/09/2026): niente attesa di revisori esterni per nessun capitolo, l'autore rivede e valida ogni capitolo man mano che esce (§10.1, decisione 12; §9.1 punto 1 e §11 punto 10 aggiornati di conseguenza). Confermato che i capp. 9–14 (Parte III) possono partire subito: il registro (ricerca 00, v. 1.7) non ha più punti aperti di priorità A o B per questa parte. 1.3 — scritti i capitoli di prova 1 e 8 (prima stesura, 22/09/2026); decise la voce dell'autore («io» discreto) e il riquadro «Per chi insegna» (solo dove serve) (§10.1, decisioni 10–11; §10.2, punto 6). 1.2 — decisa la licenza del PDF gratuito: Creative Commons BY-NC-SA 4.0 (§10.2, decisione 9; colophon aggiornato). 1.1 — integrate le decisioni dell'autore del 21/09/2026: pubblico universitario nella prima fase, pubblicazione in proprio, 26 capitoli"
 lingua: italiano
 collegato a: ricerca/00–05; tex/ (template 1.1, stessa struttura)
 ---
@@ -113,7 +113,7 @@ Termini italiani, con l'inglese tra parentesi alla prima occorrenza: *pratica de
 | I — Perché si studia | 3 | Il desiderio di sapere | 3.000–3.500 | ◐ Aristotele, Metafisica A 1, 980a21 |
 | II — Come funziona la memoria | 4 | Da Simonide a Ebbinghaus | 3.500–4.000 | ✔ Cicerone, De oratore II, 353 |
 | II — Come funziona la memoria | 5 | Il cervello che impara | 3.500 | ✔ Agostino, Confessiones X, 8, 15 |
-| II — Come funziona la memoria | 6 | Le due forze della memoria | 3.000 | ✔ Quintiliano, Institutio oratoria XI, 2, 43 |
+| II — Come funziona la memoria | 6 | Le due forze della memoria | 3.000 | ○ Aristotele, in Diogene Laerzio V, 18 (dal 25/09/2026; K-12) |
 | II — Come funziona la memoria | 7 | Perché ci inganniamo | 3.000 | ✔ Platone, Apologia di Socrate 21d |
 | III — Il metodo | 8 | Ricordare per ricordare | 4.000–4.500 | ✔ Aristotele, De memoria et reminiscentia 451a12 |
 | III — Il metodo | 9 | Il tempo alleato | 3.500–4.000 | ✔ Quintiliano, Institutio oratoria XI, 2, 40 |
@@ -256,7 +256,8 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 1) Che cosa mostra la curva dell'oblio?
 - **Fonti**: ricerca 01 §2; 03 (intero) · bibliografia: `ebbinghaus1885`, `james1890`, `spitzer1939`, `carruthers1990`, `yates1966`, `rossi1960`, `bolzoni1995`
 - **Lunghezza**: 3.500–4.000 parole · **File**: `tex/capitoli/cap04-storia.tex`
-- **Note**: Attenzione all'anacronismo (ricerca 03, §8): presentare gli antichi come intuizioni poi verificate, non come autorità. Citazioni da ricerca 03; verifiche K-17, K-18, K-29.
+- **Note**: Attenzione all'anacronismo (ricerca 03, §8): presentare gli antichi come intuizioni poi verificate, non come autorità. Citazioni da ricerca 03; verifiche K-17, K-18, K-29. **Verificato per la scrittura (25/09/2026)**: la curva di Ebbinghaus e la sua replica sono coperte da S-05 e dal nuovo S-44 (Murre & Dros 2015: 70 ore di esperimenti, salto a 24 ore compatibile col sonno); Spitzer da S-06 (già verificato). Le opere storiografiche (Carruthers, Yates, Rossi, Bolzoni) sono di priorità C (S-51): nessuna cifra da verificare, solo eventuali citazioni testuali dirette.
+- **Prima stesura scritta (25/09/2026)**: circa 3.700 parole. Sezioni come da scheda; la cronologia è una tabella (tab. 4.1) invece che un riquadro; aggiunta una sottosezione finale «Intuizioni, non prove» (anacronismo, ricerca 03 §8). Aristotele 451a12, Bacone, James, Gates e Spitzer solo richiamati, con rimando al cap. 8 che li racconta per esteso; Ricci in una riga con rimando al cap. 12; nessuna cifra di Ebbinghaus ripetuta (sono nei capp. 1 e 9). Domande di ripresa: cap. 1. Nuovi punti del registro: K-31, S-52.
 
 #### Capitolo 5 — Il cervello che impara
 
@@ -280,13 +281,14 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 4) Che cosa aveva osservato Quintiliano sul giorno dopo?
 - **Fonti**: ricerca 01 §3 · bibliografia: `cowan2001`, `baddeley1974`, `craik1972`, `tulving1973`, `kandel2001`, `nader2000`
 - **Lunghezza**: 3.500 parole · **File**: `tex/capitoli/cap05-cervello.tex`
-- **Note**: Linguaggio semplice; una sola figura. Ricerca 01 §3.
+- **Note**: Linguaggio semplice; una sola figura. Ricerca 01 §3. **Verificato per la scrittura (25/09/2026)**: Cowan (2001, circa 4 unità di memoria di lavoro) verificato indirettamente come S-43; le teorie di Craik & Lockhart, Kandel e Nader (S-50) non richiedono cifre da verificare, solo la formulazione qualitativa già coperta dai riferimenti bibliografici.
+- **Prima stesura scritta (25/09/2026)**: circa 3.450 parole, una figura (fig. 5.1, schema TikZ verticale). Esempio di *chunking* con le sigle (IRPEF, INPS, FIAT, RAI) per non ripetere gli scacchi del cap. 11; Willingham citato da `willingham2009`; esperimento di Craik & Tulving (1975) raccontato senza cifre; Borges (*Funes*) per l'oblio come funzione. Nuove voci bibliografiche: `miller1956`, `craik1975`, `tulving1966`, `godden1975`, `hebb1949`, `scoville1957` (registro B-12, S-52).
 
 #### Capitolo 6 — Le due forze della memoria
 
-> *confirmatque memoriam idem illud tempus quod esse in causa solet oblivionis*  
-> «e lo stesso tempo che di solito fa dimenticare rafforza la memoria»  
-> — Quintiliano, Institutio oratoria XI, 2, 43 ✔
+> *τῆς παιδείας ἔφη τὰς μὲν ῥίζας εἶναι πικράς, τὸν δὲ καρπὸν γλυκύν.*  
+> «Diceva che le radici dell'educazione sono amare, ma il frutto è dolce.»  
+> — Aristotele, in Diogene Laerzio, Vite dei filosofi V, 18 ○ (registro K-12; sostituisce dal 25/09/2026 Quintiliano XI, 2, 43, rimasto solo epigrafe del cap. 15)
 
 - **Tesi**: Ogni ricordo ha una forza di immagazzinamento e una forza di recupero. Recuperare con fatica ciò che si stava dimenticando rafforza la memoria più di tutto: per questo le difficoltà desiderabili funzionano, e la prestazione immediata inganna.
 - **Domanda guida**: Perché ciò che sembra facile insegna poco, e ciò che è faticoso insegna molto?
@@ -303,8 +305,9 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 5) Quanto è grande la memoria di lavoro?
 - **Fonti**: ricerca 01 §4 · bibliografia: `bjork1992`, `bjork1994`, `bjork2011`, `soderstrom2015`
 - **Lunghezza**: 3.000 parole · **File**: `tex/capitoli/cap06-dueforze.tex`
-- **Note**: Capitolo teorico centrale: tutto il metodo (Parte III) si appoggia qui. Ricerca 01 §4.
-- **Da coordinare (23/09/2026, registro Y-01)**: i capp. 8 e 9 (già scritti) richiamano *forza di immagazzinamento*, *forza di recupero*, *difficoltà desiderabili* (Bjork & Bjork 2011) e il paradosso «un po' di oblio rende più efficace la ripresa» come già spiegati qui: usare lo stesso lessico. Quintiliano XI, 2, 43 è qui epigrafe, nel cap. 9 in nota e nel cap. 15: decidere dove sta il commento esteso.
+- **Note**: Capitolo teorico centrale: tutto il metodo (Parte III) si appoggia qui. Ricerca 01 §4. **Verificato per la scrittura (25/09/2026)**: la teoria di Bjork & Bjork (1992, nuova teoria del disuso) è una formulazione teorica senza cifre da verificare (S-49); Bjork (1994) e Bjork & Bjork (2011) idem, già usati e citati correttamente nel cap. 9; Soderstrom & Bjork (2015) è una rassegna, nessuna cifra puntuale prevista nella scheda.
+- **Pronto per la scrittura (25/09/2026, registro Y-01)**: rilettura fatta, note di coerenza scritte direttamente in `cap06-dueforze.tex` (lessico da riusare, i due rimandi del cap. 8, i due del cap. 9). **Doppione di epigrafe risolto (25/09/2026)**: qui ora Aristotele (radici amare, frutto dolce, K-12); Quintiliano XI, 2, 43 resta solo epigrafe del cap. 15, dove il passo ("una notte interposta") è più pertinente; il cap. 9 continua a citarlo in nota, rimandando al cap. 15.
+- **Prima stesura scritta (25/09/2026)**: circa 2.700 parole. Tabella 6.1 delle difficoltà desiderabili; riquadro *In pratica* «Come riconoscere la fatica giusta»; esempio di pratica variata di Kerr & Booth (1978, `kerr1978`, S-53) ed effetto di inversione dell'esperienza (`kalyuga2003`). Quintiliano XI, 2, 43 solo in una frase e in nota, con rimando ai capp. 4 e 15. Domande di ripresa: capp. 5 e 4 (il «risparmio» di Ebbinghaus). Y-01 chiuso.
 
 #### Capitolo 7 — Perché ci inganniamo
 
@@ -327,8 +330,9 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 6) Che cos'è una difficoltà desiderabile?
 - **Fonti**: ricerca 01 §7; 03 §2.3 · bibliografia: `koriat2005`, `bjork2013`, `deslauriers2019`, `nelson1991`, `kornell2009`, `rozenblit2002`
 - **Lunghezza**: 3.000 parole · **File**: `tex/capitoli/cap07-inganni.tex`
-- **Note**: Per il libro è forse il capitolo più importante: senza di esso i lettori abbandonano il metodo alla prima fatica. Ricerca 01 §7.
-- **Da coordinare (23/09/2026, registro Y-02)**: i capp. 9 e 10 (già scritti) rimandano qui per l'inganno della fluidità («la spiegazione che conosci dal capitolo sugli inganni») e per la rilettura; la domanda di ripasso 6 del cap. 10 presuppone che qui si parli di Kornell & Bjork (2008). Kornell (2009) e Kornell & Bjork (2008) sono raccontati per esteso nei capp. 9 e 10: qui basta richiamarli, senza ripetere l'esperimento.
+- **Note**: Per il libro è forse il capitolo più importante: senza di esso i lettori abbandonano il metodo alla prima fatica. Ricerca 01 §7. **Verificato per la scrittura (25/09/2026)**: Deslauriers et al. 2019 (S-45: +0,46 DS di apprendimento reale, −0,56 DS di apprendimento percepito nelle classi attive), Koriat & Bjork 2005 (S-48), Rozenblit & Keil 2002 (S-46: calo di circa 1,7 punti su una scala a 7 dopo il tentativo di spiegazione) e Nelson & Dunlosky 1991 (S-47) verificati. Kornell 2009 e Kornell & Bjork 2008 sono già verificati (S-10, S-36) e narrati per esteso nei capp. 9-10 (vedi Y-02): qui vanno solo richiamati.
+- **Pronto per la scrittura (25/09/2026, registro Y-02)**: rilettura fatta, note di coerenza scritte direttamente in `cap07-inganni.tex` (i tre rimandi dei capp. 8–9–10, il meccanismo da spiegare senza ripetere gli esperimenti già narrati per esteso altrove).
+- **Prima stesura scritta (25/09/2026)**: circa 2.800 parole. Riquadri: *Per chi insegna* (raccomandazione di Deslauriers et al.), *In pratica* «Cinque regole per non ingannarti», *Esercizio* (previsioni sulle domande di ripasso). Koriat & Bjork con esempio italiano «mare – gabbiano» (illustrativo); Kornell 2009 e Kornell & Bjork 2008 richiamati senza cifre; Rozenblit & Keil solo accennato (Y-05: coordinare il cap. 13). Domande di ripresa: capp. 6 e 5. Y-02 chiuso.
 
 ### Parte III — Il metodo
 
@@ -835,8 +839,8 @@ Ogni capitolo contiene almeno una domanda di **ripresa** su un capitolo preceden
 | 3. Il desiderio di sapere | cap. 2 |
 | 4. Da Simonide a Ebbinghaus | cap. 1 |
 | 5. Il cervello che impara | cap. 4 |
-| 6. Le due forze della memoria | cap. 5 |
-| 7. Perché ci inganniamo | cap. 6 |
+| 6. Le due forze della memoria | capp. 5, 4 |
+| 7. Perché ci inganniamo | capp. 6, 5 |
 | 8. Ricordare per ricordare | cap. 7 |
 | 9. Il tempo alleato | cap. 8 |
 | 10. Mescolare le carte | cap. 9 |
@@ -903,7 +907,7 @@ La scrittura **comincia solo quando l'autore dà il via** (decisione 8). **Via d
 
 1. **Due capitoli di prova**: cap. 1 (*Non per la scuola, ma per la vita*) e cap. 8 (*Ricordare per ricordare*) — per fissare voce, tono, lunghezza, uso delle fonti e dei riquadri. **Revisione**: l'autore rivede e valida ogni capitolo man mano che esce, senza attendere lettori esterni (decisione 12, 23/09/2026) — non è previsto un passaggio bloccante di revisione da parte di terzi prima di proseguire.
 2. **Parte III** (capp. 9–14): il cuore del metodo, subito dopo il cap. 8. **Via libera dal 23/09/2026**: il registro (ricerca 00, v. 1.7) non ha più punti aperti di priorità A o B per questa parte. **Prima stesura dei capp. 9–14 scritta il 23/09/2026** (circa 17.800 parole); in attesa della revisione dell'autore.
-3. **Parte II** (capp. 4–7): le basi teoriche, scritte sapendo già che cosa devono preparare.
+3. **Parte II** (capp. 4–7): le basi teoriche, scritte sapendo già che cosa devono preparare. **Prima stesura scritta il 25/09/2026** (circa 12.600 parole); in attesa della revisione dell'autore.
 4. **Parte I** (capp. 2–3): con i dati italiani aggiornati.
 5. **Parte IV** (capp. 15–18; il 17 per ultimo).
 6. **Parte V** (capp. 19–22; il 21 dopo la ricerca 07; il 22 dopo la ricerca 10 e con revisione esterna).
@@ -975,11 +979,12 @@ Elenco sintetico, allineato con la memoria del progetto (per rispondere a «cosa
 | 9 | **Revisione esterna** del cap. 22 (DSA) | cap. 22 | quando il capitolo sarà scritto |
 | 10 | **Capitoli di prova 1 e 8** | voce e tono del libro | **prima stesura scritta (22/09/2026)**. **Aggiornamento (23/09/2026, decisione 12)**: nessuna attesa di revisori esterni — l'autore rivede da solo, man mano che i capitoli escono. Via libera immediato alla Parte III (capp. 9–14) |
 | 11 | **Parte III, capp. 9–14** | il metodo | **prima stesura scritta (23/09/2026)**, circa 17.800 parole; revisione dell'autore. Da fare in seguito: Appendice B (modello di calendario di ripasso e scheda «Il metodo in una pagina», richiamati nei capp. 9 e 14) |
-| 12 | **Prossimo blocco di scrittura** | §9.1 punto 3 | Parte II (capp. 4–7), quando l'autore dà il via |
-| 13 | **Coerenza capp. 9–10 ↔ capp. 6–7** | capp. 6, 7 | da fare quando si scrivono i capp. 6–7 (registro Y-01, Y-02) |
+| 12 | **Parte II, capp. 4–7** | le basi teoriche | **prima stesura scritta (25/09/2026)**, circa 12.600 parole; revisione dell'autore. Prossimo blocco secondo il piano (§9.1 punto 4): Parte I, capp. 2–3, con i dati italiani aggiornati |
+| 13 | **Coerenza capp. 9–10 ↔ capp. 6–7** | capp. 6, 7 | **fatto (25/09/2026)**: registro Y-01, Y-02 chiusi |
 | 14 | **Coerenza cap. 9 ↔ cap. 24** | cap. 24 | da fare quando si scriverà il cap. 24, non ancora (registro Y-03) |
 | 15 | **Appendice B** (calendario di ripasso, «Il metodo in una pagina») | capp. 9, 14 | rinviata a una prossima sessione (registro Y-04) |
+| 16 | **Piccole coerenze aperte dalla Parte II** | capp. 12, 13 | nel cap. 13 richiamare il cap. 7 per Rozenblit & Keil (Y-05); nella nota del cap. 12 aggiornare il rimando alle regole di Tommaso (Y-06) |
 
 ---
 
-*Fine dell'indice ragionato (versione 1.5). Da aggiornare insieme al template `tex/` a ogni modifica della struttura.*
+*Fine dell'indice ragionato (versione 1.10). Da aggiornare insieme al template `tex/` a ogni modifica della struttura.*

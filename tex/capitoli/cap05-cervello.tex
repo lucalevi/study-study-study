@@ -1,50 +1,459 @@
 % ------------------------------------------------------------------
 %  Capitolo 5 — Il cervello che impara
 %  Parte II
-%  Ricerca di riferimento: ricerca 01 §3
-%  Voci bibliografiche principali: cowan2001, baddeley1974, craik1972, tulving1973, kandel2001, nader2000
+%  Ricerca di riferimento: ricerca 01 §3 (e §2.7); 03 §4.1
+%  Voci bibliografiche principali: cowan2001, miller1956, baddeley1974,
+%    craik1972, craik1975, tulving1966, tulving1973, godden1975,
+%    kandel2001, nader2000, hebb1949, scoville1957, willingham2009,
+%    kirschner2006, rasch2013
 %  Epigrafe: ✔ verificata sul testo (vedi ricerca 03 e registro, ricerca 00)
 %  Scheda del capitolo: ricerca/06_indice-ragionato.md, capitolo 5
+%
+%  STATO: prima stesura (25/09/2026), circa 3.450 parole; una figura
+%  (schema della memoria, TikZ).
+%  Dati: S-43 (Cowan: circa quattro elementi, 3–5), verificato
+%  indirettamente. Descrizioni qualitative, senza cifre, di esperimenti
+%  classici: H.M. (Scoville & Milner 1957; disegno allo specchio di
+%  Brenda Milner), Craik & Tulving 1975, Tulving & Pearlstone 1966,
+%  Godden & Baddeley 1975, Nader et al. 2000, Kandel (Aplysia) — nuovo
+%  punto S-52 del registro (priorità C, fedeltà delle descrizioni).
+%  Nuove voci bibliografiche aggiunte il 25/09/2026: miller1956,
+%  craik1975, tulving1966, godden1975, hebb1949, scoville1957 (dati
+%  bibliografici da controllare: registro B-12).
+%  Coerenza: il cap. 11 usa gli scacchi (Chase & Simon) per il
+%  chunking: qui un esempio diverso (sigle) e rimando. Il consolidamento
+%  nel sonno è solo accennato: esteso nel cap. 15. Neuromiti: rimando
+%  al cap. 25. La domanda di ripresa sul cap. 4 riguarda Quintiliano,
+%  XI, 2, 43 (il "giorno dopo").
 % ------------------------------------------------------------------
 \chapter{Il cervello che impara}
 \label{cap:cervello}
 
 \epigrafe[Grande è questa potenza della memoria, troppo grande, Dio mio.]{Magna ista vis est memoriae, magna nimis, deus meus.}{Agostino, Confessiones X, 8, 15}
 
-\iniziale{Q}{uesto capitolo} \segnaposto{apertura: da scrivere — vedi la scheda nell'indice ragionato}.
+\iniziale{A}{gostino si ferma}, nel decimo libro delle
+\emph{Confessioni}, davanti a qualcosa che non riesce a capire. Nella
+sua memoria trova i volti e i luoghi della giornata, ma anche i numeri
+e le regole della grammatica, che non sono entrati da nessuno dei
+sensi; trova le gioie e i dolori passati, che può ricordare senza
+provarli di nuovo; trova perfino sé stesso. \enquote{Grande è questa
+potenza della memoria}, scrive, \enquote{troppo grande, Dio mio: un
+santuario vasto e infinito}. E aggiunge, quasi con sgomento, che non
+riesce ad afferrare tutto ciò che egli stesso è.\footnote{Agostino,
+\emph{Confessiones} X, 8, 15: \emph{penetrale amplum et infinitum}.}
+
+Più di quindici secoli dopo, nel 1953, un giovane americano di
+ventisette anni, Henry Molaison, soffre di una forma di epilessia così
+grave da impedirgli di lavorare e di vivere una vita normale. Un
+neurochirurgo, William Scoville, tenta un intervento allora
+sperimentale: gli asporta, su entrambi i lati del cervello, una parte
+del lobo temporale, compresa gran parte di una struttura dalla forma
+ricurva chiamata \emph{ippocampo}. Le crisi diminuiscono. Ma accade
+qualcosa che nessuno aveva previsto: Henry non riesce più a formare
+nuovi ricordi \parencite{scoville1957}. Ricorda la sua infanzia,
+conversa normalmente, capisce ciò che gli si dice; ma se il medico esce
+dalla stanza per qualche minuto, al suo ritorno Henry lo saluta come
+uno sconosciuto. Per più di cinquant'anni, fino alla morte, vivrà in un
+presente di pochi minuti. Nella letteratura scientifica è diventato il
+paziente più famoso della storia, noto con le sue iniziali: H.M.
+
+La psicologa Brenda Milner lo studiò per decenni, e un giorno gli
+propose un compito curioso: tracciare il contorno di una stella
+guardando la propria mano soltanto riflessa in uno specchio, dove ogni
+movimento appare rovesciato. È difficilissimo, all'inizio, per
+chiunque. Henry lo ripeté per alcuni giorni, e a ogni sessione andava
+meglio, proprio come chiunque altro. Eppure, ogni volta, non ricordava
+di averlo mai fatto. La sua mano imparava; lui no.
+
+Il caso di H.M. insegna due cose. La prima è che la memoria non è una
+cosa sola: esistono sistemi diversi, che possono funzionare l'uno senza
+l'altro. La seconda è che la memoria ha una sede e un funzionamento
+che si possono studiare. Lo stupore di Agostino resta intatto -- la
+memoria è davvero una potenza straordinaria -- ma oggi possiamo dire
+qualcosa di preciso su come lavora. Questo capitolo prova a farlo in
+modo semplice: non per fare di te un neuroscienziato, ma perché chi sa
+che cosa succede quando impara capisce perché alcune strategie
+funzionano e altre no.
 
 \section{L'attenzione, porta d'ingresso}
 
-\segnaposto{da scrivere}
+Ogni secondo i tuoi sensi ricevono un'enorme quantità di informazioni:
+immagini, suoni, odori, la pressione della sedia, il rumore della
+strada. Quasi tutto viene scartato prima ancora che tu te ne accorga.
+Entra nella mente soltanto ciò a cui presti attenzione. È la prima
+regola dell'apprendimento, ed è così ovvia che la si dimentica:
+\emph{ciò a cui non si presta attenzione non si impara}.
+
+Fai una prova. Prendi un foglio e disegna, a memoria, le due facce
+della moneta da un euro: che cosa c'è al centro, che cosa c'è intorno,
+dove sta il numero. L'hai vista migliaia di volte, l'hai avuta in mano
+per anni. Eppure, con ogni probabilità, il tuo disegno sarà vago e
+pieno di errori. Non è un difetto della tua memoria: è che non hai mai
+avuto bisogno di \emph{guardarla} davvero. Per pagare basta
+riconoscerla dal colore e dalla grandezza, e quello è tutto ciò che hai
+registrato.
+
+Per lo studio le conseguenze sono dirette. Una pagina letta mentre il
+telefono vibra, una lezione ascoltata scorrendo i messaggi, un capitolo
+ripassato con la mente altrove non lasciano quasi nulla: le parole sono
+passate davanti agli occhi, ma non sono entrate. L'attenzione è una
+risorsa limitata, e quando la dividi tra due compiti non ne ottieni
+due metà: ottieni due compiti fatti peggio. Ne parleremo per esteso nel
+capitolo~\ref{cap:attenzione}. Qui basta ricordare la terza delle
+regole di Tommaso d'Aquino, che hai incontrato nel capitolo
+precedente: per ricordare bisogna \enquote{porre sollecitudine} a ciò
+che si vuole ricordare. La porta d'ingresso della memoria si apre solo
+dall'interno.
 
 \section{La memoria di lavoro, piccola e preziosa}
 
-\segnaposto{da scrivere}
+Ciò che supera la porta dell'attenzione entra in una specie di
+banco di lavoro della mente, che gli psicologi chiamano \emph{memoria di
+lavoro}. È lo spazio in cui tieni a mente le cose mentre ci pensi: il
+numero di telefono che ripeti tra te e te finché non lo scrivi, i
+passaggi di un calcolo, l'inizio della frase che stai leggendo mentre
+arrivi alla fine. È lì che avviene il pensiero cosciente.
+
+La memoria di lavoro ha due limiti severi. È \emph{breve}: se non la
+rinfreschi ripetendola, un'informazione vi resta pochi secondi. Ed è
+\emph{piccola}. Nel 1956 lo psicologo George Miller aveva scritto un
+articolo diventato celebre, sul \enquote{magico numero sette, più o meno
+due}: tanti sarebbero gli elementi che riusciamo a tenere a mente
+insieme \parencite{miller1956}. Le ricerche successive hanno
+ridimensionato anche quel numero. Quando si impedisce alle persone di
+aiutarsi ripetendo mentalmente o raggruppando, la capacità si riduce a
+circa quattro unità significative, tra tre e cinque negli adulti
+giovani
+\parencite{cowan2001}. Quattro. È pochissimo, se ci pensi.
+Alan Baddeley e Graham Hitch hanno mostrato inoltre che questo spazio
+ha più componenti -- una per i suoni e le parole, una per le immagini
+e lo spazio, e un sistema che coordina l'insieme -- e che due compiti
+che usano la stessa componente si ostacolano più di due compiti che
+usano componenti diverse \parencite{baddeley1974}.
+
+C'è però un modo per aggirare il limite. Prova a leggere una volta, poi
+a ripetere a occhi chiusi, questa sequenza di lettere:
+
+\begin{center}
+\cifremaiuscole I\,R\,P\,E\,F\,I\,N\,P\,S\,F\,I\,A\,T\,R\,A\,I
+\end{center}
+
+Sedici lettere: molto più di quattro. Ma se le hai riconosciute, sono
+diventate quattro sigle -- IRPEF, INPS, FIAT, RAI -- e le ricordi
+senza fatica. Gli psicologi chiamano questo raggruppamento
+\emph{chunking}, dall'inglese \emph{chunk}, \enquote{pezzo}. Il limite
+della memoria di lavoro non riguarda le lettere, le parole o i numeri,
+ma le \emph{unità di significato}; e quanto grande sia un'unità dipende
+da ciò che sai già. Per uno straniero che non conosce l'Italia quelle
+sedici lettere restano sedici; per te sono quattro.
+
+È la ragione per cui il maestro di scacchi ricorda a colpo d'occhio una
+posizione che il principiante deve memorizzare pezzo per pezzo, come
+vedremo nel capitolo~\ref{cap:capire}: la conoscenza immagazzinata a
+lungo termine \emph{allarga} la memoria di lavoro, perché permette di
+maneggiare pezzi più grandi. E questa è forse la conseguenza più
+importante di tutto il capitolo. Chi sa di più pensa più facilmente,
+perché ha più spazio libero per ragionare. Chi non ha le conoscenze di
+base di una disciplina deve spendere la sua piccola memoria di lavoro
+per tenere insieme i singoli termini, e non gliene resta per capire il
+ragionamento. Per questo una lezione può essere chiarissima per chi
+conosce già l'argomento e incomprensibile per chi lo incontra per la
+prima volta: il primo ascolta in sigle, il secondo in lettere.
+
+Ne deriva anche un consiglio pratico. Quando studi qualcosa di nuovo e
+difficile, la memoria di lavoro è già al limite: non caricarla d'altro.
+Musica con le parole, notifiche, due finestre aperte, un manuale e tre
+fonti da confrontare tutte insieme: ogni elemento in più occupa uno dei
+pochi posti disponibili. Quando le basi sono solide, puoi permetterti
+compiti più complessi; all'inizio, uno alla volta.
 
 \section{La memoria a lungo termine}
 
-\segnaposto{da scrivere}
+Se la memoria di lavoro è un banco stretto, la memoria a lungo termine
+è un magazzino di cui nessuno ha mai trovato il fondo. Non sappiamo
+quanto sia grande: per quanto se ne sa, non si riempie mai. Contiene
+tutto ciò che sai: il significato di decine di migliaia di parole, le
+regole della grammatica, la strada di casa, il volto di tua madre, il
+teorema di Pitagora, come si va in bicicletta.
+
+Non è un magazzino indistinto. Il caso di H.M. mostra che vi convivono
+almeno due grandi sistemi. La memoria \emph{dichiarativa} contiene ciò
+che si può dire: i fatti e i concetti (la memoria \emph{semantica}: che
+Parigi è la capitale della Francia, che cos'è una derivata) e gli
+episodi vissuti (la memoria \emph{episodica}: la tua prima lezione
+all'università, l'esame della settimana scorsa). La memoria
+\emph{procedurale} contiene ciò che si sa fare senza bisogno di dirlo:
+guidare, scrivere a tastiera, suonare uno strumento, tracciare una
+stella allo specchio. H.M. aveva perso la capacità di formare nuovi
+ricordi dichiarativi, ma non quella di imparare nuove procedure. Quasi
+tutto ciò che si studia all'università è memoria dichiarativa, ma molte
+abilità -- risolvere un tipo di equazione, leggere un grafico,
+auscultare un torace -- diventano con l'esercizio sempre più
+procedurali, cioè automatiche, e liberano spazio nella memoria di
+lavoro per altro.
+
+Da tutto questo discende una definizione di apprendimento molto più
+esigente di quella a cui siamo abituati. Imparare significa
+\emph{modificare la memoria a lungo termine}. Se lì non è cambiato
+nulla, non si è imparato nulla \parencite{kirschner2006}. Non importa
+quanto fosse chiara la lezione, quanto fosse bello il manuale, quanto
+ti sia sembrato di capire mentre leggevi: capire, sul momento, avviene
+nella memoria di lavoro, e la memoria di lavoro si svuota in pochi
+secondi. Ciò che conta è che cosa ne resta dopo, quando hai chiuso il
+libro e sei passato ad altro.
+
+Che cosa decide, allora, che cosa resta? Lo psicologo Daniel Willingham
+lo ha riassunto in una frase che conviene imparare a memoria:
+\enquote{la memoria è il residuo del pensiero}
+\parencite{willingham2009}. Ricordiamo ciò a cui abbiamo
+\emph{pensato}, non ciò a cui siamo stati esposti. Se durante una
+lezione di storia dell'arte passi il tempo a copiare le date dalle
+slide, ricorderai (forse) le date; se ti chiedi perché quel pittore
+abbia scelto quella luce, ricorderai la luce e il perché. Se prepari un
+esame ricopiando in bella gli appunti, penserai soprattutto alla
+calligrafia e all'impaginazione. Non è che la mente registri tutto e
+poi scelga: registra ciò su cui ha lavorato.
 
 \section{Codificare, consolidare, ritrovare}
 
-\segnaposto{da scrivere}
+Ogni ricordo attraversa tre fasi. Viene \emph{codificato}, cioè
+tradotto dall'esperienza in una traccia di memoria; viene
+\emph{consolidato}, cioè stabilizzato nelle ore e nei giorni
+successivi; e infine, quando serve, viene \emph{recuperato}, cioè
+riportato alla coscienza. Ciascuna fase ha qualcosa da dire a chi
+studia.
+
+\subsection*{Codificare in profondità}
+
+Nel 1972 Fergus Craik e Robert Lockhart proposero un'idea che ha
+cambiato il modo di pensare alla memoria: non conta tanto quante volte
+un'informazione viene ripetuta, ma quanto \emph{profondamente} viene
+elaborata \parencite{craik1972}. Pochi anni dopo Craik ed Endel Tulving
+la misero alla prova con un esperimento semplice ed elegante
+\parencite{craik1975}. Ai partecipanti venivano mostrate delle parole,
+una alla volta, ciascuna accompagnata da una domanda. A volte la
+domanda riguardava l'aspetto della parola (\enquote{è scritta in
+maiuscolo?}), a volte il suono (\enquote{fa rima con \emph{treno}?}), a
+volte il significato (\enquote{sta bene nella frase \emph{Il gatto
+dormiva sul\dots}?}). Nessuno diceva loro che avrebbero dovuto
+ricordare le parole. Alla fine, a sorpresa, arrivava una prova di
+memoria. Le parole su cui ci si era chiesti il significato venivano
+ricordate molto meglio di quelle su cui ci si era chiesti il suono, e
+queste meglio di quelle su cui ci si era chiesti la forma delle
+lettere.
+
+Il messaggio è chiaro: il ricordo nasce dal lavoro che la mente fa sul
+materiale. Chiederti perché una cosa è vera, collegarla a ciò che sai
+già, trovare un esempio, confrontarla con un'altra: tutto questo
+lascia una traccia più ricca e più facile da ritrovare della semplice
+ripetizione delle stesse parole. È la base di ciò che vedremo nel
+capitolo~\ref{cap:capire}.
+
+\subsection*{Consolidare, anche dormendo}
+
+Una traccia appena formata è fragile. Nelle ore e nei giorni successivi
+il cervello la stabilizza, e una parte importante di questo lavoro
+avviene durante il sonno: l'ippocampo, che ha registrato gli eventi
+della giornata, li \enquote{riattiva} di notte e li trasferisce a poco
+a poco alla corteccia, dove si integrano con le conoscenze già
+possedute \parencite{rasch2013}. È la spiegazione più probabile di ciò
+che Quintiliano aveva osservato senza saperlo spiegare, e che
+Murre e Dros hanno ritrovato, come un piccolo salto all'insù dopo
+ventiquattro ore, nella loro replica della curva di Ebbinghaus
+(capitolo~\ref{cap:vita}): il ricordo che il giorno dopo
+\enquote{si ricompone}. Il sonno avrà un
+capitolo tutto suo, il~\ref{cap:corpo}. Qui basta la conseguenza più
+semplice: una notte in bianco prima di un esame non toglie soltanto
+lucidità alla prova, ma sottrae al cervello il tempo di consolidare ciò
+che hai studiato nei giorni precedenti.
+
+\subsection*{Ritrovare, e cambiare}
+
+Si potrebbe pensare che ricordare sia come aprire un file: lo si apre,
+lo si legge, lo si richiude, e il file resta com'era. Non è così. Il
+recupero è un'azione che \emph{modifica} ciò che si ricorda. Nel 2000 un gruppo di neuroscienziati guidato da Karim Nader e Joseph
+LeDoux lo mostrò in modo spettacolare, nei ratti: un ricordo ben
+consolidato, quando veniva riattivato, tornava per qualche tempo
+fragile e doveva essere stabilizzato di nuovo; se in quella finestra si
+bloccava la sintesi delle proteine necessarie, il ricordo andava
+perduto \parencite{nader2000}. Il fenomeno si chiama
+\emph{riconsolidamento}. Il suo significato, per chi studia, è
+duplice. Ogni volta che richiami un ricordo, lo riscrivi: se lo
+richiami bene, e lo correggi quando sbagli, esce rafforzato e
+aggiornato; se lo richiami male e nessuno ti corregge, puoi
+consolidare anche un errore. Sono le due facce della pratica del
+recupero che vedremo nel capitolo~\ref{cap:recupero}.
+
+\subsection*{La neuroscienza, quanto basta}
+
+Che cosa succede, fisicamente, quando si impara? Nel 1949 lo psicologo
+canadese Donald Hebb propose un'ipotesi che si riassume di solito così:
+i neuroni che si attivano insieme rafforzano il loro collegamento
+\parencite{hebb1949}. Circa vent'anni dopo il rafforzamento delle
+sinapsi, i punti di contatto tra neuroni, fu osservato davvero
+nell'ippocampo; ed Eric Kandel, studiando i riflessi di un mollusco
+marino, l'\emph{Aplysia}, dai neuroni grandi e facili da osservare,
+mostrò che la memoria a breve termine modifica l'efficacia delle
+sinapsi esistenti, mentre quella a lungo termine richiede la sintesi di
+nuove proteine e la crescita di nuove sinapsi \parencite{kandel2001}.
+Per queste scoperte ricevette il premio Nobel nel 2000. Un ricordo
+duraturo, in altre parole, non è un'entità immateriale depositata
+chissà dove: è una piccola modifica della struttura del cervello. Chi
+impara qualcosa per davvero esce dallo studio, letteralmente, con un
+cervello diverso.
+
+Una cautela, però, è necessaria. Le neuroscienze aiutano a capire
+\emph{perché} certe strategie funzionano; ma le prove che
+\emph{funzionano} vengono da un'altra parte: dagli esperimenti di
+psicologia e dalle classi reali, in cui si confronta chi studia in un
+modo con chi studia in un altro. Diffida di chiunque ti venda un
+metodo, un corso, un'app o un integratore con il prefisso
+\enquote{neuro} e l'immagine di un cervello colorato: quasi sempre
+l'immagine è lì per convincere, non per dimostrare. Alcune delle
+convinzioni più diffuse sul cervello -- che ne usiamo solo il dieci per
+cento, che esistano persone \enquote{visive} e persone
+\enquote{uditive} a cui insegnare in modo diverso -- sono semplicemente
+false. Le esamineremo nel capitolo~\ref{cap:miti}.
+
+\begin{figure}[tbp]
+  \centering
+  \begin{tikzpicture}[font=\footnotesize,
+      scatola/.style={draw=filetto!80, line width=0.4pt, align=center,
+                      text width=4.6cm, minimum height=1.05cm, inner sep=4pt},
+      freccia/.style={-latex, line width=0.5pt},
+      etichetta/.style={font=\scriptsize\itshape}]
+    \node[scatola, draw=none] (amb) at (0,0)
+      {\textsc{ambiente}\\[1pt]\itshape stimoli dai sensi};
+    \node[scatola] (ml) at (0,-2.1)
+      {\textsc{memoria di lavoro}\\[1pt]\itshape circa quattro elementi, pochi secondi};
+    \node[scatola] (mlt) at (0,-4.6)
+      {\textsc{memoria a lungo termine}\\[1pt]\itshape praticamente illimitata};
+    % attenzione
+    \draw[freccia, inchiostro] (amb.south) -- node[right, etichetta]{attenzione} (ml.north);
+    % ciò che non entra
+    \draw[freccia, inchiostro!55, dashed] (amb.east) -- ++(1.1,0)
+      node[right, etichetta, text width=1.3cm, align=left]{il resto\\si perde};
+    % codifica e recupero
+    \draw[freccia, rubrica] ([xshift=-0.9cm]ml.south) -- node[left, etichetta]{codifica} ([xshift=-0.9cm]mlt.north);
+    \draw[freccia, rubrica] ([xshift=0.9cm]mlt.north) -- node[right, etichetta]{recupero} ([xshift=0.9cm]ml.south);
+    % consolidamento
+    \draw[freccia, inchiostro] ([yshift=0.22cm]mlt.east) to[out=0, in=0, looseness=4] ([yshift=-0.22cm]mlt.east);
+    \node[etichetta, anchor=west, align=left] at ([xshift=0.65cm, yshift=0.15cm]mlt.east)
+      {consolidamento\\(ore, giorni,\\sonno)};
+  \end{tikzpicture}
+  \caption{Uno schema semplificato della memoria. Entra solo ciò a cui
+    si presta attenzione; la memoria di lavoro è piccola e breve; si è
+    imparato qualcosa solo se è cambiata la memoria a lungo termine. Il
+    recupero riporta le conoscenze nella memoria di lavoro, dove
+    servono per pensare, e intanto le rafforza.}
+  \label{fig:memoria}
+\end{figure}
 
 \section{Dimenticare non è un difetto}
 
-\segnaposto{da scrivere}
+La figura~\ref{fig:memoria} riassume il percorso di un ricordo. Resta
+da capire perché, lungo questo percorso, tanto vada perduto: perché
+dimentichiamo.
+
+La risposta più intuitiva è che le tracce si cancellino, come
+un'impronta nella sabbia. In parte forse accade. Ma buona parte di ciò
+che chiamiamo oblio ha altre cause. La prima è l'\emph{interferenza}:
+ricordi simili si ostacolano a vicenda. Il nuovo PIN del bancomat si
+confonde con il vecchio; lo spagnolo, studiato dopo il francese, ti fa
+sbagliare le parole francesi; gli articoli del codice studiati la
+stessa settimana si sovrappongono. Più le cose sono simili e meno sono
+distinte nella tua mente, più si disturbano.
+
+La seconda causa è ancora più interessante: spesso il ricordo non è
+sparito, ma non riesci a trovarlo. Negli anni Sessanta Endel Tulving e
+Zena Pearlstone fecero studiare ad alcune persone lunghe liste di
+parole appartenenti a diverse categorie -- animali, frutti, strumenti,
+e così via -- e poi chiesero di ricordarle \parencite{tulving1966}.
+Chi riceveva come aiuto i nomi delle categorie ricordava molte più
+parole di chi doveva ricordarle senza aiuto. Le parole
+\enquote{dimenticate} dal secondo gruppo, dunque, erano ancora lì: erano
+\emph{disponibili}, ma non \emph{accessibili}. Mancava l'indizio giusto
+per raggiungerle. È l'esperienza di un nome sulla punta della lingua, o
+della domanda d'esame a cui non sai rispondere e la cui risposta ti
+torna in mente, intera, sulle scale all'uscita.
+
+Da qui un principio che Tulving chiamò \emph{specificità della
+codifica}: un ricordo si ritrova più facilmente quando le condizioni
+del recupero somigliano a quelle in cui è stato formato
+\parencite{tulving1973}. Un esperimento famoso fece imparare liste di
+parole a dei sommozzatori, a terra o sott'acqua: le parole imparate
+sott'acqua venivano ricordate meglio sott'acqua, quelle imparate a
+terra meglio a terra \parencite{godden1975}. L'effetto esiste, ma
+nello studio reale è piccolo, e non vuol dire che devi fare l'esame
+nella stessa stanza in cui hai studiato. Vuol dire piuttosto il
+contrario: se studi sempre nello stesso modo, nello stesso luogo, con
+le stesse domande, il tuo ricordo sarà legato a quegli indizi. Se
+invece ritrovi le stesse cose in modi, momenti e contesti diversi, il
+ricordo diventa più libero e più facile da raggiungere da molte
+strade. Ci torneremo nei capitoli~\ref{cap:tempo} e~\ref{cap:alternanza}.
+
+Infine, l'oblio ha una funzione. Lo scrittore argentino Jorge Luis
+Borges ha immaginato, in un racconto, un giovane uruguaiano, Ireneo
+Funes, che dopo una caduta da cavallo non riesce più a dimenticare
+nulla: ogni foglia di ogni albero, ogni forma di ogni nuvola, ogni
+istante di ogni giornata.\footnote{Jorge Luis Borges,
+\emph{Funes, o della memoria}, nella raccolta \emph{Finzioni} (1944).}
+Funes non è un genio: è un infelice, incapace
+di pensare, perché pensare significa dimenticare le differenze,
+generalizzare, astrarre. Una memoria che trattenesse tutto sarebbe
+ingestibile. Dimenticare ciò che non serve è ciò che permette di
+ritrovare ciò che serve.
+
+E c'è di più. Come vedremo subito, nel capitolo~\ref{cap:dueforze},
+l'oblio non è soltanto il nemico dello studio: in una certa misura ne è
+anche l'alleato. Un po' di oblio, al momento giusto, è proprio ciò che
+rende efficace la ripresa successiva.
+
+\asterismo
+
+Agostino chiamava la memoria un santuario vasto e infinito. Oggi ne
+conosciamo meglio l'architettura: una porta stretta, l'attenzione; un
+banco di lavoro piccolissimo; un magazzino senza fondo, in cui le cose
+entrano solo se ci si è pensato, si stabilizzano con il tempo e con il
+sonno, e si rafforzano ogni volta che si va a riprenderle. Non è un
+sistema perfetto. Ma è un sistema che si può usare bene, se si sa come
+funziona.
 
 \begin{daricordare}
-\segnaposto{il principio del capitolo in due righe}
+Se nella memoria a lungo termine non è cambiato nulla, non si è
+imparato nulla, anche se sul momento \enquote{si è capito}. Si ricorda
+ciò a cui si è pensato; e ogni volta che si richiama un ricordo, lo si
+rafforza.
 \end{daricordare}
 
 \begin{domande}
-  \item \segnaposto{domanda di recupero su questo capitolo}
-  \item \segnaposto{domanda di applicazione a una materia che studi}
-  \item \segnaposto{domanda di ripresa su un capitolo precedente}
+  \item Perché la memoria di lavoro è il collo di bottiglia
+        dell'apprendimento? Quanto è grande, e come la si può
+        \enquote{allargare}?
+  \item Che cosa significa che \enquote{la memoria è il residuo del
+        pensiero}? Fai un esempio tratto dal tuo modo di studiare.
+  \item Che cosa mostrò il caso di H.M. sui sistemi di memoria?
+  \item Che cosa dimostra l'esperimento di Craik e Tulving sulle
+        parole? E quello di Tulving e Pearlstone sulle categorie?
+  \item Pensa a come studi di solito una materia difficile: in quali
+        momenti rischi di sovraccaricare la memoria di lavoro?
+  \item (Ripresa, capitolo~\ref{cap:storia}) Che cosa aveva osservato
+        Quintiliano sul giorno dopo? Come lo si spiega oggi?
 \end{domande}
 
 \begin{sintesi}
-  \item \segnaposto{punto di sintesi}
+  \item Entra nella memoria solo ciò a cui si presta attenzione.
+  \item La memoria di lavoro è piccola (circa quattro elementi) e
+        breve; la conoscenza già posseduta la allarga, perché permette
+        di ragionare per unità più grandi.
+  \item La memoria a lungo termine è praticamente illimitata e ha più
+        sistemi (dichiarativo, procedurale). Imparare significa
+        modificarla: si ricorda ciò su cui si è pensato.
+  \item Ogni ricordo è codificato (meglio se in profondità),
+        consolidato (anche nel sonno) e recuperato; il recupero lo
+        modifica e lo rafforza.
+  \item Gran parte dell'oblio è interferenza o mancanza dell'indizio
+        giusto, non cancellazione; e dimenticare ha una funzione.
 \end{sintesi}
 
 \finecapitolo
