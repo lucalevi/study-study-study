@@ -1,4 +1,5 @@
 Claude outputs/
+ricerca/fonti-scaricate-2026-09-27/
 
 # File generati da LaTeX / biber / latexmk
 *.aux
@@ -12,3 +13,4 @@ Claude outputs/
 *.synctex.gz
 *.toc
 *.out
+
