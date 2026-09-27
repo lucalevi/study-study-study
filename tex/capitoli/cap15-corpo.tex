@@ -2,7 +2,9 @@
 %  Capitolo 15 — Il corpo che impara
 %  Parte IV
 %  Ricerca di riferimento: ricerca 01 §11; 03 §3.5, §3.7
-%  Voci bibliografiche principali: jenkins1924, rasch2013, yoo2007, hillman2008, dewar2012, smith2016
+%  Voci bibliografiche principali: jenkins1924, rasch2013, yoo2007,
+%    dunster2018, hillman2008, smith2016, dewar2012, humiston2019,
+%    quevedoputter2025
 %  Epigrafe: ✔ verificata sul testo (vedi ricerca 03 e registro, ricerca 00).
 %  Confermata come unica sede di questa epigrafe il 25/09/2026: il cap. 6
 %  (due forze) usava lo stesso passo di Quintiliano ed è stato spostato su
@@ -10,46 +12,364 @@
 %  doppione; qui il passo resta perché parla letteralmente di "una notte
 %  interposta" (sonno). Il cap. 9 lo cita già in nota, rimandando qui.
 %  Scheda del capitolo: ricerca/06_indice-ragionato.md, capitolo 15
+%
+%  STATO: prima stesura (27/09/2026), circa 2.900 parole.
+%  Dati verificati il 27/09/2026 (registro 00, v. 1.20):
+%  - S-57 Yoo et al. 2007 (Nature Neuroscience 10): 28 partecipanti, 14 per
+%    gruppo; circa 35 ore di veglia; 150 immagini; riconoscimento due giorni
+%    dopo, dopo due notti di sonno di recupero; −19% nel gruppo privato di
+%    sonno; attività dell'ippocampo ridotta (testo integrale, Walker Lab).
+%  - S-58 Dunster et al. 2018 (Science Advances 4): ingresso spostato dalle
+%    7.50 alle 8.45; +34 minuti di sonno (mediana); voti finali +4,5%;
+%    misura con sensori da polso (comunicato University of Washington).
+%  - S-59 Dewar et al. 2012 (abstract): due racconti, 10 minuti di riposo
+%    contro un gioco «trova le differenze», test dopo 15–30 minuti e dopo
+%    7 giorni. Humiston et al. 2019 (Sci. Rep. 9, 19345): replica
+%    preregistrata non riuscita; meta-analisi di 10 studi d = 0,38.
+%    Quevedo Pütter & Erdfelder 2025 (Sci. Rep. 15): nessuna differenza tra
+%    riposo e uso dei social; peggio solo imparare altro vocabolario.
+%  - K-25 Giovenale X, 356 (◐).
+%  Jenkins & Dallenbach 1924: descrizione qualitativa (due studenti,
+%  sillabe senza senso, intervalli fino a otto ore), registro S-60,
+%  priorità C.
+%  Coerenza: Quintiliano XI, 2, 43 è già citato nei capp. 4, 6 (nota) e 9;
+%  qui si usa la parte non ancora citata (le due ipotesi: riposo della
+%  fatica / maturazione del ricordo). Il meccanismo ippocampo → corteccia
+%  è già nel cap. 5 (rasch2013): qui solo richiamato. Jenkins & Dallenbach
+%  e Yoo sono accennati nel cap. 9: qui raccontati per esteso, come
+%  promesso. Smith et al. 2016 è raccontato nel cap. 8: qui richiamato.
+%  La pausa sul telefono: la scheda diceva «non è una pausa»; le prove
+%  del 2019 e del 2025 obbligano a una formulazione più prudente (vedi
+%  §«Pause vere»), con rimando al cap. 16.
 % ------------------------------------------------------------------
 \chapter{Il corpo che impara}
 \label{cap:corpo}
 
 \epigrafe[È straordinario a dirsi, e la ragione non è evidente, quanta solidità aggiunga una notte interposta.]{Mirum dictu est, nec in promptu ratio, quantum nox interposita adferat firmitatis.}{Quintiliano, Institutio oratoria XI, 2, 43}
 
-\iniziale{Q}{uesto capitolo} \segnaposto{apertura: da scrivere — vedi la scheda nell'indice ragionato}.
+\iniziale{N}{el 1924}, in un laboratorio della Cornell University,
+due studenti si prestarono a un esperimento piuttosto
+scomodo. Dovevano imparare brevi liste di sillabe senza senso, del
+tipo che Ebbinghaus aveva inventato quarant'anni prima, e poi dire
+quante ne ricordavano dopo un certo intervallo: un'ora, due, quattro,
+otto. La particolarità stava in ciò che accadeva nel frattempo. A volte
+imparavano la lista la mattina e passavano le ore successive svegli,
+alle prese con le loro normali occupazioni. Altre volte la imparavano
+la sera, poco prima di andare a letto, e venivano svegliati per il test
+dopo una, due, quattro od otto ore di sonno.
+
+I due psicologi che conducevano l'esperimento, John Jenkins e Karl
+Dallenbach, trovarono un risultato netto: a parità di tempo trascorso,
+dopo il sonno si ricordava molto di più che dopo la veglia
+\parencite{jenkins1924}. E la differenza cresceva con le ore: dopo una
+giornata passata svegli, delle sillabe restava poco; dopo una notte di
+sonno, una parte consistente era ancora lì. L'oblio, concludevano, non
+dipende soltanto dal tempo che passa, come pensava Ebbinghaus, ma da ciò
+che accade in quel tempo.
+
+Jenkins e Dallenbach non lo sapevano, ma stavano confermando
+un'osservazione che aveva diciotto secoli. È quella di Quintiliano che
+apre questo capitolo, e che hai già incontrato più volte in questo
+libro: ciò che la sera non si riusciva a ripetere, il giorno dopo
+\enquote{si ricompone}. Qui ci interessa la parte del passo che finora
+abbiamo lasciato da parte. Quintiliano, onestamente, ammette di non
+conoscere la ragione del fenomeno, ma propone due ipotesi: forse
+\enquote{riposa quella fatica che ostacolava se stessa}; oppure
+\enquote{matura e si digerisce il ricordo}.\footnote{Quintiliano,
+\emph{Institutio oratoria} XI, 2, 43: \emph{sive requiescit labor ille,
+cuius sibi ipsa fatigatio obstabat, sive maturatur atque concoquitur
+\ldots{} recordatio}.} Sono, quasi alla lettera, le due spiegazioni
+che la scienza del Novecento avrebbe discusso per decenni: il sonno
+\emph{protegge} i ricordi, perché mentre dormi non entra nulla di nuovo
+a disturbarli; oppure il sonno \emph{lavora} sui ricordi, e li
+rafforza. Oggi sappiamo che la seconda ipotesi di Quintiliano coglieva
+la parte più importante della verità.
+
+Questo capitolo parla del corpo che impara: del sonno, del movimento,
+dello stress, delle pause, di ciò che si mangia. Non sono argomenti
+secondari rispetto al metodo. La memoria non vive in un'anima senza
+corpo: vive in un cervello, che ha bisogno di dormire, di muoversi, di
+non essere in allarme continuo. Il metodo dei capitoli precedenti
+funziona meglio in un corpo che lo asseconda, e molto peggio in uno che
+lo ostacola.
 
 \section{Il sonno che consolida}
 
-\segnaposto{da scrivere}
+Nel capitolo~\ref{cap:cervello} abbiamo visto, in breve, che cosa
+accade di notte: l'ippocampo, che durante il giorno ha registrato ciò
+che hai vissuto e studiato, riattiva quelle tracce durante il sonno
+profondo e le trasferisce a poco a poco alla corteccia, dove si
+integrano con ciò che sapevi già \parencite{rasch2013}. Il sonno non è
+dunque una pausa della memoria, un tempo morto in cui al massimo non si
+dimentica. È una delle fasi in cui la memoria lavora di più: riordina,
+seleziona, collega. Una parte di ciò che chiamiamo
+\enquote{imparare} avviene quando non stai studiando affatto.
+
+Da qui la conseguenza che il capitolo~\ref{cap:tempo} ha già
+enunciato come regola: la notte prima dell'esame si dorme. Ma il sonno
+non serve soltanto \emph{dopo} lo studio. Serve anche \emph{prima}, e
+questo è meno noto.
+
+Nel 2007 un gruppo di neuroscienziati guidato da Matthew Walker ha
+diviso ventotto giovani volontari in due gruppi \parencite{yoo2007}.
+Quattordici hanno dormito normalmente; gli altri quattordici sono
+rimasti svegli per circa trentacinque ore di fila, una notte intera e
+due giornate. Poi, dentro una macchina per la risonanza magnetica,
+tutti hanno guardato centocinquanta immagini: volti sconosciuti,
+paesaggi, oggetti. Il test di memoria è arrivato due giorni dopo,
+quando anche il gruppo privato di sonno aveva recuperato con due notti
+di riposo normale. Nonostante il recupero, chi aveva imparato dopo la
+notte in bianco riconosceva le immagini il 19\% peggio degli altri. La
+risonanza mostrava perché: durante l'apprendimento il loro ippocampo,
+la porta d'ingresso dei nuovi ricordi, era molto meno attivo. Il danno
+non riguardava la concentrazione, ma la capacità stessa di registrare.
+E le notti successive non lo riparavano: ciò che non era stato
+registrato bene non poteva essere consolidato dopo.
+
+Vale la pena fermarsi su questo risultato, perché smonta un calcolo
+che molti studenti fanno durante la sessione: \enquote{Stanotte studio,
+poi recupero il sonno nel fine settimana}. Il sonno perso prima di una
+giornata di studio non si recupera dopo, almeno per ciò che in quella
+giornata si doveva imparare. Una notte corta rovina due cose insieme:
+il consolidamento di ciò che hai studiato ieri e la registrazione di ciò
+che studierai oggi.
+
+C'è poi una questione di orari. Nell'adolescenza, e fino ai primi anni
+dell'età adulta, l'orologio biologico si sposta in avanti: ci si
+addormenta più tardi e, se si potesse, ci si sveglierebbe più tardi.
+Non è pigrizia, è fisiologia. Quando un distretto scolastico di Seattle
+ha spostato l'inizio delle lezioni nelle scuole superiori dalle 7.50
+alle 8.45, gli studenti -- il cui sonno era misurato con un sensore da
+polso, non con un questionario -- hanno dormito in media mezz'ora in
+più per notte, e i voti finali nel corso osservato sono cresciuti del
+4,5\% \parencite{dunster2018}. All'università non c'è un distretto che
+sposti gli orari al posto tuo; ma c'è un margine di scelta che a scuola
+non avevi. Se puoi, evita di mettere lo studio più impegnativo nelle
+ore in cui sei ancora mezzo addormentato, e non trasformare la sera in
+notte con la scusa che è l'unico momento tranquillo. Il sonno che togli
+alla notte non te lo restituisce nessun caffè.
+
+\begin{inpratica}
+\textbf{Studia la sera, dormi, recupera la mattina.}
+\begin{enumerate}
+  \item \emph{La sera}, dopo cena o nel tardo pomeriggio, studia un
+        argomento nuovo o difficile: capiscilo, fai un primo recupero a
+        libro chiuso (capitolo~\ref{cap:recupero}).
+  \item \emph{Dormi} una notte intera, a orari il più possibile
+        regolari. Niente studio a letto fino all'ultimo minuto: lascia
+        un po' di tempo tra il libro e il sonno.
+  \item \emph{La mattina}, prima di cominciare altro, dedica dieci
+        minuti a un recupero sullo stesso argomento: scrivi ciò che
+        ricordi, poi controlla. Ciò che \enquote{si è ricomposto} nella
+        notte lo troverai più saldo; ciò che manca è ciò su cui tornare.
+  \item \emph{Nella sessione d'esame} tieni fermi gli orari del sonno
+        come terresti fermi quelli delle lezioni. La notte prima
+        dell'esame non è un'eccezione: è il caso in cui la regola conta
+        di più.
+\end{enumerate}
+\end{inpratica}
 
 \section{Il movimento}
 
-\segnaposto{da scrivere}
+Che l'esercizio fisico faccia bene al corpo non ha bisogno di
+dimostrazioni. Che faccia bene anche all'apprendimento è più
+interessante, e le prove, qui, vanno lette con attenzione.
+
+Una rassegna molto citata di Charles Hillman, Kirk Erickson e Arthur
+Kramer, pubblicata nel 2008, ha raccolto i risultati di molti studi su
+bambini, adulti e anziani \parencite{hillman2008}. Il quadro è
+coerente: l'attività aerobica regolare -- camminare a passo svelto,
+correre, andare in bicicletta, nuotare -- si associa a migliori
+\emph{funzioni esecutive}, cioè alla capacità di pianificare, di
+mantenere l'attenzione, di ignorare le distrazioni, di passare in modo
+ordinato da un compito all'altro; e si associa a una migliore memoria.
+Negli animali l'esercizio stimola perfino la nascita di nuovi neuroni
+proprio nell'ippocampo, la struttura da cui dipendono i nuovi ricordi.
+
+Detto questo, la prudenza è d'obbligo. Le prove sono solide per la
+salute generale e per le funzioni esecutive, soprattutto nei bambini e
+negli anziani; sono più deboli e più varie quando si passa al
+rendimento negli studi. Gli effetti \emph{immediati} -- una corsa prima
+di studiare -- esistono, ma sono piccoli. Nessuno ha dimostrato che
+un'ora di palestra valga un'ora di studio fatto bene, e nessuno
+dovrebbe crederlo.
+
+La conclusione pratica, però, è chiara, e va contro un'abitudine molto
+diffusa. Durante la sessione d'esame molti studenti smettono di fare
+sport: \enquote{non ho tempo}. È un cattivo affare. Il movimento
+regolare sostiene proprio le capacità di cui lo studio ha più bisogno
+-- attenzione, controllo, memoria -- e aiuta a dormire meglio e a
+reggere la tensione di cui parleremo tra poco. Non serve un programma
+agonistico: una camminata veloce di mezz'ora, la bicicletta per andare
+a lezione, le scale invece dell'ascensore. E non serve nemmeno
+separarlo dallo studio: molti studenti ripassano camminando, facendosi
+le domande a voce alta. È recupero anche quello
+(capitolo~\ref{cap:recupero}), e ha il vantaggio di portarti fuori
+casa.
 
 \section{Stress e ansia}
 
-\segnaposto{da scrivere}
+Conosci probabilmente l'esperienza: all'esame orale il docente fa una
+domanda su un argomento che sapevi bene, e la mente si svuota. Dopo,
+uscendo dall'aula, la risposta torna intera, con tutti i dettagli. Non
+l'avevi dimenticata. Non riuscivi a \emph{recuperarla}.
+
+È uno degli effetti meglio documentati dello stress acuto. Quando sei
+in allarme, il corpo produce ormoni -- il più noto è il cortisolo --
+che, per qualche tempo, rendono più difficile proprio il recupero dei
+ricordi. È un meccanismo che ha senso per un animale in pericolo, che
+deve agire in fretta e non ripensare alle cose imparate; non ne ha per
+uno studente davanti a una commissione. Nel linguaggio del
+capitolo~\ref{cap:dueforze}: lo stress non cancella la forza di
+immagazzinamento di ciò che sai, ma abbassa, per un momento, la sua
+forza di recupero.
+
+La buona notizia l'hai già incontrata nel capitolo~\ref{cap:recupero}:
+ciò che è stato imparato con la pratica del recupero resiste molto
+meglio a questo effetto. Nell'esperimento di Amy Smith e colleghi, chi
+aveva studiato rileggendo, messo sotto stress, ricordava peggio; chi
+aveva studiato interrogandosi no \parencite{smith2016}. La ragione è
+intuitiva. Un ricordo richiamato molte volte è come un sentiero
+battuto: lo trovi anche al buio. Un ricordo che hai soltanto riletto è
+un sentiero visto una volta sulla carta. Per uno studente ansioso,
+questo è forse l'argomento più convincente a favore del metodo: non
+soltanto fa imparare di più, ma rende ciò che sai più solido proprio
+nel momento in cui ne hai più bisogno.
+
+Diverso è lo stress \emph{cronico}: settimane e mesi di tensione
+continua, sonno scarso, senso di non farcela. Qui gli effetti sono
+negativi sotto ogni punto di vista, sulla salute come
+sull'apprendimento. E l'ansia, anche quando non arriva al vuoto di
+memoria, ha un costo che conosci dal capitolo~\ref{cap:cervello}: i
+pensieri preoccupati occupano la memoria di lavoro, lo spazio mentale
+in cui si ragiona, e lasciano meno posto per il compito. Chi studia
+matematica con la paura della matematica studia, in un certo senso,
+con metà della mente.
+
+Che cosa si può fare? Tre cose, in ordine di importanza. La prima è
+quella di cui abbiamo appena parlato: studiare in modo da
+\emph{sapere di sapere}. Interrogarsi spesso, a basso rischio, trasforma
+l'esame in una prova già fatta molte volte; e ogni prova superata, a
+casa, riduce l'incertezza che alimenta l'ansia. La seconda è
+distribuire lo studio: la sessione concentrata nelle ultime due
+settimane è di per sé una fabbrica di stress cronico
+(capitolo~\ref{cap:tempo}). La terza è proteggere il sonno e il
+movimento, che sono i regolatori naturali della tensione. Se l'ansia
+diventa così forte da bloccarti, o dura da mesi, non è un difetto di
+carattere e non è una cosa da risolvere da soli: quasi tutti gli
+atenei italiani hanno un servizio di consulenza psicologica per gli
+studenti, gratuito e riservato. Usarlo è un gesto di intelligenza, non
+di debolezza.
 
 \section{Pause vere}
 
-\segnaposto{da scrivere}
+Resta una domanda che ogni studente si pone, di solito verso la fine
+della seconda ora: quando fermarsi, e come.
+
+Nel 2012 Michaela Dewar e colleghi, tra cui lo psicologo italiano
+Sergio Della Sala, hanno fatto ascoltare a un gruppo di volontari due
+brevi racconti \parencite{dewar2012}. Dopo il primo, i partecipanti
+restavano dieci minuti seduti, a occhi
+chiusi, senza fare nulla; dopo l'altro, passavano dieci minuti a
+cercare le differenze tra coppie di immagini. Il racconto seguito dal
+riposo veniva ricordato meglio, non solo dopo mezz'ora, ma anche dopo
+una settimana. Sembrava la prova che una pausa \enquote{vuota}, senza
+stimoli, aiuti il cervello a consolidare ciò che ha appena ricevuto, un
+po' come fa il sonno.
+
+La storia, come spesso accade, è più complicata. Nel 2019 un gruppo
+americano ha ripetuto l'esperimento con un protocollo registrato in
+anticipo, e l'effetto non è comparso; mettendo insieme i dieci studi
+simili fino ad allora disponibili, i ricercatori hanno trovato un
+beneficio reale del riposo, ma più piccolo di quanto si pensasse
+all'inizio \parencite{humiston2019}. Nel 2025, poi, due psicologi
+tedeschi hanno confrontato tre modi di passare la pausa dopo lo studio:
+riposare, scorrere i social sul telefono, oppure imparare altro
+vocabolario \parencite{quevedoputter2025}. Il riposo e i social hanno
+dato lo stesso risultato. A peggiorare il ricordo era soltanto la terza
+attività: rimettersi subito a imparare qualcosa di simile.
+
+Che cosa se ne ricava? Due cose, una più solida e una più prudente. La
+più solida: dopo aver studiato qualcosa di impegnativo, il cervello ha
+bisogno di un po' di tempo in cui non gli si chieda di registrare altre
+informazioni dello stesso tipo. Passare senza interruzione da un
+capitolo di diritto privato al successivo, e poi a un terzo, non è
+studiare di più: è far competere i ricordi tra loro. Una pausa vera è
+anzitutto una pausa \emph{dall'imparare}. La più prudente: non abbiamo
+prove che dieci minuti sul telefono, in sé, cancellino ciò che hai
+appena studiato. Il problema del telefono in pausa è un altro, e lo
+conosci per esperienza: i dieci minuti diventano quaranta, e al rientro
+l'attenzione è altrove. Ne parleremo nel prossimo capitolo. Per ora,
+se vuoi il massimo con la minima spesa, alzati, muoviti, guarda fuori
+dalla finestra, bevi un bicchiere d'acqua: una pausa che finisce quando
+decidi tu.
 
 \section{Cibi e integratori: poche prove}
 
-\segnaposto{da scrivere}
+Ogni sessione d'esame porta con sé la sua pubblicità: integratori per
+la memoria, \enquote{cibi per il cervello}, bevande per la
+concentrazione. Le prove che qualcuno di questi prodotti migliori
+l'apprendimento in una persona sana e normalmente nutrita sono deboli
+o assenti. La colazione ha effetti modesti e variabili; bere a
+sufficienza è sensato; mangiare in modo regolare ed equilibrato fa
+bene a tutto il corpo, cervello compreso. Oltre questo, il mercato
+vende speranze. Un buon criterio è quello che vedremo nel
+capitolo~\ref{cap:miti} a proposito dei miti dell'apprendimento:
+quando un prodotto promette di farti imparare senza fatica, la promessa
+è il primo indizio che non funziona.
+
+Del resto il rapporto tra corpo e mente ha un motto celebre, spesso
+frainteso. \emph{Mens sana in corpore sano} viene usato come uno
+slogan sportivo, quasi a dire che chi ha i muscoli allenati ha anche la
+testa allenata. Il poeta latino Giovenale, che lo ha scritto, diceva
+un'altra cosa. Alla fine di una satira sulla vanità dei desideri umani
+-- la ricchezza, il potere, la bellezza, la lunga vita, tutte cose che
+gli uomini chiedono agli dèi e che spesso li rovinano -- conclude che,
+se proprio si deve pregare, \enquote{bisogna pregare che ci sia una
+mente sana in un corpo sano}, e un animo forte che non tema la
+morte.\footnote{Giovenale, \emph{Satire} X, 356: \emph{orandum est ut
+sit mens sana in corpore sano}.} Non è un programma di allenamento: è
+una scelta di ciò che conta davvero. E, letta così, è un buon
+riassunto di questo capitolo. Dormire, muoversi, non vivere in allarme,
+fermarsi ogni tanto: non sono lussi che lo studente si concede quando
+ha finito di studiare. Sono le condizioni perché lo studio resti.
 
 \begin{daricordare}
-\segnaposto{il principio del capitolo in due righe}
+Il sonno fa parte dello studio: consolida ciò che hai imparato ieri e
+prepara il cervello a imparare domani. La notte prima dell'esame si
+dorme; e ciò che hai richiamato molte volte resiste anche allo stress.
 \end{daricordare}
 
 \begin{domande}
-  \item \segnaposto{domanda di recupero su questo capitolo}
-  \item \segnaposto{domanda di applicazione a una materia che studi}
-  \item \segnaposto{domanda di ripresa su un capitolo precedente}
+  \item Che cosa hanno scoperto Jenkins e Dallenbach nel 1924, e quale
+        delle due ipotesi di Quintiliano sul sonno è più vicina a ciò
+        che sappiamo oggi?
+  \item Perché, secondo l'esperimento di Yoo e colleghi, il sonno perso
+        prima di una giornata di studio non si recupera dormendo di più
+        nei giorni successivi?
+  \item Perché ciò che hai imparato con la pratica del recupero resiste
+        meglio allo stress dell'esame? Usa i termini \emph{forza di
+        immagazzinamento} e \emph{forza di recupero}.
+  \item Che cosa significava davvero \emph{mens sana in corpore sano}
+        per Giovenale?
+  \item (Ripresa, capitolo~\ref{cap:metodo}) Che cosa si fa il giorno
+        dopo aver studiato un argomento nuovo, e quanto tempo richiede?
 \end{domande}
 
 \begin{sintesi}
-  \item \segnaposto{punto di sintesi}
+  \item Il sonno consolida attivamente i ricordi: dopo una notte si
+        ricorda più che dopo lo stesso tempo passato svegli, come
+        avevano intuito Quintiliano e misurato Jenkins e Dallenbach.
+  \item La privazione di sonno prima dello studio riduce la capacità di
+        registrare nuovi ricordi, e il danno non si ripara con il
+        sonno dei giorni successivi.
+  \item Il movimento regolare sostiene attenzione, controllo e memoria;
+        gli effetti diretti sul rendimento sono più modesti, ma non c'è
+        ragione di rinunciarvi durante la sessione.
+  \item Lo stress acuto ostacola il recupero; la pratica del recupero e
+        lo studio distribuito sono la migliore protezione. Le pause
+        servono soprattutto come pause dall'imparare; integratori e
+        \enquote{cibi per il cervello} non hanno prove.
 \end{sintesi}
 
 \finecapitolo

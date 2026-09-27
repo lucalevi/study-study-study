@@ -2,9 +2,9 @@
 titolo: "Indice ragionato di «Studiare per la vita»"
 progetto: study-study-study
 documento: ricerca/06 — indice ragionato del libro
-versione: 1.12
+versione: 1.13
 data: 2026-09-27
-modifiche: "1.12 — scritta la prima stesura dei capitoli 2–3 (Parte I, 27/09/2026; circa 6.900 parole in tutto): note delle schede aggiornate (fonti effettivamente usate, riquadri, coerenze con i capp. 11 e 18); §8 (riga del cap. 2), §9.1 punto 4 e §11 aggiornati; nuova voce bibliografica `harackiewicz2016` e voci di dati `anvur2026`, `eurostat2026`, `oecd2014homework`; registro portato alla v. 1.18 (S-29, S-19, D-13 verificati; nuovi D-21, S-54…S-56, K-32, K-33, B-13, B-14, Y-07, Y-08). 1.11 — chiuse le incongruenze Y-05 (richiamo al cap. 7 aggiunto nel cap. 13) e Y-06 (rimando del cap. 12 corretto ai capp. 4 e 8) — 27/09/2026. 1.10 — scritta la prima stesura dei capitoli 4–7 (Parte II, 25/09/2026; circa 12.600 parole in tutto): note delle schede aggiornate; §3 (epigrafe del cap. 6), §7 (riprese), §9.1 punto 3 e §11 aggiornati; registro portato alla v. 1.13 (Y-01 e Y-02 chiusi, nuovi Y-05 e Y-06). 1.9 — verifica dei dati e delle citazioni previsti per i capp. 4–7 (25/09/2026): aggiunti e chiusi nel registro (v. 1.12) S-43…S-48 (Cowan 2001, Murre & Dros 2015, Deslauriers et al. 2019, Rozenblit & Keil 2002, Nelson & Dunlosky 1991, Koriat & Bjork 2005); per i capp. 4–7 non resta alcun punto aperto di priorità A. Note aggiunte alle schede dei capp. 4, 5, 6, 7. 1.8 — decisione dell'autore (25/09/2026): epigrafe del cap. 6 sostituita con Aristotele, in Diogene Laerzio V, 18 («radici amare, frutto dolce», registro K-12); l'epigrafe di Quintiliano XI, 2, 43 resta solo al cap. 15. Scheda del cap. 6 e §5 aggiornate. 1.7 — rilettura dei capp. 6–7 contro gli 8–10 (25/09/2026): note di coerenza scritte nei file dei capp. 6 e 7 (registro Y-01, Y-02, ora «pronti per la scrittura»); segnalato un doppione di epigrafe (Quintiliano XI, 2, 43, capp. 6 e 15) da decidere prima di scrivere il cap. 6. 1.6 — revisione dei capp. 9–10 (23/09/2026): aggiunto riquadro «Per chi insegna» al cap. 9; annotate le dipendenze dei capp. 9–10 dai capp. 6–7 e del cap. 9 dal cap. 24 (note delle schede, §8, §11; registro 00 v. 1.9, sezione H, Y-01…Y-04). 1.5 — scritta la prima stesura dei capitoli 9–14 (Parte III, 23/09/2026; circa 17.800 parole in tutto): note delle schede aggiornate con lunghezze, riquadri e fonti effettivamente usati; §9.1 punto 2 e §11 aggiornati; registro portato alla v. 1.8. 1.4 — 1.4 — decisione dell'autore (23/09/2026): niente attesa di revisori esterni per nessun capitolo, l'autore rivede e valida ogni capitolo man mano che esce (§10.1, decisione 12; §9.1 punto 1 e §11 punto 10 aggiornati di conseguenza). Confermato che i capp. 9–14 (Parte III) possono partire subito: il registro (ricerca 00, v. 1.7) non ha più punti aperti di priorità A o B per questa parte. 1.3 — scritti i capitoli di prova 1 e 8 (prima stesura, 22/09/2026); decise la voce dell'autore («io» discreto) e il riquadro «Per chi insegna» (solo dove serve) (§10.1, decisioni 10–11; §10.2, punto 6). 1.2 — decisa la licenza del PDF gratuito: Creative Commons BY-NC-SA 4.0 (§10.2, decisione 9; colophon aggiornato). 1.1 — integrate le decisioni dell'autore del 21/09/2026: pubblico universitario nella prima fase, pubblicazione in proprio, 26 capitoli"
+modifiche: "1.13 — scritta la prima stesura dei capitoli 15–18 (Parte IV, 27/09/2026; circa 11.000 parole in tutto: 15 ≈ 2.900, 16 ≈ 2.550, 17 ≈ 3.000, 18 ≈ 2.600): note delle schede aggiornate (fonti usate, riquadri, coerenze); una correzione alla scheda del cap. 15 (pause e telefono, registro S-59); §7 (riprese), §8 (righe dei capp. 17 e 18), §9.1 punto 5 e §11 aggiornati; sette nuove voci bibliografiche (`dunster2018`, `humiston2019`, `quevedoputter2025`, `kampfe2011`, `pietschnig2010`, `contractor2026`, `liu2026`); registro portato alla v. 1.20 (Y-07 chiuso; nuovi S-57…S-65, B-15, X-07). 1.12 — scritta la prima stesura dei capitoli 2–3 (Parte I, 27/09/2026; circa 6.900 parole in tutto): note delle schede aggiornate (fonti effettivamente usate, riquadri, coerenze con i capp. 11 e 18); §8 (riga del cap. 2), §9.1 punto 4 e §11 aggiornati; nuova voce bibliografica `harackiewicz2016` e voci di dati `anvur2026`, `eurostat2026`, `oecd2014homework`; registro portato alla v. 1.18 (S-29, S-19, D-13 verificati; nuovi D-21, S-54…S-56, K-32, K-33, B-13, B-14, Y-07, Y-08). 1.11 — chiuse le incongruenze Y-05 (richiamo al cap. 7 aggiunto nel cap. 13) e Y-06 (rimando del cap. 12 corretto ai capp. 4 e 8) — 27/09/2026. 1.10 — scritta la prima stesura dei capitoli 4–7 (Parte II, 25/09/2026; circa 12.600 parole in tutto): note delle schede aggiornate; §3 (epigrafe del cap. 6), §7 (riprese), §9.1 punto 3 e §11 aggiornati; registro portato alla v. 1.13 (Y-01 e Y-02 chiusi, nuovi Y-05 e Y-06). 1.9 — verifica dei dati e delle citazioni previsti per i capp. 4–7 (25/09/2026): aggiunti e chiusi nel registro (v. 1.12) S-43…S-48 (Cowan 2001, Murre & Dros 2015, Deslauriers et al. 2019, Rozenblit & Keil 2002, Nelson & Dunlosky 1991, Koriat & Bjork 2005); per i capp. 4–7 non resta alcun punto aperto di priorità A. Note aggiunte alle schede dei capp. 4, 5, 6, 7. 1.8 — decisione dell'autore (25/09/2026): epigrafe del cap. 6 sostituita con Aristotele, in Diogene Laerzio V, 18 («radici amare, frutto dolce», registro K-12); l'epigrafe di Quintiliano XI, 2, 43 resta solo al cap. 15. Scheda del cap. 6 e §5 aggiornate. 1.7 — rilettura dei capp. 6–7 contro gli 8–10 (25/09/2026): note di coerenza scritte nei file dei capp. 6 e 7 (registro Y-01, Y-02, ora «pronti per la scrittura»); segnalato un doppione di epigrafe (Quintiliano XI, 2, 43, capp. 6 e 15) da decidere prima di scrivere il cap. 6. 1.6 — revisione dei capp. 9–10 (23/09/2026): aggiunto riquadro «Per chi insegna» al cap. 9; annotate le dipendenze dei capp. 9–10 dai capp. 6–7 e del cap. 9 dal cap. 24 (note delle schede, §8, §11; registro 00 v. 1.9, sezione H, Y-01…Y-04). 1.5 — scritta la prima stesura dei capitoli 9–14 (Parte III, 23/09/2026; circa 17.800 parole in tutto): note delle schede aggiornate con lunghezze, riquadri e fonti effettivamente usati; §9.1 punto 2 e §11 aggiornati; registro portato alla v. 1.8. 1.4 — 1.4 — decisione dell'autore (23/09/2026): niente attesa di revisori esterni per nessun capitolo, l'autore rivede e valida ogni capitolo man mano che esce (§10.1, decisione 12; §9.1 punto 1 e §11 punto 10 aggiornati di conseguenza). Confermato che i capp. 9–14 (Parte III) possono partire subito: il registro (ricerca 00, v. 1.7) non ha più punti aperti di priorità A o B per questa parte. 1.3 — scritti i capitoli di prova 1 e 8 (prima stesura, 22/09/2026); decise la voce dell'autore («io» discreto) e il riquadro «Per chi insegna» (solo dove serve) (§10.1, decisioni 10–11; §10.2, punto 6). 1.2 — decisa la licenza del PDF gratuito: Creative Commons BY-NC-SA 4.0 (§10.2, decisione 9; colophon aggiornato). 1.1 — integrate le decisioni dell'autore del 21/09/2026: pubblico universitario nella prima fase, pubblicazione in proprio, 26 capitoli"
 lingua: italiano
 collegato a: ricerca/00–05; tex/ (template 1.1, stessa struttura)
 ---
@@ -528,7 +528,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 14) Che cosa si fa il giorno dopo aver studiato?
 - **Fonti**: ricerca 01 §11; 03 §3.5, §3.7 · bibliografia: `jenkins1924`, `rasch2013`, `yoo2007`, `hillman2008`, `dewar2012`, `smith2016`
 - **Lunghezza**: 3.000 parole · **File**: `tex/capitoli/cap15-corpo.tex`
-- **Note**: Ricerca 01 §11. Verifica K-25.
+- **Note**: Ricerca 01 §11. Verifica K-25. **Prima stesura scritta il 27/09/2026** (circa 2.900 parole). Apertura con Jenkins & Dallenbach (1924) raccontati per esteso, come promesso dal cap. 9, e con la parte del passo di Quintiliano non ancora citata (le due ipotesi: riposo della fatica / maturazione del ricordo). Yoo et al. 2007 raccontato per esteso (S-57); Dunster et al. 2018 per gli orari (S-58); Smith et al. 2016 solo richiamato (cap. 8). Riquadro *In pratica* «Studia la sera, dormi, recupera la mattina». **Correzione alla scheda**: «la pausa sul telefono non è una pausa» non è sostenuta dalle prove recenti (Humiston et al. 2019; Quevedo Pütter & Erdfelder 2025; registro S-59): il testo dice che una pausa vera è anzitutto una pausa *dall'imparare*, e che il rischio del telefono è che la pausa si allunghi (rimando al cap. 16). Accenno ai servizi di consulenza psicologica degli atenei. Nessun riquadro «Per chi insegna».
 
 #### Capitolo 16 — L'attenzione
 
@@ -552,7 +552,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 15) Che cos'è una pausa vera?
 - **Fonti**: ricerca 01 §12; 02 §6.4 · bibliografia: `sana2013`, `mueller2014`, `urry2021`, `delgado2018`, `beland2016`, `goodyear2025`
 - **Lunghezza**: 3.000 parole · **File**: `tex/capitoli/cap16-attenzione.tex`
-- **Note**: Ricerca 01 §12; ricerca 02 §6.4. Verifiche S-21, S-22.
+- **Note**: Ricerca 01 §12; ricerca 02 §6.4. Verifiche S-21, S-22. **Prima stesura scritta il 27/09/2026** (circa 2.550 parole). Seneca, *Ep.* 2, 2 anche con il seguito (*quod in animo fideliter sedeat*); Sana et al. 2013 raccontato per esteso; Beland & Murphy (S-61) e Goodyear et al. 2025 per i divieti; circolare MIM 2025 e PISA 2025 (63% delle scuole, 37% di distrazione); Mueller & Oppenheimer e la replica di Urry; Delgado et al. 2018 senza la cifra *g*; Kämpfe et al. 2011 e Pietschnig et al. 2010 senza cifre. L'effetto «presenza» del telefono (Ward et al. 2017) non è usato. Riquadri: *In pratica* (cinque mosse) e «Per chi insegna» (portatili nelle ultime file). Il «Da ricordare» è riformulato per non ripetere quello del cap. 5.
 
 #### Capitolo 17 — L'intelligenza artificiale: stampella o tutor?
 
@@ -575,7 +575,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 8) Perché il recupero fa ricordare?
 - **Fonti**: ricerca 01 §13; 02 §2.1, §6.4; 03 §2.3 · bibliografia: `bastani2025`, `kestin2025`, `kosmyna2025`, `risko2016`
 - **Lunghezza**: 3.500 parole · **File**: `tex/capitoli/cap17-ia.tex`
-- **Note**: Capitolo che invecchia in fretta: scriverlo per ultimo tra quelli della Parte IV e aggiornarlo prima della stampa. Verifica K-06.
+- **Note**: Capitolo che invecchia in fretta: scriverlo per ultimo tra quelli della Parte IV e aggiornarlo prima della stampa. Verifica K-06. **Prima stesura scritta il 27/09/2026** (circa 3.000 parole), per ultima nella Parte IV. Mito di Theuth raccontato per esteso (*meletē*, dall'esterno / dall'interno, *pharmakon* come medicina e veleno); Bastani et al. 2025 e Kestin et al. 2025 verificati sulle fonti (S-62, S-63); aggiunti due lavori usciti dopo la ricerca 01: Contractor & Reyes 2026 (preprint, S-64) e la meta-analisi di Liu, Xie & Xu 2026 (S-65), entrambi senza cifre; Kosmyna et al. 2025 con cautela. Riquadri: *In pratica* (cinque richieste utili e tre da evitare) e «Per chi insegna» (valutazione in presenza, tutor progettati dal docente). Da rileggere e aggiornare prima della stampa.
 
 #### Capitolo 18 — Motivazione e scopo
 
@@ -599,7 +599,7 @@ Il percorso consigliato va presentato in «Come usare questo libro» (pagine ini
   3. (Ripresa, cap. 3) Che cosa hanno scoperto Yeager e colleghi sullo scopo?
 - **Fonti**: ricerca 01 §10; 03 §2.3, §3.3 · bibliografia: `ryan2000`, `wigfield2000`, `hulleman2009`, `yeager2014`, `sisk2018`, `macnamara2023`, `crede2017`, `gruber2014`
 - **Lunghezza**: 3.000 parole · **File**: `tex/capitoli/cap18-motivazione.tex`
-- **Note**: Ricerca 01 §10. Verifiche S-19, S-20.
+- **Note**: Ricerca 01 §10. Verifiche S-19, S-20. **Prima stesura scritta il 27/09/2026** (circa 2.600 parole). Coerenza con il cap. 3 rispettata (registro Y-07, chiuso): gli esperimenti di Hulleman, Harackiewicz, Yeager e Gruber sono solo richiamati. Epigrafe di Cicerone con il seguito (*vadimonia constituta*, K-21). Aggiunta la teoria aspettativa × valore con il lato dell'aspettativa (obiettivi piccoli, progressi visibili). Sisk et al. 2018 con le cifre in parole; Yeager et al. 2019, Macnamara & Burgoyne 2023, Credé et al. 2017 senza cifre; Macnamara et al. 2014 con le percentuali. Riquadri: *Esercizio* «Il diario del perché» (riprende l'esercizio del cap. 3) e «Per chi insegna». Sei domande di ripasso, con riprese dei capp. 3 e 8.
 
 ### Parte V — Studiare all'università
 
@@ -850,10 +850,10 @@ Ogni capitolo contiene almeno una domanda di **ripresa** su un capitolo preceden
 | 12. Immagini, parole e palazzi della memoria | cap. 11 |
 | 13. Insegnare per imparare | cap. 12 |
 | 14. Il metodo in una settimana | cap. 8–9 |
-| 15. Il corpo che impara | cap. 14 |
-| 16. L'attenzione | cap. 15 |
-| 17. L'intelligenza artificiale: stampella o tutor? | cap. 8 |
-| 18. Motivazione e scopo | cap. 3 |
+| 15. Il corpo che impara | cap. 14 (scritto: domanda 5) |
+| 16. L'attenzione | cap. 15 (scritto: domanda 5) |
+| 17. L'intelligenza artificiale: stampella o tutor? | cap. 8 (scritto: domanda 5, collegata al *Fedro*) |
+| 18. Motivazione e scopo | capp. 3, 8 (scritto: domande 5–6) |
 | 19. Dalla scuola all'università | cap. 7 |
 | 20. Il semestre, le lezioni, gli esami | cap. 9 |
 | 21. Ogni disciplina ha il suo studio | cap. 10 |
@@ -884,9 +884,9 @@ Ogni capitolo contiene almeno una domanda di **ripresa** su un capitolo preceden
 | Capitolo | Dipende da | Azione |
 |---|---|---|
 | **2** | Dati italiani sull'università (ricerca 02; AlmaLaurea, ANVUR, MUR) | **Fatto (27/09/2026)**: dati aggiornati e verificati (registro 1.18), capitolo scritto; nessun dato originale (l'indagine è solo proposta) |
-| **18** (← cap. 3) | Esperimenti su valore di utilità, scopo e curiosità già raccontati nel cap. 3 (registro Y-07) | Nel cap. 18 richiamarli senza raccontarli di nuovo; sviluppare il lato pratico |
+| **18** (← cap. 3) | Esperimenti su valore di utilità, scopo e curiosità già raccontati nel cap. 3 (registro Y-07) | **Fatto (27/09/2026)**: richiamati senza raccontarli di nuovo; lato pratico sviluppato (Y-07 chiuso) |
 | **8** (apertura) | — | Apertura con un esperimento classico (Roediger & Karpicke, 2006) o una scena d'esame |
-| **17** | Rapida evoluzione delle prove sull'IA | Scrivere tardi; aggiornare prima della pubblicazione |
+| **17** | Rapida evoluzione delle prove sull'IA | Scritto il 27/09/2026 con le prove disponibili a quella data (anche un preprint di luglio 2026 e una meta-analisi del 2026); **aggiornare prima della pubblicazione** (registro S-64, S-65) |
 | **21** | **Ricerca 07 — come si studiano le discipline universitarie** | Da fare: STEM, medicina e professioni sanitarie, giurisprudenza ed economia, discipline umanistiche, lingue |
 | **22** | **Ricerca 10 — DSA e BES all'università** + revisione esterna | Da fare: L. 170/2010 art. 5, linee guida CNUDD, servizi di ateneo, dati; revisione di un esperto di DSA e di un servizio di ateneo |
 | **23–24** | **Ricerca 08 — didattica universitaria in Italia** | Da fare: formazione didattica dei docenti (faculty development, centri TLC, indicazioni ANVUR), prove sull'apprendimento attivo e sulla valutazione |
@@ -912,7 +912,7 @@ La scrittura **comincia solo quando l'autore dà il via** (decisione 8). **Via d
 2. **Parte III** (capp. 9–14): il cuore del metodo, subito dopo il cap. 8. **Via libera dal 23/09/2026**: il registro (ricerca 00, v. 1.7) non ha più punti aperti di priorità A o B per questa parte. **Prima stesura dei capp. 9–14 scritta il 23/09/2026** (circa 17.800 parole); in attesa della revisione dell'autore.
 3. **Parte II** (capp. 4–7): le basi teoriche, scritte sapendo già che cosa devono preparare. **Prima stesura scritta il 25/09/2026** (circa 12.600 parole); in attesa della revisione dell'autore.
 4. **Parte I** (capp. 2–3): con i dati italiani aggiornati. **Prima stesura scritta il 27/09/2026** (circa 6.900 parole); in attesa della revisione dell'autore.
-5. **Parte IV** (capp. 15–18; il 17 per ultimo).
+5. **Parte IV** (capp. 15–18; il 17 per ultimo). **Prima stesura scritta il 27/09/2026** (circa 11.000 parole, un po' sotto le 12.500 previste: margine utile per i capitoli lunghi della Parte V); in attesa della revisione dell'autore.
 6. **Parte V** (capp. 19–22; il 21 dopo la ricerca 07; il 22 dopo la ricerca 10 e con revisione esterna).
 7. **Parte VI** (capp. 23–26; dopo le ricerche 08 e 09).
 8. **Congedo, appendici, prefazione, «Come usare questo libro»**.
@@ -988,8 +988,10 @@ Elenco sintetico, allineato con la memoria del progetto (per rispondere a «cosa
 | 15 | **Appendice B** (calendario di ripasso, «Il metodo in una pagina») | capp. 9, 14 | rinviata a una prossima sessione (registro Y-04) |
 | 16 | **Piccole coerenze aperte dalla Parte II** | capp. 12, 13 | **fatto (27/09/2026)**: Y-05 e Y-06 chiusi |
 | 17 | **Parte I, capp. 2–3** | il perché dello studio | **prima stesura scritta (27/09/2026)**, circa 6.900 parole; revisione dell'autore. Prossimo blocco secondo il piano (§9.1 punto 5): Parte IV, capp. 15–18 (il 17 per ultimo) |
-| 18 | **Coerenza cap. 3 ↔ cap. 18** | cap. 18 | da fare quando si scriverà il cap. 18 (registro Y-07) |
+| 18 | **Coerenza cap. 3 ↔ cap. 18** | cap. 18 | **fatto (27/09/2026)**: registro Y-07 chiuso |
+| 19 | **Parte IV, capp. 15–18** | le condizioni dell'apprendimento | **prima stesura scritta (27/09/2026)**, circa 11.000 parole; revisione dell'autore. Prossimo blocco secondo il piano (§9.1 punto 6): Parte V — capp. 19 e 20 subito; il 21 dopo la ricerca 07; il 22 dopo la ricerca 10 |
+| 20 | **Aggiornamento del cap. 17 prima della stampa** | cap. 17 | da fare a ridosso della pubblicazione (registro S-64, S-65) |
 
 ---
 
-*Fine dell'indice ragionato (versione 1.12). Da aggiornare insieme al template `tex/` a ogni modifica della struttura.*
+*Fine dell'indice ragionato (versione 1.13). Da aggiornare insieme al template `tex/` a ogni modifica della struttura.*

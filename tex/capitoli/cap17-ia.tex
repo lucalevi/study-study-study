@@ -2,45 +2,416 @@
 %  Capitolo 17 — L'intelligenza artificiale: stampella o tutor?
 %  Parte IV
 %  Ricerca di riferimento: ricerca 01 §13; 02 §2.1, §6.4; 03 §2.3
-%  Voci bibliografiche principali: bastani2025, kestin2025, kosmyna2025, risko2016
+%  Voci bibliografiche principali: bastani2025, kestin2025,
+%    contractor2026, kosmyna2025, liu2026, risko2016, oecd2026pisa
 %  Epigrafe: ◐ verificata indirettamente (vedi ricerca 03 e registro, ricerca 00)
 %  Scheda del capitolo: ricerca/06_indice-ragionato.md, capitolo 17
+%
+%  STATO: prima stesura (27/09/2026), circa 3.000 parole. CAPITOLO CHE
+%  INVECCHIA IN FRETTA: ricontrollare le prove prima della stampa
+%  (registro S-62…S-64; indice ragionato, scheda del cap. 17).
+%  Dati verificati il 27/09/2026 (registro 00, v. 1.20):
+%  - S-62 Bastani et al. 2025 (PNAS 122(26)), testo del manoscritto
+%    (sito dell'autrice): quasi 1.000 studenti, Turchia, classi 9–11,
+%    matematica; esercitazioni +48% (GPT Base) e +127% (GPT Tutor)
+%    rispetto al controllo; esame senza IA −17% per GPT Base, nessuna
+%    differenza significativa per GPT Tutor; con GPT Base gli studenti
+%    chiedevano soprattutto le soluzioni; non percepivano di aver
+%    imparato meno.
+%  - S-63 Kestin et al. 2025 (Sci. Rep. 15, 17458), pagina dell'editore:
+%    194 studenti, Physical Sciences 2, Harvard; disegno incrociato;
+%    guadagni di apprendimento più che doppi rispetto alla lezione
+%    attiva; mediana 49 minuti contro circa 60; sette principi di
+%    progettazione; più coinvolgimento e motivazione dichiarati.
+%    NB: gli autori riportano effetti da 0,73 a 1,3 DS, non 0,63 come
+%    nella ricerca 01 §13.1 (nel testo nessuna cifra in DS).
+%  - S-64 Contractor & Reyes 2026 (preprint arXiv 2607.08849, luglio
+%    2026): accesso all'IA durante lo studio, +0,27 DS al test senza IA,
+%    guadagno in gran parte conservato dopo una settimana; benefici
+%    maggiori per chi usava l'IA per farsi spiegare i concetti invece che
+%    per generare testo (abstract). Nel testo senza cifre.
+%  - S-65 Liu, Xie & Xu 2026 (Frontiers in Psychology, meta-analisi):
+%    33 studi, 3.394 partecipanti, istruzione superiore; effetti positivi
+%    ma eterogeneità estrema, bias di pubblicazione per gli esiti
+%    cognitivi; non distingue se la prova finale avvenisse con o senza IA.
+%  - Kosmyna et al. 2025: preprint, 54 partecipanti (ricerca 01 §13.1,
+%    verificato; da citare con cautela).
+%  - K-06 Platone, Fedro 275a (◐); prima parte del passo ✔.
+%  - D-04 PISA 2025 Italia: 36% riassunti, 30% bozze (già nel cap. 2,
+%    qui solo richiamati).
+%  Coerenza: il principio «si verifica solo ciò che si sa» è nel cap. 3
+%  (e nel cap. 11): qui richiamato. Effetto di generazione e pre-domande:
+%  cap. 11. Fluidità e illusioni: cap. 7. Il Fedro non è ancora stato
+%  usato in altri capitoli: qui il racconto esteso.
 % ------------------------------------------------------------------
 \chapter{L'intelligenza artificiale: stampella o tutor?}
 \label{cap:ia}
 
 \epigrafe[non hai trovato un farmaco per la memoria, ma per il richiamo]{οὔκουν μνήμης ἀλλὰ ὑπομνήσεως φάρμακον ηὗρες}{Platone, Fedro 275a}
 
-\iniziale{Q}{uesto capitolo} \segnaposto{apertura: da scrivere — vedi la scheda nell'indice ragionato}.
+\iniziale{I}{n un dialogo} di Platone, il \emph{Fedro}, Socrate
+racconta un mito egizio. Il dio Theuth, inventore dei numeri, della
+geometria, dell'astronomia e dei dadi, si presenta un giorno al re
+Thamus per mostrargli le sue invenzioni, e gli propone di diffonderle
+tra gli Egizi. Per ciascuna il re chiede a che cosa serva, e ne loda o
+ne critica gli effetti. Quando arriva la scrittura, Theuth è sicuro del
+fatto suo: \enquote{Questa conoscenza, o re, renderà gli Egizi più
+sapienti e più capaci di ricordare: è stata trovata come farmaco della
+memoria e della sapienza}.
+
+Thamus non è d'accordo, e la sua risposta merita di essere letta per
+intero: \enquote{Questa renderà smemorati coloro che la impareranno,
+per mancanza di esercizio della memoria: fidandosi dello scritto, si
+ricorderanno dall'esterno, per mezzo di segni estranei, e non
+dall'interno, da se stessi. Non hai dunque trovato un farmaco per la
+memoria, ma per il richiamo. Ai tuoi discepoli procuri l'apparenza della
+sapienza, non la verità}.\footnote{Platone, \emph{Fedro} 274c--275b; la
+risposta di Thamus è a 275a. La traduzione è quella della ricerca 03
+del progetto.}
+
+Prova a rileggere il passo sostituendo \enquote{la scrittura} con
+\enquote{l'intelligenza artificiale}. Ha l'aria di un articolo uscito
+la settimana scorsa. Uno strumento che promette di renderci più
+sapienti; il sospetto che ci renda, invece, più dipendenti; la
+distinzione tra sapere davvero e averne soltanto l'apparenza. Tutto è
+già lì, ventiquattro secoli fa.
+
+Questo capitolo parla dell'intelligenza artificiale generativa -- i
+sistemi come ChatGPT, Claude, Gemini, che scrivono testi, risolvono
+esercizi, riassumono libri, rispondono a qualunque domanda -- e del
+posto che può avere nello studio. È il capitolo di questo libro che
+invecchierà più in fretta: gli strumenti cambiano ogni pochi mesi, e le
+ricerche serie sul loro effetto sull'apprendimento sono appena
+cominciate. Ma le prime prove sono già abbastanza chiare da permettere
+una risposta, e quella risposta, curiosamente, non dipende dallo
+strumento. Dipende da una domanda che questo libro ti ha fatto porre
+molte volte: \emph{chi sta facendo il lavoro?}
 
 \section{Il mito di Theuth}
 
-\segnaposto{da scrivere}
+Il mito di Theuth va preso sul serio, ma non alla lettera. Platone
+metteva in guardia dalla scrittura, e intanto scriveva: dobbiamo a lui
+alcune delle pagine più belle della filosofia. E la scrittura non ha
+distrutto la memoria. L'ha trasformata: ha liberato le persone dalla
+necessità di ricordare tutto, ha permesso di accumulare conoscenze che
+nessuna memoria individuale avrebbe potuto contenere, e ha reso
+possibili proprio i libri da cui si studia. Chi volesse trarre dal
+\emph{Fedro} la conclusione che le nuove tecnologie rovinano sempre la
+mente dovrebbe smettere di leggere anche questo libro.
+
+Eppure Thamus aveva visto qualcosa di vero, e le sue parole lo dicono
+con una precisione sorprendente. La scrittura, secondo lui, produce
+oblio \emph{per mancanza di esercizio della memoria}. Il termine greco,
+\emph{meletē}, indica l'esercizio, la pratica ripetuta: è proprio ciò
+che la scienza dell'apprendimento chiama pratica del recupero
+(capitolo~\ref{cap:recupero}). E Thamus distingue tra ricordare
+\enquote{dall'esterno, per mezzo di segni estranei} e ricordare
+\enquote{dall'interno, da se stessi}: è la differenza tra
+\emph{riconoscere} una cosa quando la si rivede scritta e
+\emph{richiamarla} dalla propria memoria, la stessa differenza su cui
+si fondano i capitoli~\ref{cap:inganni} e~\ref{cap:recupero}. Infine,
+l'\enquote{apparenza della sapienza}: la sensazione di sapere che nasce
+dall'avere il testo sotto gli occhi, e che si dissolve quando il testo
+non c'è più.
+
+Anche la parola \enquote{farmaco} è scelta con cura. In greco
+\emph{pharmakon} significa sia medicina sia veleno: la stessa sostanza
+guarisce o avvelena a seconda di come, quanto e quando la si prende.
+Questa ambiguità è la chiave del capitolo. L'intelligenza artificiale è
+un \emph{pharmakon} nel senso pieno della parola. Le ricerche che
+vedremo mostrano che può far imparare di più, e più in fretta, di una
+buona lezione; e che può far imparare di meno, dando nel frattempo
+l'impressione di aver imparato di più. La differenza non sta nella
+sostanza. Sta nella dose e nel modo.
 
 \section{Che cosa dicono i primi esperimenti}
 
-\segnaposto{da scrivere}
+L'esperimento più istruttivo finora è stato condotto in Turchia e
+pubblicato nel 2025 da Hamsa Bastani e colleghi
+\parencite{bastani2025}. Hanno coinvolto quasi mille studenti delle
+scuole superiori, in matematica, divisi in tre gruppi. Il primo
+studiava come sempre, con il libro e gli appunti. Il secondo poteva
+usare, durante le esercitazioni, un assistente di intelligenza
+artificiale molto simile a ChatGPT, che i ricercatori hanno chiamato
+\emph{GPT Base}. Il terzo usava un assistente dello stesso tipo, ma
+istruito dagli insegnanti a comportarsi da tutor: dava suggerimenti
+invece delle soluzioni, e aveva a disposizione le soluzioni corrette
+preparate dai docenti per non commettere errori. I ricercatori lo hanno
+chiamato \emph{GPT Tutor}.
+
+Durante le esercitazioni, i due gruppi con l'intelligenza artificiale
+sono andati molto meglio del gruppo di controllo: il 48\% in più con
+GPT Base, il 127\% in più con GPT Tutor. Fin qui, un trionfo. Poi è
+arrivata la verifica, senza alcun aiuto, come in un normale compito in
+classe. Gli studenti che si erano esercitati con GPT Tutor sono andati
+più o meno come quelli del gruppo di controllo. Quelli che si erano
+esercitati con GPT Base sono andati il 17\% \emph{peggio}. Analizzando
+le conversazioni, i ricercatori hanno trovato la spiegazione: con GPT
+Base la maggior parte degli studenti si limitava a chiedere la
+soluzione e a copiarla. Gli autori lo dicono con una parola sola:
+l'intelligenza artificiale era diventata una \emph{stampella}. E c'è un
+dettaglio che dovrebbe ormai suonarti familiare: gli studenti di GPT
+Base non si rendevano conto di aver imparato meno. La prestazione
+durante l'esercizio era stata ottima, e loro l'avevano scambiata per
+apprendimento. È la distinzione del capitolo~\ref{cap:dueforze} in
+forma pura.
+
+Un secondo esperimento, pubblicato lo stesso anno, mostra l'altra
+faccia del \emph{pharmakon}. Gregory Kestin e colleghi hanno lavorato
+con 194 studenti di un corso introduttivo di fisica all'Università di
+Harvard \parencite{kestin2025}. Per due settimane, ciascuno studente ha
+imparato un argomento in aula, con una lezione di apprendimento attivo
+di buona qualità, e l'altro per conto proprio, con un tutor basato
+sull'intelligenza artificiale; metà della classe nell'ordine inverso.
+Il tutor non era un assistente generico. Era stato progettato seguendo
+i principi della scienza dell'apprendimento: coinvolgere attivamente lo
+studente invece di esporgli la soluzione, procedere per piccoli passi,
+non sovraccaricare la memoria di lavoro, dare un riscontro immediato
+e personale, lasciare a ciascuno il proprio ritmo; e, per evitare
+errori, si appoggiava a soluzioni scritte in anticipo dai docenti. Il
+risultato: con il tutor gli studenti hanno imparato più del doppio di
+quanto avevano imparato in aula, in meno tempo (circa cinquanta minuti
+contro un'ora), e si sono detti più coinvolti e più motivati.
+
+Uno studio uscito nell'estate del 2026, ancora in attesa di revisione
+paritaria, va nella stessa direzione con studenti universitari
+americani \parencite{contractor2026}. Chi poteva usare l'intelligenza
+artificiale mentre studiava un argomento nuovo ha ottenuto risultati
+migliori in un test fatto senza intelligenza artificiale, e il vantaggio
+si conservava in gran parte dopo una settimana. Ma non per tutti allo
+stesso modo: guadagnava di più chi l'aveva usata per farsi spiegare i
+concetti, e meno chi l'aveva usata per farsi scrivere i testi.
+
+Altri studi sono più preliminari, e vanno citati con prudenza. Nel
+2025 un gruppo del MIT ha registrato l'attività cerebrale di 54
+persone mentre scrivevano brevi saggi con l'aiuto di un chatbot, di un
+motore di ricerca, o senza strumenti \parencite{kosmyna2025}. Chi
+usava il chatbot mostrava un'attività cerebrale meno estesa, si sentiva
+meno autore del proprio testo e faticava a citarne il contenuto poco
+dopo averlo scritto. È un risultato suggestivo, e molto ripreso dai
+giornali; ma si tratta di un campione piccolo, di un compito
+particolare, e di un lavoro che al momento in cui scrivo non è stato
+pubblicato su una rivista scientifica. Lo stesso vale, in senso
+opposto, per le prime meta-analisi, che trovano in media effetti
+positivi dell'intelligenza artificiale sull'apprendimento universitario
+\parencite{liu2026}: mettono insieme studi molto diversi tra loro, di
+qualità disuguale, e spesso non distinguono se alla prova finale gli
+studenti avessero ancora l'intelligenza artificiale a disposizione. È
+proprio la distinzione che, nell'esperimento di Bastani, cambiava il
+segno del risultato.
+
+Messe in fila, le prove disegnano un quadro coerente. La domanda
+\enquote{l'intelligenza artificiale fa bene o male all'apprendimento?}
+è mal posta, come lo sarebbe la domanda \enquote{i libri fanno bene o
+male?}. L'intelligenza artificiale che fa il lavoro al posto tuo ti
+toglie l'apprendimento; quella che ti fa lavorare -- che ti fa domande,
+ti corregge, ti costringe a produrre la risposta -- può essere uno dei
+migliori tutor mai esistiti.
 
 \section{Stampella o tutor}
 
-\segnaposto{da scrivere}
+Per capire perché, bisogna dare un nome a ciò che accade quando ci si
+affida a uno strumento. Gli psicologi Evan Risko e Sam Gilbert lo
+chiamano \emph{delega cognitiva} (\emph{cognitive offloading}): usare
+qualcosa fuori dalla mente per fare un lavoro che altrimenti farebbe la
+mente \parencite{risko2016}. Lo facciamo continuamente, e spesso con
+ottime ragioni: scriviamo la lista della spesa, mettiamo un promemoria
+sul telefono, usiamo la calcolatrice. La delega libera risorse per
+altro. Ma ha un costo preciso: ciò che deleghi, non lo alleni. Chi usa
+sempre il navigatore non impara le strade; chi fa sempre i conti con
+la calcolatrice perde il senso dei numeri. Nella maggior parte dei casi
+è uno scambio conveniente. Nello studio no, per una ragione semplice:
+nello studio il lavoro \emph{è} il prodotto.
+
+Pensa a un riassunto. Se il tuo scopo è sapere di che cosa parla un
+articolo che non leggerai mai, un riassunto fatto da un'intelligenza
+artificiale ti dà ciò che ti serve. Ma se il tuo scopo è imparare il
+contenuto di quel capitolo, il riassunto non è il fine: è il mezzo. È
+lo sforzo di scegliere ciò che conta, di riformularlo con parole tue,
+di collegarlo a ciò che sai, che produce apprendimento
+(capitolo~\ref{cap:capire}). Un riassunto perfetto fatto da altri, e
+letto da te, è rilettura: la strategia più diffusa e meno efficace, con
+in più l'illusione di aver fatto qualcosa. Nel
+capitolo~\ref{cap:oggi} abbiamo visto che più di un terzo dei
+quindicenni italiani usa l'intelligenza artificiale proprio per fare
+riassunti, e quasi uno su tre per scrivere bozze di testi
+\parencite{oecd2026pisa}: le due attività in cui la delega toglie di
+più.
+
+C'è anche un secondo motivo, più sottile. Molte delle strategie che
+funzionano, lo abbiamo visto, sono \emph{difficoltà desiderabili}:
+sforzi che rendono lo studio più faticoso oggi e il ricordo più saldo
+domani (capitolo~\ref{cap:dueforze}). Un assistente generico, per come
+è costruito, tende a eliminare proprio queste difficoltà: risponde
+subito, spiega tutto, completa ciò che hai lasciato a metà. È gentile,
+e per l'apprendimento è un difetto. Un buon tutor fa il contrario:
+lascia che tu faccia fatica, e interviene solo quando la fatica smette
+di essere utile. Nell'esperimento di Bastani la differenza tra
+stampella e tutor stava tutta qui, in poche righe di istruzioni: dare
+suggerimenti invece delle risposte.
+
+Infine, c'è la questione della verità. Gli assistenti di intelligenza
+artificiale sbagliano, e sbagliano con lo stesso tono sicuro con cui
+dicono cose esatte: inventano citazioni, confondono date, applicano la
+formula sbagliata con impeccabile chiarezza. Nel
+capitolo~\ref{cap:sapere} abbiamo fissato il principio: si può
+verificare soltanto ciò che si sa già. Ne segue un paradosso che vale
+la pena tenere a mente. L'intelligenza artificiale è tanto più utile e
+sicura quanto più sai dell'argomento; tanto più rischiosa quanto meno
+ne sai. Lo studente che la usa per non studiare è proprio quello che
+non ha i mezzi per accorgersi dei suoi errori.
+
+La distinzione, in pratica, si può ridurre a una domanda da farsi prima
+di ogni richiesta: \emph{dopo questa risposta, chi avrà pensato di
+più, io o la macchina?} Se la risposta è \enquote{la macchina}, e lo
+scopo era imparare, hai usato una stampella. Se è \enquote{io}, hai
+trovato un tutor.
 
 \section{Regole per usare l'IA senza perdere l'apprendimento}
 
-\segnaposto{da scrivere}
+Da queste prove si possono ricavare alcune regole. Sono provvisorie,
+come tutto ciò che riguarda uno strumento così nuovo; ma derivano da
+principi che non sono provvisori affatto, e che hai incontrato nella
+terza parte del libro.
+
+\emph{Prima provaci da solo}. Il momento in cui usare l'intelligenza
+artificiale è dopo il tuo tentativo, non prima. Lo sforzo di generare
+una risposta, anche sbagliata, prepara la mente a capire quella giusta
+(capitolo~\ref{cap:capire}); chiedere la soluzione prima di averci
+provato cancella questo vantaggio.
+
+\emph{Fatti interrogare}. È l'uso più semplice e più coerente con la
+scienza dell'apprendimento. Dai all'assistente i tuoi appunti o
+l'indice di un capitolo e chiedigli di farti domande, una alla volta,
+aspettando la tua risposta prima di passare alla successiva. È la
+pratica del recupero, con un interrogante instancabile.
+
+\emph{Chiedi un riscontro su ciò che hai prodotto tu}. Scrivi la tua
+spiegazione di un concetto, la tua soluzione di un problema, la tua
+risposta a una domanda d'esame; poi chiedi all'assistente di dirti che
+cosa manca, che cosa è impreciso, che cosa è sbagliato. Il lavoro resta
+tuo; la correzione arriva subito.
+
+\emph{Usala per generare materiale di esercizio}: domande, schede,
+problemi simili a quelli dell'esame, esercizi misti su più argomenti
+(capitolo~\ref{cap:alternanza}). Controlla sempre che le risposte
+attese siano corrette, sul libro o sugli appunti.
+
+\emph{Chiedi spiegazioni diverse, non solo più brevi}. Quando non capisci
+una pagina, chiedi un altro esempio, un'analogia, un controesempio,
+una spiegazione a partire da ciò che sai già. Poi chiudi tutto e prova a
+rispiegarlo tu (capitolo~\ref{cap:insegnare}).
+
+\emph{Verifica sempre}. Ogni nome, data, formula, citazione o
+riferimento normativo che viene da un'intelligenza artificiale va
+controllato su una fonte affidabile prima di entrare nei tuoi appunti,
+e a maggior ragione in una tesina o in una tesi.
+
+\emph{Rispetta le regole del corso}. Molti atenei e molti docenti hanno
+stabilito regole sull'uso dell'intelligenza artificiale negli
+elaborati e negli esami. Presentare come proprio un testo scritto da
+una macchina, dove non è permesso, non è soltanto una scorrettezza: è
+rinunciare proprio all'esercizio per cui quell'elaborato era stato
+assegnato.
+
+\begin{inpratica}
+\textbf{Cinque richieste utili, e tre da evitare.}
+
+\smallskip\noindent\emph{Utili:}
+\begin{enumerate}
+  \item \enquote{Ecco i miei appunti sulla lezione di oggi. Fammi dieci
+        domande, una alla volta; aspetta la mia risposta e dimmi se è
+        corretta prima di passare alla successiva.}
+  \item \enquote{Questa è la mia spiegazione del concetto di
+        \emph{elasticità della domanda}. Non riscriverla: dimmi soltanto
+        che cosa manca o che cosa è sbagliato.}
+  \item \enquote{Ho provato a risolvere questo esercizio e mi sono
+        bloccato al terzo passaggio. Non darmi la soluzione: dammi un
+        suggerimento per andare avanti.}
+  \item \enquote{Preparami otto esercizi misti sui capitoli 3, 4 e 5,
+        senza dirmi a quale capitolo appartiene ciascuno. Le soluzioni
+        solo quando te le chiedo.}
+  \item \enquote{Non ho capito questo paragrafo. Spiegamelo con un
+        esempio diverso da quello del libro, poi fammi una domanda per
+        verificare se ho capito.}
+\end{enumerate}
+\emph{Da evitare, se lo scopo è imparare:}
+\begin{enumerate}
+  \item \enquote{Riassumimi il capitolo 6}, al posto di leggerlo e
+        riassumerlo tu.
+  \item \enquote{Risolvimi questo esercizio}, prima di averci provato.
+  \item \enquote{Scrivimi la risposta alla domanda d'esame}, per poi
+        rileggerla fino a ricordarla.
+\end{enumerate}
+\end{inpratica}
+
+\begin{riquadro}{Per chi insegna}
+Le prime prove suggeriscono due conseguenze per la didattica
+universitaria. La prima riguarda la valutazione: gli elaborati scritti
+a casa misurano sempre meno ciò che lo studente sa fare da solo, mentre
+le prove in presenza -- orali, scritti in aula, brevi recuperi a
+lezione -- misurano l'apprendimento e, allo stesso tempo, lo producono
+(capitolo~\ref{cap:valutare}). La seconda riguarda l'uso in aula:
+l'esperimento di Kestin mostra che un tutor progettato con i principi
+della scienza dell'apprendimento, e con soluzioni preparate dai docenti,
+può essere molto efficace. Tra un divieto generico e una libertà senza
+guida c'è lo spazio per strumenti progettati dal docente e per
+un'indicazione esplicita agli studenti su come usarli
+(capitolo~\ref{cap:docenti}).
+\end{riquadro}
+
+\asterismo
+
+Thamus aveva ragione a temere la scrittura, e torto a rifiutarla. Aveva
+ragione perché uno strumento che ricorda al posto nostro può
+dispensarci dal ricordare; aveva torto perché lo stesso strumento, usato
+bene, ci permette di sapere molto più di quanto potremmo da soli. Con
+l'intelligenza artificiale la scelta è la stessa, ma più urgente,
+perché lo strumento è molto più potente: non si limita a conservare ciò
+che abbiamo pensato, può pensare al posto nostro. Può essere la
+stampella di chi rinuncia a camminare, o il maestro paziente che ogni
+studente avrebbe voluto avere. Nessuna macchina decide al posto tuo
+quale delle due sarà.
 
 \begin{daricordare}
-\segnaposto{il principio del capitolo in due righe}
+Se l'intelligenza artificiale pensa al posto tuo, sei tu a non
+imparare. Usala dopo aver provato da solo, per farti interrogare e
+correggere; e verifica sempre ciò che ti dice.
 \end{daricordare}
 
 \begin{domande}
-  \item \segnaposto{domanda di recupero su questo capitolo}
-  \item \segnaposto{domanda di applicazione a una materia che studi}
-  \item \segnaposto{domanda di ripresa su un capitolo precedente}
+  \item Che cosa hanno mostrato Bastani e colleghi confrontando GPT Base
+        e GPT Tutor, durante le esercitazioni e alla verifica finale?
+  \item Perché gli studenti che usavano GPT Base non si accorgevano di
+        aver imparato meno? Usa la distinzione tra prestazione e
+        apprendimento.
+  \item Qual è la differenza tra usare l'intelligenza artificiale come
+        tutor e usarla come stampella? Fai un esempio per ciascun caso,
+        tratto da un esame che stai preparando.
+  \item Perché l'intelligenza artificiale è tanto più rischiosa quanto
+        meno si sa dell'argomento?
+  \item (Ripresa, capitolo~\ref{cap:recupero}) Perché richiamare
+        un'informazione dalla memoria la rafforza più che rileggerla? E
+        che cosa c'entra con la \enquote{mancanza di esercizio della
+        memoria} di cui parla Thamus?
 \end{domande}
 
 \begin{sintesi}
-  \item \segnaposto{punto di sintesi}
+  \item Il mito di Theuth nel \emph{Fedro} anticipa il problema: uno
+        strumento che ricorda \enquote{dall'esterno} può togliere
+        l'esercizio della memoria e dare l'apparenza del sapere. Ma la
+        scrittura ha trasformato la memoria, non l'ha distrutta: conta
+        l'uso.
+  \item Senza regole, l'intelligenza artificiale migliora gli esercizi e
+        peggiora l'apprendimento (Bastani e colleghi); progettata come
+        un tutor, può raddoppiare i guadagni rispetto a una buona
+        lezione (Kestin e colleghi).
+  \item Ciò che si delega non si allena: nello studio il lavoro è il
+        prodotto. Riassunti e bozze fatti dalla macchina sono la
+        delega più dannosa.
+  \item Regole: prima provare da soli; farsi interrogare e correggere;
+        generare esercizi; chiedere spiegazioni diverse; verificare
+        sempre, sapendo che si verifica solo ciò che si sa.
 \end{sintesi}
 
 \finecapitolo
