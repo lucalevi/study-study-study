@@ -197,7 +197,7 @@ collegato a: ricerca/01 (principi), ricerca/02 (dati italiani), ricerca/03 (font
 
 ## 7. Adulti e apprendimento per tutta la vita
 
-- La pratica del recupero è efficace anche negli **adulti anziani** (Meyer & Logan, 2013) e il test migliora anche l'apprendimento successivo negli anziani **[B]**.
+- La pratica del recupero è efficace anche negli **adulti oltre l'età universitaria**: Meyer & Logan (2013) hanno trovato benefici simili del test in universitari (18–25 anni), adulti giovani della comunità (18–25) e adulti di **55–65 anni**, sia subito sia dopo due giorni **[B]**. *(Corretto il 28/09/2026, registro 00, S-70: il testo diceva «adulti anziani»; il campione non comprendeva persone oltre i 65 anni. Rimossa l'affermazione, non verificata, sull'apprendimento successivo negli anziani.)*
 - La distribuzione nel tempo resta efficace; l'ostacolo principale per gli adulti è il **tempo** (lavoro, famiglia): brevi sessioni distribuite (es. 15 minuti al giorno con flashcard) sono particolarmente adatte **[B]**.
 - Le conoscenze pregresse degli adulti sono una risorsa (ancoraggio, analogie) ma anche fonte di **interferenza** e di idee sbagliate da correggere.
 - L'Italia ha una partecipazione degli adulti all'apprendimento permanente molto bassa e competenze adulte tra le più basse dell'OCSE (PIAAC 2023, ricerca 02, §5). Un capitolo per **studenti lavoratori, adulti che riprendono gli studi, insegnanti stessi** è coerente con il progetto.

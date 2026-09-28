@@ -2,8 +2,9 @@
 titolo: "Le fonti classiche — citazioni greche e latine su studio, memoria e insegnamento"
 progetto: study-study-study
 documento: ricerca/03 — fonti classiche con testi originali
-versione: 1.0
-data: 2026-09-21
+versione: 1.0.1
+data: 2026-09-28
+modifiche: "1.0.1 — (28/09/2026) corretto il riferimento di «senescere se multa in dies addiscentem»: Cicerone, De senectute 50, non 26 (registro 00, K-34)."
 lingua: italiano (con testi in greco antico e latino)
 collegato a: ricerca/01_scienza-dell-apprendimento.md (§2), ricerca/02_il-caso-italiano_dati.md
 ---
@@ -359,11 +360,13 @@ Il più antico manuale latino di mnemotecnica (libro III, 16, 28 – 24, 40). �
 
 - *Uso nel libro*: **interesse, valore e memoria** (ricerca 01, §10): si ricorda ciò che conta per noi. Aneddoto memorabile per il capitolo «sapere perché studi».
 
-**Cicerone, *De senectute*, 26** ✔
+**Cicerone, *De senectute*, 50** ✔ *(corretto il 28/09/2026, registro 00, K-34: prima era indicato il § 26)*
 
-> […] senescere se multa in dies addiscentem […]
+> […] ut honestum illud Solonis sit, quod ait versiculo quodam, ut ante dixi, senescere se multa in dies addiscentem, qua voluptate animi nulla certe potest esse maior.
 
-«[…] [Solone si vantava] di invecchiare imparando ogni giorno molte cose nuove […]» — traduzione latina del verso di Solone (§2.1).
+«[…] così che sia onorevole quel detto di Solone, che in un suo versetto, come ho detto prima, afferma di invecchiare imparando ogni giorno molte cose nuove: e nessun piacere dell'animo può certo essere più grande.» — traduzione latina del verso di Solone (§2.1).
+
+Al **§ 26** lo stesso verso è reso diversamente: *ut et Solonem versibus gloriantem videmus, qui se cotidie aliquid addiscentem dicit senem fieri* («come vediamo Solone vantarsi in versi, lui che dice di diventare vecchio imparando ogni giorno qualcosa»); è il passo a cui rimanda l'«ut ante dixi» del § 50. Entrambi i passi sono citati nella nota d'apertura del cap. 20.
 
 **Cicerone, *De oratore*, II, 36** ○
 

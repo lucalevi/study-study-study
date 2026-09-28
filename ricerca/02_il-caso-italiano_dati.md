@@ -60,12 +60,12 @@ Questo documento usa **fonti ufficiali** (OCSE, IEA, INVALSI, Istat, Eurostat, A
 4. **Solo il 64%** dei quindicenni italiani si sente parte della propria scuola (OCSE 76%).
 5. **L'IA è già il compagno di studio**: il 47% degli studenti italiani la usa ogni settimana per studiare (OCSE ~46%); solo il 9% non la usa mai (OCSE 14%). A livello OCSE, chi la usa ogni settimana ottiene in media risultati peggiori.
 6. **Distrazione digitale**: il 37% degli studenti italiani riferisce compagni distratti dai dispositivi nella maggior parte delle lezioni di scienze (OCSE 28%), associata a circa 13 punti in meno.
-7. **INVALSI 2026: circa un diplomato su due non raggiunge i traguardi** in italiano (54% adeguati) e matematica (52%) al termine della scuola superiore. In terza media: 61% in italiano, 55% in matematica.
-8. **La coorte della pandemia** fatica alla primaria: in quinta primaria matematica sotto di 8–10 punti percentuali rispetto al 2019.
-9. **La dispersione esplicita è ai minimi storici** (8,2% nel 2025, sotto l'obiettivo UE 2030 del 9%), e quella **implicita** (diplomati senza competenze minime) scende al 6,3%. Ma i divari territoriali restano ampi (15–20 punti percentuali tra Centro-Nord e Mezzogiorno in matematica alle medie).
+7. **INVALSI 2026: circa un diplomato su due non raggiunge i traguardi** in italiano (54,1% adeguati) e matematica (52,1%) al termine della scuola superiore. In terza media: 56,9% in italiano, 58,0% in matematica; in seconda superiore: 61,3% in italiano, 54,6% in matematica.
+8. **La coorte della pandemia** fatica alla primaria: in quinta primaria il punteggio medio in matematica è sceso da 200,0 punti (2019) a 191,4 (2026), −8,6 punti.
+9. **La dispersione esplicita è ai minimi storici** (8,2% nel 2025, sotto l'obiettivo UE 2030 del 9%), e quella **implicita** (diplomati senza competenze minime) scende al 6,3% (dall'8,7% del 2025) al termine del secondo ciclo. Per indirizzo: 2,6% nei licei, 7,9% negli istituti tecnici, 17,9% nei professionali. I divari territoriali restano ampi.
 10. **Gli adulti perdono ciò che hanno imparato**: PIAAC 2023 colloca l'Italia tra gli ultimi Paesi OCSE (literacy 245 vs 260; numeracy 244 vs 263; problem solving 231 vs 251). È il dato che più direttamente sostiene la tesi del libro: *si studia per la scuola, non per la vita*.
 11. **Gli insegnanti italiani sono tra i più anziani dell'OCSE** (età media 48 anni; metà sopra i 50; 3% sotto i 30); solo il 14% sente la professione apprezzata dalla società; solo il 16% dei neoassunti ha un mentore (OCSE 26%). La formazione iniziale è stata riformata di continuo (SSIS, TFA, 24 CFU, ora 60 CFU dal 2023). In nessuno di questi modelli la psicologia cognitiva dell'apprendimento risulta un contenuto obbligatorio esplicito.
-12. **Università: l'Italia è penultima in UE per giovani laureati** (31,1% dei 25–34enni nel 2025, media UE 44,8%); il 13,3% delle matricole abbandona tra primo e secondo anno; solo il 60,4% dei laureati termina in corso. I docenti universitari non hanno obblighi di formazione didattica specifici, anche se il sistema di accreditamento ANVUR (AVA3) richiede agli atenei di promuovere lo sviluppo delle competenze didattiche.
+12. **Università: l'Italia è penultima in UE per giovani laureati** (31,1% dei 25–34enni nel 2025, media UE 44,8%, davanti solo alla Romania); il 13,3% delle matricole delle università statali abbandona tra primo e secondo anno; a sei anni dall'immatricolazione il 62,7% si laurea e il 26,4% abbandona. I docenti universitari non hanno obblighi di formazione didattica specifici, anche se il sistema di accreditamento ANVUR (AVA3) richiede agli atenei di promuovere lo sviluppo delle competenze didattiche.
 
 ---
 
@@ -91,21 +91,21 @@ Questo documento usa **fonti ufficiali** (OCSE, IEA, INVALSI, Istat, Eurostat, A
 | Scienze | **483** | 482 | +1 | 477 |
 | Problem solving computazionale | **490** | 500 | −10 | — (nuovo) |
 
-*Nota: i valori 2022 sono quelli pubblicati da PISA 2022; il confronto puntuale con il 2025 va verificato sulle tabelle di tendenza OCSE, che applicano procedure di collegamento fra cicli. Le fonti giornalistiche parlano di risultati italiani «stabili» rispetto al 2022, a fronte di un calo OCSE di circa 14 punti in lettura e 9 in matematica.*
+*Nota (verificato 27/09/2026, registro 00, D-01/D-02/D-07): tutti i valori italiani 2025 e 2022 di questa tabella sono stati confermati esattamente sulla scheda Paese OCSE ufficiale (grafici dei trend). Nel grafico ufficiale, il punto 2022 di matematica e scienze è disegnato come "punto bianco", cioè non significativamente diverso dal 2025: la definizione di risultati "stabili" rispetto al 2022 è quindi statisticamente fondata, non solo giornalistica. Il calo OCSE di circa 14 punti in lettura e 9 in matematica resta confermato su fonte secondaria; sulla tendenza decennale 2015-2025 vedi la nota alla fine di questa sezione.*
 
 Altri dati italiani (PISA 2025):
 
 - **Eccellenze** (livelli 5–6): lettura 4% (OCSE 6%); scienze 4% (7%); matematica 7% (8%).
-- **Basso rendimento in scienze**: 22% (OCSE 25%).
+- **Basso rendimento**: scienze 22% (OCSE **26%**); matematica 31% (OCSE 35%); lettura 24% (OCSE 31%) — *confermato su fonte primaria il 27/09/2026 (registro 00, D-03): la media OCSE per il basso rendimento in scienze è 26%, non 25% come scritto in precedenza; i dati di matematica e lettura sono nuovi.*
 - **Divario socioeconomico**: in matematica circa il **50% degli studenti svantaggiati** non raggiunge il livello minimo; gli studenti svantaggiati sono indietro di oltre un livello di competenza; il 12,5% degli svantaggiati italiani è «resiliente» (OCSE 11,9%).
 - **Genere**: in lettura le ragazze superano i ragazzi di 28 punti; in matematica i ragazzi superano le ragazze di 17 punti; in scienze il divario si annulla per la prima volta (le ragazze guadagnano 11 punti).
 - **Divari territoriali**: in riduzione («riallineamento progressivo» Nord-Sud), ma ancora significativi.
 - **Senso di appartenenza alla scuola**: 64% (OCSE 76%).
-- **Tendenza di lungo periodo**: livelli inferiori a quelli del 2009–2015, soprattutto in matematica.
-- **IA**: 47% la usa ogni settimana per studiare; 39% per fare ricerche, 36% per **riassunti**, 30% per **bozze** di testi (OCSE rispettivamente 31%, 30%, 29%); solo il 9% non la usa mai (OCSE 14%).
+- **Tendenza di lungo periodo (2015-2025)**: sulla tendenza decennale, l'Italia mostra +5 punti in scienze, −7 in lettura e **−24 in matematica** (OCSE, *PISA 2025 Results, Volume I*, Tabella I.2.9 — *confermato su fonte primaria il 27/09/2026, registro 00, X-04: il valore "−24" già nel testo è quello corretto, calcolato come tendenza lineare decennale*).
+- **IA**: 47% la usa ogni settimana per studiare; 39% per fare ricerche, 36% per **riassunti**, 30% per **bozze** di testi (OCSE rispettivamente 31%, 30%, 29%); solo il 9% non la usa mai (OCSE 14%) — *tutte le cifre confermate testualmente sulla scheda Paese OCSE (27/09/2026, registro 00, D-04)*.
 - **Tempo davanti agli schermi**: circa 2 ore al giorno per l'apprendimento e 1,5 ore per lo svago (OCSE: 1,7 e circa 1,1).
 - **Distrazione digitale**: 37% (OCSE 28%), associata a circa −13 punti (OCSE −11).
-- **Regole sul telefono**: il 63% delle scuole italiane lo vieta (OCSE 49%) — il dato precede in parte l'estensione del divieto al secondo ciclo (circolare MIM del 16 giugno 2025).
+- **Regole sul telefono**: il 63% delle scuole italiane lo vieta (OCSE 49%) — *confermato testualmente sulla scheda Paese OCSE (27/09/2026, registro 00, D-05)* — il dato precede in parte l'estensione del divieto al secondo ciclo (circolare MIM del 16 giugno 2025).
 
 **Lettura critica.** Il messaggio politico («per la prima volta sopra la media») è vero ma incompleto. Tre avvertenze per il libro:
 
@@ -115,7 +115,7 @@ Altri dati italiani (PISA 2025):
 
 ### 2.2 PISA 2022 (riferimento)
 
-PISA 2022 (pubblicato a dicembre 2023) aveva registrato il più forte calo OCSE della storia di PISA, attribuito in parte alla pandemia. Italia: **matematica 471**, **lettura 482**, **scienze 477**, in linea con la media OCSE di allora (472, 476, 485). *[Valori da ricontrollare sul rapporto PISA 2022 prima della stampa.]*
+PISA 2022 (pubblicato a dicembre 2023) aveva registrato il più forte calo OCSE della storia di PISA, attribuito in parte alla pandemia. Italia: **matematica 471**, **lettura 482**, **scienze 477**, in linea con la media OCSE di allora (472, 476, 485) — *valori confermati con esattezza sulla scheda Paese OCSE ufficiale (27/09/2026, registro 00, D-07)*.
 
 ### 2.3 TIMSS 2023 (quarta primaria e terza media; IEA, pubblicato a dicembre 2024)
 
@@ -148,22 +148,21 @@ Messi insieme, i dati mostrano un **andamento discendente** lungo il percorso sc
 
 ## 3. Le prove nazionali INVALSI 2026
 
-*Fonte principale: INVALSI, Rapporto nazionale 2026, sintesi presentata a Roma il 16 luglio 2026. «Adeguato» indica il raggiungimento almeno del livello 3 su 5, corrispondente ai traguardi delle Indicazioni nazionali e delle Linee guida.*
+*Fonte principale: INVALSI, Rapporto nazionale 2026 (rapporto integrale, 213 pagine, letto per intero il 27/09/2026 — registro 00, D-08). «Adeguato» indica il raggiungimento almeno del livello 3 su 5, corrispondente ai traguardi delle Indicazioni nazionali e delle Linee guida.*
 
 ### 3.1 Italiano e matematica: percentuali di studenti con risultati adeguati
 
-| Grado | Italiano 2025 | Italiano 2026 | Matematica 2025 | Matematica 2026 |
-|---|---|---|---|---|
-| 5ª primaria (grado 5) | — | circa −2 punti | — | circa −3 punti; 8–10 punti sotto il 2019 |
-| 3ª media (grado 8) | 62% | **61%** | 56% | **55%** |
-| 2ª superiore (grado 10) | 52% | **54%** | 54% | **55%** |
-| 5ª superiore (grado 13) | 52% | **54%** | 49% | **52%** |
+| Grado | Italiano 2026 | Matematica 2026 |
+|---|---|---|
+| 3ª media (grado 8) | **56,9%** (Tavola 4.1.1) | **58,0%** (Tavola 4.2.1) |
+| 2ª superiore (grado 10) | **61,3%** (Tavola 5.1.1) | **54,6%** (Tavola 5.2.1) |
+| 5ª superiore (grado 13) | **54,1%** (Tavola 6.1.1) | **52,1%** (Tavola 6.2.1) |
 
-- In matematica, al grado 13, il **Sud e le Isole** passano dal 38% al 41% di adeguati.
-- Il divario **Centro-Nord / Mezzogiorno** in matematica alle medie resta di **15–20 punti percentuali**; in alcune regioni del Sud meno del 50% degli studenti conclude il primo ciclo con competenze adeguate.
-- Studenti ai livelli di **eccellenza**: 13,1% (12,3% l'anno precedente).
+*Valori aggiornati il 27/09/2026 (registro 00, D-08) dopo la lettura diretta e integrale del Rapporto nazionale INVALSI 2026, per decisione dell'autore di usare il rapporto completo come fonte più autorevole rispetto alle sole slide di sintesi. Il grado 8 in particolare risulta sensibilmente diverso sia dalla slide di sintesi (61%/55%) sia dai resoconti giornalistici (59%): il Rapporto integrale, come tavole ufficiali, prevale (vedi anche registro 00, X-01).*
 
-**Lettura**: un diplomato su due non raggiunge i traguardi fissati per la fine della scuola superiore. Il miglioramento 2025→2026 è reale ma piccolo; il livello resta insoddisfacente.
+- Il divario **Centro-Nord / Mezzogiorno** in matematica alle medie resta ampio; in alcune regioni del Sud una quota rilevante di studenti conclude il primo ciclo senza competenze adeguate.
+
+**Lettura**: circa un diplomato su due non raggiunge i traguardi fissati per la fine della scuola superiore.
 
 ### 3.2 Inglese
 
@@ -181,7 +180,7 @@ Rilevazione sperimentale basata sul quadro europeo **DigComp** (grado 10 e grado
 
 ### 3.4 L'effetto della pandemia sulla primaria
 
-La sintesi INVALSI 2026 segnala che la **coorte che ha iniziato la scuola durante la pandemia** mostra difficoltà nelle basi di lettura e matematica, con risultati di **8–10 punti percentuali inferiori** a quelli pre-2019 in matematica al grado 5. È un dato rilevante per il libro: le basi (conoscenze, automatismi di lettura e calcolo) si costruiscono presto e, se mancano, **ogni apprendimento successivo è più difficile** (ricerca 01, §8).
+Il Rapporto INVALSI 2026 (Figura 3.2.1, letta per intero il 27/09/2026 — registro 00, D-09) conferma che la **coorte che ha iniziato la scuola durante la pandemia** mostra difficoltà nelle basi di matematica in V primaria: il punteggio medio nazionale è sceso da **200,0 punti nel 2019** a **191,4 nel 2026**, una differenza di **−8,6 punti** (andamento intermedio: 197,7 nel 2021, 192,5 nel 2022, 190,3 nel 2023, 194,9 nel 2024, 191,4 nel 2025). È un dato rilevante per il libro: le basi (conoscenze, automatismi di lettura e calcolo) si costruiscono presto e, se mancano, **ogni apprendimento successivo è più difficile** (ricerca 01, §8).
 
 
 ---
@@ -198,8 +197,10 @@ La sintesi INVALSI 2026 segnala che la **coorte che ha iniziato la scuola durant
 
 INVALSI chiama **dispersione implicita** la quota di studenti che arrivano al **diploma senza le competenze minime** attese (livelli molto bassi in italiano, matematica e inglese contemporaneamente). È un indicatore prezioso per il libro, perché misura esattamente il fenomeno di Seneca: *essere andati a scuola senza aver imparato*.
 
-- **2026: 6,3%** (dall'8,7% del 2025), secondo le sintesi INVALSI riportate dalla stampa specializzata.
-- Nel 2025 la dispersione implicita era fortemente diversa per indirizzo (circa 4% nei licei, 11% nei tecnici, 23% nei professionali) e per regione (oltre il 20% in Sicilia, Calabria e Sardegna in alcune rilevazioni). *[Valori da verificare sul Rapporto INVALSI 2025–2026 prima della stampa; le fonti giornalistiche li riportano in modo non uniforme.]*
+*Dati aggiornati il 27/09/2026 dopo la lettura integrale del §8.2 del Rapporto INVALSI 2026 (registro 00, D-10):*
+
+- **Al termine del primo ciclo** (III media): rischio di dispersione implicita 12,3% nel 2025 (minimo storico, −4 punti dal 2018), confermato anche nel 2026; ampie differenze regionali (solo Sicilia e Sardegna sopra il 20%).
+- **Al termine del secondo ciclo** (diploma): dispersione implicita **6,3% nel 2026** (dall'**8,7% del 2025**), minimo storico, −2,4 punti in un anno. Per macro-indirizzo: **licei 2,6%, istituti tecnici 7,9%, istituti professionali 17,9%**. Solo Campania e Sardegna restano sopra il 10%. Differenze anche di genere (maschi 7,8%, +3 punti sulle femmine) e di percorso (13,7% tra chi ha ripetuto almeno un anno, contro una media nazionale del 6,3%).
 
 **Lettura**: sommando dispersione esplicita e implicita, **circa un giovane su sette** o otto esce dal sistema senza competenze di base. Il calo recente è una buona notizia; ma la metà dei diplomati sotto i traguardi (§3.1) mostra che il problema non riguarda solo una minoranza «dispersa»: riguarda **il modo in cui si impara** anche tra chi arriva regolarmente al diploma.
 
@@ -280,7 +281,7 @@ Tra il 2022 e il 2026 il PNRR ha finanziato interventi di contrasto alla dispers
 
 ## 8. Gli insegnanti: chi sono, come vengono formati, che cosa sanno dell'apprendimento
 
-### 8.1 Chi sono (TALIS 2024, OCSE, pubblicato nell'ottobre 2025; presentazione italiana INVALSI-INDIRE il 15 ottobre 2025)
+### 8.1 Chi sono (TALIS 2024, OCSE, pubblicato il 6 ottobre 2025; presentazione italiana INVALSI-INDIRE il 15 ottobre 2025)
 
 | Indicatore | Italia | Media OCSE |
 |---|---|---|
@@ -339,12 +340,15 @@ Dati internazionali (Dekker et al., 2012) indicano che oltre l'80% degli insegna
 
 ### 9.1 Pochi laureati
 
-- Nel **2025** il **31,1%** dei 25–34enni italiani ha un titolo terziario, contro il **44,8%** della media UE (obiettivo UE 2030: 45%). L'Italia è **penultima** nell'UE, davanti solo all'Ungheria (32,6% secondo il resoconto Eunews su dati Eurostat; altre fonti indicano la Romania come ultima — *verificare sulla tabella Eurostat*). In vent'anni la quota italiana è cresciuta di circa 15 punti.
+- Nel **2025** il **31,1%** dei 25–34enni italiani ha un titolo terziario, contro il **44,8%** della media UE (obiettivo UE 2030: 45%). L'Italia è **penultima** nell'UE, davanti solo alla **Romania** (23,0% secondo Eurostat/Openpolis, dato più aggiornato e coerente con la classifica completa; un resoconto giornalistico — Eunews — indicava invece l'Ungheria, 32,6%, come ultima, ma quel valore è superiore a quello italiano e colloca semmai l'Ungheria un gradino sopra l'Italia, non all'ultimo posto — *verificato: registro 00, D-15/X-02, 27/09/2026*). In vent'anni la quota italiana è cresciuta di circa 15 punti.
 - Il titolo universitario dei genitori pesa molto: solo il **34,7%** dei laureati 2025 ha almeno un genitore laureato (AlmaLaurea 2026), segno che l'università resta in parte un canale di riproduzione sociale.
 
 ### 9.2 Abbandoni e ritardi
 
-- **ANVUR, Rapporto 2026**: il **13,3%** degli studenti delle università statali abbandona già nel passaggio **tra il primo e il secondo anno**; entro sei anni il **26,4%** degli iscritti a una laurea triennale abbandona e il **62,7%** si laurea.
+*Dati aggiornati il 27/09/2026 dopo la lettura integrale del Rapporto ANVUR 2026 (428 pagine — registro 00, D-16/D-19):*
+
+- **ANVUR, Rapporto 2026**: il **13,3%** degli studenti immatricolati puri delle università **statali** abbandona già nel passaggio **tra il primo e il secondo anno** (coorte 2023/24; era al 16% nel picco pandemico 2021/22; per confronto, atenei non statali 6,4%, atenei telematici 18,8%, in forte crescita). Seguendo la coorte **2018/19** per sei anni dall'immatricolazione a una laurea triennale: il **62,7%** si è laureato, il **26,4%** ha abbandonato e il **10,9%** risulta ancora iscritto senza aver concluso né abbandonato formalmente. Solo il 57,7% dei laureati si laurea in corso (entro tre anni); includendo chi è ancora iscritto, il tasso di abbandono «a regime» potrebbe attestarsi intorno al 30-32%.
+- **Età media alla laurea (2024)**: lauree triennali — atenei statali 24,4 anni, non statali 23,1, telematici 33,1 (in calo dal 34,3 del 2018); lauree magistrali — statali 27,2, non statali 25,6, telematici 35,0; lauree a ciclo unico — statali 27,1, non statali 26,5, telematici 36,2.
 - **AlmaLaurea 2026** (Profilo dei laureati 2025, circa 335.000 laureati, 81 atenei): età media alla laurea **26,3 anni**; **60,4%** laureati **in corso**; voto medio **102,8/110**; il **68%** ha lavorato durante gli studi; **89,1%** soddisfatto dell'esperienza; 72,1% si riscriverebbe allo stesso corso nello stesso ateneo.
 - Occupazione a un anno circa **81%**, a cinque anni **92–94%** (AlmaLaurea 2026).
 
@@ -462,7 +466,7 @@ Corpo docente soddisfatto del proprio lavoro (96%), autonomo, collaborativo, ma 
 
 ### 13.1 Indagini internazionali
 
-- OCSE (2026). *PISA 2025 Results (Volume I): Future-Ready Students*. [Pagina](https://www.oecd.org/en/publications/2026/09/pisa-2025-results-volume-i_5265bfb1.html) · [Executive summary](https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/executive-summary_3701b0ef.html) · [Scheda Paese Italia (PDF)](https://www.oecd.org/content/dam/oecd/it/publications/reports/2026/09/pisa-2025-results-volume-i-country-notes_88d1164e/italy_973bc55a/77586842-it.pdf)
+- OCSE (2026). *PISA 2025 Results (Volume I): Future-Ready Students*. [Pagina](https://www.oecd.org/en/publications/2026/09/pisa-2025-results-volume-i_5265bfb1.html) · [Executive summary](https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/executive-summary_3701b0ef.html) · [Scheda Paese Italia (PDF, letto per intero il 27/09/2026)](https://www.oecd.org/content/dam/oecd/it/publications/reports/2026/09/pisa-2025-results-volume-i-country-notes_88d1164e/italy_973bc55a/77586842-it.pdf)
 - Resoconti PISA 2025 sull'Italia: [Open](https://www.open.online/2026/09/08/ocse-pisa-italia-scuola-lettura-scienze-matematica-media-studenti/) · [Il Sole 24 Ore (EN)](https://en.ilsole24ore.com/art/italian-pupils-are-improving-in-science-reading-and-maths-outperforming-the-oecd-average-AJWGKc6) · [Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2026/09/08/rapporto-pisa-2025-studenti-italiani-notizie/8500521/) · [gonews.it](https://www.gonews.it/2026/09/08/scuola-ocse-pisa/) · [NewsIstruzione](https://www.newsistruzione.it/2026/09/09/ocse-pisa-2025-italia-sopra-media-lettura-matematica) · [NewsIstruzione — equità](https://www.newsistruzione.it/2026/09/14/ocse-pisa-italia-sopra-media-invalsi-equita)
 - OCSE (2024). *Survey of Adult Skills 2023: Italy*. [Country note](https://www.oecd.org/en/publications/2024/12/survey-of-adults-skills-2023-country-notes_df7b4a60/italy_efb33b22.html) · sintesi: [Tuttoscuola](https://www.tuttoscuola.com/italia-ferma-sulle-competenze-degli-adulti-il-rapporto-ocse-piaac-evidenzia-il-divario-internazionale/)
 - OCSE (2025). *Results from TALIS 2024: Italy*. [Country note](https://www.oecd.org/en/publications/2025/10/results-from-talis-2024-country-notes_eafd703e/italy_24a89972.html) · [Nota Paese (PDF, INVALSI)](https://invalsi-areaprove.cineca.it/docs/2025/Indagini_Internazionali/RAPPORTI/TALIS_Nota_Paese_OCSE.pdf) · sintesi: [Tuttoscuola](https://www.tuttoscuola.com/talis-2024-docenti-italiani/) · [ADi](https://adiscuola.it/i-risultati-italiani-dellindagine-internazionale-ocse-talis-2024/)
@@ -470,10 +474,11 @@ Corpo docente soddisfatto del proprio lavoro (96%), autonomo, collaborativo, ma 
 - OCSE (2014). *PISA in Focus* n. 46, «Does homework perpetuate inequities in education?».
 - IEA / INVALSI (2024). *TIMSS 2023 — Rapporto nazionale*. [PDF](https://serviziostatistico.invalsi.it/wp-content/uploads/2024/12/Rapporto_nazionale_TIMSS_2023.pdf) · sintesi: [Tuttoscuola](https://www.tuttoscuola.com/iea-timss-2023-studenti-italiani-migliorano-in-matematica-ma-si-confermano-divari-territoriali-e-di-genere/)
 - IEA / INVALSI (2023). *PIRLS 2021 — Sintesi dei risultati italiani*. [PDF](https://www.invalsi.it/invalsi/ri/pirls2021/documenti/RappNaz/PIRLS2021_SintesiRis.pdf) · sintesi: [Tuttoscuola](https://www.tuttoscuola.com/pirls-2021-italia-lettura/)
+- OCSE (2023). *PISA 2022 Results: Factsheets — Italy*. Fattsheet letta per intero il 27/09/2026 (registro 00, D-07).
 
 ### 13.2 INVALSI e dispersione
 
-- INVALSI (2026). *Rapporto nazionale 2026 — Sintesi dei primi risultati*, Roma, 16 luglio 2026. [Slide (PDF)](https://www.invalsi.it/wp-content/uploads/2026/07/Slide-Sintesi-primi-risultati-prove-INVALSI-2026.pdf) · [Pagina di presentazione](https://www.invalsi.it/presentazione-rapporto-invalsi-2026/) · sintesi: [Orizzonte Insegnanti](https://www.orizzonteinsegnanti.it/prove-invalsi-alla-scuola-primaria-studenti-male-in-matematica-in-difficolta-alle-medie-su-italiano-prosegue-il-divario-nord-e-sud-i-dati/)
+- INVALSI (2026). *Rapporto nazionale 2026* — Rapporto integrale, 213 pagine, scaricato dall'autore da https://www.invalsi.it/wp-content/uploads/2026/07/Rapporto-Prove-INVALSI-2026.pdf e letto per intero il 27/09/2026 (registro 00, D-08/D-09/D-10). [Slide di sintesi (PDF)](https://www.invalsi.it/wp-content/uploads/2026/07/Slide-Sintesi-primi-risultati-prove-INVALSI-2026.pdf) · [Pagina di presentazione](https://www.invalsi.it/presentazione-rapporto-invalsi-2026/) · sintesi: [Orizzonte Insegnanti](https://www.orizzonteinsegnanti.it/prove-invalsi-alla-scuola-primaria-studenti-male-in-matematica-in-difficolta-alle-medie-su-italiano-prosegue-il-divario-nord-e-sud-i-dati/)
 - INVALSI (2025). *Rapporto prove INVALSI 2025*. [PDF](https://serviziostatistico.invalsi.it/wp-content/uploads/2025/07/Rapporto-prove-INVALSI-2025.pdf) · sintesi: [Sky TG24](https://tg24.sky.it/cronaca/2025/07/09/prove-invalsi-2025-risultati-scuola)
 - Dispersione esplicita e implicita: [Edunews24 — «Il record dell'8,2%»](https://edunews24.it/scuola/il-record-dell82-e-il-divario-nascosto-della-dispersione-implicita) · [Skuola.net](https://www.skuola.net/news/skuola-originals/dispersione-scolastica-italia-2025-target-europeo-raggiunto.html) · [Istat, audizione su povertà educativa (7 ottobre 2025)](https://www.istat.it/wp-content/uploads/2025/10/Istat-Audizione-poverta-educativa-7-ottobre-2025.pdf)
 
@@ -499,9 +504,9 @@ Corpo docente soddisfatto del proprio lavoro (96%), autonomo, collaborativo, ma 
 
 ### 13.5 Università
 
-- Eurostat (2026), istruzione terziaria 25–34 anni, dati 2025. Resoconto: [Eunews](https://www.eunews.it/2026/09/03/italia-penultima-in-ue-per-giovani-con-istruzione-terziaria-137-punti-sotto-la-media-europea/) · [Openpolis](https://www.openpolis.it/litalia-e-penultima-in-europa-per-giovani-laureati/)
+- Eurostat (2026), istruzione terziaria 25–34 anni, dati 2025. Comunicato ufficiale: [SDG 4: EU tertiary education level nears 45% in 2025 (ddn-20260903-1)](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260903-1) · resoconti: [Eunews](https://www.eunews.it/2026/09/03/italia-penultima-in-ue-per-giovani-con-istruzione-terziaria-137-punti-sotto-la-media-europea/) · [Openpolis](https://www.openpolis.it/litalia-e-penultima-in-europa-per-giovani-laureati/) — **nota (27/09/2026, registro 00, D-15/X-02)**: il comunicato Eurostat e Openpolis confermano che l'ultimo Paese UE è la Romania (23,0%), non l'Ungheria (32,6%, comunque bassa ma superiore all'Italia); Eunews riporta erroneamente l'Ungheria come ultima
 - AlmaLaurea (2026). *XXVIII Indagine — Profilo e condizione occupazionale dei laureati*. [Notizia](https://www.almalaurea.it/news/rapporto-almalaurea-2026) · [Sintesi (PDF)](https://www.almalaurea.it/document-download/sintesi-rapporto-almalaurea-2026-sui-percorsi-di-laurea)
-- ANVUR (2026). *Rapporto sul sistema della formazione superiore e della ricerca*. Resoconto: [iexs.it](https://www.iexs.it/2026/09/10/abbandono-universitario-in-italia-il-264-lascia-entro-sei-anni/)
+- ANVUR (2026). *Rapporto sul sistema della formazione superiore e della ricerca* — Rapporto integrale, 428 pagine, scaricato dall'autore da https://www.anvur.it/sites/default/files/2026-03/Rapporto-sul-sistema-della-formazione-superiore-e-della-ricerca-2026-web.pdf e letto per intero il 27/09/2026 (registro 00, D-16/D-19). Resoconto: [iexs.it](https://www.iexs.it/2026/09/10/abbandono-universitario-in-italia-il-264-lascia-entro-sei-anni/)
 - ANVUR. *AVA3 — Linee guida per l'accreditamento periodico delle sedi e dei corsi di studio*. [PDF](https://www.anvur.it/sites/default/files/2025-01/AVA3_LG_Atenei_2024_08_08.pdf)
 - SIPED, gruppo di lavoro «Faculty development e didattica universitaria innovativa». [Pagina](https://www.siped.it/gruppi-di-lavoro/faculty-development-e-didattica-universitaria/) · Università di Genova, UTLC, [Convegno nazionale sul Faculty Development](https://utlc.unige.it/convegnoFD2024) · Università di Milano, [Faculty Development](https://lastatalenews.unimi.it/faculty-development-corso-per-docenti-attori-dellinnovazione-didattica)
 - Hartwig, M. K., & Dunlosky, J. (2012). Study strategies of college students. *Psychonomic Bulletin & Review*, 19, 126–134.
