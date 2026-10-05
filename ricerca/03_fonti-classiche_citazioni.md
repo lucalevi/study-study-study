@@ -745,7 +745,7 @@ Un libro che vuole distinguere la scienza dai miti deve essere rigoroso anche co
 | **«So di non sapere» / «ἓν οἶδα ὅτι οὐδὲν οἶδα»** | Non si trova in Platone; è una semplificazione di *Apologia* 21d («non credo di sapere ciò che non so»), che dice una cosa più precisa e più utile (§2.3). | ✔ |
 | **«L'educazione non è riempire un secchio ma accendere un fuoco»** (attribuita a Yeats o Socrate) | La forma moderna non è antica; l'idea viene da Plutarco, *De auditu* 48c (la mente come legna da accendere, non vaso da riempire) (§2.7). | ◐ |
 | **«Mens sana in corpore sano»** come motto salutista | Giovenale, *Sat.* X, 356: è una **preghiera** («bisogna pregare che…»), in un contesto di critica ai desideri vani (§3.7). | ○ |
-| **«Verba volant, scripta manent»** | Proverbio medievale, non classico. Curiosamente, il *Fedro* sostiene quasi il contrario: lo scritto «resta» ma non insegna (§2.3). | ◐ |
+| **«Verba volant, scripta manent»** | Proverbio di autore ignoto, non classico; già noto nel Seicento (non è documentata un'origine «medievale»). Curiosamente, il *Fedro* sostiene quasi il contrario: lo scritto «resta» ma non insegna (§2.3). | ◐ |
 | **«Tantum scimus quantum memoria tenemus»** | Massima attribuita genericamente agli antichi o al Medioevo; **fonte non identificata**. Da non usare senza una fonte precisa. | ○ |
 | **«Historia magistra vitae»** | Autentica: Cicerone, *De or.* II, 36 (§3.3). | ○ |
 | **«Festina lente»** | Autentica come motto di Augusto in greco (σπεῦδε βραδέως) secondo Suetonio, *Aug.* 25 (§2.6). | ◐ |
