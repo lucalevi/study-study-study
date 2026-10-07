@@ -64,7 +64,7 @@ Questo documento usa **fonti ufficiali** (OCSE, IEA, INVALSI, Istat, Eurostat, A
 8. **La coorte della pandemia** fatica alla primaria: in quinta primaria il punteggio medio in matematica è sceso da 200,0 punti (2019) a 191,4 (2026), −8,6 punti.
 9. **La dispersione esplicita è ai minimi storici** (8,2% nel 2025, sotto l'obiettivo UE 2030 del 9%), e quella **implicita** (diplomati senza competenze minime) scende al 6,3% (dall'8,7% del 2025) al termine del secondo ciclo. Per indirizzo: 2,6% nei licei, 7,9% negli istituti tecnici, 17,9% nei professionali. I divari territoriali restano ampi.
 10. **Gli adulti perdono ciò che hanno imparato**: PIAAC 2023 colloca l'Italia tra gli ultimi Paesi OCSE (literacy 245 vs 260; numeracy 244 vs 263; problem solving 231 vs 251). È il dato che più direttamente sostiene la tesi del libro: *si studia per la scuola, non per la vita*.
-11. **Gli insegnanti italiani sono tra i più anziani dell'OCSE** (età media 48 anni; metà sopra i 50; 3% sotto i 30); solo il 14% sente la professione apprezzata dalla società; solo il 16% dei neoassunti ha un mentore (OCSE 26%). La formazione iniziale è stata riformata di continuo (SSIS, TFA, 24 CFU, ora 60 CFU dal 2023). In nessuno di questi modelli la psicologia cognitiva dell'apprendimento risulta un contenuto obbligatorio esplicito.
+11. **Gli insegnanti italiani sono tra i più anziani dell'OCSE** (età media 48 anni; metà sopra i 50; 3% sotto i 30); solo il 14% sente la professione apprezzata dalla società; solo il 16% dei neoassunti ha un mentore (OCSE 26%). La formazione iniziale è stata riformata di continuo (SSIS, TFA, 24 CFU, ora 60 CFU dal 2023). Nel DPCM 4/8/2023 gli obiettivi minimi dei 4 CFU psicologici nominano i «processi psicologici implicati nel processo di insegnamento-apprendimento: ragionamento e problem solving», non memoria, recupero o metacognizione (ricerca 09, §6; i programmi dei singoli corsi non sono stati analizzati).
 12. **Università: l'Italia è penultima in UE per giovani laureati** (31,1% dei 25–34enni nel 2025, media UE 44,8%, davanti solo alla Romania); il 13,3% delle matricole delle università statali abbandona tra primo e secondo anno; a sei anni dall'immatricolazione il 62,7% si laurea e il 26,4% abbandona. I docenti universitari non hanno obblighi di formazione didattica specifici, anche se il sistema di accreditamento ANVUR (AVA3) richiede agli atenei di promuovere lo sviluppo delle competenze didattiche.
 
 ---
@@ -283,6 +283,8 @@ Tra il 2022 e il 2026 il PNRR ha finanziato interventi di contrasto alla dispers
 
 ### 8.1 Chi sono (TALIS 2024, OCSE, pubblicato il 6 ottobre 2025; presentazione italiana INVALSI-INDIRE il 15 ottobre 2025)
 
+*Nota (07/10/2026, D-27): i dati TALIS della Nota Paese riguardano gli insegnanti di **scuola secondaria di primo grado**; non vanno presentati come «tutti gli insegnanti italiani».*
+
 | Indicatore | Italia | Media OCSE |
 |---|---|---|
 | Età media | **48 anni** | 45 |
@@ -312,7 +314,7 @@ Altri elementi: autonomia professionale e collaborazione **superiori alla media 
 | dal 2023 | **Percorsi abilitanti da 60 CFU** (D.L. 36/2022, conv. L. 79/2022; **DPCM 4 agosto 2023**); percorsi da 30 e 36 CFU per specifiche categorie | Pedagogia, psicologia, didattiche disciplinari, inclusione e un **tirocinio** consistente, con prova finale. Nel 2024 il MUR ha accreditato **1.492 percorsi** in università e istituzioni AFAM. |
 
 - **Primaria e infanzia**: laurea magistrale **a ciclo unico in Scienze della formazione primaria** (quinquennale dal 2011), con tirocinio: è il percorso più strutturato e stabile.
-- **Il punto per il libro**: in nessuno dei modelli la **psicologia cognitiva dell'apprendimento** (recupero, distribuzione, carico cognitivo, metacognizione) risulta un **contenuto obbligatorio esplicito** e uniforme. Può essere presente, a discrezione dei singoli atenei e docenti, dentro gli insegnamenti di psicologia dell'educazione o di didattica. *[Ipotesi da verificare con un'analisi dei programmi dei percorsi 60 CFU di un campione di atenei: vedi §12.]* Lo stesso vuoto è stato documentato negli Stati Uniti (National Council on Teacher Quality, *Learning About Learning*, 2016; ricerca 01, §9.7).
+- **Il punto per il libro**: nel DPCM 4/8/2023 gli obiettivi minimi dei 4 CFU psicologici nominano i «processi psicologici implicati nel processo di insegnamento-apprendimento: ragionamento e problem solving», ma **non** la memoria, il recupero, la distribuzione, il carico cognitivo, la metacognizione (nei 60 CFU: 4 di area psico-socio-antropologica e 10 di pedagogia; per la primaria 78 CFU di pedagogia e psicologia, secondo Eurydice); il profilo del docente abilitato nomina però l'apprendimento autoregolato e l'imparare a imparare. Può essere presente, a discrezione dei singoli atenei e docenti, dentro gli insegnamenti di psicologia dell'educazione o di didattica. *[Ipotesi da verificare con un'analisi dei programmi dei percorsi 60 CFU di un campione di atenei: vedi §12.]* Negli Stati Uniti un'analisi di 48 **manuali** (non di corsi) ha trovato che molte strategie con prove solide mancano (National Council on Teacher Quality, *Learning About Learning*, 2016; criticato dal National Education Policy Center; ricerca 01, §9.7; ricerca 09, §7.3). *[Y-18: attenuato il 07/10/2026.]*
 - Critiche ricorrenti nel dibattito pubblico ai percorsi 60 CFU: **costi** a carico dei candidati (fino a circa 2.500 euro), ruolo delle **università telematiche**, rischio di formazione formale più che sostanziale. *[Da documentare con fonti se il libro tratterà il tema.]*
 
 ### 8.3 Formazione in servizio
@@ -320,7 +322,7 @@ Altri elementi: autonomia professionale e collaborazione **superiori alla media 
 - La **Legge 107/2015** ha definito la formazione in servizio dei docenti di ruolo «**obbligatoria, permanente e strutturale**», con Piani nazionali per la formazione (PNFD 2016–2019), ma **senza un monte ore minimo** definito a livello nazionale.
 - Il **D.L. 36/2022** (conv. L. 79/2022) ha istituito la **Scuola di Alta Formazione dell'istruzione** e un sistema di **formazione incentivata** su base triennale, collegata a un elemento retributivo.
 - Il PNRR ha finanziato ampi programmi di formazione (in particolare sulla didattica digitale e sulle discipline STEM).
-- TALIS 2024 segnala che l'**incisività** della formazione in servizio è percepita come limitata.
+- TALIS 2024: secondo la Nota Paese OCSE, l'**83%** degli insegnanti italiani di scuola secondaria di primo grado riferisce che le attività di apprendimento professionale svolte nei dodici mesi precedenti hanno avuto un impatto positivo sul proprio insegnamento (media OCSE 55%); ostacoli principali: mancanza di incentivi (63%), di tempo (61%), conflitto con l'orario (53%). *[Corretto il 07/10/2026: la versione precedente («incisività percepita come limitata») non è confermata dalla Nota Paese; cifra controllata sul testo integrale il 07/10/2026: registro 00, D-25 e D-27; ricerca 09, §5.]*
 
 ### 8.4 Che cosa sanno gli insegnanti italiani dell'apprendimento: i neuromiti
 
@@ -397,7 +399,7 @@ L'**interrogazione orale** e l'**esame orale universitario** sono forme di recup
 Lettura frettolosa in crescita, curiosità e perseveranza in calo, IA usata per riassumere e scrivere al posto dello studente, distrazione digitale sopra la media: sono i fattori che la ricerca indica come nemici della codifica profonda, del recupero sforzato e della metacognizione. La regola (il divieto del telefono) aiuta in classe; ma **la competenza** — saper studiare con attenzione e usare l'IA come tutor e non come sostituto — si deve insegnare.
 
 **Tesi 5 — Gli insegnanti sono motivati, ma nessuno li ha formati alla scienza dell'apprendimento.**
-Corpo docente soddisfatto del proprio lavoro (96%), autonomo, collaborativo, ma anziano, poco riconosciuto, con poco mentoring e con una formazione iniziale che, attraverso trent'anni di riforme, non ha mai reso obbligatori i contenuti della psicologia cognitiva dell'apprendimento. I neuromiti sono diffusi. **Il libro può essere lo strumento di formazione che manca**, purché scritto con rispetto per l'esperienza dei docenti.
+Corpo docente soddisfatto del proprio lavoro (96%), autonomo, collaborativo, ma anziano, poco riconosciuto, con poco mentoring e con una formazione iniziale che, attraverso trent'anni di riforme, non nomina tra gli obiettivi minimi dei crediti memoria, recupero e metacognizione (nomina i processi psicologici dell'insegnamento-apprendimento; che cosa avvenga nei programmi dei singoli corsi non è stato analizzato). I neuromiti sono diffusi. **Il libro può essere lo strumento di formazione che manca**, purché scritto con rispetto per l'esperienza dei docenti.
 
 ### 10.2 Tabella di corrispondenza: dato italiano → principio → implicazione
 
