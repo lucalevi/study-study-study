@@ -115,6 +115,7 @@
 \RequirePackage{enumitem}
 \RequirePackage{booktabs}
 \RequirePackage{array}      % colonne con >{\raggedright\arraybackslash} nelle tabelle
+\RequirePackage{longtable} % tabelle che possono spezzarsi su più pagine
 \RequirePackage[font={small}, labelfont={sc}, labelsep=period,
                 justification=centering, skip=7pt]{caption}
 \RequirePackage[hang, bottom]{footmisc}

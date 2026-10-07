@@ -179,12 +179,28 @@ La tabella~\ref{tab:miti} raccoglie i miti di questo capitolo e dei
 precedenti, con ciò che dice la ricerca e il grado di solidità delle
 prove.
 
-\begin{table}[tbp]
-  \centering\small
-  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.30\textwidth}>{\raggedright\arraybackslash}p{0.44\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}@{}}
+\begingroup\small
+\setlength{\LTpre}{1.2\baselineskip}\setlength{\LTpost}{1.2\baselineskip}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.30\textwidth}>{\raggedright\arraybackslash}p{0.44\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}@{}}
+  \caption{Miti sull'apprendimento e che cosa dice la ricerca.
+    \enquote{Falso}: le prove smentiscono l'idea; \enquote{inventato}:
+    non è mai stata misurata; \enquote{esagerato} e \enquote{debole}:
+    c'è un fondo di verità, molto più piccolo della promessa.}
+  \label{tab:miti} \\
     \toprule
     \textit{Mito} & \textit{Che cosa dice la ricerca} & \textit{Prove} \\
     \midrule
+    \endfirsthead
+    \multicolumn{3}{@{}l}{\small\emph{Tabella~\thetable{} (continua)}} \\
+    \toprule
+    \textit{Mito} & \textit{Che cosa dice la ricerca} & \textit{Prove} \\
+    \midrule
+    \endhead
+    \midrule
+    \multicolumn{3}{r@{}}{\small\emph{segue}} \\
+    \endfoot
+    \bottomrule
+    \endlastfoot
     Si impara meglio nel proprio stile (visivo, uditivo, cinestetico)
       & Le preferenze esistono, ma adattare l'insegnamento allo stile
         non migliora l'apprendimento; conta il contenuto
@@ -233,14 +249,8 @@ prove.
       & Utili solo come primo passo; il recupero rende molto di più
         (capitolo~\ref{cap:recupero})
       & debole \\
-    \bottomrule
-  \end{tabular}
-  \caption{Miti sull'apprendimento e che cosa dice la ricerca.
-    \enquote{Falso}: le prove smentiscono l'idea; \enquote{inventato}:
-    non è mai stata misurata; \enquote{esagerato} e \enquote{debole}:
-    c'è un fondo di verità, molto più piccolo della promessa.}
-  \label{tab:miti}
-\end{table}
+\end{longtable}
+\endgroup
 
 \section{La piramide dell'apprendimento}
 
@@ -329,7 +339,7 @@ sorprendente. Eccone sei.
 \begin{enumerate}
   \item \emph{Promette risultati rapidi e senza fatica}: \enquote{impara
         in sette giorni}, \enquote{senza studiare}. Tutto ciò che
-        sappiamo sull'apprendimento dice che la fatica giusta non si
+        si sa sull'apprendimento dice che la fatica giusta non si
         elimina: si rende produttiva (capitolo~\ref{cap:dueforze}).
   \item \emph{Usa il prefisso \enquote{neuro}} e l'immagine di un
         cervello colorato, senza citare esperimenti sull'apprendimento
@@ -369,7 +379,7 @@ fare la formazione di chi insegna, di cui parla il prossimo capitolo.
 
 Anche le citazioni hanno i loro miti, e un libro che apre ogni
 capitolo con una frase antica deve applicare a se stesso le stesse
-regole. Lo abbiamo fatto strada facendo: \emph{non scholae sed vitae
+regole. L'ho fatto strada facendo: \emph{non scholae sed vitae
 discimus} è Seneca rovesciato (capitolo~\ref{cap:vita}); \emph{repetita
 iuvant} non è un detto classico, e la sua lontana origine oraziana
 parla di opere d'arte, non di memoria (capitolo~\ref{cap:insegnare});
