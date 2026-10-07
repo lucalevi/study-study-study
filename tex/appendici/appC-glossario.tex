@@ -1,10 +1,593 @@
 % ------------------------------------------------------------------
 %  Appendice C — Glossario
-%  Ricerca di riferimento: ricerca 01 (termini tecnici)
+%  Ricerca di riferimento: ricerca 01 (termini tecnici); soprattutto i
+%    capitoli in cui ogni termine è introdotto (rimando in fondo a
+%    ciascuna voce)
+%  Scheda nell'indice ragionato: ricerca/06_indice-ragionato.md, §6.3
+%    (40–60 termini, 1.500–2.000 parole)
+%
+%  STATO: prima stesura (07/10/2026); 61 voci con definizione e 13
+%  rinvii («vedi»); circa 2.400 parole.
+%
+%  REGOLA: il glossario non contiene dati, nomi o affermazioni che non
+%  siano già nei capitoli; ogni definizione riprende, condensandola, la
+%  formulazione del capitolo indicato nel rimando. Se un capitolo cambia
+%  la definizione di un termine, va cambiata anche la voce.
+%  Unico elemento nuovo: l'equivalente inglese di alcuni termini che i
+%  capitoli danno solo in italiano (self-explanation, elaborative
+%  interrogation, generation effect, hypercorrection effect, productive
+%  failure, worked examples, dual coding theory, method of loci,
+%  keyword method, cognitive load theory, expertise reversal effect,
+%  self-determination theory, growth mindset, self-regulated learning,
+%  implementation intentions, working memory, long-term memory,
+%  encoding specificity, reconsolidation, interference, forgetting
+%  curve, savings, illusion of competence, illusion of explanatory
+%  depth, fluency, metacognition, effect size, meta-analysis, formative
+%  assessment, feedback, active learning, learning styles, neuromyths,
+%  explicit instruction, prequestions, low-stakes, blocked practice):
+%  terminologia corrente della letteratura, data perché il lettore
+%  possa cercare le fonti.
+%  Ordine alfabetico italiano; articoli e trattini non contano.
+%  Voce: impersonale o «tu» lo studente, come nei capitoli; nessuna
+%  voce presenta l'autore come docente (decisione 13).
 % ------------------------------------------------------------------
 \chapter{Glossario}
 \label{app:glossario}
 
-\segnaposto{da scrivere}
+%  Comandi usati solo in questa appendice
+%  \voce{termine}{inglese}{definizione}{rimandi}  (inglese può essere vuoto)
+%  \rinvio{termine}{voce a cui si rinvia}
+%  \lettera{A}
+\newcommand{\glinglese}[1]{\if\relax\detokenize{#1}\relax\else\ (\emph{#1})\fi}
+\newcommand{\voce}[4]{%
+  \par\vspace{0.4\baselineskip plus 0.15\baselineskip}%
+  \noindent\hangindent=1.2em\hangafter=1
+  \textbf{#1}\glinglese{#2}.\enspace #3\enspace
+  {\footnotesize\itshape #4.}\par}
+\newcommand{\rinvio}[2]{%
+  \par\vspace{0.4\baselineskip plus 0.15\baselineskip}%
+  \noindent\hangindent=1.2em\hangafter=1
+  \textbf{#1}:\enspace\emph{vedi} #2.\par}
+\newcommand{\lettera}[1]{%
+  \par\vspace{1.1\baselineskip plus 0.4\baselineskip}%
+  {\centering\color{rubrica}\scshape\spaziato[150]{\MakeLowercase{#1}}\par}%
+  \nopagebreak\vspace{0.2\baselineskip}\nopagebreak}
+%  Il glossario finisce dove finisce: niente spazi stirati a fondo pagina
+\raggedbottom
+
+\iniziale{Q}{uesto glossario} raccoglie i termini tecnici del libro,
+con una definizione breve e il capitolo in cui se ne parla per esteso.
+Tra parentesi trovi il termine inglese, quando esiste: la letteratura
+scientifica sull'apprendimento è scritta quasi tutta in inglese, e con
+quel nome puoi cercare le fonti. Le parole in corsivo precedute da
+\emph{vedi} rimandano a un'altra voce. Le definizioni non aggiungono
+nulla a ciò che dicono i capitoli: servono a ritrovare un'idea, non a
+sostituirla. E, se vuoi metterle a frutto, non rileggerle: copri la
+definizione e prova a dirla tu.
+
+\small
+
+\lettera{A}
+
+\voce{Alternanza}{interleaving}{Mescolare, nella stessa sessione,
+  esempi o problemi di tipo diverso, invece di esercitarsi su un tipo
+  alla volta (lo studio \enquote{a blocchi}). Costringe a
+  \emph{discriminare}, cioè a chiedersi che tipo di problema si ha
+  davanti prima di chiedersi come si risolve; per questo aiuta
+  soprattutto a distinguere cose che si confondono. È un principio meno
+  generale del recupero e della distribuzione: non funziona per tutto}
+  {Capp.~\ref{cap:alternanza}, \ref{cap:discipline}}
+
+\voce{Apprendimento attivo}{active learning}{Nella lezione
+  universitaria, tutto ciò che dà agli studenti qualcosa da fare con la
+  testa durante la lezione: domande a cui tutti rispondono, problemi in
+  piccoli gruppi, discussioni guidate. Si contrappone alla lezione
+  tradizionale, in cui si ascolta. Conta l'attività mentale, non quella
+  fisica. \emph{Vedi anche} istruzione tra pari}
+  {Capp.~\ref{cap:inganni}, \ref{cap:docenti}}
+
+\voce{Apprendimento e prestazione}{learning, performance}{La
+  prestazione è ciò che si osserva durante lo studio o subito dopo:
+  quanti esercizi riesci a fare, quanto ti sembra chiaro ciò che hai
+  letto. L'apprendimento è il cambiamento duraturo che resta quando la
+  prestazione del momento è svanita. Le due cose possono andare in
+  direzioni opposte: ciò che vedi mentre studi non ti dice quanto stai
+  imparando}
+  {Cap.~\ref{cap:dueforze}}
+
+\rinvio{Arte della memoria}{metodo dei luoghi; mnemotecniche}
+
+\voce{Autodeterminazione, teoria dell'}{self-determination
+  theory}{Teoria della motivazione di Edward Deci e Richard Ryan.
+  Distingue la motivazione \emph{autonoma}, per ragioni che si sentono
+  proprie, da quella \emph{controllata}, per ragioni che si sentono
+  imposte: il voto, la paura di deludere, la pressione dei genitori. La
+  prima si associa a più perseveranza; la sostengono tre bisogni:
+  autonomia, competenza, relazione}
+  {Cap.~\ref{cap:motivazione}}
+
+\voce{Autoregolazione dell'apprendimento}{self-regulated
+  learning}{La capacità di governare da sé il proprio studio: decidere
+  che cosa studiare e quando, controllare mentre si studia se si sta
+  davvero imparando, valutare poi che cosa ha funzionato e correggere il
+  tiro. È la competenza che il primo anno di università richiede tutta
+  insieme}
+  {Capp.~\ref{cap:transizione}, \ref{cap:valutare}}
+
+\voce{Auto-spiegazione}{self-explanation}{Spiegarsi, passaggio per
+  passaggio, perché un esempio svolto procede come procede: che legge si
+  usa, e perché proprio quella. Utile soprattutto nelle discipline in cui
+  si impara da esempi: matematica, fisica, economia, ma anche le
+  sentenze e i casi clinici}
+  {Capp.~\ref{cap:capire}, \ref{cap:discipline}}
+
+\lettera{B}
+
+\voce{Basso rischio, prove a}{low-stakes}{Quiz, domande e prove che
+  contano poco o nulla per il voto finale. Fanno recuperare senza
+  l'ansia dell'esame e permettono di sbagliare in tempo, quando l'errore
+  si può ancora correggere. Un peso piccolo, non nullo, aiuta a
+  prenderle sul serio}
+  {Capp.~\ref{cap:capire}, \ref{cap:valutare}}
+
+\rinvio{Blocchi, studio a}{alternanza}
+
+\voce{Brain dump}{}{Letteralmente \enquote{svuotare la testa}: la
+  forma più semplice di pratica del recupero. Chiudi il libro e scrivi
+  su un foglio bianco tutto ciò che ricordi; poi controlli sul testo,
+  correggi, e ciò che mancava è esattamente ciò che devi ristudiare}
+  {Cap.~\ref{cap:recupero}}
+
+\lettera{C}
+
+\voce{Carico cognitivo, teoria del}{cognitive load theory}{Teoria
+  dell'istruzione di John Sweller, fondata sui limiti della memoria di
+  lavoro: chi impara qualcosa di nuovo ha poche risorse, e ogni elemento
+  che non serve all'apprendimento -- una slide affollata, un passaggio
+  saltato perché ovvio per chi lo sa -- consuma risorse che
+  servirebbero a capire. \emph{Vedi anche} esempi svolti; inversione
+  dell'expertise}
+  {Cap.~\ref{cap:docenti}}
+
+\voce{Chunk, chunking}{}{Dall'inglese \emph{chunk}, \enquote{pezzo}:
+  raggruppare più elementi in un'unica unità di significato, come
+  sedici lettere che diventano quattro sigle note. Il limite della
+  memoria di lavoro riguarda le unità di significato, e quanto grande
+  sia un'unità dipende da ciò che si sa già}
+  {Cap.~\ref{cap:cervello}}
+
+\voce{Codifica, consolidamento, recupero}{encoding, consolidation,
+  retrieval}{Le tre fasi di ogni ricordo. Viene \emph{codificato},
+  cioè tradotto dall'esperienza in una traccia di memoria;
+  \emph{consolidato}, cioè stabilizzato nelle ore e nei giorni
+  successivi, in buona parte durante il sonno; e \emph{recuperato},
+  cioè riportato alla coscienza quando serve}
+  {Capp.~\ref{cap:cervello}, \ref{cap:corpo}}
+
+\rinvio{Consolidamento}{codifica, consolidamento, recupero;
+  riconsolidamento}
+
+\rinvio{Criterio}{ripasso a successive riprese}
+
+\voce{Curva dell'oblio}{forgetting curve}{La curva che descrive quanto
+  si dimentica con il passare del tempo, misurata per la prima volta da
+  Hermann Ebbinghaus nel 1885 e ritrovata quasi identica da Murre e Dros
+  nel 2015. La dimenticanza è rapidissima nelle prime ore e nei primi
+  giorni, poi rallenta. Ogni ripresa ben distanziata la rende più
+  piatta}
+  {Capp.~\ref{cap:vita}, \ref{cap:storia}}
+
+\lettera{D}
+
+\voce{Delega cognitiva}{cognitive offloading}{Usare qualcosa fuori
+  dalla mente -- una lista, un promemoria, la calcolatrice,
+  un'intelligenza artificiale -- per fare un lavoro che altrimenti
+  farebbe la mente. Libera risorse per altro, ma ha un costo preciso: ciò
+  che deleghi, non lo alleni}
+  {Cap.~\ref{cap:ia}}
+
+\voce{Difficoltà desiderabili}{desirable difficulties}{Espressione di
+  Robert Bjork: le condizioni che rendono lo studio più lento e
+  faticoso oggi, e il ricordo più saldo e più flessibile domani, come
+  recuperare invece di rileggere, distanziare, alternare. Sono
+  desiderabili solo se riesci a superarle: la fatica utile è quella di
+  chi cerca e, con qualche sforzo, trova}
+  {Cap.~\ref{cap:dueforze}}
+
+\voce{Dimensione dell'effetto}{effect size}{La misura di quanto è
+  grande una differenza tra due gruppi, di solito in unità di
+  deviazione standard (\emph{d} di Cohen, \emph{g} di Hedges). Su questa
+  scala 0 significa nessuna differenza e 0,5 è già un effetto di buona
+  grandezza: lo studente medio del gruppo favorito supera circa il 69\%
+  degli studenti dell'altro. Nella ricerca educativa molti interventi
+  costosi producono effetti di 0,1 o 0,2}
+  {Capp.~\ref{cap:recupero}, \ref{cap:metodo}}
+
+\voce{Distribuzione, effetto della}{spacing effect}{A parità di tempo
+  totale, studiare in più sessioni separate da intervalli produce un
+  ricordo a lungo termine molto migliore che studiare in un'unica
+  sessione. Conta distanziare; il calendario preciso conta molto meno di
+  quanto si creda (intervalli crescenti e intervalli uniformi danno
+  risultati simili). \emph{Vedi anche} pratica concentrata}
+  {Capp.~\ref{cap:tempo}, \ref{cap:metodo}; scheda~\ref{sch:calendario}}
+
+\voce{Doppia codifica, teoria della}{dual coding theory}{Teoria di
+  Allan Paivio: la mente elabora le informazioni con due sistemi
+  distinti ma collegati, uno per il linguaggio e uno per le immagini. Ciò
+  che è codificato in entrambe le forme ha due vie per essere ritrovato,
+  e si ricorda meglio}
+  {Cap.~\ref{cap:immagini}}
+
+\voce{DSA}{}{Disturbi specifici di apprendimento. La legge
+  italiana (L.~170/2010) ne riconosce quattro: dislessia (nella lettura),
+  disgrafia (nella grafia), disortografia (nella correttezza
+  ortografica), discalculia (nel calcolo e nell'elaborazione dei
+  numeri). Sono \enquote{specifici} perché si manifestano in presenza di
+  capacità cognitive adeguate: riguardano un'abilità, non
+  l'intelligenza. \emph{Vedi anche} strumenti compensativi}
+  {Cap.~\ref{cap:dsa}; scheda~\ref{sch:dislessia}}
+
+\lettera{E}
+
+\rinvio{Effetto del test}{pratica del recupero}
+
+\voce{Elaborazione}{elaboration}{Il lavoro mentale con cui
+  un'informazione viene collegata a ciò che si sa già: chiedersi perché,
+  cercare esempi, confrontare. Non conta tanto quante volte
+  un'informazione viene ripetuta, ma quanto profondamente viene
+  elaborata: la mente registra ciò su cui ha lavorato}
+  {Capp.~\ref{cap:cervello}, \ref{cap:capire}}
+
+\voce{Esempi svolti}{worked examples}{Problemi risolti passo per
+  passo, da studiare prima di lanciarsi nei problemi da risolvere da
+  soli. Servono soprattutto all'inizio di un argomento e a chi comincia;
+  poi la guida va ritirata a poco a poco, da esempi completi a esempi
+  incompleti, fino ai problemi autonomi}
+  {Capp.~\ref{cap:discipline}, \ref{cap:docenti}}
+
+\lettera{F}
+
+\voce{Fallimento produttivo}{productive failure}{Affrontare un
+  problema nuovo \emph{prima} che venga spiegato come si risolve, secondo
+  la proposta di Manu Kapur. Può aiutare la comprensione dei concetti, a
+  una condizione: che il tentativo sia seguito da una spiegazione chiara
+  e completa. Il tentativo prepara il terreno; non sostituisce
+  l'insegnamento}
+  {Capp.~\ref{cap:capire}, \ref{cap:docenti}}
+
+\rinvio{Familiarità}{fluidità e familiarità}
+
+\voce{Flashcard}{}{Schede con una domanda su un lato e la risposta
+  sull'altro, su carta o in un'applicazione: uno strumento eccellente
+  per ciò che va ricordato con precisione (termini, formule, date,
+  articoli di legge), a patto di rispondere \emph{prima} di girare la
+  scheda e di riprenderle in giorni diversi}
+  {Capp.~\ref{cap:recupero}, \ref{cap:tempo}}
+
+\voce{Fluidità e familiarità}{fluency, familiarity}{Due degli indizi
+  su cui la mente fonda, in automatico, la sensazione di sapere: quanto
+  facilmente scorre ciò che leggi, e quanto ti sembra di averlo già
+  visto. Nella vita di tutti i giorni funzionano abbastanza bene; nello
+  studio si possono ottenere senza conoscenza, per esempio rileggendo.
+  \emph{Vedi anche} illusione di competenza}
+  {Cap.~\ref{cap:inganni}}
+
+\voce{Forza di immagazzinamento e forza di recupero}{storage strength,
+  retrieval strength}{Le due forze di ogni ricordo secondo Robert ed
+  Elizabeth Bjork: quanto è radicato, cioè con quanti collegamenti a ciò
+  che sai, e quanto è accessibile in questo momento. La forza di recupero
+  oscilla; quella di immagazzinamento, secondo la teoria, può soltanto
+  crescere, e cresce tanto di più quanto più la forza di recupero è
+  bassa nel momento in cui richiami qualcosa. Mentre studi vedi
+  soprattutto la seconda forza, non la prima}
+  {Capp.~\ref{cap:dueforze}, \ref{cap:inganni}}
+
+\lettera{G}
+
+\voce{Generazione, effetto di}{generation effect}{Ciò che si produce
+  da sé si ricorda meglio di ciò che si legge: chi deve completare
+  \enquote{caldo -- f\dots} ricorda \emph{freddo} meglio di chi legge la
+  coppia intera. Lo sforzo di produrre una risposta, anche facile, lascia
+  una traccia più profonda. \emph{Vedi anche} pre-domande}
+  {Cap.~\ref{cap:capire}}
+
+\rinvio{Grinta}{mentalità di crescita e grinta}
+
+\voce{Gruppo di controllo}{control group}{In un esperimento, il gruppo
+  che non riceve l'intervento (o ne riceve uno diverso) e con cui si
+  confronta chi lo riceve: senza confronto non si può sapere se un
+  miglioramento si deve all'intervento. Quando chi entra in un gruppo o
+  nell'altro è deciso a caso, lo studio si dice \emph{randomizzato}}
+  {Capp.~\ref{cap:sapere}, \ref{cap:alternanza}}
+
+\lettera{I}
+
+\voce{Illusione della profondità esplicativa}{illusion of explanatory
+  depth}{Crediamo di capire le cose molto meglio di quanto le capiamo,
+  e ce ne accorgiamo soltanto quando dobbiamo spiegarle. Il rimedio è
+  appunto provare a spiegare}
+  {Capp.~\ref{cap:inganni}, \ref{cap:insegnare}}
+
+\voce{Illusione di competenza}{illusion of competence}{Giudicare ciò
+  che sapremo fare \emph{senza} la risposta in base a come ci sentiamo
+  \emph{con} la risposta davanti. Nasce dall'alta forza di recupero di
+  ciò che si è appena letto. Per sapere che cosa si sa bisogna
+  verificarlo: a libro chiuso, con la sola domanda, a distanza di tempo}
+  {Cap.~\ref{cap:inganni}}
+
+\voce{Insegnare per imparare}{learning by teaching}{Prepararsi a
+  spiegare, e spiegare davvero, fa imparare chi spiega: chi si aspetta di
+  dover insegnare legge cercando la struttura, e chi insegna a memoria,
+  senza appunti, recupera ad alta voce. Insegnare leggendo da un testo,
+  invece, non aiuta. È il \emph{docendo discimus} degli antichi}
+  {Cap.~\ref{cap:insegnare}}
+
+\voce{Intenzioni di implementazione}{implementation intentions}{Decidere
+  in anticipo \emph{quando} e \emph{dove} si farà \emph{che cosa},
+  nella forma \enquote{quando accade X, faccio Y}: \enquote{il martedì,
+  appena finita la lezione, vado in biblioteca e faccio il primo
+  recupero}. È il rimedio più semplice contro il rinvio}
+  {Capp.~\ref{cap:transizione}, \ref{cap:dsa}}
+
+\voce{Interferenza}{interference}{Ricordi simili si ostacolano a
+  vicenda: il nuovo PIN con il vecchio, lo spagnolo con il francese, gli
+  articoli del codice studiati nella stessa settimana. Più le cose sono
+  simili e meno sono distinte nella mente, più si disturbano. È una delle
+  cause principali dell'oblio}
+  {Cap.~\ref{cap:cervello}}
+
+\voce{Interrogazione elaborativa}{elaborative interrogation}{Fermarsi,
+  mentre si studia, e chiedersi \emph{perché}: perché questa cosa è
+  vera, perché accade così e non altrimenti, come si collega a ciò che
+  so già. Il nome è pesante; l'abitudine è quella dei bambini di tre
+  anni}
+  {Capp.~\ref{cap:capire}, \ref{cap:metodo}}
+
+\voce{Inversione dell'expertise}{expertise reversal effect}{Ciò che
+  aiuta il principiante -- la guida dettagliata, l'esempio svolto, la
+  ridondanza -- può ostacolare chi è già esperto, per il quale diventa
+  un peso inutile. La didattica migliore cambia con il livello di chi
+  impara}
+  {Capp.~\ref{cap:docenti}, \ref{cap:miti}}
+
+\voce{Ipercorrezione, effetto di}{hypercorrection effect}{Gli errori
+  commessi con grande sicurezza, quando vengono corretti, si correggono
+  in modo particolarmente stabile: la sorpresa di aver sbagliato ciò di
+  cui si era certi fissa la risposta giusta}
+  {Cap.~\ref{cap:capire}}
+
+\voce{Ippocampo}{hippocampus}{Struttura dalla forma ricurva, nel lobo
+  temporale, da cui dipende la formazione di nuovi ricordi. Durante il
+  sonno profondo riattiva le tracce del giorno e le trasferisce a poco a
+  poco alla corteccia. Il paziente H.M., che lo aveva perduto, non
+  riusciva più a formare nuovi ricordi dichiarativi}
+  {Capp.~\ref{cap:cervello}, \ref{cap:corpo}}
+
+\voce{Istruzione esplicita}{explicit instruction}{Insegnamento per
+  passi chiari, con molta esercitazione e correzione immediata. Combinata
+  con l'insegnamento di strategie, è tra gli interventi più efficaci per
+  chi ha un disturbo dell'apprendimento; non è in contrasto con il
+  fallimento produttivo, che cambia l'ordine ma non toglie la
+  spiegazione}
+  {Capp.~\ref{cap:dsa}, \ref{cap:docenti}}
+
+\voce{Istruzione tra pari}{peer instruction}{Il metodo reso celebre da
+  Eric Mazur: una domanda concettuale a cui ciascuno risponde da solo;
+  due minuti per convincere il vicino della propria risposta; una nuova
+  votazione e la spiegazione. Fa recuperare, e fa imparare chi spiega}
+  {Capp.~\ref{cap:insegnare}, \ref{cap:docenti}}
+
+\lettera{M}
+
+\voce{Memoria a lungo termine}{long-term memory}{Il magazzino di tutto
+  ciò che sai, di cui nessuno ha trovato il fondo. Vi convivono almeno
+  due sistemi: la memoria \emph{dichiarativa}, di ciò che si può dire,
+  che comprende la memoria \emph{semantica} (fatti e concetti) e quella
+  \emph{episodica} (episodi vissuti); e la memoria \emph{procedurale}, di
+  ciò che si sa fare senza bisogno di dirlo}
+  {Cap.~\ref{cap:cervello}}
+
+\voce{Memoria di lavoro}{working memory}{Lo spazio mentale in cui
+  teniamo presenti le cose mentre ci ragioniamo sopra. Contiene
+  all'incirca quattro elementi alla volta e li trattiene per pochi
+  secondi; ciò che si sa già, ben organizzato, le permette di trattare
+  molte cose come un'unica unità. \emph{Vedi anche} chunk; carico
+  cognitivo}
+  {Capp.~\ref{cap:sapere}, \ref{cap:cervello}, \ref{cap:attenzione}}
+
+\voce{Mentalità di crescita e grinta}{growth mindset, grit}{Due idee di
+  grande successo. La prima, resa celebre da Carol Dweck: chi crede che
+  l'intelligenza si possa sviluppare affronterebbe meglio le difficoltà.
+  La seconda, di Angela Duckworth: la combinazione di passione e
+  perseveranza conterebbe più del talento. Contengono qualcosa di vero,
+  ma le prove raccolte invitano a ridimensionarle molto}
+  {Cap.~\ref{cap:motivazione}}
+
+\voce{Meta-analisi}{meta-analysis}{Una ricerca che raccoglie tutti gli
+  studi disponibili su un tema e ne calcola l'effetto medio. È lo
+  strumento con cui questo libro misura la solidità di una strategia; ma
+  anche le stime più famose, rifatte con più cura, possono
+  ridimensionarsi. \emph{Vedi anche} dimensione dell'effetto}
+  {Capp.~\ref{cap:recupero}, \ref{cap:valutare}}
+
+\voce{Metacognizione}{metacognition}{Il giudizio su come funziona la
+  propria mente: su ciò che si sa e ciò che non si sa, e su quali
+  strategie funzionano. Fidarsi della sensazione di sapere è un errore di
+  metacognizione, il primo dei tre errori da cui parte il libro}
+  {Capp.~\ref{cap:vita}, \ref{cap:inganni}}
+
+\voce{Metodo dei luoghi}{method of loci}{La mnemotecnica che la
+  tradizione attribuisce a Simonide, detta anche \emph{palazzo della
+  memoria}: si sceglie un percorso di luoghi in un ordine fisso, vi si
+  collocano immagini delle cose da ricordare, e l'ordine dei luoghi
+  conserva l'ordine delle cose. È il cuore dell'antica arte della
+  memoria; serve per le sequenze ordinate}
+  {Capp.~\ref{cap:storia}, \ref{cap:immagini}}
+
+\voce{Mnemotecniche}{mnemonics}{Tecniche che creano un aggancio
+  artificiale per un'informazione che, di per sé, non ne ha: acronimi,
+  rime, il metodo dei luoghi, il metodo della \emph{parola chiave} per i
+  vocaboli stranieri (il tedesco \emph{Tisch}, \enquote{tavolo}, e una
+  tisana rovesciata su un tavolo). Aiutano a ritrovare un'informazione,
+  non a capirla}
+  {Cap.~\ref{cap:immagini}}
+
+\rinvio{Motivazione autonoma e controllata}{autodeterminazione, teoria
+  dell'}
+
+\voce{Multitasking}{}{Fare più cose insieme. La mente può fare insieme
+  una cosa impegnativa e una automatica, ma non due cose impegnative:
+  quando sembra che lo faccia, in realtà alterna, e ogni passaggio costa
+  tempo, errori e profondità. Costa a tutti, \enquote{nativi digitali}
+  compresi}
+  {Capp.~\ref{cap:attenzione}, \ref{cap:miti}}
+
+\lettera{N}
+
+\voce{Neuromiti}{neuromyths}{Credenze false sul cervello e
+  sull'apprendimento, diffuse anche tra gli insegnanti: gli stili di
+  apprendimento, il cervello usato al dieci per cento, la musica di
+  Mozart che rende più intelligenti, il \emph{brain training}. Chi sa
+  di più sul cervello non ne è immune: il rimedio non è sapere meno di
+  neuroscienze, ma leggerle meglio}
+  {Capp.~\ref{cap:docenti}, \ref{cap:miti}, \ref{cap:formatori}}
+
+\lettera{P}
+
+\rinvio{Palazzo della memoria}{metodo dei luoghi}
+
+\voce{Permastore}{}{Il nome, \enquote{deposito permanente}, che Harry
+  Bahrick ha dato alla parte della memoria che sopravvive quasi intatta
+  per decenni. Quanto vi entra non dipende dal caso, ma da quanto bene si
+  è imparato all'inizio}
+  {Cap.~\ref{cap:vita}}
+
+\voce{Pratica concentrata}{massed practice}{Studiare tutto in
+  un'unica sessione invece che in più sessioni distanziate; nella forma
+  estrema, quella della vigilia dell'esame, gli studenti di lingua
+  inglese la chiamano \emph{cramming}, \enquote{stipare}. Dà una buona
+  prestazione il giorno dopo e un ricordo scarso nel tempo.
+  \emph{Vedi anche} distribuzione}
+  {Cap.~\ref{cap:tempo}}
+
+\voce{Pratica del recupero}{retrieval practice, testing effect}{Richiamare
+  dalla memoria ciò che si è studiato -- a libro chiuso, con domande,
+  flashcard, esercizi senza soluzione -- invece di rileggerlo. Ciò che
+  rafforza un ricordo non è il tempo passato davanti al libro, ma lo
+  sforzo di richiamarlo: il test non serve soltanto a misurare quanto si
+  è imparato, ma a imparare (\enquote{effetto del test}). È il modo più
+  potente di studiare che si conosca}
+  {Capp.~\ref{cap:recupero}, \ref{cap:metodo}; scheda~\ref{sch:metodo}}
+
+\rinvio{Pratica distribuita}{distribuzione, effetto della}
+
+\voce{Pre-domande}{prequestions}{Domande a cui provi a rispondere
+  \emph{prima} di leggere un capitolo o di seguire una lezione, anche se
+  non conosci ancora l'argomento e sbaglierai quasi certamente.
+  Migliorano l'apprendimento delle informazioni su cui vertevano, non
+  del resto del materiale}
+  {Capp.~\ref{cap:capire}, \ref{cap:semestre}}
+
+\rinvio{Prestazione}{apprendimento e prestazione}
+
+\lettera{Q}
+
+\voce{Quaderno degli errori}{}{Il quaderno in cui annoti ogni errore
+  commesso negli esercizi, insieme alla sua specie: di
+  \emph{conoscenza} (non sapevi la definizione o la formula), di
+  \emph{riconoscimento} (non hai capito quale strumento usare), di
+  \emph{esecuzione} (un segno sbagliato, un passaggio saltato). Ogni
+  specie ha il suo rimedio}
+  {Capp.~\ref{cap:semestre}, \ref{cap:discipline}}
+
+\lettera{R}
+
+\rinvio{Randomizzato, studio}{gruppo di controllo}
+
+\rinvio{Recupero}{pratica del recupero; codifica, consolidamento,
+  recupero}
+
+\voce{Riconsolidamento}{reconsolidation}{Un ricordo consolidato,
+  quando viene richiamato, torna per qualche tempo fragile e va
+  stabilizzato di nuovo. Ogni volta che richiami un ricordo, dunque, lo
+  riscrivi: se lo richiami bene, e lo correggi quando sbagli, esce
+  rafforzato e aggiornato; se lo richiami male e nessuno ti corregge,
+  puoi consolidare anche un errore}
+  {Cap.~\ref{cap:cervello}}
+
+\voce{Ripasso a successive riprese}{successive relearning}{La
+  combinazione di recupero e distribuzione proposta da Katherine Rawson
+  e John Dunlosky. In ogni sessione ti interroghi a libro chiuso e
+  rimetti in fondo al mazzo le domande sbagliate, finché ciascuna non ha
+  avuto almeno una risposta giusta (il \enquote{criterio}); poi ripeti
+  la stessa procedura in più sessioni distanziate, di solito da tre a
+  cinque}
+  {Capp.~\ref{cap:tempo}, \ref{cap:metodo}}
+
+\voce{Riscontro}{feedback}{L'informazione su com'è andata una risposta
+  o una prova. Rende di più quando dice perché e come migliorare, invece
+  di limitarsi a \enquote{giusto} o \enquote{sbagliato}; e serve quando
+  arriva in tempo per correggersi. Il riscontro che arriva tardi, come il
+  voto settimane dopo lo studio, tiene in vita le strategie ingannevoli}
+  {Capp.~\ref{cap:inganni}, \ref{cap:valutare}}
+
+\voce{Risparmio}{savings}{La misura inventata da Ebbinghaus: quanto
+  lavoro in meno serve per reimparare ciò che si era imparato. Mostra
+  che un ricordo apparentemente perduto, di cui non si sa ripetere
+  nulla, si reimpara più in fretta di uno mai posseduto: non è sparito
+  del tutto}
+  {Capp.~\ref{cap:storia}, \ref{cap:dueforze}}
+
+\lettera{S}
+
+\voce{Schema}{schema}{Una struttura di conoscenze già organizzate a
+  partire dalla quale si comprende e si ricorda. Frederic Bartlett ne
+  concluse che ricordare non è riprodurre, ma ricostruire; e si ricorda
+  meglio ciò che si riesce a legare a ciò che si conosce}
+  {Capp.~\ref{cap:storia}, \ref{cap:capire}}
+
+\voce{Sessione settimanale di ripresa}{}{Il cuore del metodo del
+  libro: per ogni insegnamento, un appuntamento fisso alla settimana, da
+  mezz'ora a un'ora, scritto in agenda come una lezione. Si risponde a
+  libro chiuso, fino al criterio, alle domande di tutte le settimane
+  precedenti; quelle che si sanno bene tornano più di rado, quelle
+  sbagliate subito}
+  {Cap.~\ref{cap:metodo}; schede~\ref{sch:metodo} e~\ref{sch:calendario}}
+
+\voce{Specificità della codifica}{encoding specificity}{Principio di
+  Endel Tulving: un ricordo si ritrova più facilmente quando le
+  condizioni del recupero somigliano a quelle in cui è stato formato.
+  Nello studio reale l'effetto è piccolo, e la conseguenza utile è il
+  contrario di ciò che sembra: ritrovare le stesse cose in modi, momenti
+  e contesti diversi rende il ricordo più libero}
+  {Cap.~\ref{cap:cervello}}
+
+\voce{Stili di apprendimento}{learning styles}{L'idea che ognuno sia
+  \enquote{visivo}, \enquote{uditivo} o \enquote{cinestetico} e impari
+  meglio se l'insegnamento corrisponde al suo stile. È un mito: quasi
+  nessuno studio ha usato il disegno sperimentale necessario a
+  dimostrarlo, e quelli che lo hanno usato danno risultati contrari.
+  Le preferenze esistono; non dicono come si impara meglio}
+  {Capp.~\ref{cap:dsa}, \ref{cap:miti}}
+
+\voce{Strumenti compensativi e misure dispensative}{}{Per gli
+  studenti con DSA, i primi compensano una difficoltà strumentale
+  (sintesi vocale, testi digitali, computer con correttore,
+  calcolatrice, mappe); le seconde dispensano da una prestazione o ne
+  cambiano le condizioni (tempo aggiuntivo, scelta tra scritto e orale,
+  valutazione del contenuto più che della forma). Il criterio che il
+  libro propone: \emph{compensare l'accesso, non il pensiero}}
+  {Cap.~\ref{cap:dsa}; scheda~\ref{sch:dislessia}}
+
+\lettera{V}
+
+\voce{Valutazione formativa}{formative assessment}{Usare le prove
+  durante il corso per capire a che punto sono gli studenti e adattare
+  l'insegnamento, secondo la proposta di Paul Black e Dylan Wiliam.
+  L'idea resta buona; ma le prime stime del suo effetto, molto alte, si
+  sono ridimensionate quando i conti sono stati rifatti}
+  {Cap.~\ref{cap:valutare}}
+
+\normalsize
 
 \finecapitolo

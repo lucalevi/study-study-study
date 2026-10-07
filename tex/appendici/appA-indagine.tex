@@ -1,10 +1,600 @@
 % ------------------------------------------------------------------
 %  Appendice A — Una proposta di indagine: come studiano gli studenti italiani
-%  Ricerca di riferimento: ricerca 05
+%  Ricerca di riferimento: ricerca 05 (progetto di indagine, v1.0)
+%  Scheda nell'indice ragionato: ricerca/06_indice-ragionato.md, §6.3
+%    (decisione 6: nessun risultato; l'indagine si farà con un partner,
+%    dopo la pubblicazione)
+%  Voci bibliografiche: karpicke2009, kornell2007, hartwig2012,
+%    mccabe2011, roediger2006, mcdaniel2020, dekker2012, bei2023
+%
+%  STATO: prima stesura (07/10/2026), circa 3.300 parole compreso il
+%  nucleo del questionario (pagine finali, fotocopiabili).
+%
+%  PROMESSE DA MANTENERE (rimandi in entrata):
+%  - cap. 2, esercizio: «elenca le strategie che usi … in ordine di
+%    frequenza … accanto a ciascuna scrivi perché la usi. È la stessa
+%    domanda che l'Appendice propone»: domanda 1 del nucleo (A.8),
+%    formulata con le stesse parole;
+%  - cap. 2, testo: «l'Appendice propone un modo per farlo» (A.1–A.7);
+%  - cap. 2, riquadro «Per chi insegna»: «per un questionario più
+%    completo si può partire da quello proposto nell'Appendice» (A.7, A.8);
+%  - cap. 8, «E in Italia?»: «Nell'appendice A propongo come farlo
+%    [l'esperimento di Roediger e Karpicke in un'aula italiana], e invito
+%    le università e le scuole» (A.5, A.7).
+%
+%  DATI: nessun dato nuovo sugli studenti italiani. Dati già verificati:
+%  Kornell & Bjork 2007 e Hartwig & Dunlosky 2012 (registro S-29),
+%  Karpicke et al. 2009 (S-31, solo richiamato), Roediger & Karpicke 2006
+%  (cap. 8, solo richiamato). McCabe 2011: verificato il 07/10/2026
+%  sull'abstract e sulla pagina dell'editore (255 studenti, accuratezza
+%  media 23%, 71% nel seminario che aveva letto gli studi originali;
+%  registro S-29, ora chiuso anche per McCabe). Calcoli propri (in nota):
+%  campione per ±3 e ±5 punti (1.067 e 385); potenza dell'esperimento
+%  entro i soggetti (d = 0,4, alfa 0,05 bilaterale, potenza 0,80:
+%  52 studenti; d = 0,5: 34). Stime di tempo dalla ricerca 05 §3.3,
+%  presentate come stime.
+%  Voce: «io» discreto (propongo); l'autore non si presenta come
+%  ricercatore né come docente (decisione 13). Nel nucleo del
+%  questionario «tu» è lo studente che risponde.
+%  Nomi negli scenari: Giulia e Marco (come in ricerca 05); «Luca» della
+%  ricerca 05 sostituito con «Matteo».
 % ------------------------------------------------------------------
 \chapter{Una proposta di indagine: come studiano gli studenti italiani}
 \label{app:indagine}
 
-\segnaposto{da scrivere}
+%  Comandi usati solo in questa appendice (nomi diversi da quelli
+%  dell'Appendice B, che li definisce per conto suo)
+\newcommand{\quadretto}{\tikz[baseline=-0.05em]\draw[line width=0.4pt]
+  (0,0) rectangle (0.62em,0.62em);}
+\newcommand{\rigavuota}{\rule{0pt}{1.6\baselineskip}}
+%  \domanda{n.}: nuova domanda; se in fondo alla pagina restano meno di
+%  sei righe, la domanda passa alla pagina seguente (niente domande
+%  separate dalle loro risposte)
+\newcommand{\domanda}[1]{\par\medskip
+  \begingroup\dimen0=\pagegoal\advance\dimen0 by -\pagetotal
+  \ifdim\dimen0<6\baselineskip\newpage\fi\endgroup
+  \noindent\textbf{#1}\enspace}
+\newenvironment{opzioni}
+  {\begin{itemize}[label=\quadretto, leftmargin=1.6em, itemsep=0pt, topsep=0.2\baselineskip]}
+  {\end{itemize}}
+
+\iniziale{N}{el capitolo}~\ref{cap:oggi} ti ho chiesto di elencare le
+strategie che usi quando studi per un esame, in ordine di frequenza, e
+di scrivere accanto a ciascuna perché la usi. Se hai fatto l'esercizio,
+hai risposto alla prima domanda di un'indagine che in Italia nessuno ha
+ancora condotto. Negli Stati Uniti la stessa domanda è stata posta a
+centinaia di studenti universitari, e le risposte le hai lette nel
+capitolo~\ref{cap:vita}: quasi tutti rileggono, quasi nessuno si
+interroga da solo per imparare \parencite{karpicke2009}. Degli
+studenti italiani, invece, non sappiamo quanti rileggono, quanti si
+mettono alla prova, quanti hanno avuto qualcuno che spiegasse loro come
+si studia.
+
+Questa appendice non contiene risultati. Contiene una proposta: che
+cosa chiedere, a chi, come, con quali garanzie. È scritta per chi
+potrebbe realizzarla -- gruppi di ricerca di psicologia dell'educazione
+e di pedagogia sperimentale, centri per la didattica degli atenei,
+servizi di orientamento e di tutorato, associazioni studentesche -- e
+per chi vuole soltanto usarne le domande nella propria aula. Un'indagine
+di questo tipo non si improvvisa e non si fa da soli: servono un gruppo
+di ricerca, un comitato etico, atenei e scuole disposti a partecipare.
+Per questo il libro la propone e la lascia a chi vorrà raccoglierla,
+con un invito che trovi alla fine.
+
+\section{Perché serve}
+
+Le indagini su come studiano gli universitari, raccontate nei
+capitoli~\ref{cap:vita} e~\ref{cap:oggi}, vengono quasi tutte dagli
+Stati Uniti. Karpicke e colleghi hanno chiesto agli studenti di elencare
+le proprie strategie \parencite{karpicke2009}; Kornell e Bjork hanno
+chiesto a 472 studenti come decidevano che cosa studiare e perché si
+interrogavano \parencite{kornell2007}; Hartwig e Dunlosky hanno messo
+in relazione le abitudini di 324 studenti con la loro media dei voti
+\parencite{hartwig2012}. Jennifer McCabe ha fatto un passo diverso: ha
+descritto a 255 studenti sei situazioni di studio, ciascuna basata su un
+esperimento noto, e ha chiesto quale dei due studenti descritti avrebbe
+imparato di più. In media gli studenti hanno indovinato il 23\% delle
+situazioni; quelli che avevano letto gli esperimenti originali in un
+seminario, il 71\% \parencite{mccabe2011}. Non sapere come si impara non
+è dunque un destino: è una lacuna, e si può colmare.
+
+Non c'è motivo di pensare che la memoria di uno studente italiano
+funzioni in modo diverso da quella di uno studente americano. Ma il
+modo di studiare dipende anche dalle regole del gioco, e quelle in
+Italia sono diverse: l'esame orale, la sessione che concentra più esami
+in poche settimane, gli appelli che si possono ripetere, il voto che si
+può rifiutare, le trascrizioni delle lezioni che passano di anno in
+anno, il manuale come unica fonte, le ripetizioni private alle superiori.
+E da qualche anno c'è un'abitudine nuova, l'intelligenza artificiale,
+che nel capitolo~\ref{cap:oggi} abbiamo visto già diffusa tra i
+quindicenni. Che cosa produca tutto questo nel modo di studiare degli
+italiani, oggi, si può soltanto immaginare.
+
+In Italia esistono questionari validati per valutare il metodo di
+studio di un singolo studente, usati da psicologi e insegnanti.%
+\footnote{Per esempio la batteria AMOS e gli altri strumenti di Cesare
+  Cornoldi, Rossana De Beni e del Gruppo MT, pubblicati da Erickson
+  \parencite{cornoldi}. Sono coperti da diritti d'autore: non si possono
+  riprodurre in un'altra indagine senza un accordo con l'editore.}
+Servono
+però a un'altra cosa: a descrivere una persona per aiutarla, non a
+fotografare un Paese e a confrontarlo con le ricerche internazionali.
+Ciò che manca è un quadro nazionale, costruito con le stesse domande
+delle indagini straniere, così da poter dire non soltanto \enquote{che
+cosa fanno gli studenti italiani}, ma anche \enquote{se fanno come gli
+altri, o diversamente}.
+
+Un principio, prima di tutto il resto: meglio un'indagine più piccola
+ma pulita -- domande provate, campione descritto con onestà, analisi
+decise in anticipo -- che un grande sondaggio diffuso sui social, a cui
+rispondono soltanto gli studenti già interessati al tema.
+
+\section{Le domande}
+
+L'indagine dovrebbe rispondere a nove domande, le prime tre riprese
+direttamente dalle indagini straniere, per poter confrontare i
+risultati.
+
+\begin{enumerate}[leftmargin=1.6em, itemsep=0.2\baselineskip]
+  \item Quali strategie usano più spesso gli studenti italiani, e quale
+        indicano come principale? Quanti rileggono, quanti si
+        interrogano da soli?
+  \item Chi si interroga da solo, lo fa per \emph{imparare} o per
+        \emph{controllare} quanto sa?
+  \item Come distribuiscono lo studio nel tempo? Quanta parte si
+        concentra nelle ultime settimane, o negli ultimi giorni, prima
+        dell'appello?
+  \item Che cosa \emph{credono} su come si impara? Se si descrivono
+        loro due modi di studiare -- rileggere o provare a ricordare,
+        studiare tutto in un giorno o in più giorni, esercizi a blocchi
+        o mescolati -- quale scelgono, e con quanta sicurezza?
+  \item Qualcuno ha mai insegnato loro come si studia? Chi: un
+        insegnante, un corso, la famiglia, internet, un'intelligenza
+        artificiale?
+  \item Come usano l'intelligenza artificiale: per farsi spiegare e
+        interrogare, o per farsi fare riassunti, testi ed esercizi?
+  \item Come gestiscono il telefono mentre studiano? Quanto dormono
+        prima di un esame?
+  \item Come cambia tutto questo tra aree disciplinari, anni di corso,
+        tipi di ateneo e regioni; tra chi è il primo della famiglia a
+        frequentare l'università e chi no; tra gli studenti con un
+        disturbo specifico dell'apprendimento e gli altri?
+  \item Le strategie dichiarate sono associate ai risultati -- la media
+        dei voti, gli esami in regola con il piano di studi -- a parità
+        delle altre condizioni?
+\end{enumerate}
+
+L'ultima domanda va presa con cautela. Un'indagine con questionario
+mostra associazioni, non cause: se chi si interroga da solo ha voti più
+alti, può darsi che lo debba al metodo, ma può darsi anche che studi di
+più, o che parta avvantaggiato. Ciò che una strategia \emph{produce}
+lo dicono gli esperimenti, come quelli raccontati nella terza parte del
+libro, non i sondaggi.
+
+Un breve modulo per chi insegna potrebbe affiancare quello per gli
+studenti: quali strategie consigliano i docenti, quali ritengono
+efficaci, quanti conoscono la pratica del recupero e la distribuzione,
+quanti credono ai miti di cui parla il capitolo~\ref{cap:miti}, primo
+fra tutti quello degli stili di apprendimento
+\parencite{dekker2012,bei2023}. Confrontare le risposte dei docenti con
+quelle degli studenti direbbe molto su dove nasce il metodo che gli
+studenti si portano dietro.
+
+Le indagini straniere permettono di prevedere alcune risposte: che la
+rilettura sarà la strategia più citata, che chi si interroga lo farà
+soprattutto per controllarsi, che pochi diranno di aver ricevuto un
+insegnamento esplicito sul metodo. Sono ipotesi, non risultati, e vanno
+scritte e depositate prima di raccogliere i dati (lo vedremo nel
+paragrafo~\ref{sec:indagine-garanzie}). Se i dati italiani le
+smentissero, sarebbe la notizia più interessante dell'indagine.
+
+\section{Il questionario}
+\label{sec:indagine-questionario}
+
+Il cuore dell'indagine è un questionario anonimo, da compilare online in
+quindici o venti minuti. Le pagine finali di questa appendice ne
+riportano il nucleo, nella versione per l'università; qui ne descrivo
+la struttura e le regole con cui è costruito.
+
+\begin{table}[tbp]\small
+  \centering
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.41\textwidth}>{\raggedright\arraybackslash}p{0.27\textwidth}@{}}
+    \toprule
+    \textit{Parte} & \textit{Che cosa chiede} & \textit{Modello} \\
+    \midrule
+    Le tue strategie & elenco libero, in ordine di frequenza, con il perché; la strategia più utile & \textcite{karpicke2009} \\
+    Una scelta & dopo aver letto un capitolo: rileggere o provare a ricordare? E perché? & \textcite{karpicke2009} \\
+    Che cosa fai & frequenza di una quindicina di strategie; perché ci si interroga; che cosa si fa dopo l'esame & \textcite{kornell2007}; \textcite{hartwig2012} \\
+    Chi ti ha insegnato & se e da chi si è imparato a studiare & \textcite{kornell2007}, ampliato \\
+    Il tempo & distribuzione dello studio prima dell'ultimo esame; esami per sessione; sonno & \textcite{hartwig2012} \\
+    Che cosa pensi & situazioni di studio a scelta, con il grado di sicurezza & \textcite{mccabe2011} \\
+    Intelligenza artificiale & quanto e per che cosa & originale \\
+    Attenzione & telefono, notifiche, durata delle sessioni & originale \\
+    Esami e motivazione & prove intermedie, ricordo a sei mesi, perché si studia & originale \\
+    Su di te & area e anno di corso, ateneo, regione, titolo di studio dei genitori, media dei voti; facoltativa, la certificazione di DSA & originale \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Contano, più delle singole domande, alcune regole.
+
+\emph{Prima le domande aperte, poi quelle chiuse.} Se lo studente vede
+subito un elenco di strategie, ne riconosce alcune e le dichiara anche
+se non le usa. Per questo l'elenco libero viene per primo, prima di
+qualunque suggerimento.
+
+\emph{Le opinioni dopo i comportamenti.} Le situazioni a scelta sono
+istruttive: chi le legge comincia a sospettare quale sia la risposta
+giusta, e potrebbe correggere di conseguenza ciò che dichiara di fare.
+Vanno quindi dopo tutte le domande su ciò che lo studente fa davvero.
+
+\emph{Nessuna risposta giusta in vista.} Nessuna domanda deve far
+capire quale strategia sia preferibile; l'ordine delle strategie e delle
+situazioni viene mescolato a caso da uno studente all'altro, e la prima
+schermata lo dice chiaramente: interessa ciò che fai, non ciò che
+\enquote{si dovrebbe} fare.
+
+\emph{Domande concrete.} \enquote{L'ultimo esame che hai sostenuto} è
+meglio di \enquote{di solito}: la memoria di un episodio preciso è meno
+esposta al desiderio di fare bella figura.
+
+\emph{Controlli di qualità.} Una riga di attenzione (\enquote{per
+questa riga scegli \enquote{Spesso}}) e un tempo minimo di compilazione
+permettono di scartare chi risponde a caso; i criteri si fissano prima
+di vedere i dati.
+
+\emph{Una versione per ogni livello.} Il nucleo resta lo stesso, per
+permettere i confronti; cambiano le parole. Per la scuola si parla di
+verifiche e interrogazioni, e alle medie le frasi si fanno più brevi e
+gli esempi più concreti.
+
+Le risposte all'elenco libero vanno poi classificate -- rilettura,
+sottolineatura, riassunto, ripetizione a memoria, esercizi, mappe e
+così via -- da due persone che lavorano separatamente, con un calcolo
+del loro accordo e una discussione dei casi dubbi. Un'intelligenza
+artificiale può fare da terzo controllo, mai da sola: per le ragioni
+del capitolo~\ref{cap:ia}, il giudizio su che cosa uno studente intende
+dire spetta a chi può risponderne.
+
+\section{A chi chiedere}
+
+Il libro, in questa prima edizione, parla soprattutto agli studenti
+universitari, e da loro conviene cominciare. In un secondo momento lo
+stesso questionario, adattato, potrebbe essere proposto agli studenti
+delle superiori e delle medie (la primaria è esclusa: i bambini non
+sanno ancora descrivere in modo affidabile come studiano).
+
+Quanti studenti servono? Dipende da che cosa si vuole sapere. Per
+stimare una percentuale nazionale con un margine di circa tre punti
+servono poco più di mille risposte; per confrontare gruppi diversi --
+le aree disciplinari, per esempio -- ne servono circa quattrocento per
+ciascun gruppo.\footnote{Sono i valori classici per un campione
+casuale, con un livello di confidenza del 95\% e nel caso più
+sfavorevole (una percentuale vicina al 50\%): circa 1.070 risposte per
+un margine di ±3 punti, circa 385 per ±5. Con cinque aree
+disciplinari si arriva a circa duemila studenti.} Un obiettivo
+realistico è di qualche migliaio di studenti e di qualche centinaio di
+docenti.
+
+C'è però una cautela che nessun numero risolve. Un'indagine di questo
+tipo raccoglie quasi sempre un campione \emph{di convenienza}: rispondono
+gli atenei e i corsi che accettano di partecipare. Per ridurre le
+distorsioni conviene somministrare il questionario in aula, durante una
+lezione concordata con il docente, invece di affidarsi a un link sui
+social; coinvolgere atenei grandi e piccoli, statali e non statali, di
+tutte le regioni, e corsi di tutte le aree; confrontare la composizione
+del campione con i dati nazionali sugli iscritti e, se serve,
+ricalibrare le stime. E, soprattutto, dichiarare i limiti: un campione
+di convenienza descritto con onestà vale più di un campione che si
+spaccia per rappresentativo.
+
+\section{Un esperimento in aula}
+\label{sec:indagine-esperimento}
+
+Un questionario dice che cosa gli studenti \emph{credono}; un
+esperimento mostra che cosa \emph{funziona}. Nel
+capitolo~\ref{cap:recupero} ho raccontato l'esperimento di Roediger e
+Karpicke: chi rileggeva era più sicuro di sé, ma una settimana dopo
+ricordava meno di chi aveva chiuso il libro e provato a ricordare
+\parencite{roediger2006}. Nessuno, finora, lo ha ripetuto in un'aula
+italiana. Propongo di farlo, accanto all'indagine, in una forma
+semplice.
+
+\begin{enumerate}[leftmargin=1.6em, itemsep=0.2\baselineskip]
+  \item \emph{Il materiale.} Due brevi testi divulgativi, di
+        duecentocinquanta o trecento parole ciascuno, su argomenti che
+        non fanno parte del corso (per evitare che qualcuno li conosca
+        già), di lunghezza e difficoltà simili, controllate con una
+        prova preliminare.
+  \item \emph{Le due condizioni.} Ogni studente legge entrambi i testi
+        per cinque minuti. Poi, su uno dei due, passa altri cinque
+        minuti a rileggerlo; sull'altro, cinque minuti a scrivere a
+        libro chiuso tutto ciò che ricorda. Quale testo vada con quale
+        condizione, e in che ordine, si decide a caso: così ognuno è
+        il termine di confronto di se stesso.
+  \item \emph{La previsione.} Subito dopo, ogni studente indica quanto
+        pensa che ricorderà di ciascun testo tra una settimana, da 0 a
+        100.
+  \item \emph{La prova.} Una settimana dopo, senza preavviso, domande a
+        risposta breve su entrambi i testi, corrette da due persone in
+        modo indipendente.
+  \item \emph{La restituzione.} Nella stessa lezione, o in quella
+        successiva, gli studenti vedono i risultati del proprio gruppo
+        -- quanto ricordavano dei testi riletti e di quelli richiamati,
+        e quanto pensavano di ricordarne -- e qualcuno spiega loro che
+        cosa significano.
+\end{enumerate}
+
+Non servono numeri enormi: se l'effetto è di grandezza media, come
+nelle ricerche straniere, una cinquantina di studenti basta per
+vederlo.\footnote{Calcolo per un confronto entro gli stessi soggetti,
+con una probabilità di errore del 5\% e una potenza dell'80\%: 52
+studenti per un effetto di grandezza \emph{d}~=~0,4, 34 per \emph{d}~=~0,5.
+Il calcolo va rifatto sul disegno definitivo.} Ma qualche classe in più,
+in corsi e in atenei diversi, permetterebbe di vedere se l'effetto
+cambia da una disciplina all'altra. Il disegno ammette varianti: una
+terza condizione in cui, dopo aver provato a ricordare, si ricontrolla
+il testo; oppure una versione sulla distribuzione, con lo stesso tempo
+di studio in una seduta sola o in due sedute a qualche giorno di
+distanza.
+
+L'esperimento ha un valore che va oltre i dati. Una cosa è leggere che
+la pratica del recupero funziona; un'altra è vederlo sui propri
+risultati, accanto alla propria previsione sbagliata. Le ricerche
+sull'insegnamento delle strategie di studio indicano proprio questo
+passaggio -- convincersi, oltre che sapere -- come uno dei più
+importanti perché un'abitudine cambi davvero \parencite{mcdaniel2020}.
+Per gli studenti che partecipano, la restituzione è già una lezione sul
+metodo.
+
+\section{Le garanzie}
+\label{sec:indagine-garanzie}
+
+Un'indagine che chiede agli studenti come studiano maneggia dati
+personali, a volte di minorenni, a volte relativi alla salute. Le
+garanzie non sono un dettaglio burocratico: sono la condizione perché
+le risposte siano sincere e perché i risultati siano credibili. Ecco
+quelle essenziali. I documenti definitivi -- informativa, moduli di
+consenso, eventuale valutazione d'impatto -- andranno preparati con chi
+si occupa di protezione dei dati nell'ateneo partner.
+
+\emph{Partecipazione libera e anonima.} Si può rifiutare o smettere in
+qualunque momento, senza alcuna conseguenza su voti ed esami. Nessun
+nome, indirizzo email o indirizzo IP; si raccolgono solo i dati che
+servono alle domande dell'indagine.
+
+\emph{Un comitato etico.} Il progetto va sottoposto al comitato etico
+per la ricerca dell'ateneo partner, che è anche il soggetto più adatto
+a essere titolare del trattamento dei dati. Se un giorno il questionario
+arrivasse nelle scuole, servirebbero l'autorizzazione del dirigente, il
+consenso dei genitori per i minorenni e l'assenso degli studenti stessi,
+che devono poter dire di no.
+
+\emph{Prudenza con i dati sulla salute.} La domanda su una
+certificazione di disturbo specifico dell'apprendimento riguarda dati
+relativi alla salute, che il Regolamento europeo sulla protezione dei
+dati tutela in modo particolare (art.~9). Deve essere facoltativa, con
+un consenso specifico; e nessun risultato va pubblicato per gruppi così
+piccoli -- meno di dieci studenti, per esempio -- da rendere riconoscibile
+qualcuno. Se questo non si può garantire, è meglio porre la domanda
+soltanto agli studenti maggiorenni, o non porla.
+
+\emph{Le ipotesi prima dei dati.} Domande, ipotesi, criteri di
+esclusione e analisi vanno scritti e depositati in un archivio pubblico
+prima di raccogliere i dati, come si fa con la preregistrazione, per
+esempio sull'\emph{Open Science Framework}. È la garanzia che i
+risultati non siano stati scelti dopo averli visti.
+
+\emph{Tutto pubblico, tranne le persone.} Il questionario, il codice
+delle analisi e i dati resi anonimi vanno pubblicati, perché chiunque
+possa controllare e ripetere. Il questionario di queste pagine ha la
+stessa licenza del libro: si può copiare e adattare, citando la fonte.
+
+\emph{Un conflitto d'interessi dichiarato.} Chi propone l'indagine ha
+scritto un libro che ne attende i risultati, e potrebbe sperare che gli
+diano ragione. Va detto apertamente; ed è un motivo in più per
+depositare le ipotesi in anticipo e pubblicare tutto, anche ciò che le
+smentisce. Se i dati italiani contraddicessero qualcosa di ciò che si
+legge in queste pagine, una nuova edizione del libro dovrebbe dirlo.
+
+\emph{Qualcosa in cambio.} Agli atenei e ai corsi che partecipano
+spetta un rapporto con i risultati aggregati; agli studenti, alla fine
+del questionario, una pagina con i principi di studio che la ricerca
+sostiene. Chi partecipa dovrebbe uscirne sapendo qualcosa in più.
+
+\section{Come procedere}
+
+Le tappe sono quelle di qualunque indagine seria.
+
+\begin{enumerate}[leftmargin=1.6em, itemsep=0.2\baselineskip]
+  \item \emph{Un partner.} Un gruppo di ricerca universitario che
+        prenda la responsabilità scientifica ed etica del progetto.
+  \item \emph{La revisione del questionario.} Due o tre esperti -- di
+        psicologia dell'apprendimento, di metodologia della ricerca
+        educativa, di didattica universitaria -- lo leggono e lo
+        correggono.
+  \item \emph{Le interviste cognitive.} Cinque-otto studenti per gruppo
+        compilano il questionario ad alta voce, per verificare che ogni
+        domanda sia capita come previsto.
+  \item \emph{La prova pilota.} Qualche decina di studenti, per
+        misurare i tempi, trovare le domande ambigue e controllare la
+        piattaforma (che dovrebbe conservare i dati nell'Unione europea
+        e poter mescolare le domande).
+  \item \emph{La preregistrazione}, con la versione definitiva del
+        questionario.
+  \item \emph{La raccolta}, lontano dalle sessioni d'esame, insieme
+        all'esperimento in aula.
+  \item \emph{La codifica e l'analisi}, secondo il piano depositato.
+  \item \emph{La restituzione}: rapporto agli atenei, dati e codice
+        pubblici, un articolo scientifico se il partner lo ritiene
+        opportuno.
+\end{enumerate}
+
+Una versione essenziale, con un campione di convenienza ben descritto,
+richiede indicativamente da sei a nove mesi; una versione con un
+campione costruito per essere rappresentativo e destinata a una rivista
+scientifica, da dodici a diciotto. I costi sono modesti: il lavoro di
+chi coordina, una piattaforma per i questionari, la consulenza sulla
+protezione dei dati e qualche ora di codifica, che studenti in tirocinio
+potrebbero svolgere imparando, nel frattempo, il mestiere della ricerca.
+
+\section{Un invito}
+
+Se lavori in un gruppo di ricerca, in un centro per la didattica, in un
+servizio di orientamento o di tutorato, o rappresenti gli studenti in
+un ateneo, e questa proposta ti interessa, scrivimi:
+\texttt{luca@lucalevi.com}.
+Metterò a disposizione tutto il materiale preparato per il libro, a
+cominciare dalla versione completa del questionario, e lascerò al
+gruppo di ricerca le scelte che spettano a chi ne porta la
+responsabilità.
+
+Se insegni e vuoi soltanto sapere come studiano i tuoi studenti, non
+devi aspettare nessuno. Puoi usare le domande delle pagine seguenti
+nella prima lezione del corso, su carta e senza nomi, come una normale
+attività didattica: è il suggerimento del capitolo~\ref{cap:oggi}, in
+forma più completa. Se un giorno volessi raccoglierne i risultati per
+pubblicarli, valgono le garanzie del
+paragrafo~\ref{sec:indagine-garanzie}; e il primo passo è parlarne con
+il comitato etico del tuo ateneo. Le risposte più utili alle domande
+sulle situazioni di studio sono nei capitoli~\ref{cap:recupero},
+\ref{cap:tempo} e~\ref{cap:alternanza}: è bene discuterle con gli
+studenti \emph{dopo} che hanno risposto, non prima.
+
+E se sei uno studente e hai conservato il foglio del
+capitolo~\ref{cap:oggi}, riprendilo adesso e confrontalo con la
+domanda~1 delle pagine che seguono. È la stessa. Le tue risposte, oggi,
+sono ancora quelle di allora?
+
+%% =================================================================
+%%  Il nucleo del questionario — pagine fotocopiabili
+%% =================================================================
+%  Pagine da fotocopiare: niente spazi stirati a fondo pagina
+%  (\raggedbottom vale da qui in poi; l'Appendice B lo imposta comunque)
+\clearpage\raggedbottom
+\section{Il nucleo del questionario}
+\label{sec:indagine-nucleo}
+
+{\small
+\noindent\emph{Versione per l'università. Il questionario è anonimo:
+nessuno potrà sapere che cosa hai risposto. Non ci sono risposte giuste
+o sbagliate: interessa sapere che cosa fai davvero quando studi, non
+che cosa \enquote{si dovrebbe} fare. Rispondi alle domande nell'ordine,
+senza tornare indietro.}
+
+\domanda{1.} Pensa a come ti prepari di solito a un esame. Elenca le
+strategie che usi quando studi, \emph{in ordine di frequenza}: prima
+quella che usi di più. Accanto a ciascuna scrivi perché la usi.
+
+\begin{center}
+  \begin{tabular}{@{}p{1.2em}|p{0.42\textwidth}|p{0.42\textwidth}@{}}
+    & \textit{Strategia} & \textit{Perché la usi} \\
+    \hline
+    1 \rigavuota & & \\ \hline
+    2 \rigavuota & & \\ \hline
+    3 \rigavuota & & \\ \hline
+    4 \rigavuota & & \\ \hline
+    5 \rigavuota & & \\ \hline
+    6 \rigavuota & & \\
+  \end{tabular}
+\end{center}
+
+\domanda{2.} Di tutte le strategie che hai scritto, quale ti sembra la
+più utile per imparare davvero? Perché?\par
+\vspace{2.6\baselineskip}
+
+\domanda{3.} Immagina di aver appena letto un capitolo del manuale per
+un esame. Hai ancora un po' di tempo. Che cosa fai?
+\begin{opzioni}
+  \item Rileggo il capitolo, o una parte
+  \item Provo a ricordare il contenuto senza guardare il libro (per
+        esempio ripetendo a voce o scrivendo)
+  \item Faccio qualcos'altro: \dotfill
+\end{opzioni}
+
+\domanda{4.} Se hai scelto di provare a ricordare: perché?
+\begin{opzioni}
+  \item Per capire quanto so e che cosa non so ancora
+  \item Perché provare a ricordare mi aiuta a imparare e a ricordare
+        meglio
+  \item Perché è più veloce o più comodo
+  \item Altro: \dotfill
+\end{opzioni}
+
+\domanda{5.} Qualcuno ti ha mai spiegato in modo esplicito come si
+studia, cioè quali tecniche usare e perché?
+\begin{opzioni}
+  \item Sì, più volte \quad\quadretto\ Sì, una volta \quad\quadretto\ No
+        \quad\quadretto\ Non ricordo
+\end{opzioni}
+Se sì, chi? (anche più risposte) \quadretto\ un insegnante o un
+docente \quadretto\ un corso sul metodo di studio \quadretto\ i
+genitori o altri familiari \quadretto\ un insegnante di ripetizioni
+\quadretto\ video, social, siti \quadretto\ un'intelligenza
+artificiale \quadretto\ un libro \quadretto\ compagni o amici
+
+\domanda{6.} Pensa all'ultimo esame che hai sostenuto. Come hai
+distribuito lo studio?
+\begin{opzioni}
+  \item Quasi tutto negli ultimi giorni (o nelle ultime notti)
+  \item Soprattutto nell'ultima settimana o nelle ultime due
+  \item Un po' ogni settimana durante il corso, con un ripasso finale
+  \item In modo regolare fin dall'inizio, con riprese a distanza di
+        tempo
+\end{opzioni}
+
+\domanda{7.} Quanto spesso usi ciascuna di queste strategie quando
+studi? (una crocetta per riga)
+
+\begin{center}\footnotesize\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.3}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.46\textwidth}*{5}{>{\centering\arraybackslash}p{0.09\textwidth}}@{}}
+    & \textit{mai} & \textit{raramente} & \textit{a volte} & \textit{spesso} & \textit{quasi\newline sempre} \\
+    \midrule
+    Rileggere il manuale o gli appunti & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Sottolineare o evidenziare & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Fare riassunti riscrivendo dal libro & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Fare riassunti o schemi a memoria, poi controllare & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Ripetere a voce senza guardare & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Farmi fare domande da qualcuno & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Usare flashcard (anche con un'applicazione) & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Rispondere a domande o rifare esercizi e vecchie prove & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Per questa riga scegli \enquote{spesso} & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Fare mappe guardando il libro & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Spiegare l'argomento a qualcun altro & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Chiedermi \enquote{perché?} e collegare a ciò che so & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Fare esercizi di tipi diversi mescolati & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Chiedere a un'IA di interrogarmi & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    Chiedere a un'IA un riassunto o una risposta già fatta & \quadretto & \quadretto & \quadretto & \quadretto & \quadretto \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+\domanda{8.} Leggi le due situazioni. Per ciascuna, scegli lo studente
+che secondo te \emph{ricorderà di più dopo un mese}, e indica quanto sei
+sicuro della tua risposta.
+
+\emph{a)} Giulia e Marco hanno un'ora per studiare lo stesso capitolo.
+Giulia lo legge quattro volte. Marco lo legge una volta; poi, per tre
+volte, chiude il libro e scrive tutto ciò che ricorda, controllando dopo
+ogni tentativo.\\
+\quadretto\ Giulia \quad \quadretto\ Marco \quad \quadretto\ Più o meno
+uguale \hfill Sicurezza (da 1 a 5): \ldots
+
+\emph{b)} Sara studia tre ore il giorno prima dell'esame. Matteo studia
+un'ora in tre giorni diversi della settimana prima.\\
+\quadretto\ Sara \quad \quadretto\ Matteo \quad \quadretto\ Più o meno
+uguale \hfill Sicurezza (da 1 a 5): \ldots
+
+\domanda{9.} Su di te. Area del corso: \dotfill\ Anno di corso:
+\ldots\ldots\ Almeno uno dei tuoi genitori è laureato? \quadretto\ sì
+\quadretto\ no \quadretto\ non so
+
+\medskip
+\noindent\emph{Nella versione completa: altre situazioni di studio,
+l'uso dell'intelligenza artificiale, il telefono e il sonno, le prove
+intermedie, i motivi per cui studi, la media dei voti e, facoltativa,
+la certificazione di DSA. Sulle risposte alle situazioni della domanda
+8: capitoli~\ref{cap:recupero} e~\ref{cap:tempo}.}
+\par}
 
 \finecapitolo
