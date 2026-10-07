@@ -2,9 +2,9 @@
 titolo: "Le fonti classiche — citazioni greche e latine su studio, memoria e insegnamento"
 progetto: study-study-study
 documento: ricerca/03 — fonti classiche con testi originali
-versione: 1.0.1
-data: 2026-09-28
-modifiche: "1.0.1 — (28/09/2026) corretto il riferimento di «senescere se multa in dies addiscentem»: Cicerone, De senectute 50, non 26 (registro 00, K-34)."
+versione: 1.0.2
+data: 2026-10-07
+modifiche: "1.0.2 — 07/10/2026: §4.3 — Metalogicon III, 4 verificato (K-28, variante incidentes/insidentes) e aggiunto Metalogicon I, 24 (K-37), per il congedo. 1.0.1 — (28/09/2026) corretto il riferimento di «senescere se multa in dies addiscentem»: Cicerone, De senectute 50, non 26 (registro 00, K-34)."
 lingua: italiano (con testi in greco antico e latino)
 collegato a: ricerca/01_scienza-dell-apprendimento.md (§2), ricerca/02_il-caso-italiano_dati.md
 ---
@@ -640,13 +640,23 @@ Il primo vero «manuale dello studente» del Medioevo latino.
 
 ### 4.3 Bernardo di Chartres (in Giovanni di Salisbury)
 
-**Giovanni di Salisbury, *Metalogicon*, III, 4 (1159)** ◐
+**Giovanni di Salisbury, *Metalogicon*, III, 4 (1159)** ✔ *(07/10/2026, testo della Patrologia Latina 199; la PL stampa* incidentes*, le edizioni critiche* insidentes*; registro K-28)*
 
 > Dicebat Bernardus Carnotensis nos esse quasi nanos gigantium humeris insidentes, ut possimus plura eis et remotiora videre, non utique proprii visus acumine, aut eminentia corporis, sed quia in altum subvehimur et extollimur magnitudine gigantea.
 
 «Bernardo di Chartres diceva che noi siamo come nani seduti sulle spalle di giganti, così da poter vedere più cose di loro e più lontane, non per l'acutezza della nostra vista o l'altezza del nostro corpo, ma perché siamo sollevati e portati in alto dalla grandezza dei giganti.»
 
 - *Uso nel libro*: senso dello studio come **eredità** — si studia per stare sulle spalle di chi ci ha preceduto. Anche: la conoscenza accumulata (dei giganti) è ciò che permette di vedere più lontano, non l'«intelligenza» individuale. Ponte con il motivo iconografico delle vetrate di Chartres.
+
+**Giovanni di Salisbury, *Metalogicon*, I, 24** ✔ *(07/10/2026, PL 199; registro K-37)*
+
+> Cogebantur exsolvere singuli die sequenti aliquid eorum quae praecedenti audierant, alii plus, alii minus: erat enim apud eos praecedentis discipulus sequens dies.
+
+«Ciascuno era tenuto a restituire, il giorno dopo, qualcosa di ciò che aveva ascoltato il giorno prima, chi di più, chi di meno: presso di loro, infatti, il giorno seguente era allievo del precedente.»
+
+- *Contesto*: la scuola di Bernardo come modello; poco prima: *memoria exercitio firmatur* («la memoria si rafforza con l'esercizio») e, per chi non si applicava, *admonitionibus… flagellis et poenis*.
+- *Uso nel libro*: congedo — la pratica del recupero nel XII secolo; eco di Publilio Siro (*Discipulus est prioris posterior dies*, epigrafe del cap. 19).
+
 
 ### 4.4 Tommaso d'Aquino
 
