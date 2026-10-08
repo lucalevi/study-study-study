@@ -56,7 +56,7 @@ collegato a: ricerca/06 (§6.1 colophon, §10.2 punti aperti, §11 riga 5), rice
 7. **La licenza CC BY-NC-SA 4.0 non impedisce all'autore di vendere il paperback.** Il titolare «può sempre vendere la propria opera»; la clausola NC limita i terzi. ✔ Le regole di KDP su ciò che è già disponibile gratis riguardano i testi di pubblico dominio, non le opere proprie. ✔ Resta da leggere il contratto KDP (P-14).
 8. **L'email non deve condizionare il download.** Il PDF si può scaricare senza dare dati; chi vuole ricevere aggiornamenti o lasciare commenti può farlo con un modulo separato, con consenso specifico e informativa. ✔ (GDPR art. 6, 7, 13) / ◐ (copia non ufficiale)
 9. **L'Appendice A.8 invita a scrivere a luca@lucalevi.com.** Chi scrive consegna un dato personale: basta una informativa breve sul sito, con rinvio a quella completa. ◐
-10. **Decisi dall'autore il 08/10/2026** (§9): margini (opzione A), ISBN gratuito di KDP, carta bianca (provvisoria), sede in Italia. **Ancora aperti**: prezzo ed Expanded Distribution (P-11), email per il PDF (P-06), condizioni KDP (P-14), copia di prova e indicazioni di stampa (P-12), art. 130 del Codice privacy (P-15).
+10. **Decisi dall'autore il 08/10/2026** (§9): margini (opzione A), ISBN gratuito di KDP, carta bianca, sede in Italia, **solo Amazon a un prezzo vicino al minimo**, **PDF scaricabile liberamente da www.lucalevi.com senza email**. **Ancora aperti**: condizioni KDP (P-14), copia di prova e indicazioni di stampa (P-12), art. 130 del Codice privacy (P-15, ora quasi irrilevante: nessuna email raccolta).
 
 ---
 
@@ -126,7 +126,7 @@ Per l'**inchiostro nero** (bianco e nero), formato regolare, **Amazon.it e gli a
 
 - Permette di vendere il paperback anche a librerie, rivenditori online, biblioteche e istituzioni accademiche; per i paperback c'è, per gli hardcover no. ✔ Italia inclusa nella distribuzione. ✔
 - **Royalty del 40%**: «40% del prezzo di listino meno il costo di stampa». ✔ Con 556 pagine il prezzo minimo per attivare l'Expanded Distribution sarebbe quindi circa **7,42 € ÷ 0,40 ≈ 18,55 €**. ◐ (calcolo mio: l'interfaccia KDP indica la cifra esatta.)
-- **Alternativa**: vendere solo su Amazon al prezzo minimo oppure vicino. Scelta tua (**P-11**).
+- **Alternativa**: vendere solo su Amazon al prezzo minimo oppure vicino. **Scelta dell'autore (08/10/2026, sera): solo Amazon, prezzo vicino al minimo** (P-11 chiuso).
 
 ---
 
@@ -149,7 +149,7 @@ Per l'**inchiostro nero** (bianco e nero), formato regolare, **Amazon.it e gli a
 
 ✔ (spessori KDP) / ◐ (dorso calcolato). Il testo sul dorso è consentito oltre le 79 pagine, con almeno 1,6 mm di distanza dal bordo. ✔
 
-La carta crema è più adatta a un libro lungo in EB Garamond; la tabella dei costi di KDP dà lo stesso costo per pagina per carta bianca e crema. ✔ **Scelta dell'autore (08/10/2026): carta bianca, «forse»**, quindi provvisoria (**P-10**): si confermerà quando si carica il libro su KDP (la copia di prova, §6.1, servirà anche a vederla).
+La carta crema è più adatta a un libro lungo in EB Garamond; la tabella dei costi di KDP dà lo stesso costo per pagina per carta bianca e crema. ✔ **Scelta dell'autore (08/10/2026, sera): carta bianca**, definitiva (**P-10** chiuso); la copia di prova (§6.1) servirà comunque a vederla.
 
 ### 4.3 Copertina
 
@@ -252,10 +252,10 @@ L'autore ha sede a Cormons (Italia): si applicano il GDPR e il Codice privacy it
 |---|---|---|---|
 | 1 | Margini del template per 556 pagine | **Opzione A**, gabbia invariata; interno **20,5 mm** ed esterno 21,5 mm (19,5 / 22,5 proposti; vedi §2.3) | P-09 **chiuso** |
 | 2 | ISBN proprio o gratuito di KDP | **ISBN gratuito di KDP** | P-04 **chiuso** |
-| 3 | Carta bianca o crema | **Bianca, «forse»** (provvisoria) | P-10 aperto, provvisorio |
+| 3 | Carta bianca o crema | **Bianca** (08/10/2026, sera) | P-10 chiuso |
 | 4 | Sede dell'autore | **Cormons (Gorizia), Italia**: norme italiane ed europee; biblioteca regionale: Gorizia | P-13, P-15 (in parte chiusi) |
-| 5 | Prezzo; Expanded Distribution sì/no | **Non ancora deciso.** Raccomandato: solo Amazon, prezzo vicino al minimo (≈ 12,37 €, da fissare nell'interfaccia) | P-11 aperto |
-| 6 | Email per il PDF | **Non ancora deciso.** Raccomandato: download libero + modulo facoltativo (strada 3), coerente con la decisione del 21/09/2026 («al massimo con email per feedback») | P-06 aperto |
+| 5 | Prezzo; Expanded Distribution sì/no | **Solo Amazon, prezzo vicino al minimo** (≈ 12,37 € a 556 pagine, da fissare nell'interfaccia KDP) (08/10/2026, sera) | P-11 chiuso |
+| 6 | Email per il PDF | **Download libero dal sito, senza email** (strada 1; 08/10/2026, sera): nessun dato personale raccolto, nessuna informativa necessaria per il download | P-06 chiuso |
 
 ---
 

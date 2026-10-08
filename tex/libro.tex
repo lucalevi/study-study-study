@@ -9,7 +9,7 @@
 %%  I testi provvisori sono marcati con \segnaposto{…}: in grigio nelle
 %%  bozze; con l'opzione «stampa» della classe diventano errori.
 %% ===================================================================
-\documentclass{studiolibro}
+\documentclass[stampa,monocromo]{studiolibro}
 %  Opzioni:  [monocromo]  stampa a un colore
 %            [bozza]      mostra la gabbia del testo
 %            [stampa]     versione finale: errore se restano segnaposto
@@ -30,9 +30,14 @@
 \setlength{\bibitemsep}{0.25\baselineskip}
 \DefineBibliographyStrings{italian}{andothers={et\addabbrvspace al\adddot}}
 \AtBeginBibliography{\setlength{\emergencystretch}{3em}}
-%  Durante la stesura si stampano tutte le voci del file .bib, anche
-%  quelle non ancora citate: togliere \nocite{*} per la versione finale.
-\nocite{*}
+%  Gli indirizzi web lunghi possono andare a capo anche dopo una lettera
+%  (altrimenti un URL della bibliografia sborda nel margine).
+\setcounter{biburlnumpenalty}{9000}
+\setcounter{biburllcpenalty}{7000}
+\setcounter{biburlucpenalty}{8000}
+%  Durante la stesura si stampavano tutte le voci del file .bib con
+%  \nocite{*}; tolto per la versione finale (08/10/2026): la
+%  bibliografia contiene solo le opere citate nel testo.
 
 %% ------------------------------------------------------- dati del libro
 \titolo{Studiare per la vita}

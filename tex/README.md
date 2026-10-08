@@ -48,8 +48,7 @@ capitolo nell'indice ragionato.
   `\parencite`.
 - **Fonti moderne**: `\parencite{chiave}` / `\textcite{chiave}` (autore-anno). Chiave = cognome del
   primo autore + anno (es. `roediger2006`).
-- **Durante la stesura** `libro.tex` contiene `\nocite{*}`, così la bibliografia mostra tutte le voci
-  del file `.bib` (utile per controllarle). Toglierlo per la versione finale.
+- **Versione di stampa** (dall'08/10/2026): `libro.tex` usa `\documentclass[stampa,monocromo]{studiolibro}` e non contiene più `\nocite{*}`: la bibliografia elenca solo le opere citate. Per tornare alle bozze (rosso «rubrica», segnaposto in grigio, tutte le voci del `.bib`) basta togliere le due opzioni e rimettere `\nocite{*}`.
 - **Fine capitolo**: riquadro `daricordare`, `domande` (almeno una domanda su un capitolo precedente:
   il libro applica a sé la ripetizione distanziata), `sintesi`, `\finecapitolo`.
 

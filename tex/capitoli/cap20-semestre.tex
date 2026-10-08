@@ -129,12 +129,28 @@ considerano una delle tecniche più potenti e meno sfruttate che
 esistano \parencite{rawson2022}. La tabella~\ref{tab:semestre} mostra
 come Sara lo traduce in un semestre di quattordici settimane.
 
-\begin{table}[tbp]
-  \centering\small
-  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.19\textwidth}>{\raggedright\arraybackslash}p{0.74\textwidth}@{}}
+\begingroup\small\captionsetup{position=below}
+\setlength{\LTpre}{1.2\baselineskip}\setlength{\LTpost}{1.2\baselineskip}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.19\textwidth}>{\raggedright\arraybackslash}p{0.74\textwidth}@{}}
     \toprule
     \textit{Quando} & \textit{Che cosa fa Sara} \\
     \midrule
+    \endfirsthead
+    \multicolumn{2}{@{}l}{\small\emph{Tabella~\ref{tab:semestre} (continua)}} \\
+    \toprule
+    \textit{Quando} & \textit{Che cosa fa Sara} \\
+    \midrule
+    \endhead
+    \midrule
+    \multicolumn{2}{r@{}}{\small\emph{segue}} \\
+    \endfoot
+    \bottomrule
+  \caption{Il semestre di Sara in quattordici settimane, più la
+    sessione. Le date sono indicative: contano la sequenza e la
+    regolarità, non il calendario esatto. La tabella è ripresa, in forma
+    di scheda, nell'appendice~\ref{app:schede} (scheda~\ref{sch:semestre}).}
+  \label{tab:semestre} \\
+    \endlastfoot
     Settimana 1 & Il piano del semestre: forme d'esame, prove in itinere,
       appelli scelti, giorno fisso della sessione settimanale per ogni
       insegnamento, in agenda. Un quaderno (o un mazzo di schede) di
@@ -161,19 +177,13 @@ come Sara lo traduce in un semestre di quattordici settimane.
     \addlinespace
     Settimane 13--14 & Ultime lezioni. Prima lettura del manuale
       completata per tutti gli insegnamenti. Calendario della sessione:
-      quali giorni a quale esame, con le simulazioni già fissate. \\
+      quali giorni a quale esame, con le simulazioni già fissate. \\*
     \addlinespace
     Sessione & Niente materiale nuovo. Riprese mescolate di tutto il
       programma, simulazioni degli scritti e dell'orale, sonno. Tutti e
       tre gli esami nel primo appello utile. \\
-    \bottomrule
-  \end{tabular}
-  \caption{Il semestre di Sara in quattordici settimane, più la
-    sessione. Le date sono indicative: contano la sequenza e la
-    regolarità, non il calendario esatto. La tabella è ripresa, in forma
-    di scheda, nell'appendice~\ref{app:schede} (scheda~\ref{sch:semestre}).}
-  \label{tab:semestre}
-\end{table}
+    \end{longtable}
+\endgroup
 
 Due osservazioni sulla tabella. La prima: le prove in itinere, dove
 esistono, non sono un fastidio da togliersi di mezzo, ma il miglior

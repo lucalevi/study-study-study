@@ -231,12 +231,28 @@ metà novembre; Diritto commerciale un orale. La tabella~\ref{tab:settimana}
 mostra come Sara organizza la sua settimana alla sesta settimana di
 lezione.
 
-\begin{table}[tbp]
-  \centering\small
-  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.17\textwidth}>{\raggedright\arraybackslash}p{0.76\textwidth}@{}}
+\begingroup\small\captionsetup{position=below}
+\setlength{\LTpre}{1.2\baselineskip}\setlength{\LTpost}{1.2\baselineskip}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.17\textwidth}>{\raggedright\arraybackslash}p{0.76\textwidth}@{}}
     \toprule
     \textit{Giorno} & \textit{Che cosa fa Sara, oltre alle lezioni} \\
     \midrule
+    \endfirsthead
+    \multicolumn{2}{@{}l}{\small\emph{Tabella~\ref{tab:settimana} (continua)}} \\
+    \toprule
+    \textit{Giorno} & \textit{Che cosa fa Sara, oltre alle lezioni} \\
+    \midrule
+    \endhead
+    \midrule
+    \multicolumn{2}{r@{}}{\small\emph{segue}} \\
+    \endfoot
+    \bottomrule
+  \caption{La settimana di Sara, studentessa del secondo anno, alla
+    sesta settimana di lezione. Oltre a queste attività, Sara dedica
+    ogni giorno il tempo necessario allo studio dei nuovi argomenti
+    sul manuale e agli esercizi assegnati.}
+  \label{tab:settimana} \\
+    \endlastfoot
     Lunedì & Pre-domande sulle lezioni del giorno (5 min). Nel
       pomeriggio: primo recupero delle lezioni di Microeconomia e
       Statistica e preparazione delle domande (30 min); esercizi
@@ -266,14 +282,8 @@ lezione.
     \addlinespace
     Domenica & Riposo. La sera, dieci minuti per rivedere il calendario
       della settimana successiva. \\
-    \bottomrule
-  \end{tabular}
-  \caption{La settimana di Sara, studentessa del secondo anno, alla
-    sesta settimana di lezione. Oltre a queste attività, Sara dedica
-    ogni giorno il tempo necessario allo studio dei nuovi argomenti
-    sul manuale e agli esercizi assegnati.}
-  \label{tab:settimana}
-\end{table}
+    \end{longtable}
+\endgroup
 
 Guardata da vicino, la settimana di Sara non è eroica. Le attività del
 metodo -- pre-domande, primi recuperi, riprese del giorno dopo, sessioni

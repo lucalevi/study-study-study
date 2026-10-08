@@ -120,6 +120,7 @@
 \RequirePackage{lettrine}
 \RequirePackage{titlesec}
 \RequirePackage{titletoc}
+\renewcommand{\@pnumwidth}{2.2em} % spazio per i numeri romani lunghi (xxiii) nell'indice
 \RequirePackage{fancyhdr}
 \RequirePackage{enumitem}
 \RequirePackage{booktabs}
