@@ -33,7 +33,16 @@
 % ==================================================================
 %  Pagina       130 × 210 mm   (13:21, numeri di Fibonacci ≈ φ)
 %  Gabbia        88 × 142 mm   (altezza = larghezza × φ; 29 righe)
-%  Interno : esterno = 1 : φ   (16 mm : 26 mm)
+%  Interno : esterno = 20,5 mm : 21,5 mm  (decisione 08/10/2026, opzione A:
+%                      oltre 500 pagine KDP vuole un margine interno
+%                      ≥ 19,1 mm; la gabbia di 88 mm resta, quindi righe
+%                      e pagine non cambiano. Scelti 20,5 mm e non 19,5
+%                      perché la protrusione di microtype (virgolette,
+%                      trattini a inizio riga, punteggiatura a fine
+%                      riga) spinge l'inchiostro fino a circa 1 mm nel
+%                      margine: a 20,5 mm l'inchiostro più vicino al
+%                      dorso resta a ≥ 19,5 mm. La proporzione aurea
+%                      resta in gabbia, formato e margine di testa/piede)
 %  Testa   : piede   = 1 : φ   (≈ 26 mm : 42 mm)
 %  Corpo 11 pt su interlinea 14 pt: ogni spazio verticale è un
 %  multiplo di 14 pt, così le righe dei due lati del foglio coincidono.
@@ -43,7 +52,7 @@
   paperwidth=130mm, paperheight=210mm,
   textwidth=88mm,
   textheight=403pt,        % = 28 × 14 pt + \topskip (11 pt) = 29 righe
-  inner=16mm,
+  inner=20.5mm,
   top=26mm,
   headheight=14pt, headsep=16pt,
   footskip=30pt,
@@ -116,6 +125,7 @@
 \RequirePackage{booktabs}
 \RequirePackage{array}      % colonne con >{\raggedright\arraybackslash} nelle tabelle
 \RequirePackage{longtable} % tabelle che possono spezzarsi su più pagine
+\AtBeginDocument{\setlength{\LTcapwidth}{\textwidth}} % didascalia entro la gabbia (default 4 in = 101,6 mm: sporgeva nel margine interno)
 \RequirePackage[font={small}, labelfont={sc}, labelsep=period,
                 justification=centering, skip=7pt]{caption}
 \RequirePackage[hang, bottom]{footmisc}
@@ -473,7 +483,7 @@
    \sl@edizione\par
    \vspace{\baselineskip}
    {\itshape Composto in EB Garamond con Lua\LaTeX.
-    Formato 13 × 21 cm, gabbia e margini in sezione aurea.}\par}
+    Formato 13 × 21 cm, gabbia in sezione aurea.}\par}
   \newpage}
 
 \newcommand{\dedica}[1]{%

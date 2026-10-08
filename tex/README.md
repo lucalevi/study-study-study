@@ -59,7 +59,7 @@ capitolo nell'indice ragionato.
 |---|---|---|
 | Pagina | 13 × 21 cm | 21/13 ≈ 1,615 ≈ φ (numeri di Fibonacci) |
 | Gabbia del testo | 88 × 142 mm, 29 righe | altezza = larghezza × φ |
-| Margine interno : esterno | 16 : 26 mm | 1 : φ |
+| Margine interno : esterno | 20,5 : 21,5 mm | ≈ 1 : 1,05 (non aureo: oltre 500 pagine KDP richiede ≥ 19,1 mm all'interno, protrusione compresa; deciso 08/10/2026) |
 | Margine di testa : piede | ≈ 26 : 42 mm | 1 : φ |
 | Discesa del titolo di capitolo | 0,236 × gabbia | 1/φ³ |
 | Epigrafe, dedica, sottotitolo | 0,618 × larghezza | 1/φ |
