@@ -6,7 +6,7 @@
 %  Scheda nell'indice ragionato: ricerca/06_indice-ragionato.md, §6.3
 %    (40–60 termini, 1.500–2.000 parole)
 %
-%  STATO: prima stesura (07/10/2026); 61 voci con definizione e 13
+%  STATO: prima stesura (07/10/2026), approvata dall'autore (08/10/2026); 61 voci con definizione e 13
 %  rinvii («vedi»); circa 2.400 parole.
 %
 %  REGOLA: il glossario non contiene dati, nomi o affermazioni che non
@@ -39,15 +39,24 @@
 %  \rinvio{termine}{voce a cui si rinvia}
 %  \lettera{A}
 \newcommand{\glinglese}[1]{\if\relax\detokenize{#1}\relax\else\ (\emph{#1})\fi}
+%  Separatore tra le parti della voce: spazio elastico di circa
+%  mezzo quadratone. Deve essere glue (non \enspace, che è un kern):
+%  solo così TeX può andare a capo lì e sillabare la parola seguente.
+%  Ogni voce ha anche un piccolo \emergencystretch locale: le righe
+%  con termini inglesi lunghi o sigle non spezzabili (L.~170/2010)
+%  altrimenti sbordano invece di allargarsi un poco.
+\newcommand{\glsep}{\hskip 0.5em plus 0.25em minus 0.1em\relax}
 \newcommand{\voce}[4]{%
   \par\vspace{0.4\baselineskip plus 0.15\baselineskip}%
+  \begingroup\setlength{\emergencystretch}{1.5em}%
   \noindent\hangindent=1.2em\hangafter=1
-  \textbf{#1}\glinglese{#2}.\enspace #3\enspace
-  {\footnotesize\itshape #4.}\par}
+  \textbf{#1}\glinglese{#2}.\glsep #3\glsep
+  {\footnotesize\itshape #4.}\par\endgroup}
 \newcommand{\rinvio}[2]{%
   \par\vspace{0.4\baselineskip plus 0.15\baselineskip}%
+  \begingroup\setlength{\emergencystretch}{1.5em}%
   \noindent\hangindent=1.2em\hangafter=1
-  \textbf{#1}:\enspace\emph{vedi} #2.\par}
+  \textbf{#1}:\glsep\emph{vedi} #2.\par\endgroup}
 \newcommand{\lettera}[1]{%
   \par\vspace{1.1\baselineskip plus 0.4\baselineskip}%
   {\centering\color{rubrica}\scshape\spaziato[150]{\MakeLowercase{#1}}\par}%
